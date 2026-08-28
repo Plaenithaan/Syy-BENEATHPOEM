@@ -1,0 +1,7 @@
+fontmake
+gftools
+fontbakery
+shaperglot
+git+https://github.com/googlefonts/diffenator2
+drawbot-skia
+cairocffi
