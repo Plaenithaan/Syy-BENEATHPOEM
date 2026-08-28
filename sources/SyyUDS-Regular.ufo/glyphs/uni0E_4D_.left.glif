@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0E4D.left" format="2">
+  <advance width="0"/>
+  <unicode hex="F711"/>
+  <anchor x="0" y="704" name="abvm.mkmk"/>
+  <anchor x="0" y="512" name="_abvm.mkmk"/>
+  <anchor x="0" y="512" name="_abvm"/>
+  <outline>
+    <component base="uni0E4D" xOffset="-128"/>
+  </outline>
+</glyph>

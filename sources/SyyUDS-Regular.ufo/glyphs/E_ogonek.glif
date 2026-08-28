@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eogonek" format="2">
+  <advance width="512"/>
+  <unicode hex="0118"/>
+  <anchor x="512" y="640" name="abvm"/>
+  <anchor x="512" y="-192" name="blwm"/>
+  <outline>
+    <component base="uni0328" xOffset="512"/>
+    <component base="E"/>
+  </outline>
+</glyph>

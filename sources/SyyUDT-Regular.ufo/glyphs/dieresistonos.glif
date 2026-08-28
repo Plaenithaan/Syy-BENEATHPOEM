@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresistonos" format="2">
+  <advance width="512"/>
+  <unicode hex="0385"/>
+  <anchor x="512" y="0" name="blwm"/>
+  <anchor x="512" y="640" name="abvm"/>
+  <outline>
+    <component base="acutecomb" xOffset="512"/>
+    <component base="dieresis"/>
+  </outline>
+</glyph>

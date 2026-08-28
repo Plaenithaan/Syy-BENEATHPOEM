@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="florin" format="2">
+  <advance width="512"/>
+  <unicode hex="0192"/>
+  <anchor x="512" y="-192" name="blwm"/>
+  <anchor x="512" y="576" name="abvm"/>
+  <outline>
+    <contour>
+      <point x="256" y="-192" type="line"/>
+      <point x="64" y="-192" type="line"/>
+      <point x="64" y="-128" type="line"/>
+      <point x="192" y="-128" type="line"/>
+      <point x="192" y="320" type="line"/>
+      <point x="64" y="320" type="line"/>
+      <point x="64" y="384" type="line"/>
+      <point x="192" y="384" type="line"/>
+      <point x="192" y="512" type="line"/>
+      <point x="256" y="512" type="line"/>
+      <point x="256" y="576" type="line"/>
+      <point x="448" y="576" type="line"/>
+      <point x="448" y="512" type="line"/>
+      <point x="320" y="512" type="line"/>
+      <point x="320" y="384" type="line"/>
+      <point x="448" y="384" type="line"/>
+      <point x="448" y="320" type="line"/>
+      <point x="320" y="320" type="line"/>
+      <point x="320" y="-128" type="line"/>
+      <point x="256" y="-128" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0E4A" format="2">
+  <advance width="0"/>
+  <unicode hex="0E4A"/>
+  <anchor x="0" y="768" name="_abvm"/>
+  <anchor x="0" y="960" name="abvm.mkmk"/>
+  <anchor x="0" y="704" name="_abvm.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-320" y="768" type="line"/>
+      <point x="-320" y="960" type="line"/>
+      <point x="-256" y="960" type="line"/>
+      <point x="-256" y="896" type="line"/>
+      <point x="-192" y="896" type="line"/>
+      <point x="-192" y="960" type="line"/>
+      <point x="-128" y="960" type="line"/>
+      <point x="-128" y="832" type="line"/>
+      <point x="-64" y="832" type="line"/>
+      <point x="-64" y="768" type="line"/>
+      <point x="-192" y="768" type="line"/>
+      <point x="-192" y="832" type="line"/>
+      <point x="-256" y="832" type="line"/>
+      <point x="-256" y="768" type="line"/>
+    </contour>
+    <contour>
+      <point x="-64" y="832" type="line"/>
+      <point x="-64" y="960" type="line"/>
+      <point x="0" y="960" type="line"/>
+      <point x="0" y="832" type="line"/>
+    </contour>
+  </outline>
+</glyph>

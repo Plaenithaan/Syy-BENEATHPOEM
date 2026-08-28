@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFB02" format="2">
+  <advance width="1024"/>
+  <unicode hex="FB02"/>
+  <anchor x="1024" y="0" name="blwm"/>
+  <anchor x="1024" y="576" name="abvm"/>
+  <outline>
+    <component base="l" xOffset="512"/>
+    <component base="f"/>
+  </outline>
+</glyph>

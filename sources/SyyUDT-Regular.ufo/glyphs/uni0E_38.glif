@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0E38" format="2">
+  <advance width="0"/>
+  <unicode hex="0E38"/>
+  <anchor x="0" y="0" name="_blwm"/>
+  <anchor x="0" y="-256" name="blwm.mkmk"/>
+  <anchor x="0" y="0" name="_blwm.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-128" y="-256" type="line"/>
+      <point x="-128" y="-192" type="line"/>
+      <point x="-192" y="-192" type="line"/>
+      <point x="-192" y="-64" type="line"/>
+      <point x="-64" y="-64" type="line"/>
+      <point x="-64" y="-256" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0ECC" format="2">
+  <advance width="0"/>
+  <unicode hex="0ECC"/>
+  <anchor x="0" y="960" name="abvm.mkmk"/>
+  <anchor x="0" y="704" name="_abvm.mkmk"/>
+  <anchor x="0" y="768" name="_abvm"/>
+  <outline>
+    <component base="uni0E4C"/>
+  </outline>
+</glyph>

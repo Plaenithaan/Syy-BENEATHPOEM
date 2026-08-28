@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="semicolon" format="2">
+  <advance width="256"/>
+  <unicode hex="003B"/>
+  <unicode hex="037E"/>
+  <anchor x="256" y="0" name="blwm"/>
+  <anchor x="256" y="576" name="abvm"/>
+  <outline>
+    <contour>
+      <point x="64" y="-128" type="line"/>
+      <point x="64" y="-64" type="line"/>
+      <point x="128" y="-64" type="line"/>
+      <point x="128" y="-128" type="line"/>
+    </contour>
+    <contour>
+      <point x="128" y="-64" type="line"/>
+      <point x="128" y="64" type="line"/>
+      <point x="64" y="64" type="line"/>
+      <point x="64" y="128" type="line"/>
+      <point x="192" y="128" type="line"/>
+      <point x="192" y="-64" type="line"/>
+    </contour>
+    <contour>
+      <point x="192" y="256" type="line"/>
+      <point x="64" y="256" type="line"/>
+      <point x="64" y="384" type="line"/>
+      <point x="192" y="384" type="line"/>
+    </contour>
+  </outline>
+</glyph>

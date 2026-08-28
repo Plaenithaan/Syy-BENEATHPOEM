@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni01C0" format="2">
+  <advance width="256"/>
+  <unicode hex="01C0"/>
+  <anchor x="256" y="-190" name="blwm"/>
+  <anchor x="256" y="706" name="abvm"/>
+  <outline>
+    <contour>
+      <point x="128" y="-192" type="line"/>
+      <point x="64" y="-192" type="line"/>
+      <point x="64" y="704" type="line"/>
+      <point x="128" y="704" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>64</integer>
+            <key>width</key>
+            <integer>64</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

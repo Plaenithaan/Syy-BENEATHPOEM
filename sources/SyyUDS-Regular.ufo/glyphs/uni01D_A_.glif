@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni01DA" format="2">
+  <advance width="512"/>
+  <unicode hex="01DA"/>
+  <anchor x="512" y="768" name="abvm"/>
+  <anchor x="512" y="0" name="blwm"/>
+  <outline>
+    <component base="uni030C" xOffset="512"/>
+    <component base="uni0308" xOffset="512" yOffset="-128"/>
+    <component base="u"/>
+  </outline>
+</glyph>

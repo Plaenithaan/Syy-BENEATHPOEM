@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0123" format="2">
+  <advance width="512"/>
+  <unicode hex="0123"/>
+  <anchor x="512" y="768" name="abvm"/>
+  <anchor x="512" y="-192" name="blwm"/>
+  <outline>
+    <component base="acutecomb" xOffset="512" yOffset="-128"/>
+    <component base="g"/>
+  </outline>
+</glyph>

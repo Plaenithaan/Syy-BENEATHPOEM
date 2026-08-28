@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1EBA" format="2">
+  <advance width="512"/>
+  <unicode hex="1EBA"/>
+  <anchor x="512" y="832" name="abvm"/>
+  <outline>
+    <component base="hookabovecomb" xOffset="512" yOffset="64"/>
+    <component base="E"/>
+  </outline>
+</glyph>

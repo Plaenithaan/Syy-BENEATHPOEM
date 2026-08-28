@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth" format="2">
+  <advance width="512"/>
+  <unicode hex="00D0"/>
+  <unicode hex="0189"/>
+  <anchor x="512" y="0" name="blwm"/>
+  <anchor x="512" y="640" name="abvm"/>
+  <outline>
+    <contour>
+      <point x="320" y="0" type="line"/>
+      <point x="64" y="0" type="line"/>
+      <point x="64" y="64" type="line"/>
+      <point x="128" y="64" type="line"/>
+      <point x="128" y="320" type="line"/>
+      <point x="0" y="320" type="line"/>
+      <point x="0" y="384" type="line"/>
+      <point x="128" y="384" type="line"/>
+      <point x="128" y="576" type="line"/>
+      <point x="64" y="576" type="line"/>
+      <point x="64" y="640" type="line"/>
+      <point x="320" y="640" type="line"/>
+      <point x="320" y="576" type="line"/>
+      <point x="192" y="576" type="line"/>
+      <point x="192" y="384" type="line"/>
+      <point x="256" y="384" type="line"/>
+      <point x="256" y="320" type="line"/>
+      <point x="192" y="320" type="line"/>
+      <point x="192" y="64" type="line"/>
+      <point x="320" y="64" type="line"/>
+      <point x="320" y="128" type="line"/>
+      <point x="384" y="128" type="line"/>
+      <point x="384" y="512" type="line"/>
+      <point x="320" y="512" type="line"/>
+      <point x="320" y="576" type="line"/>
+      <point x="384" y="576" type="line"/>
+      <point x="384" y="512" type="line"/>
+      <point x="448" y="512" type="line"/>
+      <point x="448" y="128" type="line"/>
+      <point x="384" y="128" type="line"/>
+      <point x="384" y="64" type="line"/>
+      <point x="320" y="64" type="line"/>
+    </contour>
+  </outline>
+</glyph>
