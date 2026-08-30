@@ -1010,6 +1010,44 @@
 		<string>uni20AD</string>
 		<string>trademark</string>
 		<string>Omega</string>
+		<string>arrowleft</string>
+		<string>arrowup</string>
+		<string>arrowright</string>
+		<string>arrowdown</string>
+		<string>arrowboth</string>
+		<string>arrowupdn</string>
+		<string>uni2196</string>
+		<string>uni2197</string>
+		<string>uni2198</string>
+		<string>uni2199</string>
+		<string>uni21A9</string>
+		<string>uni21AA</string>
+		<string>carriagereturn</string>
+		<string>arrowdblleft</string>
+		<string>arrowdblup</string>
+		<string>arrowdblright</string>
+		<string>arrowdbldown</string>
+		<string>arrowdblboth</string>
+		<string>uni21D5</string>
+		<string>uni21D6</string>
+		<string>uni21D7</string>
+		<string>uni21D8</string>
+		<string>uni21D9</string>
+		<string>uni21E5</string>
+		<string>uni21E6</string>
+		<string>uni21E7</string>
+		<string>uni21E8</string>
+		<string>uni21E9</string>
+		<string>uni21EA</string>
+		<string>uni21EB</string>
+		<string>uni21EC</string>
+		<string>uni21ED</string>
+		<string>uni21EE</string>
+		<string>uni21EF</string>
+		<string>uni21F0</string>
+		<string>uni21F1</string>
+		<string>uni21F2</string>
+		<string>uni21F3</string>
 		<string>universal</string>
 		<string>partialdiff</string>
 		<string>Delta</string>
@@ -1024,6 +1062,11 @@
 		<string>notequal</string>
 		<string>lessequal</string>
 		<string>greaterequal</string>
+		<string>uni2318</string>
+		<string>uni2325</string>
+		<string>uni232B</string>
+		<string>uni2387</string>
+		<string>uni23CE</string>
 		<string>SF100000</string>
 		<string>uni2501</string>
 		<string>SF110000</string>
@@ -1186,14 +1229,31 @@
 		<string>uni259F</string>
 		<string>filledbox</string>
 		<string>H22073</string>
+		<string>triagup</string>
+		<string>uni25B3</string>
+		<string>triagdn</string>
+		<string>uni25BD</string>
 		<string>lozenge</string>
 		<string>circle</string>
 		<string>uni25CC</string>
+		<string>H18533</string>
+		<string>uni25D0</string>
 		<string>uni25E1</string>
+		<string>uni25EF</string>
 		<string>uni2605</string>
 		<string>uni2606</string>
 		<string>uni2661</string>
 		<string>heart</string>
+		<string>uni2669</string>
+		<string>musicalnote</string>
+		<string>musicalnotedbl</string>
+		<string>uni266C</string>
+		<string>uni266D</string>
+		<string>uni266E</string>
+		<string>uni266F</string>
+		<string>uni26A0</string>
+		<string>uni2726</string>
+		<string>uni2727</string>
 		<string>uni2764</string>
 		<string>uni2765</string>
 		<string>uni2919</string>
@@ -1252,6 +1312,9 @@
 		<string>uniFFFC</string>
 		<string>uniFFFD</string>
 		<string>u1F494</string>
+		<string>u1FBB0</string>
+		<string>u1FBB2</string>
+		<string>u1FBB3</string>
 	</array>
 	<key>public.unicodeVariationSequences</key>
 	<dict>
@@ -1261,6 +1324,29 @@
 			<string>uni0E10.descless</string>
 			<key> 000E0D</key>
 			<string>uni0E0D.descless</string>
+		</dict>
+		<key>FE0E</key>
+		<dict>
+			<key> 01F494</key>
+			<string>u1F494</string>
+			<key> 002194</key>
+			<string>arrowboth</string>
+			<key> 002195</key>
+			<string>arrowupdn</string>
+			<key> 002196</key>
+			<string>uni2196</string>
+			<key> 002197</key>
+			<string>uni2197</string>
+			<key> 002198</key>
+			<string>uni2198</string>
+			<key> 002199</key>
+			<string>uni2199</string>
+			<key> 0021A9</key>
+			<string>uni21A9</string>
+			<key> 0021AA</key>
+			<string>uni21AA</string>
+			<key> 0026A0</key>
+			<string>uni26A0</string>
 		</dict>
 	</dict>
 </dict>

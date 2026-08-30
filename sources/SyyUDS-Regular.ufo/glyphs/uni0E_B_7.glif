@@ -2,8 +2,8 @@
 <glyph name="uni0EB7" format="2">
   <advance width="0"/>
   <unicode hex="0EB7"/>
-  <anchor x="64" y="512" name="_abvm"/>
-  <anchor x="64" y="512" name="_abvm.mkmk"/>
+  <anchor x="0" y="512" name="_abvm"/>
+  <anchor x="0" y="512" name="_abvm.mkmk"/>
   <anchor x="0" y="704" name="abvm.mkmk"/>
   <outline>
     <contour>

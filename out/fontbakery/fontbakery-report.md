@@ -65,13 +65,13 @@ fontbakery version: 1.1.0
 
 
 
-* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1248 instead.
+* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1309 instead.
 Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
  [code: bad-numberOfHMetrics]
 
 
 
-* ⚠️ **WARN** <p>Font is monospaced but 128 glyphs (10.26%) have a different width. You should check the widths of: ['exclam', 'quotedbl', 'quotesingle', 'parenleft', 'parenright', 'comma', 'period', 'colon', 'semicolon', 'M', 'W', 'underscore', 'grave', 'm', 'w', 'braceleft', 'bar', 'braceright', 'exclamdown', 'acute', 'periodcentered', 'cedilla', 'AE', 'ae', 'OE', 'oe', 'Wcircumflex', 'wcircumflex', 'uni01C0', 'uni01C1', 'uni01E2', 'uni01E3', 'AEacute', 'aeacute', 'uni02B9', 'uni0402', 'uni0409', 'uni040A', 'uni040B', 'uni0416', 'uni0424', 'uni0428', 'uni0429', 'uni042B', 'uni042E', 'uni0436', 'uni043C', 'uni0444', 'uni0448', 'uni0449', 'uni044B', 'uni044E', 'uni0452', 'uni0459', 'uni045A', 'uni045B', 'uni0496', 'uni0497', 'uni04C1', 'uni04C2', 'uni04DC', 'uni04DD', 'uni04F8', 'uni04F9', 'uni0E0C', 'uni0E0D', 'uni0E12', 'uni0E13', 'uni0E40', 'uni0E46', 'uni0E86', 'uni0E8E', 'uni0E91', 'uni0E92', 'uni0E93', 'uni0E97', 'uni0E9E', 'uni0E9F', 'uni0EA4', 'uni0EAB', 'uni0EC0', 'uni0EC6', 'uni0EDC', 'uni0EDD', 'uni1E40', 'uni1E41', 'uni2001', 'uni2003', 'uni2004', 'uni2005', 'uni2006', 'uni2008', 'uni2009', 'uni200A', 'emdash', 'uni2015', 'quoteleft', 'quoteright', 'quotesinglbase', 'quotereversed', 'quotedblleft', 'quotedblright', 'quotedblbase', 'uni201F', 'uni2605', 'uni2606', 'uni2661', 'heart', 'uni2764', 'uni2765', 'uniE133', 'uniE134', 'uniE139', 'uni0E0D.descless', 'uni0E24_uni0E45', 'uni0E26_uni0E45', 'uniFB00', 'uniFB01', 'uniFB02', 'uniFB03', 'uniFB04', 'uniFF01', 'uniFF08', 'uniFF09', 'uniFF0F', 'uniFF3C', 'uniFF44', 'u1F494']</p>
+* ⚠️ **WARN** <p>Font is monospaced but 191 glyphs (14.57%) have a different width. You should check the widths of: ['exclam', 'quotedbl', 'quotesingle', 'parenleft', 'parenright', 'comma', 'period', 'colon', 'semicolon', 'M', 'W', 'underscore', 'grave', 'm', 'w', 'braceleft', 'bar', 'braceright', 'exclamdown', 'acute', 'periodcentered', 'cedilla', 'AE', 'ae', 'OE', 'oe', 'Wcircumflex', 'wcircumflex', 'uni01C0', 'uni01C1', 'uni01E2', 'uni01E3', 'AEacute', 'aeacute', 'uni02B9', 'uni0402', 'uni0409', 'uni040A', 'uni040B', 'uni0416', 'uni0424', 'uni0428', 'uni0429', 'uni042B', 'uni042E', 'uni0436', 'uni043C', 'uni0444', 'uni0448', 'uni0449', 'uni044B', 'uni044E', 'uni0452', 'uni0459', 'uni045A', 'uni045B', 'uni0496', 'uni0497', 'uni04C1', 'uni04C2', 'uni04DC', 'uni04DD', 'uni04F8', 'uni04F9', 'uni0E0C', 'uni0E0D', 'uni0E12', 'uni0E13', 'uni0E40', 'uni0E46', 'uni0E86', 'uni0E8E', 'uni0E91', 'uni0E92', 'uni0E93', 'uni0E97', 'uni0E9E', 'uni0E9F', 'uni0EA4', 'uni0EAB', 'uni0EC0', 'uni0EC6', 'uni0EDC', 'uni0EDD', 'uni1E40', 'uni1E41', 'uni2001', 'uni2003', 'uni2004', 'uni2005', 'uni2006', 'uni2008', 'uni2009', 'uni200A', 'emdash', 'uni2015', 'quoteleft', 'quoteright', 'quotesinglbase', 'quotereversed', 'quotedblleft', 'quotedblright', 'quotedblbase', 'uni201F', 'arrowleft', 'arrowup', 'arrowright', 'arrowdown', 'arrowboth', 'arrowupdn', 'uni2196', 'uni2197', 'uni2198', 'uni2199', 'uni21A9', 'uni21AA', 'carriagereturn', 'arrowdblleft', 'arrowdblup', 'arrowdblright', 'arrowdbldown', 'arrowdblboth', 'uni21D5', 'uni21D6', 'uni21D7', 'uni21D8', 'uni21D9', 'uni21E5', 'uni21E6', 'uni21E7', 'uni21E8', 'uni21E9', 'uni21EA', 'uni21EB', 'uni21EC', 'uni21ED', 'uni21EE', 'uni21EF', 'uni21F0', 'uni21F1', 'uni21F2', 'uni21F3', 'uni2318', 'uni2325', 'uni232B', 'uni2387', 'uni23CE', 'triagup', 'uni25B3', 'triagdn', 'uni25BD', 'uni25CE', 'H18533', 'uni25EF', 'uni2605', 'uni2606', 'uni2661', 'heart', 'uni2669', 'musicalnote', 'musicalnotedbl', 'uni266C', 'uni266D', 'uni266E', 'uni266F', 'uni26A0', 'uni2726', 'uni2727', 'uni2764', 'uni2765', 'uniE133', 'uniE134', 'uniE139', 'uni0E0D.descless', 'uni0E24_uni0E45', 'uni0E26_uni0E45', 'uniFB00', 'uniFB01', 'uniFB02', 'uniFB03', 'uniFB04', 'uniFF01', 'uniFF08', 'uniFF09', 'uniFF0F', 'uniFF3C', 'uniFF44', 'u1F494', 'u1FBB0', 'u1FBB2', 'u1FBB3']</p>
  [code: mono-outliers]
 
 
@@ -207,7 +207,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ẁ, ẃ, Ẁ, ẅ, Ẅ, Ẃ</td>
+<td align="left">The following base characters are missing from the font: Ẅ, Ẃ, ẅ, ẃ, ẁ, Ẁ</td>
 <td align="left">cy_Latn (Welsh)</td>
 </tr>
 <tr>
@@ -251,7 +251,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ɲ, ɲ</td>
+<td align="left">The following base characters are missing from the font: ɲ, Ɲ</td>
 <td align="left">bm_Latn (Bambara) and dyu_Latn (Dyula)</td>
 </tr>
 <tr>
@@ -267,7 +267,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ƙ, Ƙ, ƴ, Ƴ</td>
+<td align="left">The following base characters are missing from the font: Ƴ, ƙ, Ƙ, ƴ</td>
 <td align="left">ha_Latn (Hausa)</td>
 </tr>
 <tr>
@@ -275,7 +275,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ṣ, Ḿ, ṣ, ḿ</td>
+<td align="left">The following base characters are missing from the font: ḿ, ṣ, Ḿ, Ṣ</td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -315,7 +315,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ҡ, ҫ, Ҫ, ҡ, Ҙ, ҙ</td>
+<td align="left">The following base characters are missing from the font: ҡ, Ҡ, ҙ, Ҫ, ҫ, Ҙ</td>
 <td align="left">ba_Cyrl (Bashkir)</td>
 </tr>
 <tr>
@@ -323,7 +323,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ҫ, ҫ</td>
+<td align="left">The following base characters are missing from the font: ҫ, Ҫ</td>
 <td align="left">cv_Cyrl (Chuvash)</td>
 </tr>
 <tr>
@@ -340,14 +340,14 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </tr>
 <tr>
 <td align="left">The following base characters are missing from the font: ӏ, Ӏ</td>
-<td align="left">kbd_Cyrl (Kabardian), dar_Cyrl (Dargwa) and inh_Cyrl (Ingush)</td>
+<td align="left">kbd_Cyrl (Kabardian), ady_Cyrl (Adyghe) and dar_Cyrl (Dargwa)</td>
 </tr>
 <tr>
 <td align="left">Mandatory orthography codepoints:</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: цӏ, пӏ, тӏ, рхӏ, кӏ, чӏ, хӏ, гӏ</td>
+<td align="left">The following base characters are missing from the font: пӏ, хӏ, чӏ, тӏ, рхӏ, кӏ, гӏ, цӏ</td>
 <td align="left">ce_Cyrl (Chechen)</td>
 </tr>
 <tr>
@@ -356,7 +356,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </tr>
 <tr>
 <td align="left">The following base characters are missing from the font: Ӏ, ӏ</td>
-<td align="left">av_Cyrl (Avaric), ady_Cyrl (Adyghe) and lez_Cyrl (Lezghian)</td>
+<td align="left">av_Cyrl (Avaric), lez_Cyrl (Lezghian) and inh_Cyrl (Ingush)</td>
 </tr>
 <tr>
 <td align="left">Mandatory orthography codepoints:</td>
@@ -1489,6 +1489,34 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: trademark	Contours detected: 3	Expected: 2
 
+- Glyph name: arrowleft	Contours detected: 3	Expected: 1
+
+- Glyph name: arrowup	Contours detected: 5	Expected: 1
+
+- Glyph name: arrowright	Contours detected: 5	Expected: 1
+
+- Glyph name: arrowdown	Contours detected: 5	Expected: 1
+
+- Glyph name: arrowboth	Contours detected: 9	Expected: 1
+
+- Glyph name: arrowupdn	Contours detected: 9	Expected: 1
+
+- Glyph name: uni2196	Contours detected: 13	Expected: 1
+
+- Glyph name: uni2197	Contours detected: 13	Expected: 1
+
+- Glyph name: uni2198	Contours detected: 13	Expected: 1
+
+- Glyph name: uni2199	Contours detected: 13	Expected: 1
+
+- Glyph name: carriagereturn	Contours detected: 3	Expected: 1
+
+- Glyph name: arrowdblright	Contours detected: 7	Expected: 1
+
+- Glyph name: arrowdblboth	Contours detected: 12	Expected: 2
+
+- Glyph name: uni21E5	Contours detected: 6	Expected: 2
+
 - Glyph name: infinity	Contours detected: 1	Expected: 3
 
 - Glyph name: lessequal	Contours detected: 1	Expected: 2
@@ -1513,9 +1541,15 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: uni2573	Contours detected: 13	Expected: 1
 
+- Glyph name: uni25B3	Contours detected: 10	Expected: 2
+
+- Glyph name: uni25BD	Contours detected: 6	Expected: 2
+
 - Glyph name: circle	Contours detected: 8	Expected: 2
 
 - Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
+
+- Glyph name: musicalnote	Contours detected: 3	Expected: 1
 
 - Glyph name: uniFFFC	Contours detected: 25	Expected: 22
 
@@ -1544,6 +1578,18 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 - Glyph name: aeacute	Contours detected: 2	Expected: 4
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: arrowboth	Contours detected: 9	Expected: 1
+
+- Glyph name: arrowdblboth	Contours detected: 12	Expected: 2
+
+- Glyph name: arrowdblright	Contours detected: 7	Expected: 1
+
+- Glyph name: arrowdown	Contours detected: 5	Expected: 1
+
+- Glyph name: arrowup	Contours detected: 5	Expected: 1
+
+- Glyph name: arrowupdn	Contours detected: 9	Expected: 1
 
 - Glyph name: at	Contours detected: 1	Expected: 2
 
@@ -1578,6 +1624,8 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 - Glyph name: lessequal	Contours detected: 1	Expected: 2
 
 - Glyph name: lslash	Contours detected: 3	Expected: 1
+
+- Glyph name: musicalnote	Contours detected: 3	Expected: 1
 
 - Glyph name: omega	Contours detected: 3	Expected: 1
 
@@ -1749,6 +1797,16 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: uni1EF7	Contours detected: 4	Expected: 2
 
+- Glyph name: uni2196	Contours detected: 13	Expected: 1
+
+- Glyph name: uni2197	Contours detected: 13	Expected: 1
+
+- Glyph name: uni2198	Contours detected: 13	Expected: 1
+
+- Glyph name: uni2199	Contours detected: 13	Expected: 1
+
+- Glyph name: uni21E5	Contours detected: 6	Expected: 2
+
 - Glyph name: uni2506	Contours detected: 4	Expected: 3
 
 - Glyph name: uni2507	Contours detected: 4	Expected: 3
@@ -1766,6 +1824,10 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 - Glyph name: uni2572	Contours detected: 8	Expected: 1
 
 - Glyph name: uni2573	Contours detected: 13	Expected: 1
+
+- Glyph name: uni25B3	Contours detected: 10	Expected: 2
+
+- Glyph name: uni25BD	Contours detected: 6	Expected: 2
 
 - Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
 
@@ -1878,27 +1940,27 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, glagolitic, coptic, math, elbasan</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: coptic, glagolitic, gothic, elbasan, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, coptic, malayalam, duployan, hebrew, tai-le, todhri, math, tifinagh, old-permic, syriac</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, old-permic, syriac, coptic, tifinagh, hebrew, malayalam, math, tai-le, canadian-aboriginal</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: try adding ethiopic</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031A COMBINING LEFT ANGLE ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -1909,7 +1971,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -1922,8 +1984,8 @@ definitions.</p>
 <li>U+0EA4 : not included in any glyphset definition</li>
 <li>U+0EA6 : not included in any glyphset definition</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+2010 HYPHEN: try adding one of: coptic, sora-sompeng, lisu, hebrew, armenian, sundanese, arabic, kharoshthi, kaithi, cham, syloti-nagri, yi, kayah-li</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
+<li>U+2010 HYPHEN: try adding one of: cham, armenian, lisu, kaithi, coptic, sundanese, kayah-li, yi, hebrew, arabic, syloti-nagri, kharoshthi, sora-sompeng</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, arabic, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam</li>
@@ -1960,12 +2022,48 @@ definitions.</p>
 <li>U+208D SUBSCRIPT LEFT PARENTHESIS: try adding math</li>
 <li>U+208E SUBSCRIPT RIGHT PARENTHESIS: try adding math</li>
 <li>U+2126 OHM SIGN: try adding math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+21A9 LEFTWARDS ARROW WITH HOOK: try adding math</li>
+<li>U+21AA RIGHTWARDS ARROW WITH HOOK: try adding math</li>
+<li>U+21B5 DOWNWARDS ARROW WITH CORNER LEFTWARDS: try adding math</li>
+<li>U+21D0 LEFTWARDS DOUBLE ARROW: try adding math</li>
+<li>U+21D1 UPWARDS DOUBLE ARROW: try adding math</li>
+<li>U+21D2 RIGHTWARDS DOUBLE ARROW: try adding math</li>
+<li>U+21D3 DOWNWARDS DOUBLE ARROW: try adding math</li>
+<li>U+21D4 LEFT RIGHT DOUBLE ARROW: try adding math</li>
+<li>U+21D5 UP DOWN DOUBLE ARROW: try adding math</li>
+<li>U+21D6 NORTH WEST DOUBLE ARROW: try adding math</li>
+<li>U+21D7 NORTH EAST DOUBLE ARROW: try adding math</li>
+<li>U+21D8 SOUTH EAST DOUBLE ARROW: try adding math</li>
+<li>U+21D9 SOUTH WEST DOUBLE ARROW: try adding math</li>
+<li>U+21E5 RIGHTWARDS ARROW TO BAR: try adding math</li>
+<li>U+21E6 LEFTWARDS WHITE ARROW: try adding symbols</li>
+<li>U+21E7 UPWARDS WHITE ARROW: try adding symbols</li>
+<li>U+21E8 RIGHTWARDS WHITE ARROW: try adding symbols</li>
+<li>U+21E9 DOWNWARDS WHITE ARROW: try adding symbols</li>
+<li>U+21EA UPWARDS WHITE ARROW FROM BAR: try adding symbols</li>
+<li>U+21EB UPWARDS WHITE ARROW ON PEDESTAL: try adding symbols</li>
+<li>U+21EC UPWARDS WHITE ARROW ON PEDESTAL WITH HORIZONTAL BAR: try adding symbols</li>
+<li>U+21ED UPWARDS WHITE ARROW ON PEDESTAL WITH VERTICAL BAR: try adding symbols</li>
+<li>U+21EE UPWARDS WHITE DOUBLE ARROW: try adding symbols</li>
+<li>U+21EF UPWARDS WHITE DOUBLE ARROW ON PEDESTAL: try adding symbols</li>
+<li>U+21F0 RIGHTWARDS WHITE ARROW FROM WALL: try adding symbols</li>
+<li>U+21F1 NORTH WEST ARROW TO CORNER: try adding math</li>
+<li>U+21F2 SOUTH EAST ARROW TO CORNER: try adding math</li>
+<li>U+21F3 UP DOWN WHITE ARROW: try adding symbols</li>
 <li>U+2200 FOR ALL: try adding math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, symbols, yi, math</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, symbols, tai-tham, yi</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -1973,15 +2071,37 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+2318 PLACE OF INTEREST SIGN: try adding symbols</li>
+<li>U+2325 OPTION KEY: try adding symbols</li>
+<li>U+232B ERASE TO THE LEFT: try adding symbols</li>
+<li>U+2387 ALTERNATIVE KEY SYMBOL: try adding symbols</li>
+<li>U+23CE RETURN SYMBOL: try adding symbols</li>
 <li>U+25A0 BLACK SQUARE: try adding symbols</li>
 <li>U+25A1 WHITE SQUARE: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
+<li>U+25CE BULLSEYE: try adding symbols</li>
+<li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E1 LOWER HALF CIRCLE: try adding symbols</li>
+<li>U+25EF LARGE CIRCLE: try adding symbols</li>
 <li>U+2605 BLACK STAR: try adding symbols</li>
 <li>U+2606 WHITE STAR: try adding symbols</li>
 <li>U+2661 WHITE HEART SUIT: try adding symbols</li>
 <li>U+2665 BLACK HEART SUIT: try adding symbols</li>
+<li>U+2669 QUARTER NOTE: try adding one of: symbols, music</li>
+<li>U+266A EIGHTH NOTE: try adding one of: symbols, music</li>
+<li>U+266B BEAMED EIGHTH NOTES: try adding one of: symbols, music</li>
+<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: symbols, music</li>
+<li>U+266D MUSIC FLAT SIGN: try adding one of: math, symbols, music</li>
+<li>U+266E MUSIC NATURAL SIGN: try adding one of: math, symbols, music</li>
+<li>U+266F MUSIC SHARP SIGN: try adding one of: math, symbols, music</li>
+<li>U+26A0 WARNING SIGN: try adding symbols</li>
+<li>U+2726 BLACK FOUR POINTED STAR: try adding symbols</li>
+<li>U+2727 WHITE FOUR POINTED STAR: try adding symbols</li>
 <li>U+2764 HEAVY BLACK HEART: try adding symbols</li>
 <li>U+2765 ROTATED HEAVY BLACK HEART BULLET: try adding symbols</li>
 <li>U+2919 LEFTWARDS ARROW-TAIL: try adding math</li>
@@ -2030,15 +2150,18 @@ definitions.</p>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 <li>U+FB03 LATIN SMALL LIGATURE FFI: not included in any glyphset definition</li>
 <li>U+FB04 LATIN SMALL LIGATURE FFL: not included in any glyphset definition</li>
-<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: japanese, chinese-simplified</li>
-<li>U+FF44 FULLWIDTH LATIN SMALL LETTER D: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF44 FULLWIDTH LATIN SMALL LETTER D: try adding one of: chinese-simplified, japanese</li>
 <li>U+FF61 HALFWIDTH IDEOGRAPHIC FULL STOP: try adding yi</li>
 <li>U+FFFC OBJECT REPLACEMENT CHARACTER: not included in any glyphset definition</li>
 <li>U+1F494 BROKEN HEART: not included in any glyphset definition</li>
+<li>U+1FBB0 ARROWHEAD-SHAPED POINTER: try adding symbols</li>
+<li>U+1FBB2 LEFT HALF RUNNING MAN: try adding symbols</li>
+<li>U+1FBB3 RIGHT HALF RUNNING MAN: try adding symbols</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>cyrillic-ext</code>, <code>greek</code>, <code>lao</code>, <code>latin</code>, <code>latin-ext</code>, <code>symbols2</code>, <code>thai</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -2214,7 +2337,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[20] SyyUDS-Regular.ttf</summary>
+<details><summary>[21] SyyUDS-Regular.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-monospace">opentype/monospace</a></summary>
@@ -2231,13 +2354,13 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1248 instead.
+* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1309 instead.
 Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
  [code: bad-numberOfHMetrics]
 
 
 
-* ⚠️ **WARN** <p>Font is monospaced but 128 glyphs (10.26%) have a different width. You should check the widths of: ['exclam', 'quotedbl', 'quotesingle', 'parenleft', 'parenright', 'comma', 'period', 'colon', 'semicolon', 'M', 'W', 'underscore', 'grave', 'm', 'w', 'braceleft', 'bar', 'braceright', 'exclamdown', 'acute', 'periodcentered', 'cedilla', 'AE', 'ae', 'OE', 'oe', 'Wcircumflex', 'wcircumflex', 'uni01C0', 'uni01C1', 'uni01E2', 'uni01E3', 'AEacute', 'aeacute', 'uni02B9', 'uni0402', 'uni0409', 'uni040A', 'uni040B', 'uni0416', 'uni0424', 'uni0428', 'uni0429', 'uni042B', 'uni042E', 'uni0436', 'uni043C', 'uni0444', 'uni0448', 'uni0449', 'uni044B', 'uni044E', 'uni0452', 'uni0459', 'uni045A', 'uni045B', 'uni0496', 'uni0497', 'uni04C1', 'uni04C2', 'uni04DC', 'uni04DD', 'uni04F8', 'uni04F9', 'uni0E0C', 'uni0E0D', 'uni0E12', 'uni0E13', 'uni0E40', 'uni0E46', 'uni0E86', 'uni0E8E', 'uni0E91', 'uni0E92', 'uni0E93', 'uni0E97', 'uni0E9E', 'uni0E9F', 'uni0EA4', 'uni0EAB', 'uni0EC0', 'uni0EC6', 'uni0EDC', 'uni0EDD', 'uni1E40', 'uni1E41', 'uni2001', 'uni2003', 'uni2004', 'uni2005', 'uni2006', 'uni2008', 'uni2009', 'uni200A', 'emdash', 'uni2015', 'quoteleft', 'quoteright', 'quotesinglbase', 'quotereversed', 'quotedblleft', 'quotedblright', 'quotedblbase', 'uni201F', 'uni2605', 'uni2606', 'uni2661', 'heart', 'uni2764', 'uni2765', 'uniE133', 'uniE134', 'uniE139', 'uni0E0D.descless', 'uni0E24_uni0E45', 'uni0E26_uni0E45', 'uniFB00', 'uniFB01', 'uniFB02', 'uniFB03', 'uniFB04', 'uniFF01', 'uniFF08', 'uniFF09', 'uniFF0F', 'uniFF3C', 'uniFF44', 'u1F494']</p>
+* ⚠️ **WARN** <p>Font is monospaced but 191 glyphs (14.57%) have a different width. You should check the widths of: ['exclam', 'quotedbl', 'quotesingle', 'parenleft', 'parenright', 'comma', 'period', 'colon', 'semicolon', 'M', 'W', 'underscore', 'grave', 'm', 'w', 'braceleft', 'bar', 'braceright', 'exclamdown', 'acute', 'periodcentered', 'cedilla', 'AE', 'ae', 'OE', 'oe', 'Wcircumflex', 'wcircumflex', 'uni01C0', 'uni01C1', 'uni01E2', 'uni01E3', 'AEacute', 'aeacute', 'uni02B9', 'uni0402', 'uni0409', 'uni040A', 'uni040B', 'uni0416', 'uni0424', 'uni0428', 'uni0429', 'uni042B', 'uni042E', 'uni0436', 'uni043C', 'uni0444', 'uni0448', 'uni0449', 'uni044B', 'uni044E', 'uni0452', 'uni0459', 'uni045A', 'uni045B', 'uni0496', 'uni0497', 'uni04C1', 'uni04C2', 'uni04DC', 'uni04DD', 'uni04F8', 'uni04F9', 'uni0E0C', 'uni0E0D', 'uni0E12', 'uni0E13', 'uni0E40', 'uni0E46', 'uni0E86', 'uni0E8E', 'uni0E91', 'uni0E92', 'uni0E93', 'uni0E97', 'uni0E9E', 'uni0E9F', 'uni0EA4', 'uni0EAB', 'uni0EC0', 'uni0EC6', 'uni0EDC', 'uni0EDD', 'uni1E40', 'uni1E41', 'uni2001', 'uni2003', 'uni2004', 'uni2005', 'uni2006', 'uni2008', 'uni2009', 'uni200A', 'emdash', 'uni2015', 'quoteleft', 'quoteright', 'quotesinglbase', 'quotereversed', 'quotedblleft', 'quotedblright', 'quotedblbase', 'uni201F', 'arrowleft', 'arrowup', 'arrowright', 'arrowdown', 'arrowboth', 'arrowupdn', 'uni2196', 'uni2197', 'uni2198', 'uni2199', 'uni21A9', 'uni21AA', 'carriagereturn', 'arrowdblleft', 'arrowdblup', 'arrowdblright', 'arrowdbldown', 'arrowdblboth', 'uni21D5', 'uni21D6', 'uni21D7', 'uni21D8', 'uni21D9', 'uni21E5', 'uni21E6', 'uni21E7', 'uni21E8', 'uni21E9', 'uni21EA', 'uni21EB', 'uni21EC', 'uni21ED', 'uni21EE', 'uni21EF', 'uni21F0', 'uni21F1', 'uni21F2', 'uni21F3', 'uni2318', 'uni2325', 'uni232B', 'uni2387', 'uni23CE', 'triagup', 'uni25B3', 'triagdn', 'uni25BD', 'H18533', 'uni25D0', 'uni25EF', 'uni2605', 'uni2606', 'uni2661', 'heart', 'uni2669', 'musicalnote', 'musicalnotedbl', 'uni266C', 'uni266D', 'uni266E', 'uni266F', 'uni26A0', 'uni2726', 'uni2727', 'uni2764', 'uni2765', 'uniE133', 'uniE134', 'uniE139', 'uni0E0D.descless', 'uni0E24_uni0E45', 'uni0E26_uni0E45', 'uniFB00', 'uniFB01', 'uniFB02', 'uniFB03', 'uniFB04', 'uniFF01', 'uniFF08', 'uniFF09', 'uniFF0F', 'uniFF3C', 'uniFF44', 'u1F494', 'u1FBB0', 'u1FBB2', 'u1FBB3']</p>
  [code: mono-outliers]
 
 
@@ -2369,7 +2492,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ẁ, ẃ, ẅ, Ẁ, Ẅ, Ẃ</td>
+<td align="left">The following base characters are missing from the font: Ẃ, Ẅ, ẃ, Ẁ, ẁ, ẅ</td>
 <td align="left">cy_Latn (Welsh)</td>
 </tr>
 <tr>
@@ -2385,7 +2508,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ҳ, ҷ</td>
+<td align="left">The following base characters are missing from the font: ҷ, ҳ</td>
 <td align="left">tg_Cyrl (Tajik) and tg_Cyrl (Tajik)</td>
 </tr>
 <tr>
@@ -2401,7 +2524,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ɲ, ɲ</td>
+<td align="left">The following base characters are missing from the font: ɲ, Ɲ</td>
 <td align="left">bm_Latn (Bambara)</td>
 </tr>
 <tr>
@@ -2409,7 +2532,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ɲ, Ɲ</td>
+<td align="left">The following base characters are missing from the font: Ɲ, ɲ</td>
 <td align="left">dyu_Latn (Dyula)</td>
 </tr>
 <tr>
@@ -2417,7 +2540,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ƴ, ƴ</td>
+<td align="left">The following base characters are missing from the font: ƴ, Ƴ</td>
 <td align="left">ff_Latn (Fulah)</td>
 </tr>
 <tr>
@@ -2425,7 +2548,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ƴ, Ƙ, ƴ, ƙ</td>
+<td align="left">The following base characters are missing from the font: ƙ, ƴ, Ƴ, Ƙ</td>
 <td align="left">ha_Latn (Hausa)</td>
 </tr>
 <tr>
@@ -2433,7 +2556,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ḿ, ḿ, Ṣ, ṣ</td>
+<td align="left">The following base characters are missing from the font: ḿ, Ṣ, Ḿ, ṣ</td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -2457,7 +2580,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ҫ, Ҫ, Ҙ, ҙ, ҡ, Ҡ</td>
+<td align="left">The following base characters are missing from the font: Ҙ, Ҫ, ҙ, ҡ, ҫ, Ҡ</td>
 <td align="left">ba_Cyrl (Bashkir)</td>
 </tr>
 <tr>
@@ -2481,15 +2604,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ӏ, Ӏ</td>
-<td align="left">kbd_Cyrl (Kabardian), av_Cyrl (Avaric), ady_Cyrl (Adyghe) and dar_Cyrl (Dargwa)</td>
+<td align="left">The following base characters are missing from the font: Ӏ, ӏ</td>
+<td align="left">kbd_Cyrl (Kabardian), dar_Cyrl (Dargwa) and lez_Cyrl (Lezghian)</td>
 </tr>
 <tr>
 <td align="left">Mandatory orthography codepoints:</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: рхӏ, тӏ, цӏ, гӏ, чӏ, хӏ, кӏ, пӏ</td>
+<td align="left">The following base characters are missing from the font: цӏ, кӏ, гӏ, рхӏ, тӏ, чӏ, пӏ, хӏ</td>
 <td align="left">ce_Cyrl (Chechen)</td>
 </tr>
 <tr>
@@ -2497,7 +2620,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ҥ, ҥ</td>
+<td align="left">The following base characters are missing from the font: ӏ, Ӏ</td>
+<td align="left">av_Cyrl (Avaric), ady_Cyrl (Adyghe) and inh_Cyrl (Ingush)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: ҥ, Ҥ</td>
 <td align="left">chm_Cyrl (Mari)</td>
 </tr>
 <tr>
@@ -2515,14 +2646,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <tr>
 <td align="left">The following base characters are missing from the font: ҥ, ҕ</td>
 <td align="left">sah_Cyrl (Sakha)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ӏ, ӏ</td>
-<td align="left">lez_Cyrl (Lezghian) and inh_Cyrl (Ingush)</td>
 </tr>
 </tbody>
 </table>
@@ -4655,6 +4778,34 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: Omega	Contours detected: 5	Expected: 1
 
+- Glyph name: arrowleft	Contours detected: 3	Expected: 1
+
+- Glyph name: arrowup	Contours detected: 5	Expected: 1
+
+- Glyph name: arrowright	Contours detected: 5	Expected: 1
+
+- Glyph name: arrowdown	Contours detected: 5	Expected: 1
+
+- Glyph name: arrowboth	Contours detected: 9	Expected: 1
+
+- Glyph name: arrowupdn	Contours detected: 9	Expected: 1
+
+- Glyph name: uni2196	Contours detected: 13	Expected: 1
+
+- Glyph name: uni2197	Contours detected: 13	Expected: 1
+
+- Glyph name: uni2198	Contours detected: 13	Expected: 1
+
+- Glyph name: uni2199	Contours detected: 13	Expected: 1
+
+- Glyph name: carriagereturn	Contours detected: 3	Expected: 1
+
+- Glyph name: arrowdblright	Contours detected: 7	Expected: 1
+
+- Glyph name: arrowdblboth	Contours detected: 12	Expected: 2
+
+- Glyph name: uni21E5	Contours detected: 6	Expected: 2
+
 - Glyph name: universal	Contours detected: 3	Expected: 2
 
 - Glyph name: partialdiff	Contours detected: 6	Expected: 2
@@ -4697,9 +4848,17 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: uni2573	Contours detected: 13	Expected: 1
 
+- Glyph name: uni25B3	Contours detected: 10	Expected: 2
+
+- Glyph name: uni25BD	Contours detected: 6	Expected: 2
+
 - Glyph name: circle	Contours detected: 8	Expected: 2
 
 - Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
+
+- Glyph name: H18533	Contours detected: 6	Expected: 1
+
+- Glyph name: musicalnote	Contours detected: 3	Expected: 1
 
 - Glyph name: uniFB00	Contours detected: 4	Expected: 1 or 2
 
@@ -4965,6 +5124,18 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: aring	Contours detected: 6	Expected: 4
 
+- Glyph name: arrowboth	Contours detected: 9	Expected: 1
+
+- Glyph name: arrowdblboth	Contours detected: 12	Expected: 2
+
+- Glyph name: arrowdblright	Contours detected: 7	Expected: 1
+
+- Glyph name: arrowdown	Contours detected: 5	Expected: 1
+
+- Glyph name: arrowup	Contours detected: 5	Expected: 1
+
+- Glyph name: arrowupdn	Contours detected: 9	Expected: 1
+
 - Glyph name: asciicircum	Contours detected: 5	Expected: 1
 
 - Glyph name: asciitilde	Contours detected: 3	Expected: 1
@@ -5146,6 +5317,8 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 - Glyph name: m	Contours detected: 3	Expected: 1
 
 - Glyph name: multiply	Contours detected: 9	Expected: 1
+
+- Glyph name: musicalnote	Contours detected: 3	Expected: 1
 
 - Glyph name: n	Contours detected: 3	Expected: 1
 
@@ -5949,6 +6122,16 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: uni20AD	Contours detected: 7	Expected: 1
 
+- Glyph name: uni2196	Contours detected: 13	Expected: 1
+
+- Glyph name: uni2197	Contours detected: 13	Expected: 1
+
+- Glyph name: uni2198	Contours detected: 13	Expected: 1
+
+- Glyph name: uni2199	Contours detected: 13	Expected: 1
+
+- Glyph name: uni21E5	Contours detected: 6	Expected: 2
+
 - Glyph name: uni2215	Contours detected: 5	Expected: 1
 
 - Glyph name: uni2506	Contours detected: 4	Expected: 3
@@ -5968,6 +6151,10 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 - Glyph name: uni2572	Contours detected: 8	Expected: 1
 
 - Glyph name: uni2573	Contours detected: 13	Expected: 1
+
+- Glyph name: uni25B3	Contours detected: 10	Expected: 2
+
+- Glyph name: uni25BD	Contours detected: 6	Expected: 2
 
 - Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
 
@@ -6097,7 +6284,9 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- nonmarkingreturn
+<pre><code>- NULL
+
+- nonmarkingreturn
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -6140,27 +6329,27 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, glagolitic, coptic, math, elbasan</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: coptic, glagolitic, gothic, elbasan, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, coptic, malayalam, duployan, hebrew, tai-le, todhri, math, tifinagh, old-permic, syriac</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, old-permic, syriac, coptic, tifinagh, hebrew, malayalam, math, tai-le, canadian-aboriginal</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: try adding ethiopic</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031A COMBINING LEFT ANGLE ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -6171,7 +6360,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -6184,8 +6373,8 @@ definitions.</p>
 <li>U+0EA4 : not included in any glyphset definition</li>
 <li>U+0EA6 : not included in any glyphset definition</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+2010 HYPHEN: try adding one of: coptic, sora-sompeng, lisu, hebrew, armenian, sundanese, arabic, kharoshthi, kaithi, cham, syloti-nagri, yi, kayah-li</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
+<li>U+2010 HYPHEN: try adding one of: cham, armenian, lisu, kaithi, coptic, sundanese, kayah-li, yi, hebrew, arabic, syloti-nagri, kharoshthi, sora-sompeng</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, arabic, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam</li>
@@ -6222,12 +6411,48 @@ definitions.</p>
 <li>U+208D SUBSCRIPT LEFT PARENTHESIS: try adding math</li>
 <li>U+208E SUBSCRIPT RIGHT PARENTHESIS: try adding math</li>
 <li>U+2126 OHM SIGN: try adding math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+21A9 LEFTWARDS ARROW WITH HOOK: try adding math</li>
+<li>U+21AA RIGHTWARDS ARROW WITH HOOK: try adding math</li>
+<li>U+21B5 DOWNWARDS ARROW WITH CORNER LEFTWARDS: try adding math</li>
+<li>U+21D0 LEFTWARDS DOUBLE ARROW: try adding math</li>
+<li>U+21D1 UPWARDS DOUBLE ARROW: try adding math</li>
+<li>U+21D2 RIGHTWARDS DOUBLE ARROW: try adding math</li>
+<li>U+21D3 DOWNWARDS DOUBLE ARROW: try adding math</li>
+<li>U+21D4 LEFT RIGHT DOUBLE ARROW: try adding math</li>
+<li>U+21D5 UP DOWN DOUBLE ARROW: try adding math</li>
+<li>U+21D6 NORTH WEST DOUBLE ARROW: try adding math</li>
+<li>U+21D7 NORTH EAST DOUBLE ARROW: try adding math</li>
+<li>U+21D8 SOUTH EAST DOUBLE ARROW: try adding math</li>
+<li>U+21D9 SOUTH WEST DOUBLE ARROW: try adding math</li>
+<li>U+21E5 RIGHTWARDS ARROW TO BAR: try adding math</li>
+<li>U+21E6 LEFTWARDS WHITE ARROW: try adding symbols</li>
+<li>U+21E7 UPWARDS WHITE ARROW: try adding symbols</li>
+<li>U+21E8 RIGHTWARDS WHITE ARROW: try adding symbols</li>
+<li>U+21E9 DOWNWARDS WHITE ARROW: try adding symbols</li>
+<li>U+21EA UPWARDS WHITE ARROW FROM BAR: try adding symbols</li>
+<li>U+21EB UPWARDS WHITE ARROW ON PEDESTAL: try adding symbols</li>
+<li>U+21EC UPWARDS WHITE ARROW ON PEDESTAL WITH HORIZONTAL BAR: try adding symbols</li>
+<li>U+21ED UPWARDS WHITE ARROW ON PEDESTAL WITH VERTICAL BAR: try adding symbols</li>
+<li>U+21EE UPWARDS WHITE DOUBLE ARROW: try adding symbols</li>
+<li>U+21EF UPWARDS WHITE DOUBLE ARROW ON PEDESTAL: try adding symbols</li>
+<li>U+21F0 RIGHTWARDS WHITE ARROW FROM WALL: try adding symbols</li>
+<li>U+21F1 NORTH WEST ARROW TO CORNER: try adding math</li>
+<li>U+21F2 SOUTH EAST ARROW TO CORNER: try adding math</li>
+<li>U+21F3 UP DOWN WHITE ARROW: try adding symbols</li>
 <li>U+2200 FOR ALL: try adding math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, symbols, yi, math</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, symbols, tai-tham, yi</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -6235,15 +6460,37 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+2318 PLACE OF INTEREST SIGN: try adding symbols</li>
+<li>U+2325 OPTION KEY: try adding symbols</li>
+<li>U+232B ERASE TO THE LEFT: try adding symbols</li>
+<li>U+2387 ALTERNATIVE KEY SYMBOL: try adding symbols</li>
+<li>U+23CE RETURN SYMBOL: try adding symbols</li>
 <li>U+25A0 BLACK SQUARE: try adding symbols</li>
 <li>U+25A1 WHITE SQUARE: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
+<li>U+25CF BLACK CIRCLE: try adding symbols</li>
+<li>U+25D0 CIRCLE WITH LEFT HALF BLACK: try adding symbols</li>
 <li>U+25E1 LOWER HALF CIRCLE: try adding symbols</li>
+<li>U+25EF LARGE CIRCLE: try adding symbols</li>
 <li>U+2605 BLACK STAR: try adding symbols</li>
 <li>U+2606 WHITE STAR: try adding symbols</li>
 <li>U+2661 WHITE HEART SUIT: try adding symbols</li>
 <li>U+2665 BLACK HEART SUIT: try adding symbols</li>
+<li>U+2669 QUARTER NOTE: try adding one of: symbols, music</li>
+<li>U+266A EIGHTH NOTE: try adding one of: symbols, music</li>
+<li>U+266B BEAMED EIGHTH NOTES: try adding one of: symbols, music</li>
+<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: symbols, music</li>
+<li>U+266D MUSIC FLAT SIGN: try adding one of: math, symbols, music</li>
+<li>U+266E MUSIC NATURAL SIGN: try adding one of: math, symbols, music</li>
+<li>U+266F MUSIC SHARP SIGN: try adding one of: math, symbols, music</li>
+<li>U+26A0 WARNING SIGN: try adding symbols</li>
+<li>U+2726 BLACK FOUR POINTED STAR: try adding symbols</li>
+<li>U+2727 WHITE FOUR POINTED STAR: try adding symbols</li>
 <li>U+2764 HEAVY BLACK HEART: try adding symbols</li>
 <li>U+2765 ROTATED HEAVY BLACK HEART BULLET: try adding symbols</li>
 <li>U+2919 LEFTWARDS ARROW-TAIL: try adding math</li>
@@ -6292,15 +6539,18 @@ definitions.</p>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 <li>U+FB03 LATIN SMALL LIGATURE FFI: not included in any glyphset definition</li>
 <li>U+FB04 LATIN SMALL LIGATURE FFL: not included in any glyphset definition</li>
-<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: japanese, chinese-simplified</li>
-<li>U+FF44 FULLWIDTH LATIN SMALL LETTER D: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF44 FULLWIDTH LATIN SMALL LETTER D: try adding one of: chinese-simplified, japanese</li>
 <li>U+FF61 HALFWIDTH IDEOGRAPHIC FULL STOP: try adding yi</li>
 <li>U+FFFC OBJECT REPLACEMENT CHARACTER: not included in any glyphset definition</li>
 <li>U+1F494 BROKEN HEART: not included in any glyphset definition</li>
+<li>U+1FBB0 ARROWHEAD-SHAPED POINTER: try adding symbols</li>
+<li>U+1FBB2 LEFT HALF RUNNING MAN: try adding symbols</li>
+<li>U+1FBB3 RIGHT HALF RUNNING MAN: try adding symbols</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>cyrillic-ext</code>, <code>greek</code>, <code>lao</code>, <code>latin</code>, <code>latin-ext</code>, <code>symbols2</code>, <code>thai</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
@@ -6383,6 +6633,28 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* uni2606 (U+2606): X=215.5,Y=1.5 (should be at baseline 0?)
+
+* uni2606 (U+2606): X=174.0,Y=1.0 (should be at baseline 0?)
+</code></pre>
+ [code: found-misalignments]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
     <div>
 
@@ -6409,7 +6681,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 19 | 23 | 207 | 11 | 195 | 0 | 
+| 0 | 0 | 19 | 24 | 207 | 11 | 194 | 0 | 
 | 0% | 0% | 4% | 5% | 45% | 2% | 43% | 0% | 
 
 
