@@ -48,8 +48,26 @@ fontbakery version: 1.1.0
 </div>
 </details>
 
-<details><summary>[21] SyyUDT-Regular.ttf</summary>
+<details><summary>[20] SyyUDT-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Checking font version fields (head and name table). <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-font-version">opentype/font_version</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>head version is &quot;1.66000&quot; while name version string (for platform 3, encoding 1) is &quot;Version 1.665; ttfautohint (v1.8.4.16-eb64)&quot;.</p>
+ [code: mismatch]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-monospace">opentype/monospace</a></summary>
     <div>
@@ -177,941 +195,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 * 🔥 **FAIL** <p>OS/2.usWinDescent value should be equal or greater than 384, but got 256 instead</p>
  [code: descent]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Phonetics_SinoExt glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">FAIL messages</th>
-<th align="left">Languages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ẅ, Ẃ, ẅ, ẃ, ẁ, Ẁ</td>
-<td align="left">cy_Latn (Welsh)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ẞ</td>
-<td align="left">de_Latn (German)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to J when shaping the text 'ÍJ́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to j when shaping the text 'íj́'</td>
-<td align="left">nl_Latn (Dutch)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ҳ, ҷ</td>
-<td align="left">tg_Cyrl (Tajik) and tg_Cyrl (Tajik)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ҳ</td>
-<td align="left">uz_Cyrl (Uzbek (Cyrillic)) and uz_Cyrl (Uzbek (Cyrillic))</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ɲ, Ɲ</td>
-<td align="left">bm_Latn (Bambara) and dyu_Latn (Dyula)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ƴ, ƴ</td>
-<td align="left">ff_Latn (Fulah)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ƴ, ƙ, Ƙ, ƴ</td>
-<td align="left">ha_Latn (Hausa)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ḿ, ṣ, Ḿ, Ṣ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni1EB9 when shaping the text 'ẹ́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni1EB8 when shaping the text 'Ẹ́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni1EB9 when shaping the text 'ẹ̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni1EB8 when shaping the text 'Ẹ̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni1ECD when shaping the text 'ọ́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni1ECC when shaping the text 'Ọ́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni1ECD when shaping the text 'ọ̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni1ECC when shaping the text 'Ọ̀'</td>
-<td align="left">yo_Latn (Yoruba)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ҡ, Ҡ, ҙ, Ҫ, ҫ, Ҙ</td>
-<td align="left">ba_Cyrl (Bashkir)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ҫ, Ҫ</td>
-<td align="left">cv_Cyrl (Chuvash)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ҝ, ҹ</td>
-<td align="left">az_Cyrl (Azerbaijani (Cyrillic))</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ӏ, Ӏ</td>
-<td align="left">kbd_Cyrl (Kabardian), ady_Cyrl (Adyghe) and dar_Cyrl (Dargwa)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: пӏ, хӏ, чӏ, тӏ, рхӏ, кӏ, гӏ, цӏ</td>
-<td align="left">ce_Cyrl (Chechen)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ӏ, ӏ</td>
-<td align="left">av_Cyrl (Avaric), lez_Cyrl (Lezghian) and inh_Cyrl (Ingush)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ҥ, ҥ</td>
-<td align="left">chm_Cyrl (Mari)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ҳ, ҳ</td>
-<td align="left">kaa_Cyrl (Kara-Kalpak)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ҕ, ҥ</td>
-<td align="left">sah_Cyrl (Sakha)</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">WARN messages</th>
-<th align="left">Languages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ẞ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
-<td align="left">fi_Latn (Finnish)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ẞ</td>
-<td align="left">fr_Latn (French), it_Latn (Italian), pl_Latn (Polish) and tr_Latn (Turkish)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to Aogonek when shaping the text 'Ą́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to Aogonek when shaping the text 'Ą̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to Eogonek when shaping the text 'Ę́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to Eogonek when shaping the text 'Ę̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to Iogonek when shaping the text 'Į́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0307 to Iogonek when shaping the text 'Į̇́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to Iogonek when shaping the text 'Į̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0307 to Iogonek when shaping the text 'Į̇̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to J when shaping the text 'J̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0307 to J when shaping the text 'J̇̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to L when shaping the text 'L̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to R when shaping the text 'R̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to aogonek when shaping the text 'ą́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to aogonek when shaping the text 'ą̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to eogonek when shaping the text 'ę́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to eogonek when shaping the text 'ę̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0307 to i when shaping the text 'i̇́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0307 to i when shaping the text 'i̇̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0307 to i when shaping the text 'i̇̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to j when shaping the text 'j̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0307 to j when shaping the text 'j̇̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to l when shaping the text 'l̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to r when shaping the text 'r̃'</td>
-<td align="left">lt_Latn (Lithuanian)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to a when shaping the text 'а́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to e when shaping the text 'е́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni0438 when shaping the text 'и́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to o when shaping the text 'о́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to y when shaping the text 'у́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni044D when shaping the text 'э́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni044F when shaping the text 'я́'</td>
-<td align="left">ru_Cyrl (Russian) and ru_Cyrl (Russian)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to a when shaping the text 'а́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to e when shaping the text 'е́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni0454 when shaping the text 'є́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni0438 when shaping the text 'и́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to i when shaping the text 'і́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to o when shaping the text 'о́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to y when shaping the text 'у́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni044F when shaping the text 'я́'</td>
-<td align="left">uk_Cyrl (Ukrainian) and uk_Cyrl (Ukrainian)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to a when shaping the text 'а́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to e when shaping the text 'е́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to i when shaping the text 'і́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to o when shaping the text 'о́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to y when shaping the text 'у́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni044D when shaping the text 'э́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni044F when shaping the text 'я́'</td>
-<td align="left">be_Cyrl (Belarusian) and be_Cyrl (Belarusian)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ѣ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ѫ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to a when shaping the text 'а̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to o when shaping the text 'о̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to y when shaping the text 'у̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni044A when shaping the text 'ъ̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni044F when shaping the text 'я̀'</td>
-<td align="left">bg_Cyrl (Bulgarian) and bg_Cyrl (Bulgarian)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0302 to a when shaping the text 'а̂'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0302 to e when shaping the text 'е̂'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0302 to uni0438 when shaping the text 'и̂'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0302 to o when shaping the text 'о̂'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0302 to y when shaping the text 'у̂'</td>
-<td align="left">sr_Cyrl (Serbian) and sr_Cyrl (Serbian)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἀ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἄ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἂ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἆ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἁ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἅ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἃ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἇ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὰ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ᾶ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἐ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἔ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἑ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἕ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἓ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὲ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἠ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἤ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἢ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἡ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἣ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὴ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῆ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἰ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἴ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἲ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἶ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἱ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἵ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἳ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἷ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὶ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῖ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῗ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὄ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὂ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὃ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὸ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὐ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὔ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὖ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὑ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὕ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὓ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὗ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὺ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῢ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὤ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὢ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὣ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὼ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῶ</td>
-<td align="left">el_Grek (Greek)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to r when shaping the text 'r̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to R when shaping the text 'R̃'</td>
-<td align="left">ha_Latn (Hausa)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ḿ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ḿ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni1ECA when shaping the text 'Ị́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni1ECA when shaping the text 'Ị̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni1ECD when shaping the text 'ọ́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni1ECC when shaping the text 'Ọ́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni1ECD when shaping the text 'ọ̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni1ECC when shaping the text 'Ọ̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni1EE5 when shaping the text 'ụ́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni1EE4 when shaping the text 'Ụ́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni1EE5 when shaping the text 'ụ̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni1EE4 when shaping the text 'Ụ̀'</td>
-<td align="left">ig_Latn (Igbo)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni030C to uni1EB9 when shaping the text 'ẹ̌'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni030C to uni1EB8 when shaping the text 'Ẹ̌'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni030C to uni1ECD when shaping the text 'ọ̌'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni030C to uni1ECC when shaping the text 'Ọ̌'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to e when shaping the text 'e̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to E when shaping the text 'E̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to eacute when shaping the text 'é̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to Eacute when shaping the text 'É̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to egrave when shaping the text 'è̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to Egrave when shaping the text 'È̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to ecircumflex when shaping the text 'ê̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to Ecircumflex when shaping the text 'Ê̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to ecaron when shaping the text 'ě̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to Ecaron when shaping the text 'Ě̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to o when shaping the text 'o̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to O when shaping the text 'O̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to oacute when shaping the text 'ó̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to Oacute when shaping the text 'Ó̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to ograve when shaping the text 'ò̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to Ograve when shaping the text 'Ò̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to ocircumflex when shaping the text 'ô̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to Ocircumflex when shaping the text 'Ô̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to uni01D2 when shaping the text 'ǒ̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to uni01D1 when shaping the text 'Ǒ̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to s when shaping the text 's̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to S when shaping the text 'S̩'</td>
-<td align="left">yo_Latn (Yoruba)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ӊ</td>
-<td align="left">mn_Cyrl (Mongolian)</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
 
 
 
@@ -1943,10 +1026,10 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: coptic, glagolitic, gothic, elbasan, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, old-permic, syriac, coptic, tifinagh, hebrew, malayalam, math, tai-le, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: coptic, glagolitic, gothic, math, elbasan</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, canadian-aboriginal, duployan, coptic, malayalam, old-permic, todhri, tifinagh, math, syriac, tai-le</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -1960,7 +1043,7 @@ definitions.</p>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031A COMBINING LEFT ANGLE ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, duployan, syriac</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -1968,10 +1051,10 @@ definitions.</p>
 <li>U+032A COMBINING BRIDGE BELOW: not included in any glyphset definition</li>
 <li>U+032B COMBINING INVERTED DOUBLE ARCH BELOW: not included in any glyphset definition</li>
 <li>U+032C COMBINING CARON BELOW: try adding math</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -1984,8 +1067,8 @@ definitions.</p>
 <li>U+0EA4 : not included in any glyphset definition</li>
 <li>U+0EA6 : not included in any glyphset definition</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+2010 HYPHEN: try adding one of: cham, armenian, lisu, kaithi, coptic, sundanese, kayah-li, yi, hebrew, arabic, syloti-nagri, kharoshthi, sora-sompeng</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, arabic, syloti-nagri</li>
+<li>U+2010 HYPHEN: try adding one of: hebrew, syloti-nagri, coptic, kharoshthi, yi, lisu, kaithi, cham, sundanese, arabic, armenian, sora-sompeng, kayah-li</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, yi, arabic</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam</li>
@@ -2063,7 +1146,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: math, symbols, tai-tham, yi</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, math, symbols, yi</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -2092,13 +1175,13 @@ definitions.</p>
 <li>U+2606 WHITE STAR: try adding symbols</li>
 <li>U+2661 WHITE HEART SUIT: try adding symbols</li>
 <li>U+2665 BLACK HEART SUIT: try adding symbols</li>
-<li>U+2669 QUARTER NOTE: try adding one of: symbols, music</li>
-<li>U+266A EIGHTH NOTE: try adding one of: symbols, music</li>
-<li>U+266B BEAMED EIGHTH NOTES: try adding one of: symbols, music</li>
-<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: symbols, music</li>
-<li>U+266D MUSIC FLAT SIGN: try adding one of: math, symbols, music</li>
-<li>U+266E MUSIC NATURAL SIGN: try adding one of: math, symbols, music</li>
-<li>U+266F MUSIC SHARP SIGN: try adding one of: math, symbols, music</li>
+<li>U+2669 QUARTER NOTE: try adding one of: music, symbols</li>
+<li>U+266A EIGHTH NOTE: try adding one of: music, symbols</li>
+<li>U+266B BEAMED EIGHTH NOTES: try adding one of: music, symbols</li>
+<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: music, symbols</li>
+<li>U+266D MUSIC FLAT SIGN: try adding one of: math, music, symbols</li>
+<li>U+266E MUSIC NATURAL SIGN: try adding one of: math, music, symbols</li>
+<li>U+266F MUSIC SHARP SIGN: try adding one of: math, music, symbols</li>
 <li>U+26A0 WARNING SIGN: try adding symbols</li>
 <li>U+2726 BLACK FOUR POINTED STAR: try adding symbols</li>
 <li>U+2727 WHITE FOUR POINTED STAR: try adding symbols</li>
@@ -2150,12 +1233,12 @@ definitions.</p>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 <li>U+FB03 LATIN SMALL LIGATURE FFI: not included in any glyphset definition</li>
 <li>U+FB04 LATIN SMALL LIGATURE FFL: not included in any glyphset definition</li>
-<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF44 FULLWIDTH LATIN SMALL LETTER D: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF44 FULLWIDTH LATIN SMALL LETTER D: try adding one of: japanese, chinese-simplified</li>
 <li>U+FF61 HALFWIDTH IDEOGRAPHIC FULL STOP: try adding yi</li>
 <li>U+FFFC OBJECT REPLACEMENT CHARACTER: not included in any glyphset definition</li>
 <li>U+1F494 BROKEN HEART: not included in any glyphset definition</li>
@@ -2218,25 +1301,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13]</p>
  [code: http-in-description]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ i̍ i̓ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ і́ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̅ i̇ i̎ i̒ i̔ i̛̅ i̛̇ i̛̊ i̛̋ i̛̍ i̛̎ i̛̒ i̛̓ i̛̔ i̤̅ i̤̇ i̤̊ i̤̋ i̤̍ i̤̎</p>
- [code: soft-dotted]
 
 
 
@@ -2337,8 +1401,26 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[21] SyyUDS-Regular.ttf</summary>
+<details><summary>[20] SyyUDS-Regular.ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Checking font version fields (head and name table). <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-font-version">opentype/font_version</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>head version is &quot;1.66000&quot; while name version string (for platform 3, encoding 1) is &quot;Version 1.665; ttfautohint (v1.8.4.16-eb64)&quot;.</p>
+ [code: mismatch]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-monospace">opentype/monospace</a></summary>
     <div>
@@ -2462,805 +1544,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 * 🔥 **FAIL** <p>OS/2.usWinDescent value should be equal or greater than 384, but got 256 instead</p>
  [code: descent]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Phonetics_SinoExt glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">FAIL messages</th>
-<th align="left">Languages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ẃ, Ẅ, ẃ, Ẁ, ẁ, ẅ</td>
-<td align="left">cy_Latn (Welsh)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ẞ</td>
-<td align="left">de_Latn (German)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ҷ, ҳ</td>
-<td align="left">tg_Cyrl (Tajik) and tg_Cyrl (Tajik)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ҳ</td>
-<td align="left">uz_Cyrl (Uzbek (Cyrillic)) and uz_Cyrl (Uzbek (Cyrillic))</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ɲ, Ɲ</td>
-<td align="left">bm_Latn (Bambara)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ɲ, ɲ</td>
-<td align="left">dyu_Latn (Dyula)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ƴ, Ƴ</td>
-<td align="left">ff_Latn (Fulah)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ƙ, ƴ, Ƴ, Ƙ</td>
-<td align="left">ha_Latn (Hausa)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ḿ, Ṣ, Ḿ, ṣ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni1EB9 when shaping the text 'ẹ́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni1EB9 when shaping the text 'ẹ̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni1ECD when shaping the text 'ọ́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni1ECD when shaping the text 'ọ̀'</td>
-<td align="left">yo_Latn (Yoruba)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ҙ, Ҫ, ҙ, ҡ, ҫ, Ҡ</td>
-<td align="left">ba_Cyrl (Bashkir)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ҫ, ҫ</td>
-<td align="left">cv_Cyrl (Chuvash)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ҝ, ҹ</td>
-<td align="left">az_Cyrl (Azerbaijani (Cyrillic))</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ӏ, ӏ</td>
-<td align="left">kbd_Cyrl (Kabardian), dar_Cyrl (Dargwa) and lez_Cyrl (Lezghian)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: цӏ, кӏ, гӏ, рхӏ, тӏ, чӏ, пӏ, хӏ</td>
-<td align="left">ce_Cyrl (Chechen)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ӏ, Ӏ</td>
-<td align="left">av_Cyrl (Avaric), ady_Cyrl (Adyghe) and inh_Cyrl (Ingush)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ҥ, Ҥ</td>
-<td align="left">chm_Cyrl (Mari)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ҳ, Ҳ</td>
-<td align="left">kaa_Cyrl (Kara-Kalpak)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ҥ, ҕ</td>
-<td align="left">sah_Cyrl (Sakha)</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">WARN messages</th>
-<th align="left">Languages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ẞ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
-<td align="left">fi_Latn (Finnish)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ẞ</td>
-<td align="left">fr_Latn (French), it_Latn (Italian), pl_Latn (Polish) and tr_Latn (Turkish)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to aogonek when shaping the text 'ą́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to aogonek when shaping the text 'ą̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to eogonek when shaping the text 'ę́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to eogonek when shaping the text 'ę̃'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to r when shaping the text 'r̃'</td>
-<td align="left">lt_Latn (Lithuanian)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to a when shaping the text 'а́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to e when shaping the text 'е́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni0438 when shaping the text 'и́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to o when shaping the text 'о́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to y when shaping the text 'у́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni044D when shaping the text 'э́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni044F when shaping the text 'я́'</td>
-<td align="left">ru_Cyrl (Russian) and ru_Cyrl (Russian)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to a when shaping the text 'а́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to e when shaping the text 'е́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni0454 when shaping the text 'є́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni0438 when shaping the text 'и́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to o when shaping the text 'о́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to y when shaping the text 'у́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni044F when shaping the text 'я́'</td>
-<td align="left">uk_Cyrl (Ukrainian) and uk_Cyrl (Ukrainian)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to a when shaping the text 'а́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to e when shaping the text 'е́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to o when shaping the text 'о́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to y when shaping the text 'у́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni044D when shaping the text 'э́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni044F when shaping the text 'я́'</td>
-<td align="left">be_Cyrl (Belarusian) and be_Cyrl (Belarusian)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ѣ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ѫ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to a when shaping the text 'а̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to o when shaping the text 'о̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to y when shaping the text 'у̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni044A when shaping the text 'ъ̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni044F when shaping the text 'я̀'</td>
-<td align="left">bg_Cyrl (Bulgarian) and bg_Cyrl (Bulgarian)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0302 to a when shaping the text 'а̂'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0302 to e when shaping the text 'е̂'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0302 to uni0438 when shaping the text 'и̂'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0302 to o when shaping the text 'о̂'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0302 to y when shaping the text 'у̂'</td>
-<td align="left">sr_Cyrl (Serbian) and sr_Cyrl (Serbian)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἀ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἄ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἂ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἆ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἁ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἅ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἃ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἇ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὰ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ᾶ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἐ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἔ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἑ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἕ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἓ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὲ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἠ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἤ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἢ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἡ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἣ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὴ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῆ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἰ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἴ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἲ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἶ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἱ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἵ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἳ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ἷ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὶ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῖ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῗ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὄ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὂ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὃ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὸ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὐ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὔ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὖ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὑ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὕ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὓ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὗ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὺ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῢ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὤ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὢ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὦ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὣ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ὼ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ῶ</td>
-<td align="left">el_Grek (Greek)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach tildecomb to r when shaping the text 'r̃'</td>
-<td align="left">ha_Latn (Hausa)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ḿ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ḿ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni1ECD when shaping the text 'ọ́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni1ECD when shaping the text 'ọ̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni1EE5 when shaping the text 'ụ́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni1EE5 when shaping the text 'ụ̀'</td>
-<td align="left">ig_Latn (Igbo)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni030C to uni1EB9 when shaping the text 'ẹ̌'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni030C to uni1ECD when shaping the text 'ọ̌'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to e when shaping the text 'e̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to E when shaping the text 'E̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to eacute when shaping the text 'é̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to Eacute when shaping the text 'É̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to egrave when shaping the text 'è̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to Egrave when shaping the text 'È̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to ecircumflex when shaping the text 'ê̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to Ecircumflex when shaping the text 'Ê̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to ecaron when shaping the text 'ě̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to Ecaron when shaping the text 'Ě̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to o when shaping the text 'o̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to O when shaping the text 'O̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to oacute when shaping the text 'ó̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to Oacute when shaping the text 'Ó̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to ograve when shaping the text 'ò̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to Ograve when shaping the text 'Ò̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to ocircumflex when shaping the text 'ô̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to Ocircumflex when shaping the text 'Ô̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to uni01D2 when shaping the text 'ǒ̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to uni01D1 when shaping the text 'Ǒ̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to s when shaping the text 's̩'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0329 to S when shaping the text 'S̩'</td>
-<td align="left">yo_Latn (Yoruba)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ӊ</td>
-<td align="left">mn_Cyrl (Mongolian)</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
 
 
 
@@ -6332,10 +4615,10 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: coptic, glagolitic, gothic, elbasan, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, old-permic, syriac, coptic, tifinagh, hebrew, malayalam, math, tai-le, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: coptic, glagolitic, gothic, math, elbasan</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, canadian-aboriginal, duployan, coptic, malayalam, old-permic, todhri, tifinagh, math, syriac, tai-le</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
@@ -6349,7 +4632,7 @@ definitions.</p>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031A COMBINING LEFT ANGLE ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, duployan, syriac</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -6357,10 +4640,10 @@ definitions.</p>
 <li>U+032A COMBINING BRIDGE BELOW: not included in any glyphset definition</li>
 <li>U+032B COMBINING INVERTED DOUBLE ARCH BELOW: not included in any glyphset definition</li>
 <li>U+032C COMBINING CARON BELOW: try adding math</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -6373,8 +4656,8 @@ definitions.</p>
 <li>U+0EA4 : not included in any glyphset definition</li>
 <li>U+0EA6 : not included in any glyphset definition</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+2010 HYPHEN: try adding one of: cham, armenian, lisu, kaithi, coptic, sundanese, kayah-li, yi, hebrew, arabic, syloti-nagri, kharoshthi, sora-sompeng</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, arabic, syloti-nagri</li>
+<li>U+2010 HYPHEN: try adding one of: hebrew, syloti-nagri, coptic, kharoshthi, yi, lisu, kaithi, cham, sundanese, arabic, armenian, sora-sompeng, kayah-li</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, yi, arabic</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam</li>
@@ -6452,7 +4735,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: math, symbols, tai-tham, yi</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, math, symbols, yi</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -6481,13 +4764,13 @@ definitions.</p>
 <li>U+2606 WHITE STAR: try adding symbols</li>
 <li>U+2661 WHITE HEART SUIT: try adding symbols</li>
 <li>U+2665 BLACK HEART SUIT: try adding symbols</li>
-<li>U+2669 QUARTER NOTE: try adding one of: symbols, music</li>
-<li>U+266A EIGHTH NOTE: try adding one of: symbols, music</li>
-<li>U+266B BEAMED EIGHTH NOTES: try adding one of: symbols, music</li>
-<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: symbols, music</li>
-<li>U+266D MUSIC FLAT SIGN: try adding one of: math, symbols, music</li>
-<li>U+266E MUSIC NATURAL SIGN: try adding one of: math, symbols, music</li>
-<li>U+266F MUSIC SHARP SIGN: try adding one of: math, symbols, music</li>
+<li>U+2669 QUARTER NOTE: try adding one of: music, symbols</li>
+<li>U+266A EIGHTH NOTE: try adding one of: music, symbols</li>
+<li>U+266B BEAMED EIGHTH NOTES: try adding one of: music, symbols</li>
+<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: music, symbols</li>
+<li>U+266D MUSIC FLAT SIGN: try adding one of: math, music, symbols</li>
+<li>U+266E MUSIC NATURAL SIGN: try adding one of: math, music, symbols</li>
+<li>U+266F MUSIC SHARP SIGN: try adding one of: math, music, symbols</li>
 <li>U+26A0 WARNING SIGN: try adding symbols</li>
 <li>U+2726 BLACK FOUR POINTED STAR: try adding symbols</li>
 <li>U+2727 WHITE FOUR POINTED STAR: try adding symbols</li>
@@ -6539,12 +4822,12 @@ definitions.</p>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 <li>U+FB03 LATIN SMALL LIGATURE FFI: not included in any glyphset definition</li>
 <li>U+FB04 LATIN SMALL LIGATURE FFL: not included in any glyphset definition</li>
-<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: chinese-simplified, japanese</li>
-<li>U+FF44 FULLWIDTH LATIN SMALL LETTER D: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: japanese, chinese-simplified</li>
+<li>U+FF44 FULLWIDTH LATIN SMALL LETTER D: try adding one of: japanese, chinese-simplified</li>
 <li>U+FF61 HALFWIDTH IDEOGRAPHIC FULL STOP: try adding yi</li>
 <li>U+FFFC OBJECT REPLACEMENT CHARACTER: not included in any glyphset definition</li>
 <li>U+1F494 BROKEN HEART: not included in any glyphset definition</li>
@@ -6614,25 +4897,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ i̍ i̓ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ і́ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̅ i̇ i̎ i̒ i̔ i̛̅ i̛̇ i̛̊ i̛̋ i̛̍ i̛̎ i̛̒ i̛̓ i̛̔ i̤̅ i̤̇ i̤̊ i̤̋ i̤̍ i̤̎</p>
- [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
     <div>
 
@@ -6681,8 +4945,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 19 | 24 | 207 | 11 | 194 | 0 | 
-| 0% | 0% | 4% | 5% | 45% | 2% | 43% | 0% | 
+| 0 | 0 | 19 | 22 | 215 | 11 | 188 | 0 | 
+| 0% | 0% | 4% | 5% | 47% | 2% | 41% | 0% | 
 
 
 
