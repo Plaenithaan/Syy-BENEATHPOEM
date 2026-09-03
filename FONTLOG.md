@@ -2,6 +2,14 @@
 
 ## ChangeLog  
 
+### Version 1.668
+- Fixed
+  - ♥❤❥💔 glyph design
+  - Syy UDS
+    - ◎● wrong unicode value (it shift + 1)
+    - wrong PFM (monospace)
+
+
 ### Version 1.665
 - Fixed
   - Syy UDS

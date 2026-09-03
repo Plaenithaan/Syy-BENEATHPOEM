@@ -5,7 +5,7 @@ FamilyName: Syy UDT
 Weight: Regular
 Copyright: Copyright 2026 The Syy BENEATHPOEM Project Authors (https://github.com/Plaenithaan/Syy-BENEATHPOEM)
 UComments: "2025-11-16: Created with FontForge (http://fontforge.org)"
-Version: 001.660
+Version: 001.668
 ItalicAngle: 0
 UnderlinePosition: -153
 UnderlineWidth: 51
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1763257488
-ModificationTime: 1788072363
+ModificationTime: 1788455653
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -314,13 +314,12 @@ ChainSub2: glyph "'ccmp' Thai- Lowline Above-1" 0 0 0 4
 EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION AND CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "https://openfontlicense.org/"
 Encoding: UnicodeFull
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1015 35 8
+WinInfo: 9625 35 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 1048576 524288 349525 458752 1048576 349525 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -14812,7 +14811,7 @@ EndChar
 StartChar: uni2661
 Encoding: 9825 9825 557
 Width: 704
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -14852,62 +14851,41 @@ SplineSet
  192 256 l 1
  192 192 l 1
 576 256 m 1
- 576 320 l 1
- 640 320 l 1
+ 576 512 l 1
+ 640 512 l 1
  640 256 l 1
  576 256 l 1
 128 256 m 1
  64 256 l 1
- 64 320 l 1
- 128 320 l 1
- 128 256 l 1
-640 320 m 1
- 640 512 l 1
- 704 512 l 1
- 704 320 l 1
- 640 320 l 1
-64 320 m 1
- 0 320 l 1
- 0 512 l 1
  64 512 l 1
- 64 320 l 1
-640 512 m 1
- 576 512 l 1
- 576 576 l 1
- 640 576 l 1
- 640 512 l 1
-384 512 m 1
- 384 448 l 1
- 320 448 l 1
- 320 512 l 1
- 384 512 l 1
-384 512 m 1
- 384 576 l 1
- 448 576 l 1
- 448 512 l 1
- 384 512 l 1
-576 576 m 1
- 448 576 l 1
- 448 640 l 1
- 576 640 l 1
- 576 576 l 1
-320 512 m 1
- 256 512 l 1
- 256 576 l 1
- 320 576 l 1
- 320 512 l 1
-64 512 m 1
- 64 576 l 1
- 128 576 l 1
  128 512 l 1
- 64 512 l 1
-256 576 m 1
+ 128 256 l 1
+384 448 m 1
+ 384 384 l 1
+ 320 384 l 1
+ 320 448 l 1
+ 384 448 l 1
+384 448 m 1
+ 384 512 l 1
+ 448 512 l 1
+ 448 448 l 1
+ 384 448 l 1
+576 512 m 1
+ 448 512 l 1
+ 448 576 l 1
+ 576 576 l 1
+ 576 512 l 1
+320 448 m 1
+ 256 448 l 1
+ 256 512 l 1
+ 320 512 l 1
+ 320 448 l 1
+256 512 m 1
+ 128 512 l 1
  128 576 l 1
- 128 640 l 1
- 256 640 l 1
  256 576 l 1
+ 256 512 l 1
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: uni02F6
@@ -15341,88 +15319,33 @@ EndChar
 StartChar: heart
 Encoding: 9829 9829 568
 Width: 704
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-192 192 m 1
- 128 192 l 1
- 128 256 l 1
- 64 256 l 1
- 64 320 l 1
- 0 320 l 1
- 0 512 l 1
- 64 512 l 1
- 64 576 l 1
- 128 576 l 1
- 128 640 l 1
- 256 640 l 1
- 256 576 l 1
- 320 576 l 1
- 320 512 l 1
- 384 512 l 5
- 384 576 l 5
- 448 576 l 5
- 448 640 l 5
- 576 640 l 5
- 576 576 l 5
- 640 576 l 5
- 640 512 l 5
- 704 512 l 5
- 704 320 l 5
- 640 320 l 5
- 640 256 l 5
- 576 256 l 5
- 576 192 l 5
- 512 192 l 5
- 512 128 l 5
- 448 128 l 5
- 448 64 l 5
- 384 64 l 5
- 384 0 l 5
- 320 0 l 1
+320 0 m 1
  320 64 l 1
  256 64 l 1
  256 128 l 1
  192 128 l 1
  192 192 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni2764
-Encoding: 10084 10084 569
-Width: 704
-Flags: MW
-LayerCount: 2
-Fore
-SplineSet
-192 192 m 1
  128 192 l 1
  128 256 l 1
  64 256 l 1
- 64 320 l 1
- 0 320 l 1
- 0 512 l 1
  64 512 l 1
- 64 576 l 1
+ 128 512 l 1
  128 576 l 1
- 128 640 l 1
- 256 640 l 1
  256 576 l 1
- 320 576 l 1
+ 256 512 l 1
  320 512 l 1
+ 320 448 l 1
+ 384 448 l 1
  384 512 l 1
- 384 576 l 1
+ 448 512 l 1
  448 576 l 1
- 448 640 l 1
- 576 640 l 1
  576 576 l 1
- 640 576 l 1
+ 576 512 l 1
  640 512 l 1
- 704 512 l 1
- 704 320 l 1
- 640 320 l 1
  640 256 l 1
  576 256 l 1
  576 192 l 1
@@ -15433,123 +15356,170 @@ SplineSet
  384 64 l 1
  384 0 l 1
  320 0 l 1
- 320 64 l 1
- 256 64 l 1
- 256 128 l 1
- 192 128 l 1
- 192 192 l 1
 EndSplineSet
-Validated: 1
+EndChar
+
+StartChar: uni2764
+Encoding: 10084 10084 569
+Width: 1024
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+640 -256 m 1
+ 384 -256 l 1
+ 384 -128 l 1
+ 256 -128 l 1
+ 256 0 l 1
+ 128 0 l 1
+ 128 128 l 1
+ 0 128 l 1
+ 0 640 l 1
+ 64 640 l 1
+ 64 704 l 1
+ 128 704 l 1
+ 128 768 l 1
+ 256 768 l 1
+ 256 704 l 1
+ 384 704 l 1
+ 384 640 l 1
+ 448 640 l 1
+ 448 512 l 1
+ 576 512 l 1
+ 576 640 l 1
+ 640 640 l 1
+ 640 704 l 1
+ 768 704 l 1
+ 768 768 l 1
+ 896 768 l 1
+ 896 704 l 1
+ 960 704 l 1
+ 960 640 l 1
+ 1024 640 l 1
+ 1024 128 l 1
+ 896 128 l 1
+ 896 0 l 1
+ 768 0 l 1
+ 768 -128 l 1
+ 640 -128 l 1
+ 640 -256 l 1
+EndSplineSet
 EndChar
 
 StartChar: uni2765
 Encoding: 10085 10085 570
-Width: 704
-Flags: MW
+Width: 1024
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-448 192 m 1
- 448 128 l 1
- 384 128 l 1
- 384 64 l 1
- 320 64 l 1
- 320 0 l 1
- 128 0 l 1
- 128 64 l 1
- 64 64 l 1
+640 -256 m 1
+ 128 -256 l 1
+ 128 -192 l 1
+ 64 -192 l 1
+ 64 -128 l 1
+ 0 -128 l 1
+ 0 0 l 1
+ 64 0 l 1
  64 128 l 1
- 0 128 l 1
- 0 256 l 1
- 64 256 l 1
- 64 320 l 1
+ 128 128 l 1
+ 128 192 l 1
+ 256 192 l 1
+ 256 320 l 1
  128 320 l 1
  128 384 l 1
  64 384 l 1
- 64 448 l 1
- 0 448 l 1
- 0 576 l 1
- 64 576 l 1
+ 64 512 l 1
+ 0 512 l 1
+ 0 640 l 1
  64 640 l 1
- 128 640 l 1
+ 64 704 l 1
  128 704 l 1
- 320 704 l 1
- 320 640 l 1
- 384 640 l 1
- 384 576 l 1
- 448 576 l 1
- 448 512 l 1
- 512 512 l 1
- 512 448 l 1
- 576 448 l 1
- 576 384 l 1
- 640 384 l 1
- 640 320 l 1
- 576 320 l 1
- 576 256 l 1
- 512 256 l 1
- 512 192 l 1
- 448 192 l 1
+ 128 768 l 1
+ 640 768 l 1
+ 640 640 l 1
+ 768 640 l 1
+ 768 512 l 1
+ 896 512 l 1
+ 896 384 l 1
+ 1024 384 l 1
+ 1024 128 l 1
+ 896 128 l 1
+ 896 0 l 1
+ 768 0 l 1
+ 768 -128 l 1
+ 640 -128 l 1
+ 640 -256 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: u1F494
 Encoding: 128148 128148 571
 AltUni2: 01f494.00fe0e.0
-Width: 704
-Flags: MW
+Width: 1280
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-512 0 m 5
- 448 0 l 5
- 448 256 l 5
- 512 256 l 5
- 512 320 l 5
- 448 320 l 5
- 448 384 l 5
- 512 384 l 5
- 512 448 l 5
- 448 448 l 5
- 448 512 l 5
- 512 512 l 5
- 512 576 l 5
- 640 576 l 5
- 640 512 l 5
- 704 512 l 5
- 704 192 l 5
- 640 192 l 5
- 640 128 l 5
- 576 128 l 5
- 576 64 l 5
- 512 64 l 5
- 512 0 l 5
-256 0 m 5
- 192 0 l 5
- 192 64 l 5
- 128 64 l 5
- 128 128 l 5
- 64 128 l 5
- 64 192 l 5
- 0 192 l 5
- 0 512 l 5
- 64 512 l 5
- 64 576 l 5
- 192 576 l 5
- 192 512 l 5
- 256 512 l 5
- 256 448 l 5
- 320 448 l 5
- 320 384 l 5
- 256 384 l 5
- 256 320 l 5
- 320 320 l 5
- 320 256 l 5
- 256 256 l 5
- 256 0 l 5
+896 -256 m 5
+ 768 -256 l 5
+ 768 64 l 5
+ 832 64 l 5
+ 832 192 l 5
+ 768 192 l 5
+ 768 320 l 5
+ 832 320 l 5
+ 832 448 l 5
+ 768 448 l 5
+ 768 512 l 5
+ 832 512 l 5
+ 832 640 l 5
+ 896 640 l 5
+ 896 704 l 5
+ 1024 704 l 5
+ 1024 768 l 5
+ 1152 768 l 5
+ 1152 704 l 5
+ 1216 704 l 5
+ 1216 640 l 5
+ 1280 640 l 5
+ 1280 128 l 5
+ 1152 128 l 5
+ 1152 0 l 5
+ 1024 0 l 5
+ 1024 -128 l 5
+ 896 -128 l 5
+ 896 -256 l 5
+512 -256 m 1
+ 384 -256 l 1
+ 384 -128 l 1
+ 256 -128 l 1
+ 256 0 l 1
+ 128 0 l 1
+ 128 128 l 1
+ 0 128 l 1
+ 0 640 l 1
+ 64 640 l 1
+ 64 704 l 1
+ 128 704 l 1
+ 128 768 l 1
+ 256 768 l 1
+ 256 704 l 1
+ 384 704 l 1
+ 384 640 l 1
+ 448 640 l 1
+ 448 512 l 1
+ 512 512 l 1
+ 512 448 l 1
+ 576 448 l 1
+ 576 320 l 1
+ 512 320 l 1
+ 512 192 l 1
+ 576 192 l 1
+ 576 64 l 1
+ 512 64 l 1
+ 512 -256 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0312
@@ -36010,11 +35980,11 @@ BDFChar: 567 9733 11 0 10 0 10
 "98Q)%KHt=s58CB5CagU5CbhGEPMPS
 BDFChar: 568 9829 11 0 10 0 9
 0n=Vds5<q8s58CB5CagU%KHV3
-BDFChar: 569 10084 11 0 10 0 9
+BDFChar: 569 10084 16 0 10 0 9
 0n=Vds5<q8s58CB5CagU%KHV3
-BDFChar: 570 10085 11 0 9 0 10
+BDFChar: 570 10085 16 0 9 0 10
 2un=+rW)ruIt0c!It7P!rW%<G2uipY
-BDFChar: 571 128148 11 0 10 0 8
+BDFChar: 571 128148 20 0 10 0 8
 @)2<jpu(]#pu(]#EPO;Z&HDe2
 BDFChar: 572 786 0 -5 -4 10 13
 5_-Yc

@@ -123,7 +123,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Regular</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 1.665</string>
+	<string>Version 1.668</string>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
 		<integer>0</integer>
@@ -168,8 +168,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<string>SyyUDS-Regular</string>
 	<key>postscriptFullName</key>
 	<string>Syy UDS Regular</string>
-	<key>postscriptIsFixedPitch</key>
-	<true/>
 	<key>postscriptUnderlinePosition</key>
 	<integer>-153</integer>
 	<key>postscriptUnderlineThickness</key>
@@ -187,6 +185,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>660</integer>
+	<integer>668</integer>
 </dict>
 </plist>
