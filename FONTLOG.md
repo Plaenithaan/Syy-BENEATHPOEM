@@ -2,6 +2,16 @@
 
 ## ChangeLog  
 
+### Version 1.669
+- Fixed
+    - something go wrong in 1.668
+    - ❤ VS15
+    - Syy UDS
+      - GlifName
+- Removed
+  - BDF
+
+
 ### Version 1.668
 - Fixed
   - ♥❤❥💔 glyph design

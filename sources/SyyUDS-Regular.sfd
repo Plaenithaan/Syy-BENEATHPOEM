@@ -5,7 +5,7 @@ FamilyName: Syy UDS
 Weight: Regular
 Copyright: Copyright 2026 The Syy BENEATHPOEM Project Authors (https://github.com/Plaenithaan/Syy-BENEATHPOEM)
 UComments: "2025-11-16: Created with FontForge (http://fontforge.org)"
-Version: 001.668
+Version: 001.669
 ItalicAngle: 0
 UnderlinePosition: -153
 UnderlineWidth: 51
@@ -328,7 +328,6 @@ BeginChars: 1114115 1223
 
 StartChar: space
 Encoding: 32 32 0
-GlifName: space
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -338,7 +337,6 @@ EndChar
 
 StartChar: exclam
 Encoding: 33 33 1
-GlifName: exclam
 Width: 384
 Flags: HMW
 LayerCount: 2
@@ -362,7 +360,6 @@ EndChar
 
 StartChar: quotedbl
 Encoding: 34 34 2
-GlifName: quotedbl
 Width: 448
 Flags: HMW
 LayerCount: 2
@@ -384,7 +381,6 @@ EndChar
 
 StartChar: numbersign
 Encoding: 35 35 3
-GlifName: numbersign
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -437,7 +433,6 @@ EndChar
 
 StartChar: dollar
 Encoding: 36 36 4
-GlifName: dollar
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -500,7 +495,6 @@ EndChar
 
 StartChar: percent
 Encoding: 37 37 5
-GlifName: percent
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -587,7 +581,6 @@ EndChar
 
 StartChar: ampersand
 Encoding: 38 38 6
-GlifName: ampersand
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -652,7 +645,6 @@ EndChar
 
 StartChar: quotesingle
 Encoding: 39 39 7
-GlifName: quotesingle
 Width: 256
 Flags: HMW
 LayerCount: 2
@@ -669,7 +661,6 @@ EndChar
 
 StartChar: parenleft
 Encoding: 40 40 8
-GlifName: parenleft
 Width: 320
 Flags: HMW
 LayerCount: 2
@@ -706,7 +697,6 @@ EndChar
 
 StartChar: parenright
 Encoding: 41 41 9
-GlifName: parenright
 Width: 320
 Flags: HMW
 LayerCount: 2
@@ -741,7 +731,6 @@ EndChar
 
 StartChar: asterisk
 Encoding: 42 42 10
-GlifName: asterisk
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -784,7 +773,6 @@ EndChar
 
 StartChar: plus
 Encoding: 43 43 11
-GlifName: plus
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -809,7 +797,6 @@ EndChar
 
 StartChar: comma
 Encoding: 44 44 12
-GlifName: comma
 Width: 256
 Flags: HMW
 LayerCount: 2
@@ -833,7 +820,6 @@ EndChar
 
 StartChar: hyphen
 Encoding: 45 45 13
-GlifName: hyphen
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -850,7 +836,6 @@ EndChar
 
 StartChar: period
 Encoding: 46 46 14
-GlifName: period
 Width: 256
 Flags: MW
 LayerCount: 2
@@ -867,7 +852,6 @@ EndChar
 
 StartChar: slash
 Encoding: 47 47 15
-GlifName: slash
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -900,7 +884,6 @@ EndChar
 
 StartChar: zero
 Encoding: 48 48 16
-GlifName: zero
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -962,7 +945,6 @@ EndChar
 
 StartChar: one
 Encoding: 49 49 17
-GlifName: one
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -994,7 +976,6 @@ EndChar
 
 StartChar: two
 Encoding: 50 50 18
-GlifName: two
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1044,7 +1025,6 @@ EndChar
 
 StartChar: three
 Encoding: 51 51 19
-GlifName: three
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1094,7 +1074,6 @@ EndChar
 
 StartChar: four
 Encoding: 52 52 20
-GlifName: four
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1136,7 +1115,6 @@ EndChar
 
 StartChar: five
 Encoding: 53 53 21
-GlifName: five
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1184,7 +1162,6 @@ EndChar
 
 StartChar: six
 Encoding: 54 54 22
-GlifName: six
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1229,7 +1206,6 @@ EndChar
 
 StartChar: seven
 Encoding: 55 55 23
-GlifName: seven
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1261,7 +1237,6 @@ EndChar
 
 StartChar: eight
 Encoding: 56 56 24
-GlifName: eight
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1330,7 +1305,6 @@ EndChar
 
 StartChar: nine
 Encoding: 57 57 25
-GlifName: nine
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1373,7 +1347,6 @@ EndChar
 
 StartChar: colon
 Encoding: 58 58 26
-GlifName: colon
 Width: 256
 Flags: MW
 AnchorPoint: "abvm" 256 576 basechar 0
@@ -1398,7 +1371,6 @@ EndChar
 StartChar: semicolon
 Encoding: 59 59 27
 AltUni2: 00037e.ffffffff.0
-GlifName: semicolon
 Width: 256
 Flags: HMW
 AnchorPoint: "blwm" 256 0 basechar 0
@@ -1429,7 +1401,6 @@ EndChar
 
 StartChar: less
 Encoding: 60 60 28
-GlifName: less
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -1486,7 +1457,6 @@ EndChar
 
 StartChar: equal
 Encoding: 61 61 29
-GlifName: equal
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -1508,7 +1478,6 @@ EndChar
 
 StartChar: greater
 Encoding: 62 62 30
-GlifName: greater
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -1557,7 +1526,6 @@ EndChar
 
 StartChar: question
 Encoding: 63 63 31
-GlifName: question
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -1600,7 +1568,6 @@ EndChar
 
 StartChar: at
 Encoding: 64 64 32
-GlifName: at
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -1655,7 +1622,6 @@ EndChar
 StartChar: A
 Encoding: 65 65 33
 AltUni2: 000410.ffffffff.0 000391.ffffffff.0
-GlifName: A_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -1692,7 +1658,6 @@ EndChar
 StartChar: B
 Encoding: 66 66 34
 AltUni2: 000412.ffffffff.0 000392.ffffffff.0
-GlifName: B_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1736,7 +1701,6 @@ EndChar
 StartChar: C
 Encoding: 67 67 35
 AltUni2: 000421.ffffffff.0 0003f9.ffffffff.0
-GlifName: C_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1784,7 +1748,6 @@ EndChar
 
 StartChar: D
 Encoding: 68 68 36
-GlifName: D_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1824,7 +1787,6 @@ EndChar
 StartChar: E
 Encoding: 69 69 37
 AltUni2: 000395.ffffffff.0 000415.ffffffff.0
-GlifName: E_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1852,7 +1814,6 @@ EndChar
 StartChar: F
 Encoding: 70 70 38
 AltUni2: 0003dc.ffffffff.0
-GlifName: F_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1877,7 +1838,6 @@ EndChar
 
 StartChar: G
 Encoding: 71 71 39
-GlifName: G_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1933,7 +1893,6 @@ EndChar
 StartChar: H
 Encoding: 72 72 40
 AltUni2: 000397.ffffffff.0 00041d.ffffffff.0
-GlifName: H_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1961,7 +1920,6 @@ EndChar
 StartChar: I
 Encoding: 73 73 41
 AltUni2: 000399.ffffffff.0 000406.ffffffff.0
-GlifName: I_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -1989,7 +1947,6 @@ EndChar
 StartChar: J
 Encoding: 74 74 42
 AltUni2: 00037f.ffffffff.0 000408.ffffffff.0
-GlifName: J_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2021,7 +1978,6 @@ EndChar
 StartChar: K
 Encoding: 75 75 43
 AltUni2: 00039a.ffffffff.0 00041a.ffffffff.0
-GlifName: K_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2078,7 +2034,6 @@ EndChar
 
 StartChar: L
 Encoding: 76 76 44
-GlifName: L_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2100,7 +2055,6 @@ EndChar
 StartChar: M
 Encoding: 77 77 45
 AltUni2: 00039c.ffffffff.0 00041c.ffffffff.0
-GlifName: M_
 Width: 576
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2145,7 +2099,6 @@ EndChar
 StartChar: N
 Encoding: 78 78 46
 AltUni2: 00039d.ffffffff.0
-GlifName: N_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2186,7 +2139,6 @@ EndChar
 StartChar: O
 Encoding: 79 79 47
 AltUni2: 00039f.ffffffff.0 00041e.ffffffff.0
-GlifName: O_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2241,7 +2193,6 @@ EndChar
 StartChar: P
 Encoding: 80 80 48
 AltUni2: 0003a1.ffffffff.0 000420.ffffffff.0
-GlifName: P_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2270,7 +2221,6 @@ EndChar
 
 StartChar: Q
 Encoding: 81 81 49
-GlifName: Q_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2336,7 +2286,6 @@ EndChar
 
 StartChar: R
 Encoding: 82 82 50
-GlifName: R_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2378,7 +2327,6 @@ EndChar
 StartChar: S
 Encoding: 83 83 51
 AltUni2: 000405.ffffffff.0
-GlifName: S_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2433,7 +2381,6 @@ EndChar
 StartChar: T
 Encoding: 84 84 52
 AltUni2: 0003a4.ffffffff.0 000422.ffffffff.0
-GlifName: T_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2456,7 +2403,6 @@ EndChar
 
 StartChar: U
 Encoding: 85 85 53
-GlifName: U_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2483,7 +2429,6 @@ EndChar
 
 StartChar: V
 Encoding: 86 86 54
-GlifName: V_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2518,7 +2463,6 @@ EndChar
 
 StartChar: W
 Encoding: 87 87 55
-GlifName: W_
 Width: 576
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2566,7 +2510,6 @@ EndChar
 StartChar: X
 Encoding: 88 88 56
 AltUni2: 0003a7.ffffffff.0 000425.ffffffff.0
-GlifName: X_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2625,7 +2568,6 @@ EndChar
 StartChar: Y
 Encoding: 89 89 57
 AltUni2: 0003a5.ffffffff.0
-GlifName: Y_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2664,7 +2606,6 @@ EndChar
 StartChar: Z
 Encoding: 90 90 58
 AltUni2: 000396.ffffffff.0
-GlifName: Z_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2709,7 +2650,6 @@ EndChar
 
 StartChar: bracketleft
 Encoding: 91 91 59
-GlifName: bracketleft
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2732,7 +2672,6 @@ EndChar
 
 StartChar: backslash
 Encoding: 92 92 60
-GlifName: backslash
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -2768,7 +2707,6 @@ EndChar
 
 StartChar: bracketright
 Encoding: 93 93 61
-GlifName: bracketright
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2791,7 +2729,6 @@ EndChar
 
 StartChar: asciicircum
 Encoding: 94 94 62
-GlifName: asciicircum
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -2829,7 +2766,6 @@ EndChar
 
 StartChar: underscore
 Encoding: 95 95 63
-GlifName: underscore
 Width: 320
 Flags: MW
 LayerCount: 2
@@ -2846,7 +2782,6 @@ EndChar
 
 StartChar: grave
 Encoding: 96 96 64
-GlifName: grave
 Width: 256
 Flags: HMW
 LayerCount: 2
@@ -2874,7 +2809,6 @@ EndChar
 StartChar: a
 Encoding: 97 97 65
 AltUni2: 000430.ffffffff.0
-GlifName: a
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -2914,7 +2848,6 @@ EndChar
 
 StartChar: b
 Encoding: 98 98 66
-GlifName: b
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -2966,7 +2899,6 @@ EndChar
 StartChar: c
 Encoding: 99 99 67
 AltUni2: 000441.ffffffff.0 0003f2.ffffffff.0
-GlifName: c
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -3014,7 +2946,6 @@ EndChar
 
 StartChar: d
 Encoding: 100 100 68
-GlifName: d
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -3066,7 +2997,6 @@ EndChar
 StartChar: e
 Encoding: 101 101 69
 AltUni2: 000435.ffffffff.0
-GlifName: e
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -3116,7 +3046,6 @@ EndChar
 
 StartChar: f
 Encoding: 102 102 70
-GlifName: f
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -3148,7 +3077,6 @@ EndChar
 
 StartChar: g
 Encoding: 103 103 71
-GlifName: g
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -3211,7 +3139,6 @@ EndChar
 
 StartChar: h
 Encoding: 104 104 72
-GlifName: h
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -3244,7 +3171,6 @@ EndChar
 StartChar: i
 Encoding: 105 105 73
 AltUni2: 000456.ffffffff.0
-GlifName: i
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -3275,7 +3201,6 @@ EndChar
 StartChar: j
 Encoding: 106 106 74
 AltUni2: 0003f3.ffffffff.0 000458.ffffffff.0
-GlifName: j
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -3311,7 +3236,6 @@ EndChar
 
 StartChar: k
 Encoding: 107 107 75
-GlifName: k
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -3365,7 +3289,6 @@ EndChar
 
 StartChar: l
 Encoding: 108 108 76
-GlifName: l
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -3390,7 +3313,6 @@ EndChar
 
 StartChar: m
 Encoding: 109 109 77
-GlifName: m
 Width: 576
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -3432,7 +3354,6 @@ EndChar
 
 StartChar: n
 Encoding: 110 110 78
-GlifName: n
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -3466,7 +3387,6 @@ EndChar
 StartChar: o
 Encoding: 111 111 79
 AltUni2: 0003bf.ffffffff.0 00043e.ffffffff.0
-GlifName: o
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -3521,7 +3441,6 @@ EndChar
 StartChar: p
 Encoding: 112 112 80
 AltUni2: 000440.ffffffff.0
-GlifName: p
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -3572,7 +3491,6 @@ EndChar
 
 StartChar: q
 Encoding: 113 113 81
-GlifName: q
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -3623,7 +3541,6 @@ EndChar
 
 StartChar: r
 Encoding: 114 114 82
-GlifName: r
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -3656,7 +3573,6 @@ EndChar
 StartChar: s
 Encoding: 115 115 83
 AltUni2: 000455.ffffffff.0
-GlifName: s
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -3715,7 +3631,6 @@ EndChar
 
 StartChar: t
 Encoding: 116 116 84
-GlifName: t
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -3746,7 +3661,6 @@ EndChar
 
 StartChar: u
 Encoding: 117 117 85
-GlifName: u
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -3779,7 +3693,6 @@ EndChar
 
 StartChar: v
 Encoding: 118 118 86
-GlifName: v
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -3814,7 +3727,6 @@ EndChar
 
 StartChar: w
 Encoding: 119 119 87
-GlifName: w
 Width: 576
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -3859,7 +3771,6 @@ EndChar
 StartChar: x
 Encoding: 120 120 88
 AltUni2: 000445.ffffffff.0
-GlifName: x
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -3918,7 +3829,6 @@ EndChar
 StartChar: y
 Encoding: 121 121 89
 AltUni2: 000443.ffffffff.0
-GlifName: y
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -3963,7 +3873,6 @@ EndChar
 
 StartChar: z
 Encoding: 122 122 90
-GlifName: z
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -4004,7 +3913,6 @@ EndChar
 
 StartChar: braceleft
 Encoding: 123 123 91
-GlifName: braceleft
 Width: 384
 Flags: HMW
 AnchorPoint: "blwm" 448 0 basechar 0
@@ -4041,7 +3949,6 @@ EndChar
 
 StartChar: bar
 Encoding: 124 124 92
-GlifName: bar
 Width: 256
 Flags: HMW
 AnchorPoint: "blwm" 256 2 basechar 0
@@ -4060,7 +3967,6 @@ EndChar
 
 StartChar: braceright
 Encoding: 125 125 93
-GlifName: braceright
 Width: 384
 Flags: HMW
 AnchorPoint: "blwm" 384 0 basechar 0
@@ -4098,7 +4004,6 @@ EndChar
 
 StartChar: asciitilde
 Encoding: 126 126 94
-GlifName: asciitilde
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -4132,7 +4037,6 @@ EndChar
 
 StartChar: gravecomb
 Encoding: 768 768 95
-GlifName: gravecomb
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm.mkmk" 0 768 basemark 0
@@ -4156,7 +4060,6 @@ EndChar
 
 StartChar: acutecomb
 Encoding: 769 769 96
-GlifName: acutecomb
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4180,7 +4083,6 @@ EndChar
 
 StartChar: uni0302
 Encoding: 770 770 97
-GlifName: uni0302
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4208,7 +4110,6 @@ EndChar
 
 StartChar: tildecomb
 Encoding: 771 771 98
-GlifName: tildecomb
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4243,7 +4144,6 @@ EndChar
 
 StartChar: uni0304
 Encoding: 772 772 99
-GlifName: uni0304
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4263,7 +4163,6 @@ EndChar
 
 StartChar: uni0305
 Encoding: 773 773 100
-GlifName: uni0305
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4283,7 +4182,6 @@ EndChar
 
 StartChar: uni0306
 Encoding: 774 774 101
-GlifName: uni0306
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4313,7 +4211,6 @@ EndChar
 
 StartChar: uni0307
 Encoding: 775 775 102
-GlifName: uni0307
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4333,7 +4230,6 @@ EndChar
 
 StartChar: uni0308
 Encoding: 776 776 103
-GlifName: uni0308
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4358,7 +4254,6 @@ EndChar
 
 StartChar: hookabovecomb
 Encoding: 777 777 104
-GlifName: hookabovecomb
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4388,7 +4283,6 @@ EndChar
 
 StartChar: uni030A
 Encoding: 778 778 105
-GlifName: uni030A_
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4413,7 +4307,6 @@ EndChar
 
 StartChar: uni030B
 Encoding: 779 779 106
-GlifName: uni030B_
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4446,7 +4339,6 @@ EndChar
 
 StartChar: uni030C
 Encoding: 780 780 107
-GlifName: uni030C_
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4474,7 +4366,6 @@ EndChar
 
 StartChar: uni030D
 Encoding: 781 781 108
-GlifName: uni030D_
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4494,7 +4385,6 @@ EndChar
 
 StartChar: uni030E
 Encoding: 782 782 109
-GlifName: uni030E_
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4519,7 +4409,6 @@ EndChar
 
 StartChar: uni030F
 Encoding: 783 783 110
-GlifName: uni030F_
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4554,7 +4443,6 @@ EndChar
 
 StartChar: uni0311
 Encoding: 785 785 111
-GlifName: uni0311
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4582,7 +4470,6 @@ EndChar
 
 StartChar: uni031A
 Encoding: 794 794 112
-GlifName: uni031A_
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -4604,7 +4491,6 @@ EndChar
 
 StartChar: dotbelowcomb
 Encoding: 803 803 113
-GlifName: dotbelowcomb
 Width: 0
 Flags: MW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -4624,7 +4510,6 @@ EndChar
 
 StartChar: uni0326
 Encoding: 806 806 114
-GlifName: uni0326
 Width: 0
 Flags: MW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -4646,7 +4531,6 @@ EndChar
 
 StartChar: uni0327
 Encoding: 807 807 115
-GlifName: uni0327
 Width: 0
 Flags: HMW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -4676,7 +4560,6 @@ EndChar
 
 StartChar: uni0328
 Encoding: 808 808 116
-GlifName: uni0328
 Width: 0
 Flags: HMW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -4705,7 +4588,6 @@ EndChar
 
 StartChar: uni0237
 Encoding: 567 567 117
-GlifName: uni0237
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -4736,7 +4618,6 @@ EndChar
 
 StartChar: uni00A0
 Encoding: 160 160 118
-GlifName: uni00A_0
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -4744,7 +4625,6 @@ EndChar
 
 StartChar: exclamdown
 Encoding: 161 161 119
-GlifName: exclamdown
 Width: 384
 Flags: HMW
 LayerCount: 2
@@ -4768,7 +4648,6 @@ EndChar
 
 StartChar: cent
 Encoding: 162 162 120
-GlifName: cent
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -4820,7 +4699,6 @@ EndChar
 
 StartChar: sterling
 Encoding: 163 163 121
-GlifName: sterling
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -4879,7 +4757,6 @@ EndChar
 
 StartChar: currency
 Encoding: 164 164 122
-GlifName: currency
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -4929,7 +4806,6 @@ EndChar
 
 StartChar: yen
 Encoding: 165 165 123
-GlifName: yen
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -4976,7 +4852,6 @@ EndChar
 
 StartChar: brokenbar
 Encoding: 166 166 124
-GlifName: brokenbar
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -4998,7 +4873,6 @@ EndChar
 
 StartChar: section
 Encoding: 167 167 125
-GlifName: section
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -5068,7 +4942,6 @@ EndChar
 
 StartChar: dieresis
 Encoding: 168 168 126
-GlifName: dieresis
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -5090,7 +4963,6 @@ EndChar
 
 StartChar: copyright
 Encoding: 169 169 127
-GlifName: copyright
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -5167,7 +5039,6 @@ EndChar
 
 StartChar: ordfeminine
 Encoding: 170 170 128
-GlifName: ordfeminine
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -5207,7 +5078,6 @@ EndChar
 
 StartChar: guillemotleft
 Encoding: 171 171 129
-GlifName: guillemotleft
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -5269,7 +5139,6 @@ EndChar
 
 StartChar: logicalnot
 Encoding: 172 172 130
-GlifName: logicalnot
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -5288,7 +5157,6 @@ EndChar
 
 StartChar: registered
 Encoding: 174 174 131
-GlifName: registered
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -5360,7 +5228,6 @@ EndChar
 
 StartChar: macron
 Encoding: 175 175 132
-GlifName: macron
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -5377,7 +5244,6 @@ EndChar
 
 StartChar: degree
 Encoding: 176 176 133
-GlifName: degree
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -5399,7 +5265,6 @@ EndChar
 
 StartChar: plusminus
 Encoding: 177 177 134
-GlifName: plusminus
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -5429,7 +5294,6 @@ EndChar
 
 StartChar: uni00B2
 Encoding: 178 178 135
-GlifName: uni00B_2
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -5470,7 +5334,6 @@ EndChar
 
 StartChar: uni00B3
 Encoding: 179 179 136
-GlifName: uni00B_3
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -5517,7 +5380,6 @@ EndChar
 
 StartChar: acute
 Encoding: 180 180 137
-GlifName: acute
 Width: 256
 Flags: HMW
 LayerCount: 2
@@ -5544,7 +5406,6 @@ EndChar
 
 StartChar: mu
 Encoding: 181 181 138
-GlifName: mu
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -5578,7 +5439,6 @@ EndChar
 
 StartChar: paragraph
 Encoding: 182 182 139
-GlifName: paragraph
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -5606,7 +5466,6 @@ EndChar
 StartChar: periodcentered
 Encoding: 183 183 140
 AltUni2: 000387.ffffffff.0
-GlifName: periodcentered
 Width: 256
 Flags: MW
 LayerCount: 2
@@ -5623,7 +5482,6 @@ EndChar
 
 StartChar: cedilla
 Encoding: 184 184 141
-GlifName: cedilla
 Width: 256
 Flags: HMW
 LayerCount: 2
@@ -5650,7 +5508,6 @@ EndChar
 
 StartChar: uni00B9
 Encoding: 185 185 142
-GlifName: uni00B_9
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -5680,7 +5537,6 @@ EndChar
 
 StartChar: ordmasculine
 Encoding: 186 186 143
-GlifName: ordmasculine
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -5731,7 +5587,6 @@ EndChar
 
 StartChar: guillemotright
 Encoding: 187 187 144
-GlifName: guillemotright
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -5785,7 +5640,6 @@ EndChar
 
 StartChar: onequarter
 Encoding: 188 188 145
-GlifName: onequarter
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -5860,7 +5714,6 @@ EndChar
 
 StartChar: onehalf
 Encoding: 189 189 146
-GlifName: onehalf
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -5933,7 +5786,6 @@ EndChar
 
 StartChar: threequarters
 Encoding: 190 190 147
-GlifName: threequarters
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -6020,7 +5872,6 @@ EndChar
 
 StartChar: questiondown
 Encoding: 191 191 148
-GlifName: questiondown
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -6063,7 +5914,6 @@ EndChar
 
 StartChar: Agrave
 Encoding: 192 192 149
-GlifName: A_grave
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6077,7 +5927,6 @@ EndChar
 
 StartChar: Aacute
 Encoding: 193 193 150
-GlifName: A_acute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6091,7 +5940,6 @@ EndChar
 
 StartChar: Acircumflex
 Encoding: 194 194 151
-GlifName: A_circumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6105,7 +5953,6 @@ EndChar
 
 StartChar: Atilde
 Encoding: 195 195 152
-GlifName: A_tilde
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6119,7 +5966,6 @@ EndChar
 
 StartChar: Adieresis
 Encoding: 196 196 153
-GlifName: A_dieresis
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6133,7 +5979,6 @@ EndChar
 
 StartChar: Aring
 Encoding: 197 197 154
-GlifName: A_ring
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -6186,7 +6031,6 @@ EndChar
 StartChar: AE
 Encoding: 198 198 155
 AltUni2: 0004d4.ffffffff.0
-GlifName: A_E_
 Width: 576
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -6227,7 +6071,6 @@ EndChar
 
 StartChar: Ccedilla
 Encoding: 199 199 156
-GlifName: C_cedilla
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -6242,7 +6085,6 @@ EndChar
 StartChar: Egrave
 Encoding: 200 200 157
 AltUni2: 000400.ffffffff.0
-GlifName: E_grave
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6256,7 +6098,6 @@ EndChar
 
 StartChar: Eacute
 Encoding: 201 201 158
-GlifName: E_acute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6270,7 +6111,6 @@ EndChar
 
 StartChar: Ecircumflex
 Encoding: 202 202 159
-GlifName: E_circumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6285,7 +6125,6 @@ EndChar
 StartChar: Edieresis
 Encoding: 203 203 160
 AltUni2: 000401.ffffffff.0
-GlifName: E_dieresis
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6299,7 +6138,6 @@ EndChar
 
 StartChar: Igrave
 Encoding: 204 204 161
-GlifName: I_grave
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6313,7 +6151,6 @@ EndChar
 
 StartChar: Iacute
 Encoding: 205 205 162
-GlifName: I_acute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6327,7 +6164,6 @@ EndChar
 
 StartChar: Icircumflex
 Encoding: 206 206 163
-GlifName: I_circumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6342,7 +6178,6 @@ EndChar
 StartChar: Idieresis
 Encoding: 207 207 164
 AltUni2: 000407.ffffffff.0 0003aa.ffffffff.0
-GlifName: I_dieresis
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6357,7 +6192,6 @@ EndChar
 StartChar: Eth
 Encoding: 208 208 165
 AltUni2: 000189.ffffffff.0
-GlifName: E_th
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -6404,7 +6238,6 @@ EndChar
 
 StartChar: Ntilde
 Encoding: 209 209 166
-GlifName: N_tilde
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6418,7 +6251,6 @@ EndChar
 
 StartChar: Ograve
 Encoding: 210 210 167
-GlifName: O_grave
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6432,7 +6264,6 @@ EndChar
 
 StartChar: Oacute
 Encoding: 211 211 168
-GlifName: O_acute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6446,7 +6277,6 @@ EndChar
 
 StartChar: Ocircumflex
 Encoding: 212 212 169
-GlifName: O_circumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6460,7 +6290,6 @@ EndChar
 
 StartChar: Otilde
 Encoding: 213 213 170
-GlifName: O_tilde
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6474,7 +6303,6 @@ EndChar
 
 StartChar: Odieresis
 Encoding: 214 214 171
-GlifName: O_dieresis
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6488,7 +6316,6 @@ EndChar
 
 StartChar: multiply
 Encoding: 215 215 172
-GlifName: multiply
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -6541,7 +6368,6 @@ EndChar
 
 StartChar: Oslash
 Encoding: 216 216 173
-GlifName: O_slash
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -6620,7 +6446,6 @@ EndChar
 
 StartChar: Ugrave
 Encoding: 217 217 174
-GlifName: U_grave
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6634,7 +6459,6 @@ EndChar
 
 StartChar: Uacute
 Encoding: 218 218 175
-GlifName: U_acute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6648,7 +6472,6 @@ EndChar
 
 StartChar: Ucircumflex
 Encoding: 219 219 176
-GlifName: U_circumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6662,7 +6485,6 @@ EndChar
 
 StartChar: Udieresis
 Encoding: 220 220 177
-GlifName: U_dieresis
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6676,7 +6498,6 @@ EndChar
 
 StartChar: Yacute
 Encoding: 221 221 178
-GlifName: Y_acute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -6690,7 +6511,6 @@ EndChar
 
 StartChar: Thorn
 Encoding: 222 222 179
-GlifName: T_horn
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -6722,7 +6542,6 @@ EndChar
 
 StartChar: germandbls
 Encoding: 223 223 180
-GlifName: germandbls
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -6785,7 +6604,6 @@ EndChar
 
 StartChar: agrave
 Encoding: 224 224 181
-GlifName: agrave
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -6799,7 +6617,6 @@ EndChar
 
 StartChar: aacute
 Encoding: 225 225 182
-GlifName: aacute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -6813,7 +6630,6 @@ EndChar
 
 StartChar: acircumflex
 Encoding: 226 226 183
-GlifName: acircumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -6827,7 +6643,6 @@ EndChar
 
 StartChar: atilde
 Encoding: 227 227 184
-GlifName: atilde
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -6841,7 +6656,6 @@ EndChar
 
 StartChar: adieresis
 Encoding: 228 228 185
-GlifName: adieresis
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -6855,7 +6669,6 @@ EndChar
 
 StartChar: aring
 Encoding: 229 229 186
-GlifName: aring
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -6870,7 +6683,6 @@ EndChar
 StartChar: ae
 Encoding: 230 230 187
 AltUni2: 0004d5.ffffffff.0
-GlifName: ae
 Width: 640
 Flags: HMW
 AnchorPoint: "abvm" 576 768 basechar 0
@@ -6935,7 +6747,6 @@ EndChar
 
 StartChar: ccedilla
 Encoding: 231 231 188
-GlifName: ccedilla
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -6950,7 +6761,6 @@ EndChar
 StartChar: egrave
 Encoding: 232 232 189
 AltUni2: 000450.ffffffff.0
-GlifName: egrave
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -6964,7 +6774,6 @@ EndChar
 
 StartChar: eacute
 Encoding: 233 233 190
-GlifName: eacute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -6978,7 +6787,6 @@ EndChar
 
 StartChar: ecircumflex
 Encoding: 234 234 191
-GlifName: ecircumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -6993,7 +6801,6 @@ EndChar
 StartChar: edieresis
 Encoding: 235 235 192
 AltUni2: 000451.ffffffff.0
-GlifName: edieresis
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7007,7 +6814,6 @@ EndChar
 
 StartChar: igrave
 Encoding: 236 236 193
-GlifName: igrave
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7021,7 +6827,6 @@ EndChar
 
 StartChar: iacute
 Encoding: 237 237 194
-GlifName: iacute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7035,7 +6840,6 @@ EndChar
 
 StartChar: icircumflex
 Encoding: 238 238 195
-GlifName: icircumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7050,7 +6854,6 @@ EndChar
 StartChar: idieresis
 Encoding: 239 239 196
 AltUni2: 000457.ffffffff.0
-GlifName: idieresis
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7064,7 +6867,6 @@ EndChar
 
 StartChar: eth
 Encoding: 240 240 197
-GlifName: eth
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -7120,7 +6922,6 @@ EndChar
 
 StartChar: ntilde
 Encoding: 241 241 198
-GlifName: ntilde
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7134,7 +6935,6 @@ EndChar
 
 StartChar: ograve
 Encoding: 242 242 199
-GlifName: ograve
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7149,7 +6949,6 @@ EndChar
 StartChar: oacute
 Encoding: 243 243 200
 AltUni2: 0003cc.ffffffff.0
-GlifName: oacute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7163,7 +6962,6 @@ EndChar
 
 StartChar: ocircumflex
 Encoding: 244 244 201
-GlifName: ocircumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7177,7 +6975,6 @@ EndChar
 
 StartChar: otilde
 Encoding: 245 245 202
-GlifName: otilde
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7191,7 +6988,6 @@ EndChar
 
 StartChar: odieresis
 Encoding: 246 246 203
-GlifName: odieresis
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7205,7 +7001,6 @@ EndChar
 
 StartChar: divide
 Encoding: 247 247 204
-GlifName: divide
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -7234,7 +7029,6 @@ EndChar
 
 StartChar: oslash
 Encoding: 248 248 205
-GlifName: oslash
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -7304,7 +7098,6 @@ EndChar
 
 StartChar: ugrave
 Encoding: 249 249 206
-GlifName: ugrave
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7318,7 +7111,6 @@ EndChar
 
 StartChar: uacute
 Encoding: 250 250 207
-GlifName: uacute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7332,7 +7124,6 @@ EndChar
 
 StartChar: ucircumflex
 Encoding: 251 251 208
-GlifName: ucircumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7346,7 +7137,6 @@ EndChar
 
 StartChar: udieresis
 Encoding: 252 252 209
-GlifName: udieresis
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7360,7 +7150,6 @@ EndChar
 
 StartChar: yacute
 Encoding: 253 253 210
-GlifName: yacute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7374,7 +7163,6 @@ EndChar
 
 StartChar: thorn
 Encoding: 254 254 211
-GlifName: thorn
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -7425,7 +7213,6 @@ EndChar
 
 StartChar: ydieresis
 Encoding: 255 255 212
-GlifName: ydieresis
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7439,7 +7226,6 @@ EndChar
 
 StartChar: Amacron
 Encoding: 256 256 213
-GlifName: A_macron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7453,7 +7239,6 @@ EndChar
 
 StartChar: amacron
 Encoding: 257 257 214
-GlifName: amacron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7467,7 +7252,6 @@ EndChar
 
 StartChar: Abreve
 Encoding: 258 258 215
-GlifName: A_breve
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7481,7 +7265,6 @@ EndChar
 
 StartChar: abreve
 Encoding: 259 259 216
-GlifName: abreve
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7495,7 +7278,6 @@ EndChar
 
 StartChar: Aogonek
 Encoding: 260 260 217
-GlifName: A_ogonek
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -7509,7 +7291,6 @@ EndChar
 
 StartChar: aogonek
 Encoding: 261 261 218
-GlifName: aogonek
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -7523,7 +7304,6 @@ EndChar
 
 StartChar: Cacute
 Encoding: 262 262 219
-GlifName: C_acute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7537,7 +7317,6 @@ EndChar
 
 StartChar: cacute
 Encoding: 263 263 220
-GlifName: cacute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7551,7 +7330,6 @@ EndChar
 
 StartChar: Ccircumflex
 Encoding: 264 264 221
-GlifName: C_circumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7565,7 +7343,6 @@ EndChar
 
 StartChar: ccircumflex
 Encoding: 265 265 222
-GlifName: ccircumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7579,7 +7356,6 @@ EndChar
 
 StartChar: Cdotaccent
 Encoding: 266 266 223
-GlifName: C_dotaccent
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7593,7 +7369,6 @@ EndChar
 
 StartChar: cdotaccent
 Encoding: 267 267 224
-GlifName: cdotaccent
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7607,7 +7382,6 @@ EndChar
 
 StartChar: Ccaron
 Encoding: 268 268 225
-GlifName: C_caron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7621,7 +7395,6 @@ EndChar
 
 StartChar: ccaron
 Encoding: 269 269 226
-GlifName: ccaron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7635,7 +7408,6 @@ EndChar
 
 StartChar: Dcaron
 Encoding: 270 270 227
-GlifName: D_caron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7649,7 +7421,6 @@ EndChar
 
 StartChar: dcaron
 Encoding: 271 271 228
-GlifName: dcaron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7663,7 +7434,6 @@ EndChar
 
 StartChar: Dcroat
 Encoding: 272 272 229
-GlifName: D_croat
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7676,7 +7446,6 @@ EndChar
 
 StartChar: dcroat
 Encoding: 273 273 230
-GlifName: dcroat
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -7735,7 +7504,6 @@ EndChar
 
 StartChar: Emacron
 Encoding: 274 274 231
-GlifName: E_macron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7749,7 +7517,6 @@ EndChar
 
 StartChar: emacron
 Encoding: 275 275 232
-GlifName: emacron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7763,7 +7530,6 @@ EndChar
 
 StartChar: Ebreve
 Encoding: 276 276 233
-GlifName: E_breve
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7777,7 +7543,6 @@ EndChar
 
 StartChar: ebreve
 Encoding: 277 277 234
-GlifName: ebreve
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7791,7 +7556,6 @@ EndChar
 
 StartChar: Edotaccent
 Encoding: 278 278 235
-GlifName: E_dotaccent
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7805,7 +7569,6 @@ EndChar
 
 StartChar: edotaccent
 Encoding: 279 279 236
-GlifName: edotaccent
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7819,7 +7582,6 @@ EndChar
 
 StartChar: Eogonek
 Encoding: 280 280 237
-GlifName: E_ogonek
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -7833,7 +7595,6 @@ EndChar
 
 StartChar: eogonek
 Encoding: 281 281 238
-GlifName: eogonek
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -7847,7 +7608,6 @@ EndChar
 
 StartChar: Ecaron
 Encoding: 282 282 239
-GlifName: E_caron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7861,7 +7621,6 @@ EndChar
 
 StartChar: ecaron
 Encoding: 283 283 240
-GlifName: ecaron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7875,7 +7634,6 @@ EndChar
 
 StartChar: Gcircumflex
 Encoding: 284 284 241
-GlifName: G_circumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7889,7 +7647,6 @@ EndChar
 
 StartChar: gcircumflex
 Encoding: 285 285 242
-GlifName: gcircumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7902,7 +7659,6 @@ EndChar
 
 StartChar: Gbreve
 Encoding: 286 286 243
-GlifName: G_breve
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7916,7 +7672,6 @@ EndChar
 
 StartChar: gbreve
 Encoding: 287 287 244
-GlifName: gbreve
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7929,7 +7684,6 @@ EndChar
 
 StartChar: Gdotaccent
 Encoding: 288 288 245
-GlifName: G_dotaccent
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7943,7 +7697,6 @@ EndChar
 
 StartChar: gdotaccent
 Encoding: 289 289 246
-GlifName: gdotaccent
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7956,7 +7709,6 @@ EndChar
 
 StartChar: uni0122
 Encoding: 290 290 247
-GlifName: uni0122
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -7970,7 +7722,6 @@ EndChar
 
 StartChar: uni0123
 Encoding: 291 291 248
-GlifName: uni0123
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -7983,7 +7734,6 @@ EndChar
 
 StartChar: Hcircumflex
 Encoding: 292 292 249
-GlifName: H_circumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -7997,7 +7747,6 @@ EndChar
 
 StartChar: hcircumflex
 Encoding: 293 293 250
-GlifName: hcircumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8011,7 +7760,6 @@ EndChar
 
 StartChar: Hbar
 Encoding: 294 294 251
-GlifName: H_bar
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8051,7 +7799,6 @@ EndChar
 
 StartChar: hbar
 Encoding: 295 295 252
-GlifName: hbar
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8091,7 +7838,6 @@ EndChar
 
 StartChar: Itilde
 Encoding: 296 296 253
-GlifName: I_tilde
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -8105,7 +7851,6 @@ EndChar
 
 StartChar: itilde
 Encoding: 297 297 254
-GlifName: itilde
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8119,7 +7864,6 @@ EndChar
 
 StartChar: Imacron
 Encoding: 298 298 255
-GlifName: I_macron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -8133,7 +7877,6 @@ EndChar
 
 StartChar: imacron
 Encoding: 299 299 256
-GlifName: imacron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8147,7 +7890,6 @@ EndChar
 
 StartChar: Ibreve
 Encoding: 300 300 257
-GlifName: I_breve
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -8161,7 +7903,6 @@ EndChar
 
 StartChar: ibreve
 Encoding: 301 301 258
-GlifName: ibreve
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8175,7 +7916,6 @@ EndChar
 
 StartChar: Iogonek
 Encoding: 302 302 259
-GlifName: I_ogonek
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -8189,7 +7929,6 @@ EndChar
 
 StartChar: iogonek
 Encoding: 303 303 260
-GlifName: iogonek
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8203,7 +7942,6 @@ EndChar
 
 StartChar: Idotaccent
 Encoding: 304 304 261
-GlifName: I_dotaccent
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -8217,7 +7955,6 @@ EndChar
 
 StartChar: dotlessi
 Encoding: 305 305 262
-GlifName: dotlessi
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -8242,7 +7979,6 @@ EndChar
 
 StartChar: IJ
 Encoding: 306 306 263
-GlifName: I_J_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8274,7 +8010,6 @@ EndChar
 
 StartChar: ij
 Encoding: 307 307 264
-GlifName: ij
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8317,7 +8052,6 @@ EndChar
 
 StartChar: Jcircumflex
 Encoding: 308 308 265
-GlifName: J_circumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -8331,7 +8065,6 @@ EndChar
 
 StartChar: jcircumflex
 Encoding: 309 309 266
-GlifName: jcircumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8345,7 +8078,6 @@ EndChar
 
 StartChar: uni0136
 Encoding: 310 310 267
-GlifName: uni0136
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -8359,7 +8091,6 @@ EndChar
 
 StartChar: uni0137
 Encoding: 311 311 268
-GlifName: uni0137
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -8373,7 +8104,6 @@ EndChar
 
 StartChar: kgreenlandic
 Encoding: 312 312 269
-GlifName: kgreenlandic
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -8427,7 +8157,6 @@ EndChar
 
 StartChar: Lacute
 Encoding: 313 313 270
-GlifName: L_acute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -8441,7 +8170,6 @@ EndChar
 
 StartChar: lacute
 Encoding: 314 314 271
-GlifName: lacute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -8455,7 +8183,6 @@ EndChar
 
 StartChar: uni013B
 Encoding: 315 315 272
-GlifName: uni013B_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -8469,7 +8196,6 @@ EndChar
 
 StartChar: uni013C
 Encoding: 316 316 273
-GlifName: uni013C_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -8483,7 +8209,6 @@ EndChar
 
 StartChar: Lcaron
 Encoding: 317 317 274
-GlifName: L_caron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -8516,7 +8241,6 @@ EndChar
 
 StartChar: lcaron
 Encoding: 318 318 275
-GlifName: lcaron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -8553,7 +8277,6 @@ EndChar
 
 StartChar: Ldot
 Encoding: 319 319 276
-GlifName: L_dot
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -8579,7 +8302,6 @@ EndChar
 
 StartChar: ldot
 Encoding: 320 320 277
-GlifName: ldot
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -8609,7 +8331,6 @@ EndChar
 
 StartChar: Lslash
 Encoding: 321 321 278
-GlifName: L_slash
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -8648,7 +8369,6 @@ EndChar
 
 StartChar: lslash
 Encoding: 322 322 279
-GlifName: lslash
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -8691,7 +8411,6 @@ EndChar
 
 StartChar: Nacute
 Encoding: 323 323 280
-GlifName: N_acute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -8705,7 +8424,6 @@ EndChar
 
 StartChar: nacute
 Encoding: 324 324 281
-GlifName: nacute
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8719,7 +8437,6 @@ EndChar
 
 StartChar: uni0145
 Encoding: 325 325 282
-GlifName: uni0145
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -8733,7 +8450,6 @@ EndChar
 
 StartChar: uni0146
 Encoding: 326 326 283
-GlifName: uni0146
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -8747,7 +8463,6 @@ EndChar
 
 StartChar: Ncaron
 Encoding: 327 327 284
-GlifName: N_caron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8761,7 +8476,6 @@ EndChar
 
 StartChar: ncaron
 Encoding: 328 328 285
-GlifName: ncaron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8775,7 +8489,6 @@ EndChar
 
 StartChar: napostrophe
 Encoding: 329 329 286
-GlifName: napostrophe
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8789,7 +8502,6 @@ EndChar
 
 StartChar: Eng
 Encoding: 330 330 287
-GlifName: E_ng
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -8834,7 +8546,6 @@ EndChar
 
 StartChar: eng
 Encoding: 331 331 288
-GlifName: eng
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -8871,7 +8582,6 @@ EndChar
 
 StartChar: Omacron
 Encoding: 332 332 289
-GlifName: O_macron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -8885,7 +8595,6 @@ EndChar
 
 StartChar: omacron
 Encoding: 333 333 290
-GlifName: omacron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8899,7 +8608,6 @@ EndChar
 
 StartChar: Obreve
 Encoding: 334 334 291
-GlifName: O_breve
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -8913,7 +8621,6 @@ EndChar
 
 StartChar: obreve
 Encoding: 335 335 292
-GlifName: obreve
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8927,7 +8634,6 @@ EndChar
 
 StartChar: Ohungarumlaut
 Encoding: 336 336 293
-GlifName: O_hungarumlaut
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -8941,7 +8647,6 @@ EndChar
 
 StartChar: ohungarumlaut
 Encoding: 337 337 294
-GlifName: ohungarumlaut
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -8955,7 +8660,6 @@ EndChar
 
 StartChar: OE
 Encoding: 338 338 295
-GlifName: O_E_
 Width: 576
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -9014,7 +8718,6 @@ EndChar
 
 StartChar: oe
 Encoding: 339 339 296
-GlifName: oe
 Width: 640
 Flags: HMW
 AnchorPoint: "abvm" 576 577 basechar 0
@@ -9071,7 +8774,6 @@ EndChar
 
 StartChar: Racute
 Encoding: 340 340 297
-GlifName: R_acute
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9085,7 +8787,6 @@ EndChar
 
 StartChar: racute
 Encoding: 341 341 298
-GlifName: racute
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9099,7 +8800,6 @@ EndChar
 
 StartChar: uni0156
 Encoding: 342 342 299
-GlifName: uni0156
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -9113,7 +8813,6 @@ EndChar
 
 StartChar: uni0157
 Encoding: 343 343 300
-GlifName: uni0157
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -9127,7 +8826,6 @@ EndChar
 
 StartChar: Rcaron
 Encoding: 344 344 301
-GlifName: R_caron
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9141,7 +8839,6 @@ EndChar
 
 StartChar: rcaron
 Encoding: 345 345 302
-GlifName: rcaron
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9155,7 +8852,6 @@ EndChar
 
 StartChar: Sacute
 Encoding: 346 346 303
-GlifName: S_acute
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9169,7 +8865,6 @@ EndChar
 
 StartChar: sacute
 Encoding: 347 347 304
-GlifName: sacute
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9183,7 +8878,6 @@ EndChar
 
 StartChar: Scircumflex
 Encoding: 348 348 305
-GlifName: S_circumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9197,7 +8891,6 @@ EndChar
 
 StartChar: scircumflex
 Encoding: 349 349 306
-GlifName: scircumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9211,7 +8904,6 @@ EndChar
 
 StartChar: Scedilla
 Encoding: 350 350 307
-GlifName: S_cedilla
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -9225,7 +8917,6 @@ EndChar
 
 StartChar: scedilla
 Encoding: 351 351 308
-GlifName: scedilla
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -9239,7 +8930,6 @@ EndChar
 
 StartChar: Scaron
 Encoding: 352 352 309
-GlifName: S_caron
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9253,7 +8943,6 @@ EndChar
 
 StartChar: scaron
 Encoding: 353 353 310
-GlifName: scaron
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9267,7 +8956,6 @@ EndChar
 
 StartChar: uni0162
 Encoding: 354 354 311
-GlifName: uni0162
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -9281,7 +8969,6 @@ EndChar
 
 StartChar: uni0163
 Encoding: 355 355 312
-GlifName: uni0163
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -9295,7 +8982,6 @@ EndChar
 
 StartChar: Tcaron
 Encoding: 356 356 313
-GlifName: T_caron
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9309,7 +8995,6 @@ EndChar
 
 StartChar: tcaron
 Encoding: 357 357 314
-GlifName: tcaron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -9323,7 +9008,6 @@ EndChar
 
 StartChar: Tbar
 Encoding: 358 358 315
-GlifName: T_bar
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -9354,7 +9038,6 @@ EndChar
 
 StartChar: tbar
 Encoding: 359 359 316
-GlifName: tbar
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -9394,7 +9077,6 @@ EndChar
 
 StartChar: Utilde
 Encoding: 360 360 317
-GlifName: U_tilde
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -9408,7 +9090,6 @@ EndChar
 
 StartChar: utilde
 Encoding: 361 361 318
-GlifName: utilde
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -9422,7 +9103,6 @@ EndChar
 
 StartChar: Umacron
 Encoding: 362 362 319
-GlifName: U_macron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -9436,7 +9116,6 @@ EndChar
 
 StartChar: umacron
 Encoding: 363 363 320
-GlifName: umacron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -9450,7 +9129,6 @@ EndChar
 
 StartChar: Ubreve
 Encoding: 364 364 321
-GlifName: U_breve
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -9464,7 +9142,6 @@ EndChar
 
 StartChar: ubreve
 Encoding: 365 365 322
-GlifName: ubreve
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -9478,7 +9155,6 @@ EndChar
 
 StartChar: Uring
 Encoding: 366 366 323
-GlifName: U_ring
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -9492,7 +9168,6 @@ EndChar
 
 StartChar: uring
 Encoding: 367 367 324
-GlifName: uring
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -9506,7 +9181,6 @@ EndChar
 
 StartChar: Uhungarumlaut
 Encoding: 368 368 325
-GlifName: U_hungarumlaut
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -9520,7 +9194,6 @@ EndChar
 
 StartChar: uhungarumlaut
 Encoding: 369 369 326
-GlifName: uhungarumlaut
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -9534,7 +9207,6 @@ EndChar
 
 StartChar: Uogonek
 Encoding: 370 370 327
-GlifName: U_ogonek
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -9548,7 +9220,6 @@ EndChar
 
 StartChar: uogonek
 Encoding: 371 371 328
-GlifName: uogonek
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 577 basechar 0
@@ -9562,7 +9233,6 @@ EndChar
 
 StartChar: Wcircumflex
 Encoding: 372 372 329
-GlifName: W_circumflex
 Width: 576
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9576,7 +9246,6 @@ EndChar
 
 StartChar: wcircumflex
 Encoding: 373 373 330
-GlifName: wcircumflex
 Width: 576
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9590,7 +9259,6 @@ EndChar
 
 StartChar: Ycircumflex
 Encoding: 374 374 331
-GlifName: Y_circumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9604,7 +9272,6 @@ EndChar
 
 StartChar: ycircumflex
 Encoding: 375 375 332
-GlifName: ycircumflex
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -9619,7 +9286,6 @@ EndChar
 StartChar: Ydieresis
 Encoding: 376 376 333
 AltUni2: 0003ab.ffffffff.0
-GlifName: Y_dieresis
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9633,7 +9299,6 @@ EndChar
 
 StartChar: Zacute
 Encoding: 377 377 334
-GlifName: Z_acute
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9647,7 +9312,6 @@ EndChar
 
 StartChar: zacute
 Encoding: 378 378 335
-GlifName: zacute
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9661,7 +9325,6 @@ EndChar
 
 StartChar: Zdotaccent
 Encoding: 379 379 336
-GlifName: Z_dotaccent
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9675,7 +9338,6 @@ EndChar
 
 StartChar: zdotaccent
 Encoding: 380 380 337
-GlifName: zdotaccent
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9689,7 +9351,6 @@ EndChar
 
 StartChar: Zcaron
 Encoding: 381 381 338
-GlifName: Z_caron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -9703,7 +9364,6 @@ EndChar
 
 StartChar: zcaron
 Encoding: 382 382 339
-GlifName: zcaron
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -9717,7 +9377,6 @@ EndChar
 
 StartChar: longs
 Encoding: 383 383 340
-GlifName: longs
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9744,7 +9403,6 @@ EndChar
 
 StartChar: uni0186
 Encoding: 390 390 341
-GlifName: uni0186
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9792,7 +9450,6 @@ EndChar
 
 StartChar: uni018E
 Encoding: 398 398 342
-GlifName: uni018E_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9820,7 +9477,6 @@ EndChar
 StartChar: uni018F
 Encoding: 399 399 343
 AltUni2: 0004d8.ffffffff.0
-GlifName: uni018F_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9869,7 +9525,6 @@ EndChar
 
 StartChar: uni0218
 Encoding: 536 536 344
-GlifName: uni0218
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -9883,7 +9538,6 @@ EndChar
 
 StartChar: uni0219
 Encoding: 537 537 345
-GlifName: uni0219
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -9897,7 +9551,6 @@ EndChar
 
 StartChar: uni021A
 Encoding: 538 538 346
-GlifName: uni021A_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -9911,7 +9564,6 @@ EndChar
 
 StartChar: uni021B
 Encoding: 539 539 347
-GlifName: uni021B_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -9925,7 +9577,6 @@ EndChar
 
 StartChar: uni0254
 Encoding: 596 596 348
-GlifName: uni0254
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -9973,7 +9624,6 @@ EndChar
 
 StartChar: uni0258
 Encoding: 600 600 349
-GlifName: uni0258
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -10023,7 +9673,6 @@ EndChar
 StartChar: uni0259
 Encoding: 601 601 350
 AltUni2: 0004d9.ffffffff.0 0001dd.ffffffff.0
-GlifName: uni0259
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -10073,7 +9722,6 @@ EndChar
 
 StartChar: .notdef
 Encoding: 1114112 -1 351
-GlifName: _notdef
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -10114,7 +9762,6 @@ EndChar
 
 StartChar: uni0E01
 Encoding: 3585 3585 352
-GlifName: uni0E_01
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -10146,7 +9793,6 @@ EndChar
 
 StartChar: uni0E02
 Encoding: 3586 3586 353
-GlifName: uni0E_02
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -10184,7 +9830,6 @@ EndChar
 
 StartChar: uni0E03
 Encoding: 3587 3587 354
-GlifName: uni0E_03
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -10226,7 +9871,6 @@ EndChar
 
 StartChar: uni0E04
 Encoding: 3588 3588 355
-GlifName: uni0E_04
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -10262,7 +9906,6 @@ EndChar
 
 StartChar: uni0E05
 Encoding: 3589 3589 356
-GlifName: uni0E_05
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -10305,7 +9948,6 @@ EndChar
 
 StartChar: uni0E06
 Encoding: 3590 3590 357
-GlifName: uni0E_06
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -10349,7 +9991,6 @@ EndChar
 
 StartChar: uni0E07
 Encoding: 3591 3591 358
-GlifName: uni0E_07
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -10384,7 +10025,6 @@ EndChar
 
 StartChar: uni0E08
 Encoding: 3592 3592 359
-GlifName: uni0E_08
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -10420,7 +10060,6 @@ EndChar
 
 StartChar: uni0E09
 Encoding: 3593 3593 360
-GlifName: uni0E_09
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -10467,7 +10106,6 @@ EndChar
 
 StartChar: uni0E0A
 Encoding: 3594 3594 361
-GlifName: uni0E_0A_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -10516,7 +10154,6 @@ EndChar
 
 StartChar: uni0E0B
 Encoding: 3595 3595 362
-GlifName: uni0E_0B_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -10569,7 +10206,6 @@ EndChar
 
 StartChar: uni0E0C
 Encoding: 3596 3596 363
-GlifName: uni0E_0C_
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 704 512 basechar 0
@@ -10623,7 +10259,6 @@ EndChar
 
 StartChar: uni0E0D
 Encoding: 3597 3597 364
-GlifName: uni0E_0D_
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 704 512 basechar 0
@@ -10670,7 +10305,6 @@ EndChar
 
 StartChar: uni0E0E
 Encoding: 3598 3598 365
-GlifName: uni0E_0E_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -10708,7 +10342,6 @@ EndChar
 
 StartChar: uni0E0F
 Encoding: 3599 3599 366
-GlifName: uni0E_0F_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -10760,7 +10393,6 @@ EndChar
 
 StartChar: uni0E10
 Encoding: 3600 3600 367
-GlifName: uni0E_10
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -10819,7 +10451,6 @@ EndChar
 
 StartChar: uni0E11
 Encoding: 3601 3601 368
-GlifName: uni0E_11
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -10860,7 +10491,6 @@ EndChar
 
 StartChar: uni0E12
 Encoding: 3602 3602 369
-GlifName: uni0E_12
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 704 512 basechar 0
@@ -10927,7 +10557,6 @@ EndChar
 
 StartChar: uni0E13
 Encoding: 3603 3603 370
-GlifName: uni0E_13
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 704 512 basechar 0
@@ -10980,7 +10609,6 @@ EndChar
 
 StartChar: uni0E14
 Encoding: 3604 3604 371
-GlifName: uni0E_14
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11025,7 +10653,6 @@ EndChar
 
 StartChar: uni0E15
 Encoding: 3605 3605 372
-GlifName: uni0E_15
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11078,7 +10705,6 @@ EndChar
 
 StartChar: uni0E16
 Encoding: 3606 3606 373
-GlifName: uni0E_16
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11112,7 +10738,6 @@ EndChar
 
 StartChar: uni0E17
 Encoding: 3607 3607 374
-GlifName: uni0E_17
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11147,7 +10772,6 @@ EndChar
 
 StartChar: uni0E18
 Encoding: 3608 3608 375
-GlifName: uni0E_18
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11181,7 +10805,6 @@ EndChar
 
 StartChar: uni0E19
 Encoding: 3609 3609 376
-GlifName: uni0E_19
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11222,7 +10845,6 @@ EndChar
 
 StartChar: uni0E1A
 Encoding: 3610 3610 377
-GlifName: uni0E_1A_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11247,7 +10869,6 @@ EndChar
 
 StartChar: uni0E1B
 Encoding: 3611 3611 378
-GlifName: uni0E_1B_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11272,7 +10893,6 @@ EndChar
 
 StartChar: uni0E1C
 Encoding: 3612 3612 379
-GlifName: uni0E_1C_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11310,7 +10930,6 @@ EndChar
 
 StartChar: uni0E1D
 Encoding: 3613 3613 380
-GlifName: uni0E_1D_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11348,7 +10967,6 @@ EndChar
 
 StartChar: uni0E1E
 Encoding: 3614 3614 381
-GlifName: uni0E_1E_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11385,7 +11003,6 @@ EndChar
 
 StartChar: uni0E1F
 Encoding: 3615 3615 382
-GlifName: uni0E_1F_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11422,7 +11039,6 @@ EndChar
 
 StartChar: uni0E20
 Encoding: 3616 3616 383
-GlifName: uni0E_20
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11456,7 +11072,6 @@ EndChar
 
 StartChar: uni0E21
 Encoding: 3617 3617 384
-GlifName: uni0E_21
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11496,7 +11111,6 @@ EndChar
 
 StartChar: uni0E22
 Encoding: 3618 3618 385
-GlifName: uni0E_22
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11530,7 +11144,6 @@ EndChar
 
 StartChar: uni0E23
 Encoding: 3619 3619 386
-GlifName: uni0E_23
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11560,7 +11173,6 @@ EndChar
 
 StartChar: uni0E24
 Encoding: 3620 3620 387
-GlifName: uni0E_24
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11594,7 +11206,6 @@ EndChar
 
 StartChar: uni0E25
 Encoding: 3621 3621 388
-GlifName: uni0E_25
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11637,7 +11248,6 @@ EndChar
 
 StartChar: uni0E26
 Encoding: 3622 3622 389
-GlifName: uni0E_26
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11671,7 +11281,6 @@ EndChar
 
 StartChar: uni0E27
 Encoding: 3623 3623 390
-GlifName: uni0E_27
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11701,7 +11310,6 @@ EndChar
 
 StartChar: uni0E28
 Encoding: 3624 3624 391
-GlifName: uni0E_28
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11745,7 +11353,6 @@ EndChar
 
 StartChar: uni0E29
 Encoding: 3625 3625 392
-GlifName: uni0E_29
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11780,7 +11387,6 @@ EndChar
 
 StartChar: uni0E2A
 Encoding: 3626 3626 393
-GlifName: uni0E_2A_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11831,7 +11437,6 @@ EndChar
 
 StartChar: uni0E2B
 Encoding: 3627 3627 394
-GlifName: uni0E_2B_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11871,7 +11476,6 @@ EndChar
 
 StartChar: uni0E2C
 Encoding: 3628 3628 395
-GlifName: uni0E_2C_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11922,7 +11526,6 @@ EndChar
 
 StartChar: uni0E2D
 Encoding: 3629 3629 396
-GlifName: uni0E_2D_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -11955,7 +11558,6 @@ EndChar
 
 StartChar: uni0E2E
 Encoding: 3630 3630 397
-GlifName: uni0E_2E_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -11994,7 +11596,6 @@ EndChar
 
 StartChar: uni0E2F
 Encoding: 3631 3631 398
-GlifName: uni0E_2F_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -12029,7 +11630,6 @@ EndChar
 
 StartChar: uni0E30
 Encoding: 3632 3632 399
-GlifName: uni0E_30
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -12065,7 +11665,6 @@ EndChar
 
 StartChar: uni0E31
 Encoding: 3633 3633 400
-GlifName: uni0E_31
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -12094,7 +11693,6 @@ EndChar
 
 StartChar: uni0E32
 Encoding: 3634 3634 401
-GlifName: uni0E_32
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -12121,7 +11719,6 @@ EndChar
 
 StartChar: uni0E33
 Encoding: 3635 3635 402
-GlifName: uni0E_33
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -12161,7 +11758,6 @@ EndChar
 
 StartChar: uni0E34
 Encoding: 3636 3636 403
-GlifName: uni0E_34
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -12187,7 +11783,6 @@ EndChar
 
 StartChar: uni0E35
 Encoding: 3637 3637 404
-GlifName: uni0E_35
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -12215,7 +11810,6 @@ EndChar
 
 StartChar: uni0E36
 Encoding: 3638 3638 405
-GlifName: uni0E_36
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -12246,7 +11840,6 @@ EndChar
 
 StartChar: uni0E37
 Encoding: 3639 3639 406
-GlifName: uni0E_37
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -12276,7 +11869,6 @@ EndChar
 
 StartChar: uni0E38
 Encoding: 3640 3640 407
-GlifName: uni0E_38
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -12302,7 +11894,6 @@ EndChar
 
 StartChar: uni0E39
 Encoding: 3641 3641 408
-GlifName: uni0E_39
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -12332,7 +11923,6 @@ EndChar
 
 StartChar: uni0E3A
 Encoding: 3642 3642 409
-GlifName: uni0E_3A_
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -12356,7 +11946,6 @@ EndChar
 
 StartChar: uni0E3F
 Encoding: 3647 3647 410
-GlifName: uni0E_3F_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -12411,7 +12000,6 @@ EndChar
 
 StartChar: uni0E40
 Encoding: 3648 3648 411
-GlifName: uni0E_40
 Width: 320
 Flags: HMW
 AnchorPoint: "blwm" 320 0 basechar 0
@@ -12432,7 +12020,6 @@ EndChar
 
 StartChar: uni0E41
 Encoding: 3649 3649 412
-GlifName: uni0E_41
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -12460,7 +12047,6 @@ EndChar
 
 StartChar: uni0E42
 Encoding: 3650 3650 413
-GlifName: uni0E_42
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 704 basechar 0
@@ -12490,7 +12076,6 @@ EndChar
 
 StartChar: uni0E43
 Encoding: 3651 3651 414
-GlifName: uni0E_43
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -12525,7 +12110,6 @@ EndChar
 
 StartChar: uni0E44
 Encoding: 3652 3652 415
-GlifName: uni0E_44
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -12565,7 +12149,6 @@ EndChar
 
 StartChar: uni0E45
 Encoding: 3653 3653 416
-GlifName: uni0E_45
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -128 basechar 0
@@ -12593,7 +12176,6 @@ EndChar
 
 StartChar: uni0E46
 Encoding: 3654 3654 417
-GlifName: uni0E_46
 Width: 576
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -12632,7 +12214,6 @@ EndChar
 
 StartChar: uni0E47
 Encoding: 3655 3655 418
-GlifName: uni0E_47
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -12670,7 +12251,6 @@ EndChar
 
 StartChar: uni0E48
 Encoding: 3656 3656 419
-GlifName: uni0E_48
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -12698,7 +12278,6 @@ EndChar
 
 StartChar: uni0E49
 Encoding: 3657 3657 420
-GlifName: uni0E_49
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -12740,7 +12319,6 @@ EndChar
 
 StartChar: uni0E4A
 Encoding: 3658 3658 421
-GlifName: uni0E_4A_
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -12783,7 +12361,6 @@ EndChar
 
 StartChar: uni0E4B
 Encoding: 3659 3659 422
-GlifName: uni0E_4B_
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -12819,7 +12396,6 @@ EndChar
 
 StartChar: uni0E4C
 Encoding: 3660 3660 423
-GlifName: uni0E_4C_
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -12847,7 +12423,6 @@ EndChar
 
 StartChar: uni0E4D
 Encoding: 3661 3661 424
-GlifName: uni0E_4D_
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -12875,7 +12450,6 @@ EndChar
 
 StartChar: uni0E4E
 Encoding: 3662 3662 425
-GlifName: uni0E_4E_
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -12916,7 +12490,6 @@ EndChar
 
 StartChar: uni0E4F
 Encoding: 3663 3663 426
-GlifName: uni0E_4F_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -12990,7 +12563,6 @@ EndChar
 
 StartChar: uni0E50
 Encoding: 3664 3664 427
-GlifName: uni0E_50
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -13044,7 +12616,6 @@ EndChar
 
 StartChar: uni0E51
 Encoding: 3665 3665 428
-GlifName: uni0E_51
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -13087,7 +12658,6 @@ EndChar
 
 StartChar: uni0E52
 Encoding: 3666 3666 429
-GlifName: uni0E_52
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -13133,7 +12703,6 @@ EndChar
 
 StartChar: uni0E53
 Encoding: 3667 3667 430
-GlifName: uni0E_53
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -13172,7 +12741,6 @@ EndChar
 
 StartChar: uni0E54
 Encoding: 3668 3668 431
-GlifName: uni0E_54
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 704 basechar 0
@@ -13212,7 +12780,6 @@ EndChar
 
 StartChar: uni0E55
 Encoding: 3669 3669 432
-GlifName: uni0E_55
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 704 basechar 0
@@ -13255,7 +12822,6 @@ EndChar
 
 StartChar: uni0E56
 Encoding: 3670 3670 433
-GlifName: uni0E_56
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 704 basechar 0
@@ -13302,7 +12868,6 @@ EndChar
 
 StartChar: uni0E57
 Encoding: 3671 3671 434
-GlifName: uni0E_57
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 704 basechar 0
@@ -13351,7 +12916,6 @@ EndChar
 
 StartChar: uni0E58
 Encoding: 3672 3672 435
-GlifName: uni0E_58
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 704 basechar 0
@@ -13399,7 +12963,6 @@ EndChar
 
 StartChar: uni0E59
 Encoding: 3673 3673 436
-GlifName: uni0E_59
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 704 basechar 0
@@ -13456,7 +13019,6 @@ EndChar
 
 StartChar: uni0E5A
 Encoding: 3674 3674 437
-GlifName: uni0E_5A_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -13496,7 +13058,6 @@ EndChar
 
 StartChar: uni0E5B
 Encoding: 3675 3675 438
-GlifName: uni0E_5B_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -13545,7 +13106,6 @@ EndChar
 
 StartChar: uni2000
 Encoding: 8192 8192 439
-GlifName: uni2000
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -13555,7 +13115,6 @@ EndChar
 
 StartChar: uni2001
 Encoding: 8193 8193 440
-GlifName: uni2001
 Width: 1024
 Flags: MW
 LayerCount: 2
@@ -13565,7 +13124,6 @@ EndChar
 
 StartChar: uni2002
 Encoding: 8194 8194 441
-GlifName: uni2002
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -13575,7 +13133,6 @@ EndChar
 
 StartChar: uni2003
 Encoding: 8195 8195 442
-GlifName: uni2003
 Width: 1024
 Flags: MW
 LayerCount: 2
@@ -13585,7 +13142,6 @@ EndChar
 
 StartChar: uni2004
 Encoding: 8196 8196 443
-GlifName: uni2004
 Width: 320
 Flags: MW
 LayerCount: 2
@@ -13595,7 +13151,6 @@ EndChar
 
 StartChar: uni2005
 Encoding: 8197 8197 444
-GlifName: uni2005
 Width: 256
 Flags: MW
 LayerCount: 2
@@ -13605,7 +13160,6 @@ EndChar
 
 StartChar: uni2006
 Encoding: 8198 8198 445
-GlifName: uni2006
 Width: 128
 Flags: MW
 LayerCount: 2
@@ -13615,7 +13169,6 @@ EndChar
 
 StartChar: uni2007
 Encoding: 8199 8199 446
-GlifName: uni2007
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -13625,7 +13178,6 @@ EndChar
 
 StartChar: uni2008
 Encoding: 8200 8200 447
-GlifName: uni2008
 Width: 256
 Flags: MW
 LayerCount: 2
@@ -13635,7 +13187,6 @@ EndChar
 
 StartChar: uni2009
 Encoding: 8201 8201 448
-GlifName: uni2009
 Width: 256
 Flags: MW
 LayerCount: 2
@@ -13645,7 +13196,6 @@ EndChar
 
 StartChar: uni200A
 Encoding: 8202 8202 449
-GlifName: uni200A_
 Width: 128
 Flags: MW
 LayerCount: 2
@@ -13655,7 +13205,6 @@ EndChar
 
 StartChar: uni2010
 Encoding: 8208 8208 450
-GlifName: uni2010
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -13666,7 +13215,6 @@ EndChar
 
 StartChar: uni2011
 Encoding: 8209 8209 451
-GlifName: uni2011
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -13677,7 +13225,6 @@ EndChar
 
 StartChar: figuredash
 Encoding: 8210 8210 452
-GlifName: figuredash
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -13688,7 +13235,6 @@ EndChar
 
 StartChar: endash
 Encoding: 8211 8211 453
-GlifName: endash
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -13699,7 +13245,6 @@ EndChar
 
 StartChar: emdash
 Encoding: 8212 8212 454
-GlifName: emdash
 Width: 1024
 Flags: MW
 LayerCount: 2
@@ -13716,7 +13261,6 @@ EndChar
 
 StartChar: uni2015
 Encoding: 8213 8213 455
-GlifName: uni2015
 Width: 1024
 Flags: MW
 LayerCount: 2
@@ -13728,7 +13272,6 @@ EndChar
 StartChar: uni0E10.descless
 Encoding: 63232 63232 456
 AltUni2: 000e10.00fe0a.0
-GlifName: uni0E_10.descless
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -13764,7 +13307,6 @@ EndChar
 
 StartChar: uni0E34.left
 Encoding: 63233 63233 457
-GlifName: uni0E_34.left
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -13789,7 +13331,6 @@ EndChar
 
 StartChar: uni0E35.left
 Encoding: 63234 63234 458
-GlifName: uni0E_35.left
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -13816,7 +13357,6 @@ EndChar
 
 StartChar: uni0E36.left
 Encoding: 63235 63235 459
-GlifName: uni0E_36.left
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -13846,7 +13386,6 @@ EndChar
 
 StartChar: uni0E37.left
 Encoding: 63236 63236 460
-GlifName: uni0E_37.left
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -13875,7 +13414,6 @@ EndChar
 
 StartChar: uni0E48.low_left
 Encoding: 63237 63237 461
-GlifName: uni0E_48.low_left
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -13890,7 +13428,6 @@ EndChar
 
 StartChar: uni0E49.low_left
 Encoding: 63238 63238 462
-GlifName: uni0E_49.low_left
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -13905,7 +13442,6 @@ EndChar
 
 StartChar: uni0E4A.low_left
 Encoding: 63239 63239 463
-GlifName: uni0E_4A_.low_left
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -13920,7 +13456,6 @@ EndChar
 
 StartChar: uni0E4B.low_left
 Encoding: 63240 63240 464
-GlifName: uni0E_4B_.low_left
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -13935,7 +13470,6 @@ EndChar
 
 StartChar: uni0E4C.low_left
 Encoding: 63241 63241 465
-GlifName: uni0E_4C_.low_left
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -13950,7 +13484,6 @@ EndChar
 
 StartChar: uni0E48.low
 Encoding: 63242 63242 466
-GlifName: uni0E_48.low
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -13971,7 +13504,6 @@ EndChar
 
 StartChar: uni0E49.low
 Encoding: 63243 63243 467
-GlifName: uni0E_49.low
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -14008,7 +13540,6 @@ EndChar
 
 StartChar: uni0E4A.low
 Encoding: 63244 63244 468
-GlifName: uni0E_4A_.low
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -14044,7 +13575,6 @@ EndChar
 
 StartChar: uni0E4B.low
 Encoding: 63245 63245 469
-GlifName: uni0E_4B_.low
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -14073,7 +13603,6 @@ EndChar
 
 StartChar: uni0E4C.low
 Encoding: 63246 63246 470
-GlifName: uni0E_4C_.low
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -14099,7 +13628,6 @@ EndChar
 StartChar: uni0E0D.descless
 Encoding: 63247 63247 471
 AltUni2: 000e0d.00fe0a.0
-GlifName: uni0E_0D_.descless
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 704 512 basechar 0
@@ -14137,7 +13665,6 @@ EndChar
 
 StartChar: uni0E31.left
 Encoding: 63248 63248 472
-GlifName: uni0E_31.left
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -14165,7 +13692,6 @@ EndChar
 
 StartChar: uni0E4D.left
 Encoding: 63249 63249 473
-GlifName: uni0E_4D_.left
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -14180,7 +13706,6 @@ EndChar
 
 StartChar: uni0E47.left
 Encoding: 63250 63250 474
-GlifName: uni0E_47.left
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -14195,7 +13720,6 @@ EndChar
 
 StartChar: uni0E48.left
 Encoding: 63251 63251 475
-GlifName: uni0E_48.left
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -14210,7 +13734,6 @@ EndChar
 
 StartChar: uni0E49.left
 Encoding: 63252 63252 476
-GlifName: uni0E_49.left
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -14225,7 +13748,6 @@ EndChar
 
 StartChar: uni0E4A.left
 Encoding: 63253 63253 477
-GlifName: uni0E_4A_.left
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -14240,7 +13762,6 @@ EndChar
 
 StartChar: uni0E4B.left
 Encoding: 63254 63254 478
-GlifName: uni0E_4B_.left
 Width: 0
 GlyphClass: 4
 Flags: HMW
@@ -14255,7 +13776,6 @@ EndChar
 
 StartChar: uni0E4C.left
 Encoding: 63255 63255 479
-GlifName: uni0E_4C_.left
 Width: 0
 GlyphClass: 4
 Flags: MW
@@ -14270,7 +13790,6 @@ EndChar
 
 StartChar: uni0E38.low
 Encoding: 63256 63256 480
-GlifName: uni0E_38.low
 Width: 0
 VWidth: 2048
 GlyphClass: 4
@@ -14286,7 +13805,6 @@ EndChar
 
 StartChar: uni0E39.low
 Encoding: 63257 63257 481
-GlifName: uni0E_39.low
 Width: 0
 VWidth: 2048
 GlyphClass: 4
@@ -14302,7 +13820,6 @@ EndChar
 
 StartChar: uni0E3A.low
 Encoding: 63258 63258 482
-GlifName: uni0E_3A_.low
 Width: 0
 VWidth: 2048
 GlyphClass: 4
@@ -14318,7 +13835,6 @@ EndChar
 
 StartChar: uni0E4D.high
 Encoding: 63262 63262 483
-GlifName: uni0E_4D_.high
 Width: 0
 VWidth: 2048
 GlyphClass: 4
@@ -14334,7 +13850,6 @@ EndChar
 
 StartChar: uni0E47.high
 Encoding: 63263 63263 484
-GlifName: uni0E_47.high
 Width: 0
 VWidth: 2048
 GlyphClass: 4
@@ -14350,7 +13865,6 @@ EndChar
 
 StartChar: uni0E4E.high
 Encoding: 63264 63264 485
-GlifName: uni0E_4E_.high
 Width: 0
 VWidth: 2048
 GlyphClass: 4
@@ -14365,7 +13879,6 @@ EndChar
 
 StartChar: uni0331
 Encoding: 817 817 486
-GlifName: uni0331
 Width: 0
 Flags: MW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -14391,7 +13904,6 @@ EndChar
 
 StartChar: uni0332
 Encoding: 818 818 487
-GlifName: uni0332
 Width: 0
 Flags: MW
 AnchorPoint: "blwm" 0 0 mark 0
@@ -14411,7 +13923,6 @@ EndChar
 
 StartChar: uniF880
 Encoding: 63616 63616 488
-GlifName: uniF_880
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -14425,7 +13936,6 @@ EndChar
 
 StartChar: uni0E24_uni0E45
 Encoding: 63617 63617 489
-GlifName: uni0E_24_uni0E_45
 Width: 1024
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -14441,7 +13951,6 @@ EndChar
 
 StartChar: uni0E26_uni0E45
 Encoding: 63618 63618 490
-GlifName: uni0E_26_uni0E_45
 Width: 1024
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -14457,7 +13966,6 @@ EndChar
 
 StartChar: Ohorn
 Encoding: 416 416 491
-GlifName: O_horn
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -14515,7 +14023,6 @@ EndChar
 
 StartChar: ohorn
 Encoding: 417 417 492
-GlifName: ohorn
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -14574,7 +14081,6 @@ EndChar
 
 StartChar: Uhorn
 Encoding: 431 431 493
-GlifName: U_horn
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -14609,7 +14115,6 @@ EndChar
 
 StartChar: uhorn
 Encoding: 432 432 494
-GlifName: uhorn
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -14650,7 +14155,6 @@ EndChar
 
 StartChar: Euro
 Encoding: 8364 8364 495
-GlifName: E_uro
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -14712,7 +14216,6 @@ EndChar
 
 StartChar: uni0190
 Encoding: 400 400 496
-GlifName: uni0190
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -14759,7 +14262,6 @@ EndChar
 
 StartChar: uni0191
 Encoding: 401 401 497
-GlifName: uni0191
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -14788,7 +14290,6 @@ EndChar
 
 StartChar: florin
 Encoding: 402 402 498
-GlifName: florin
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -14824,7 +14325,6 @@ EndChar
 StartChar: uni025B
 Encoding: 603 603 499
 AltUni2: 0003b5.ffffffff.0
-GlifName: uni025B_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -14872,7 +14372,6 @@ EndChar
 
 StartChar: uni0289
 Encoding: 649 649 500
-GlifName: uni0289
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 577 basechar 0
@@ -14915,7 +14414,6 @@ EndChar
 
 StartChar: uni0244
 Encoding: 580 580 501
-GlifName: uni0244
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -14955,7 +14453,6 @@ EndChar
 
 StartChar: circumflex
 Encoding: 710 710 502
-GlifName: circumflex
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -14980,7 +14477,6 @@ EndChar
 
 StartChar: caron
 Encoding: 711 711 503
-GlifName: caron
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15005,7 +14501,6 @@ EndChar
 
 StartChar: uni02C9
 Encoding: 713 713 504
-GlifName: uni02C_9
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15022,7 +14517,6 @@ EndChar
 
 StartChar: uni02C8
 Encoding: 712 712 505
-GlifName: uni02C_8
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15039,7 +14533,6 @@ EndChar
 
 StartChar: uni02CB
 Encoding: 715 715 506
-GlifName: uni02C_B_
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15061,7 +14554,6 @@ EndChar
 StartChar: uni02CA
 Encoding: 714 714 507
 AltUni2: 000384.ffffffff.0
-GlifName: uni02C_A_
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15082,7 +14574,6 @@ EndChar
 
 StartChar: breve
 Encoding: 728 728 508
-GlifName: breve
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15107,7 +14598,6 @@ EndChar
 
 StartChar: dotaccent
 Encoding: 729 729 509
-GlifName: dotaccent
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15124,7 +14614,6 @@ EndChar
 
 StartChar: ring
 Encoding: 730 730 510
-GlifName: ring
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -15146,7 +14635,6 @@ EndChar
 
 StartChar: ogonek
 Encoding: 731 731 511
-GlifName: ogonek
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15171,7 +14659,6 @@ EndChar
 
 StartChar: tilde
 Encoding: 732 732 512
-GlifName: tilde
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -15203,7 +14690,6 @@ EndChar
 
 StartChar: hungarumlaut
 Encoding: 733 733 513
-GlifName: hungarumlaut
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15230,7 +14716,6 @@ EndChar
 StartChar: quoteleft
 Encoding: 8216 8216 514
 AltUni2: 0002bb.ffffffff.0
-GlifName: quoteleft
 Width: 256
 Flags: HMW
 LayerCount: 2
@@ -15255,7 +14740,6 @@ EndChar
 StartChar: quoteright
 Encoding: 8217 8217 515
 AltUni2: 0002bc.ffffffff.0
-GlifName: quoteright
 Width: 256
 Flags: HMW
 LayerCount: 2
@@ -15279,7 +14763,6 @@ EndChar
 
 StartChar: quotesinglbase
 Encoding: 8218 8218 516
-GlifName: quotesinglbase
 Width: 256
 Flags: HMW
 LayerCount: 2
@@ -15304,7 +14787,6 @@ EndChar
 StartChar: quotereversed
 Encoding: 8219 8219 517
 AltUni2: 0002bd.ffffffff.0
-GlifName: quotereversed
 Width: 256
 Flags: HMW
 LayerCount: 2
@@ -15328,7 +14810,6 @@ EndChar
 
 StartChar: quotedblleft
 Encoding: 8220 8220 518
-GlifName: quotedblleft
 Width: 448
 Flags: HMW
 LayerCount: 2
@@ -15364,7 +14845,6 @@ EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 519
-GlifName: quotedblright
 Width: 448
 Flags: HMW
 LayerCount: 2
@@ -15400,7 +14880,6 @@ EndChar
 
 StartChar: quotedblbase
 Encoding: 8222 8222 520
-GlifName: quotedblbase
 Width: 448
 Flags: HMW
 LayerCount: 2
@@ -15436,7 +14915,6 @@ EndChar
 
 StartChar: uni201F
 Encoding: 8223 8223 521
-GlifName: uni201F_
 Width: 448
 Flags: HMW
 LayerCount: 2
@@ -15472,7 +14950,6 @@ EndChar
 
 StartChar: dagger
 Encoding: 8224 8224 522
-GlifName: dagger
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -15497,7 +14974,6 @@ EndChar
 
 StartChar: daggerdbl
 Encoding: 8225 8225 523
-GlifName: daggerdbl
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -15530,7 +15006,6 @@ EndChar
 
 StartChar: bullet
 Encoding: 8226 8226 524
-GlifName: bullet
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15555,7 +15030,6 @@ EndChar
 
 StartChar: ellipsis
 Encoding: 8230 8230 525
-GlifName: ellipsis
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15582,7 +15056,6 @@ EndChar
 
 StartChar: perthousand
 Encoding: 8240 8240 526
-GlifName: perthousand
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15684,7 +15157,6 @@ EndChar
 
 StartChar: guilsinglleft
 Encoding: 8249 8249 527
-GlifName: guilsinglleft
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15717,7 +15189,6 @@ EndChar
 
 StartChar: guilsinglright
 Encoding: 8250 8250 528
-GlifName: guilsinglright
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15750,7 +15221,6 @@ EndChar
 
 StartChar: trademark
 Encoding: 8482 8482 529
-GlifName: trademark
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -15790,7 +15260,6 @@ EndChar
 
 StartChar: Omega
 Encoding: 8486 8486 530
-GlifName: O_mega
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -15841,7 +15310,6 @@ EndChar
 
 StartChar: pi
 Encoding: 960 960 531
-GlifName: pi
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -15872,7 +15340,6 @@ EndChar
 
 StartChar: partialdiff
 Encoding: 8706 8706 532
-GlifName: partialdiff
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -15938,7 +15405,6 @@ EndChar
 
 StartChar: Delta
 Encoding: 8710 8710 533
-GlifName: D_elta
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -15971,7 +15437,6 @@ EndChar
 
 StartChar: product
 Encoding: 8719 8719 534
-GlifName: product
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -15992,7 +15457,6 @@ EndChar
 
 StartChar: summation
 Encoding: 8721 8721 535
-GlifName: summation
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -16043,7 +15507,6 @@ EndChar
 
 StartChar: uni2215
 Encoding: 8725 8725 536
-GlifName: uni2215
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -16076,7 +15539,6 @@ EndChar
 
 StartChar: uni2219
 Encoding: 8729 8729 537
-GlifName: uni2219
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -16093,7 +15555,6 @@ EndChar
 
 StartChar: radical
 Encoding: 8730 8730 538
-GlifName: radical
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -16137,7 +15598,6 @@ EndChar
 
 StartChar: infinity
 Encoding: 8734 8734 539
-GlifName: infinity
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -16192,7 +15652,6 @@ EndChar
 
 StartChar: integral
 Encoding: 8747 8747 540
-GlifName: integral
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -16225,7 +15684,6 @@ EndChar
 
 StartChar: approxequal
 Encoding: 8776 8776 541
-GlifName: approxequal
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -16277,7 +15735,6 @@ EndChar
 
 StartChar: notequal
 Encoding: 8800 8800 542
-GlifName: notequal
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -16319,7 +15776,6 @@ EndChar
 
 StartChar: lessequal
 Encoding: 8804 8804 543
-GlifName: lessequal
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -16372,7 +15828,6 @@ EndChar
 
 StartChar: greaterequal
 Encoding: 8805 8805 544
-GlifName: greaterequal
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -16425,7 +15880,6 @@ EndChar
 
 StartChar: lozenge
 Encoding: 9674 9674 545
-GlifName: lozenge
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -16478,7 +15932,6 @@ EndChar
 
 StartChar: uniE133
 Encoding: 57651 57651 546
-GlifName: uniE_133
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 704 512 basechar 0
@@ -16536,7 +15989,6 @@ EndChar
 
 StartChar: uniE134
 Encoding: 57652 57652 547
-GlifName: uniE_134
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 704 512 basechar 0
@@ -16595,7 +16047,6 @@ EndChar
 
 StartChar: uniE139
 Encoding: 57657 57657 548
-GlifName: uniE_139
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 704 512 basechar 0
@@ -16645,7 +16096,6 @@ EndChar
 
 StartChar: uniE140
 Encoding: 57664 57664 549
-GlifName: uniE_140
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -16733,7 +16183,6 @@ EndChar
 
 StartChar: nonmarkingreturn
 Encoding: 1114113 -1 550
-GlifName: nonmarkingreturn
 Width: 512
 GlyphClass: 1
 Flags: MW
@@ -16744,7 +16193,6 @@ EndChar
 
 StartChar: NULL
 Encoding: 1114114 -1 551
-GlifName: N_U_L_L_
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -16754,7 +16202,6 @@ EndChar
 
 StartChar: uni2919
 Encoding: 10521 10521 552
-GlifName: uni2919
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -16781,7 +16228,6 @@ EndChar
 
 StartChar: uniFF3C
 Encoding: 65340 65340 553
-GlifName: uniF_F_3C_
 Width: 1024
 Flags: HMW
 LayerCount: 2
@@ -16862,7 +16308,6 @@ EndChar
 
 StartChar: uniFF61
 Encoding: 65377 65377 554
-GlifName: uniF_F_61
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -16883,7 +16328,6 @@ EndChar
 
 StartChar: uni25E1
 Encoding: 9697 9697 555
-GlifName: uni25E_1
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -16920,7 +16364,6 @@ EndChar
 
 StartChar: uniFF0F
 Encoding: 65295 65295 556
-GlifName: uniF_F_0F_
 Width: 1024
 Flags: HMW
 LayerCount: 2
@@ -17001,7 +16444,6 @@ EndChar
 
 StartChar: uni2661
 Encoding: 9825 9825 557
-GlifName: uni2661
 Width: 704
 Flags: HMW
 LayerCount: 2
@@ -17082,7 +16524,6 @@ EndChar
 
 StartChar: uni02F6
 Encoding: 758 758 558
-GlifName: uni02F_6
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -17108,7 +16549,6 @@ EndChar
 
 StartChar: uniFF01
 Encoding: 65281 65281 559
-GlifName: uniF_F_01
 Width: 1024
 Flags: HMW
 LayerCount: 2
@@ -17139,7 +16579,6 @@ EndChar
 
 StartChar: uniFF44
 Encoding: 65348 65348 560
-GlifName: uniF_F_44
 Width: 1024
 Flags: HMW
 AnchorPoint: "blwm" 768 0 basechar 0
@@ -17189,7 +16628,6 @@ EndChar
 
 StartChar: uni2606
 Encoding: 9734 9734 561
-GlifName: uni2606
 Width: 704
 Flags: HMW
 LayerCount: 2
@@ -17280,7 +16718,6 @@ EndChar
 
 StartChar: universal
 Encoding: 8704 8704 562
-GlifName: universal
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -17325,7 +16762,6 @@ EndChar
 
 StartChar: uni0414
 Encoding: 1044 1044 563
-GlifName: uni0414
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -17363,7 +16799,6 @@ EndChar
 
 StartChar: uniF001
 Encoding: 61441 61441 564
-GlifName: uniF_001
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -17397,7 +16832,6 @@ EndChar
 
 StartChar: uniF003
 Encoding: 61443 61443 565
-GlifName: uniF_003
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -17434,7 +16868,6 @@ EndChar
 
 StartChar: uniF002
 Encoding: 61442 61442 566
-GlifName: uniF_002
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -17469,7 +16902,6 @@ EndChar
 
 StartChar: uni2605
 Encoding: 9733 9733 567
-GlifName: uni2605
 Width: 704
 Flags: MW
 LayerCount: 2
@@ -17526,7 +16958,6 @@ EndChar
 
 StartChar: heart
 Encoding: 9829 9829 568
-GlifName: heart
 Width: 704
 Flags: HMW
 LayerCount: 2
@@ -17570,7 +17001,7 @@ EndChar
 
 StartChar: uni2764
 Encoding: 10084 10084 569
-GlifName: uni2764
+AltUni2: 002764.00fe0e.0
 Width: 1024
 Flags: HMW
 LayerCount: 2
@@ -17618,7 +17049,6 @@ EndChar
 
 StartChar: uni2765
 Encoding: 10085 10085 570
-GlifName: uni2765
 Width: 1024
 Flags: HMW
 LayerCount: 2
@@ -17667,7 +17097,6 @@ EndChar
 StartChar: u1F494
 Encoding: 128148 128148 571
 AltUni2: 01f494.00fe0e.0
-GlifName: u1F_494
 Width: 1280
 Flags: HMW
 LayerCount: 2
@@ -17736,7 +17165,6 @@ EndChar
 
 StartChar: uni0312
 Encoding: 786 786 572
-GlifName: uni0312
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -17763,7 +17191,6 @@ EndChar
 
 StartChar: uni0313
 Encoding: 787 787 573
-GlifName: uni0313
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -17790,7 +17217,6 @@ EndChar
 
 StartChar: uni0314
 Encoding: 788 788 574
-GlifName: uni0314
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -17817,7 +17243,6 @@ EndChar
 
 StartChar: uni0315
 Encoding: 789 789 575
-GlifName: uni0315
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -17844,7 +17269,6 @@ EndChar
 
 StartChar: uni031B
 Encoding: 795 795 576
-GlifName: uni031B_
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 576 mark 0
@@ -17871,7 +17295,6 @@ EndChar
 
 StartChar: uni0324
 Encoding: 804 804 577
-GlifName: uni0324
 Width: 0
 Flags: MW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -17896,7 +17319,6 @@ EndChar
 
 StartChar: uni0325
 Encoding: 805 805 578
-GlifName: uni0325
 Width: 0
 Flags: MW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -17929,7 +17351,6 @@ EndChar
 
 StartChar: uni0329
 Encoding: 809 809 579
-GlifName: uni0329
 Width: 0
 Flags: MW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -17949,7 +17370,6 @@ EndChar
 
 StartChar: uni032A
 Encoding: 810 810 580
-GlifName: uni032A_
 Width: 0
 Flags: MW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -17973,7 +17393,6 @@ EndChar
 
 StartChar: uni032B
 Encoding: 811 811 581
-GlifName: uni032B_
 Width: 0
 Flags: MW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -18009,7 +17428,6 @@ EndChar
 
 StartChar: uni032C
 Encoding: 812 812 582
-GlifName: uni032C_
 Width: 0
 Flags: MW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -18037,7 +17455,6 @@ EndChar
 
 StartChar: uni032D
 Encoding: 813 813 583
-GlifName: uni032D_
 Width: 0
 Flags: MW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -18065,7 +17482,6 @@ EndChar
 
 StartChar: uni032E
 Encoding: 814 814 584
-GlifName: uni032E_
 Width: 0
 Flags: MW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -18093,7 +17509,6 @@ EndChar
 
 StartChar: uni032F
 Encoding: 815 815 585
-GlifName: uni032F_
 Width: 0
 Flags: MW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -18121,7 +17536,6 @@ EndChar
 
 StartChar: uni0330
 Encoding: 816 816 586
-GlifName: uni0330
 Width: 0
 Flags: HMW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -18156,7 +17570,6 @@ EndChar
 
 StartChar: uni0334
 Encoding: 820 820 587
-GlifName: uni0334
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -18185,7 +17598,6 @@ EndChar
 
 StartChar: uni0335
 Encoding: 821 821 588
-GlifName: uni0335
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -18202,7 +17614,6 @@ EndChar
 
 StartChar: uni0336
 Encoding: 822 822 589
-GlifName: uni0336
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -18219,7 +17630,6 @@ EndChar
 
 StartChar: uni0337
 Encoding: 823 823 590
-GlifName: uni0337
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -18252,7 +17662,6 @@ EndChar
 
 StartChar: uni0338
 Encoding: 824 824 591
-GlifName: uni0338
 Width: 0
 Flags: HMW
 LayerCount: 2
@@ -18289,7 +17698,6 @@ EndChar
 
 StartChar: uni1EA0
 Encoding: 7840 7840 592
-GlifName: uni1E_A_0
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -18303,7 +17711,6 @@ EndChar
 
 StartChar: uni1EA1
 Encoding: 7841 7841 593
-GlifName: uni1E_A_1
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -18317,7 +17724,6 @@ EndChar
 
 StartChar: uni1EA2
 Encoding: 7842 7842 594
-GlifName: uni1E_A_2
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -18331,7 +17737,6 @@ EndChar
 
 StartChar: uni1EA3
 Encoding: 7843 7843 595
-GlifName: uni1E_A_3
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18345,7 +17750,6 @@ EndChar
 
 StartChar: uni1EA4
 Encoding: 7844 7844 596
-GlifName: uni1E_A_4
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 896 basechar 0
@@ -18360,7 +17764,6 @@ EndChar
 
 StartChar: uni1EA5
 Encoding: 7845 7845 597
-GlifName: uni1E_A_5
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18375,7 +17778,6 @@ EndChar
 
 StartChar: uni1EA6
 Encoding: 7846 7846 598
-GlifName: uni1E_A_6
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 896 basechar 0
@@ -18390,7 +17792,6 @@ EndChar
 
 StartChar: uni1EA7
 Encoding: 7847 7847 599
-GlifName: uni1E_A_7
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18405,7 +17806,6 @@ EndChar
 
 StartChar: uni1EA8
 Encoding: 7848 7848 600
-GlifName: uni1E_A_8
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 896 basechar 0
@@ -18420,7 +17820,6 @@ EndChar
 
 StartChar: uni1EA9
 Encoding: 7849 7849 601
-GlifName: uni1E_A_9
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18435,7 +17834,6 @@ EndChar
 
 StartChar: uni1EAA
 Encoding: 7850 7850 602
-GlifName: uni1E_A_A_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 896 basechar 0
@@ -18450,7 +17848,6 @@ EndChar
 
 StartChar: uni1EAB
 Encoding: 7851 7851 603
-GlifName: uni1E_A_B_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18465,7 +17862,6 @@ EndChar
 
 StartChar: uni1EAC
 Encoding: 7852 7852 604
-GlifName: uni1E_A_C_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18480,7 +17876,6 @@ EndChar
 
 StartChar: uni1EAD
 Encoding: 7853 7853 605
-GlifName: uni1E_A_D_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18495,7 +17890,6 @@ EndChar
 
 StartChar: uni1EAE
 Encoding: 7854 7854 606
-GlifName: uni1E_A_E_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 896 basechar 0
@@ -18510,7 +17904,6 @@ EndChar
 
 StartChar: uni1EAF
 Encoding: 7855 7855 607
-GlifName: uni1E_A_F_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18525,7 +17918,6 @@ EndChar
 
 StartChar: uni1EB0
 Encoding: 7856 7856 608
-GlifName: uni1E_B_0
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 896 basechar 0
@@ -18540,7 +17932,6 @@ EndChar
 
 StartChar: uni1EB1
 Encoding: 7857 7857 609
-GlifName: uni1E_B_1
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18555,7 +17946,6 @@ EndChar
 
 StartChar: uni1EB2
 Encoding: 7858 7858 610
-GlifName: uni1E_B_2
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 896 basechar 0
@@ -18570,7 +17960,6 @@ EndChar
 
 StartChar: uni1EB3
 Encoding: 7859 7859 611
-GlifName: uni1E_B_3
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18585,7 +17974,6 @@ EndChar
 
 StartChar: uni1EB4
 Encoding: 7860 7860 612
-GlifName: uni1E_B_4
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18600,7 +17988,6 @@ EndChar
 
 StartChar: uni1EB5
 Encoding: 7861 7861 613
-GlifName: uni1E_B_5
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18615,7 +18002,6 @@ EndChar
 
 StartChar: uni1EB6
 Encoding: 7862 7862 614
-GlifName: uni1E_B_6
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18630,7 +18016,6 @@ EndChar
 
 StartChar: uni1EB7
 Encoding: 7863 7863 615
-GlifName: uni1E_B_7
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -18645,7 +18030,6 @@ EndChar
 
 StartChar: uni1EB8
 Encoding: 7864 7864 616
-GlifName: uni1E_B_8
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -18659,7 +18043,6 @@ EndChar
 
 StartChar: uni1EB9
 Encoding: 7865 7865 617
-GlifName: uni1E_B_9
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -18673,7 +18056,6 @@ EndChar
 
 StartChar: uni1EBA
 Encoding: 7866 7866 618
-GlifName: uni1E_B_A_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18686,7 +18068,6 @@ EndChar
 
 StartChar: uni1EBB
 Encoding: 7867 7867 619
-GlifName: uni1E_B_B_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -18699,7 +18080,6 @@ EndChar
 
 StartChar: uni1EBC
 Encoding: 7868 7868 620
-GlifName: uni1E_B_C_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18712,7 +18092,6 @@ EndChar
 
 StartChar: uni1EBD
 Encoding: 7869 7869 621
-GlifName: uni1E_B_D_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -18725,7 +18104,6 @@ EndChar
 
 StartChar: uni1EBE
 Encoding: 7870 7870 622
-GlifName: uni1E_B_E_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 896 basechar 0
@@ -18740,7 +18118,6 @@ EndChar
 
 StartChar: uni1EBF
 Encoding: 7871 7871 623
-GlifName: uni1E_B_F_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -18755,7 +18132,6 @@ EndChar
 
 StartChar: uni1EC0
 Encoding: 7872 7872 624
-GlifName: uni1E_C_0
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 896 basechar 0
@@ -18770,7 +18146,6 @@ EndChar
 
 StartChar: uni1EC1
 Encoding: 7873 7873 625
-GlifName: uni1E_C_1
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -18785,7 +18160,6 @@ EndChar
 
 StartChar: uni1EC2
 Encoding: 7874 7874 626
-GlifName: uni1E_C_2
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 896 basechar 0
@@ -18800,7 +18174,6 @@ EndChar
 
 StartChar: uni1EC3
 Encoding: 7875 7875 627
-GlifName: uni1E_C_3
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -18815,7 +18188,6 @@ EndChar
 
 StartChar: uni1EC4
 Encoding: 7876 7876 628
-GlifName: uni1E_C_4
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 896 basechar 0
@@ -18830,7 +18202,6 @@ EndChar
 
 StartChar: uni1EC5
 Encoding: 7877 7877 629
-GlifName: uni1E_C_5
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -18845,7 +18216,6 @@ EndChar
 
 StartChar: uni1EC6
 Encoding: 7878 7878 630
-GlifName: uni1E_C_6
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -18859,7 +18229,6 @@ EndChar
 
 StartChar: uni1EC7
 Encoding: 7879 7879 631
-GlifName: uni1E_C_7
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -18873,7 +18242,6 @@ EndChar
 
 StartChar: uni1EC8
 Encoding: 7880 7880 632
-GlifName: uni1E_C_8
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -18887,7 +18255,6 @@ EndChar
 
 StartChar: uni1EC9
 Encoding: 7881 7881 633
-GlifName: uni1E_C_9
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -18901,7 +18268,6 @@ EndChar
 
 StartChar: uni1ECA
 Encoding: 7882 7882 634
-GlifName: uni1E_C_A_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -18915,7 +18281,6 @@ EndChar
 
 StartChar: uni1ECB
 Encoding: 7883 7883 635
-GlifName: uni1E_C_B_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -18929,7 +18294,6 @@ EndChar
 
 StartChar: uni1ECC
 Encoding: 7884 7884 636
-GlifName: uni1E_C_C_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -18943,7 +18307,6 @@ EndChar
 
 StartChar: uni1ECD
 Encoding: 7885 7885 637
-GlifName: uni1E_C_D_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -18957,7 +18320,6 @@ EndChar
 
 StartChar: uni1ECE
 Encoding: 7886 7886 638
-GlifName: uni1E_C_E_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18971,7 +18333,6 @@ EndChar
 
 StartChar: uni1ECF
 Encoding: 7887 7887 639
-GlifName: uni1E_C_F_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -18985,7 +18346,6 @@ EndChar
 
 StartChar: uni1ED0
 Encoding: 7888 7888 640
-GlifName: uni1E_D_0
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19000,7 +18360,6 @@ EndChar
 
 StartChar: uni1ED1
 Encoding: 7889 7889 641
-GlifName: uni1E_D_1
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -19014,7 +18373,6 @@ EndChar
 
 StartChar: uni1ED2
 Encoding: 7890 7890 642
-GlifName: uni1E_D_2
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19028,7 +18386,6 @@ EndChar
 
 StartChar: uni1ED3
 Encoding: 7891 7891 643
-GlifName: uni1E_D_3
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -19042,7 +18399,6 @@ EndChar
 
 StartChar: uni1ED4
 Encoding: 7892 7892 644
-GlifName: uni1E_D_4
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19056,7 +18412,6 @@ EndChar
 
 StartChar: uni1ED5
 Encoding: 7893 7893 645
-GlifName: uni1E_D_5
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -19070,7 +18425,6 @@ EndChar
 
 StartChar: uni1ED6
 Encoding: 7894 7894 646
-GlifName: uni1E_D_6
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19084,7 +18438,6 @@ EndChar
 
 StartChar: uni1ED7
 Encoding: 7895 7895 647
-GlifName: uni1E_D_7
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -19098,7 +18451,6 @@ EndChar
 
 StartChar: uni1ED8
 Encoding: 7896 7896 648
-GlifName: uni1E_D_8
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -19112,7 +18464,6 @@ EndChar
 
 StartChar: uni1ED9
 Encoding: 7897 7897 649
-GlifName: uni1E_D_9
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -19126,7 +18477,6 @@ EndChar
 
 StartChar: uni1EDA
 Encoding: 7898 7898 650
-GlifName: uni1E_D_A_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -19140,7 +18490,6 @@ EndChar
 
 StartChar: uni1EDB
 Encoding: 7899 7899 651
-GlifName: uni1E_D_B_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -19154,7 +18503,6 @@ EndChar
 
 StartChar: uni1EDC
 Encoding: 7900 7900 652
-GlifName: uni1E_D_C_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -19168,7 +18516,6 @@ EndChar
 
 StartChar: uni1EDD
 Encoding: 7901 7901 653
-GlifName: uni1E_D_D_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -19182,7 +18529,6 @@ EndChar
 
 StartChar: uni1EDE
 Encoding: 7902 7902 654
-GlifName: uni1E_D_E_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -19196,7 +18542,6 @@ EndChar
 
 StartChar: uni1EDF
 Encoding: 7903 7903 655
-GlifName: uni1E_D_F_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -19210,7 +18555,6 @@ EndChar
 
 StartChar: uni1EE0
 Encoding: 7904 7904 656
-GlifName: uni1E_E_0
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -19224,7 +18568,6 @@ EndChar
 
 StartChar: uni1EE1
 Encoding: 7905 7905 657
-GlifName: uni1E_E_1
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -19238,7 +18581,6 @@ EndChar
 
 StartChar: uni1EE2
 Encoding: 7906 7906 658
-GlifName: uni1E_E_2
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -19252,7 +18594,6 @@ EndChar
 
 StartChar: uni1EE3
 Encoding: 7907 7907 659
-GlifName: uni1E_E_3
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -19266,7 +18607,6 @@ EndChar
 
 StartChar: uni1EE4
 Encoding: 7908 7908 660
-GlifName: uni1E_E_4
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -19280,7 +18620,6 @@ EndChar
 
 StartChar: uni1EE5
 Encoding: 7909 7909 661
-GlifName: uni1E_E_5
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -19294,7 +18633,6 @@ EndChar
 
 StartChar: uni1EE6
 Encoding: 7910 7910 662
-GlifName: uni1E_E_6
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -19308,7 +18646,6 @@ EndChar
 
 StartChar: uni1EE7
 Encoding: 7911 7911 663
-GlifName: uni1E_E_7
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -19322,7 +18659,6 @@ EndChar
 
 StartChar: uni1EE8
 Encoding: 7912 7912 664
-GlifName: uni1E_E_8
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -19336,7 +18672,6 @@ EndChar
 
 StartChar: uni1EE9
 Encoding: 7913 7913 665
-GlifName: uni1E_E_9
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -19350,7 +18685,6 @@ EndChar
 
 StartChar: uni1EEA
 Encoding: 7914 7914 666
-GlifName: uni1E_E_A_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -19364,7 +18698,6 @@ EndChar
 
 StartChar: uni1EEB
 Encoding: 7915 7915 667
-GlifName: uni1E_E_B_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -19378,7 +18711,6 @@ EndChar
 
 StartChar: uni1EEC
 Encoding: 7916 7916 668
-GlifName: uni1E_E_C_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -19392,7 +18724,6 @@ EndChar
 
 StartChar: uni1EED
 Encoding: 7917 7917 669
-GlifName: uni1E_E_D_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -19406,7 +18737,6 @@ EndChar
 
 StartChar: uni1EEE
 Encoding: 7918 7918 670
-GlifName: uni1E_E_E_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19420,7 +18750,6 @@ EndChar
 
 StartChar: uni1EEF
 Encoding: 7919 7919 671
-GlifName: uni1E_E_F_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19434,7 +18763,6 @@ EndChar
 
 StartChar: uni1EF0
 Encoding: 7920 7920 672
-GlifName: uni1E_F_0
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -19448,7 +18776,6 @@ EndChar
 
 StartChar: uni1EF1
 Encoding: 7921 7921 673
-GlifName: uni1E_F_1
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -19462,7 +18789,6 @@ EndChar
 
 StartChar: Ygrave
 Encoding: 7922 7922 674
-GlifName: Y_grave
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19476,7 +18802,6 @@ EndChar
 
 StartChar: ygrave
 Encoding: 7923 7923 675
-GlifName: ygrave
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -19490,7 +18815,6 @@ EndChar
 
 StartChar: uni1EF4
 Encoding: 7924 7924 676
-GlifName: uni1E_F_4
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -19504,7 +18828,6 @@ EndChar
 
 StartChar: uni1EF5
 Encoding: 7925 7925 677
-GlifName: uni1E_F_5
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -19554,7 +18877,6 @@ EndChar
 
 StartChar: uni1EF6
 Encoding: 7926 7926 678
-GlifName: uni1E_F_6
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19568,7 +18890,6 @@ EndChar
 
 StartChar: uni1EF7
 Encoding: 7927 7927 679
-GlifName: uni1E_F_7
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -19582,7 +18903,6 @@ EndChar
 
 StartChar: uni1EF8
 Encoding: 7928 7928 680
-GlifName: uni1E_F_8
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19596,7 +18916,6 @@ EndChar
 
 StartChar: uni1EF9
 Encoding: 7929 7929 681
-GlifName: uni1E_F_9
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -19611,7 +18930,6 @@ EndChar
 StartChar: Gamma
 Encoding: 915 915 682
 AltUni2: 000413.ffffffff.0
-GlifName: G_amma
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19632,7 +18950,6 @@ EndChar
 
 StartChar: uni0394
 Encoding: 916 916 683
-GlifName: uni0394
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19667,7 +18984,6 @@ EndChar
 
 StartChar: Theta
 Encoding: 920 920 684
-GlifName: T_heta
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19726,7 +19042,6 @@ EndChar
 
 StartChar: Lambda
 Encoding: 923 923 685
-GlifName: L_ambda
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -19763,7 +19078,6 @@ EndChar
 
 StartChar: Xi
 Encoding: 926 926 686
-GlifName: X_i
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19793,7 +19107,6 @@ EndChar
 StartChar: Pi
 Encoding: 928 928 687
 AltUni2: 00041f.ffffffff.0
-GlifName: P_i
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19817,7 +19130,6 @@ EndChar
 StartChar: Sigma
 Encoding: 931 931 688
 AltUni2: 0001a9.ffffffff.0
-GlifName: S_igma
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19870,7 +19182,6 @@ EndChar
 
 StartChar: Phi
 Encoding: 934 934 689
-GlifName: P_hi
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19923,7 +19234,6 @@ EndChar
 
 StartChar: Psi
 Encoding: 936 936 690
-GlifName: P_si
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -19958,7 +19268,6 @@ EndChar
 
 StartChar: uni03A9
 Encoding: 937 937 691
-GlifName: uni03A_9
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -20009,7 +19318,6 @@ EndChar
 
 StartChar: alpha
 Encoding: 945 945 692
-GlifName: alpha
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 577 basechar 0
@@ -20071,7 +19379,6 @@ EndChar
 
 StartChar: beta
 Encoding: 946 946 693
-GlifName: beta
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 577 basechar 0
@@ -20120,7 +19427,6 @@ EndChar
 
 StartChar: gamma
 Encoding: 947 947 694
-GlifName: gamma
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 577 basechar 0
@@ -20166,7 +19472,6 @@ EndChar
 
 StartChar: delta
 Encoding: 948 948 695
-GlifName: delta
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -20240,7 +19545,6 @@ EndChar
 
 StartChar: zeta
 Encoding: 950 950 696
-GlifName: zeta
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -20306,7 +19610,6 @@ EndChar
 
 StartChar: eta
 Encoding: 951 951 697
-GlifName: eta
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -20340,7 +19643,6 @@ EndChar
 
 StartChar: theta
 Encoding: 952 952 698
-GlifName: theta
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -20395,7 +19697,6 @@ EndChar
 
 StartChar: iota
 Encoding: 953 953 699
-GlifName: iota
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 577 basechar 0
@@ -20420,7 +19721,6 @@ EndChar
 
 StartChar: kappa
 Encoding: 954 954 700
-GlifName: kappa
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -20474,7 +19774,6 @@ EndChar
 
 StartChar: lambda
 Encoding: 955 955 701
-GlifName: lambda
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -20519,7 +19818,6 @@ EndChar
 
 StartChar: uni03BC
 Encoding: 956 956 702
-GlifName: uni03B_C_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -20555,7 +19853,6 @@ EndChar
 
 StartChar: nu
 Encoding: 957 957 703
-GlifName: nu
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 577 basechar 0
@@ -20603,7 +19900,6 @@ EndChar
 
 StartChar: xi
 Encoding: 958 958 704
-GlifName: xi
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -20670,7 +19966,6 @@ EndChar
 
 StartChar: rho
 Encoding: 961 961 705
-GlifName: rho
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -20721,7 +20016,6 @@ EndChar
 
 StartChar: sigma1
 Encoding: 962 962 706
-GlifName: sigma1
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -20764,7 +20058,6 @@ EndChar
 
 StartChar: sigma
 Encoding: 963 963 707
-GlifName: sigma
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -20822,7 +20115,6 @@ EndChar
 
 StartChar: tau
 Encoding: 964 964 708
-GlifName: tau
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -20845,7 +20137,6 @@ EndChar
 
 StartChar: upsilon
 Encoding: 965 965 709
-GlifName: upsilon
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -20886,7 +20177,6 @@ EndChar
 
 StartChar: phi
 Encoding: 966 966 710
-GlifName: phi
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -20950,7 +20240,6 @@ EndChar
 
 StartChar: chi
 Encoding: 967 967 711
-GlifName: chi
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -21018,7 +20307,6 @@ EndChar
 
 StartChar: psi
 Encoding: 968 968 712
-GlifName: psi
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -21069,7 +20357,6 @@ EndChar
 
 StartChar: omega
 Encoding: 969 969 713
-GlifName: omega
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -21117,7 +20404,6 @@ EndChar
 
 StartChar: phi1
 Encoding: 981 981 714
-GlifName: phi1
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -21162,7 +20448,6 @@ EndChar
 
 StartChar: uni03DD
 Encoding: 989 989 715
-GlifName: uni03D_D_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -21188,7 +20473,6 @@ EndChar
 StartChar: uni0411
 Encoding: 1041 1041 716
 AltUni2: 000182.ffffffff.0
-GlifName: uni0411
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -21227,7 +20511,6 @@ EndChar
 
 StartChar: uni0416
 Encoding: 1046 1046 717
-GlifName: uni0416
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 704 0 basechar 0
@@ -21305,7 +20588,6 @@ EndChar
 
 StartChar: uni0417
 Encoding: 1047 1047 718
-GlifName: uni0417
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -21353,7 +20635,6 @@ EndChar
 
 StartChar: uni0418
 Encoding: 1048 1048 719
-GlifName: uni0418
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -21393,7 +20674,6 @@ EndChar
 
 StartChar: uni0419
 Encoding: 1049 1049 720
-GlifName: uni0419
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -21407,7 +20687,6 @@ EndChar
 
 StartChar: uni041B
 Encoding: 1051 1051 721
-GlifName: uni041B_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -21436,7 +20715,6 @@ EndChar
 
 StartChar: uni0423
 Encoding: 1059 1059 722
-GlifName: uni0423
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -21481,7 +20759,6 @@ EndChar
 
 StartChar: uni040E
 Encoding: 1038 1038 723
-GlifName: uni040E_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -21495,7 +20772,6 @@ EndChar
 
 StartChar: uni0424
 Encoding: 1060 1060 724
-GlifName: uni0424
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 576 0 basechar 0
@@ -21539,7 +20815,6 @@ EndChar
 
 StartChar: uni040F
 Encoding: 1039 1039 725
-GlifName: uni040F_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -21566,7 +20841,6 @@ EndChar
 
 StartChar: uni0426
 Encoding: 1062 1062 726
-GlifName: uni0426
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -21593,7 +20867,6 @@ EndChar
 
 StartChar: uni0427
 Encoding: 1063 1063 727
-GlifName: uni0427
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -21620,7 +20893,6 @@ EndChar
 
 StartChar: uni0428
 Encoding: 1064 1064 728
-GlifName: uni0428
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 576 0 basechar 0
@@ -21647,7 +20919,6 @@ EndChar
 
 StartChar: uni0429
 Encoding: 1065 1065 729
-GlifName: uni0429
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 576 -192 basechar 0
@@ -21678,7 +20949,6 @@ EndChar
 
 StartChar: uni042A
 Encoding: 1066 1066 730
-GlifName: uni042A_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -21710,7 +20980,6 @@ EndChar
 
 StartChar: uni042B
 Encoding: 1067 1067 731
-GlifName: uni042B_
 Width: 576
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -21744,7 +21013,6 @@ EndChar
 
 StartChar: uni042C
 Encoding: 1068 1068 732
-GlifName: uni042C_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -21774,7 +21042,6 @@ EndChar
 
 StartChar: uni0404
 Encoding: 1028 1028 733
-GlifName: uni0404
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -21822,7 +21089,6 @@ EndChar
 
 StartChar: uni042D
 Encoding: 1069 1069 734
-GlifName: uni042D_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -21871,7 +21137,6 @@ EndChar
 
 StartChar: uni042E
 Encoding: 1070 1070 735
-GlifName: uni042E_
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 576 640 basechar 0
@@ -21926,7 +21191,6 @@ EndChar
 
 StartChar: uni042F
 Encoding: 1071 1071 736
-GlifName: uni042F_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -21969,7 +21233,6 @@ EndChar
 
 StartChar: uni0431
 Encoding: 1073 1073 737
-GlifName: uni0431
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22015,7 +21278,6 @@ EndChar
 StartChar: uni0432
 Encoding: 1074 1074 738
 AltUni2: 000299.ffffffff.0
-GlifName: uni0432
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22049,7 +21311,6 @@ EndChar
 
 StartChar: uni0433
 Encoding: 1075 1075 739
-GlifName: uni0433
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22070,7 +21331,6 @@ EndChar
 
 StartChar: uni0434
 Encoding: 1076 1076 740
-GlifName: uni0434
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -22108,7 +21368,6 @@ EndChar
 
 StartChar: uni0436
 Encoding: 1078 1078 741
-GlifName: uni0436
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 704 0 basechar 0
@@ -22187,7 +21446,6 @@ EndChar
 
 StartChar: uni0437
 Encoding: 1079 1079 742
-GlifName: uni0437
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22235,7 +21493,6 @@ EndChar
 
 StartChar: uni0438
 Encoding: 1080 1080 743
-GlifName: uni0438
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22277,7 +21534,6 @@ EndChar
 
 StartChar: uni0439
 Encoding: 1081 1081 744
-GlifName: uni0439
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -22291,7 +21547,6 @@ EndChar
 
 StartChar: uni043A
 Encoding: 1082 1082 745
-GlifName: uni043A_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -22345,7 +21600,6 @@ EndChar
 
 StartChar: uni043B
 Encoding: 1083 1083 746
-GlifName: uni043B_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -22374,7 +21628,6 @@ EndChar
 
 StartChar: uni043C
 Encoding: 1084 1084 747
-GlifName: uni043C_
 Width: 576
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22418,7 +21671,6 @@ EndChar
 
 StartChar: uni043D
 Encoding: 1085 1085 748
-GlifName: uni043D_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22445,7 +21697,6 @@ EndChar
 
 StartChar: uni043F
 Encoding: 1087 1087 749
-GlifName: uni043F_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22468,7 +21719,6 @@ EndChar
 
 StartChar: uni0442
 Encoding: 1090 1090 750
-GlifName: uni0442
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22491,7 +21741,6 @@ EndChar
 
 StartChar: uni0444
 Encoding: 1092 1092 751
-GlifName: uni0444
 Width: 768
 Flags: HMW
 AnchorPoint: "blwm" 576 0 basechar 0
@@ -22575,7 +21824,6 @@ EndChar
 
 StartChar: uni0446
 Encoding: 1094 1094 752
-GlifName: uni0446
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -22602,7 +21850,6 @@ EndChar
 
 StartChar: uni0447
 Encoding: 1095 1095 753
-GlifName: uni0447
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22629,7 +21876,6 @@ EndChar
 
 StartChar: uni0448
 Encoding: 1096 1096 754
-GlifName: uni0448
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 576 0 basechar 0
@@ -22656,7 +21902,6 @@ EndChar
 
 StartChar: uni0449
 Encoding: 1097 1097 755
-GlifName: uni0449
 Width: 768
 Flags: HMW
 AnchorPoint: "blwm" 576 -192 basechar 0
@@ -22687,7 +21932,6 @@ EndChar
 
 StartChar: uni044C
 Encoding: 1100 1100 756
-GlifName: uni044C_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22725,7 +21969,6 @@ EndChar
 
 StartChar: uni044E
 Encoding: 1102 1102 757
-GlifName: uni044E_
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 576 576 basechar 0
@@ -22787,7 +22030,6 @@ EndChar
 
 StartChar: uni044F
 Encoding: 1103 1103 758
-GlifName: uni044F_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22830,7 +22072,6 @@ EndChar
 
 StartChar: uni025C
 Encoding: 604 604 759
-GlifName: uni025C_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22878,7 +22119,6 @@ EndChar
 
 StartChar: uni044A
 Encoding: 1098 1098 760
-GlifName: uni044A_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22917,7 +22157,6 @@ EndChar
 
 StartChar: uni044B
 Encoding: 1099 1099 761
-GlifName: uni044B_
 Width: 576
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -22960,7 +22199,6 @@ EndChar
 
 StartChar: uni044D
 Encoding: 1101 1101 762
-GlifName: uni044D_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23013,7 +22251,6 @@ EndChar
 
 StartChar: uni0454
 Encoding: 1108 1108 763
-GlifName: uni0454
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23063,7 +22300,6 @@ EndChar
 
 StartChar: uni0402
 Encoding: 1026 1026 764
-GlifName: uni0402
 Width: 576
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23102,7 +22338,6 @@ EndChar
 
 StartChar: uni0403
 Encoding: 1027 1027 765
-GlifName: uni0403
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23116,7 +22351,6 @@ EndChar
 
 StartChar: uni040C
 Encoding: 1036 1036 766
-GlifName: uni040C_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23130,7 +22364,6 @@ EndChar
 
 StartChar: uni040D
 Encoding: 1037 1037 767
-GlifName: uni040D_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23144,7 +22377,6 @@ EndChar
 
 StartChar: uni0453
 Encoding: 1107 1107 768
-GlifName: uni0453
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23158,7 +22390,6 @@ EndChar
 
 StartChar: uni045C
 Encoding: 1116 1116 769
-GlifName: uni045C_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23172,7 +22403,6 @@ EndChar
 
 StartChar: uni045D
 Encoding: 1117 1117 770
-GlifName: uni045D_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -23186,7 +22416,6 @@ EndChar
 
 StartChar: uni045E
 Encoding: 1118 1118 771
-GlifName: uni045E_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -23200,7 +22429,6 @@ EndChar
 
 StartChar: uni045F
 Encoding: 1119 1119 772
-GlifName: uni045F_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -23227,7 +22455,6 @@ EndChar
 
 StartChar: uni0409
 Encoding: 1033 1033 773
-GlifName: uni0409
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -23268,7 +22495,6 @@ EndChar
 
 StartChar: uni040A
 Encoding: 1034 1034 774
-GlifName: uni040A_
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23306,7 +22532,6 @@ EndChar
 
 StartChar: uni040B
 Encoding: 1035 1035 775
-GlifName: uni040B_
 Width: 576
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23337,7 +22562,6 @@ EndChar
 
 StartChar: uni0452
 Encoding: 1106 1106 776
-GlifName: uni0452
 Width: 576
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23376,7 +22600,6 @@ EndChar
 
 StartChar: uni0459
 Encoding: 1113 1113 777
-GlifName: uni0459
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -23416,7 +22639,6 @@ EndChar
 
 StartChar: uni045A
 Encoding: 1114 1114 778
-GlifName: uni045A_
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23454,7 +22676,6 @@ EndChar
 
 StartChar: uni045B
 Encoding: 1115 1115 779
-GlifName: uni045B_
 Width: 576
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23485,7 +22706,6 @@ EndChar
 
 StartChar: uni0490
 Encoding: 1168 1168 780
-GlifName: uni0490
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23508,7 +22728,6 @@ EndChar
 
 StartChar: uni0491
 Encoding: 1169 1169 781
-GlifName: uni0491
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23531,7 +22750,6 @@ EndChar
 
 StartChar: uni01D5
 Encoding: 469 469 782
-GlifName: uni01D_5
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 960 basechar 0
@@ -23546,7 +22764,6 @@ EndChar
 
 StartChar: uni01D6
 Encoding: 470 470 783
-GlifName: uni01D_6
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -23561,7 +22778,6 @@ EndChar
 
 StartChar: uni01D7
 Encoding: 471 471 784
-GlifName: uni01D_7
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 960 basechar 0
@@ -23576,7 +22792,6 @@ EndChar
 
 StartChar: uni01D8
 Encoding: 472 472 785
-GlifName: uni01D_8
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -23591,7 +22806,6 @@ EndChar
 
 StartChar: uni01D9
 Encoding: 473 473 786
-GlifName: uni01D_9
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 960 basechar 0
@@ -23606,7 +22820,6 @@ EndChar
 
 StartChar: uni01DA
 Encoding: 474 474 787
-GlifName: uni01D_A_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -23621,7 +22834,6 @@ EndChar
 
 StartChar: uni01DB
 Encoding: 475 475 788
-GlifName: uni01D_B_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 960 basechar 0
@@ -23636,7 +22848,6 @@ EndChar
 
 StartChar: uni01DC
 Encoding: 476 476 789
-GlifName: uni01D_C_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -23652,7 +22863,6 @@ EndChar
 StartChar: uni04E8
 Encoding: 1256 1256 790
 AltUni2: 00019f.ffffffff.0
-GlifName: uni04E_8
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23708,7 +22918,6 @@ EndChar
 StartChar: uni04E9
 Encoding: 1257 1257 791
 AltUni2: 000275.ffffffff.0
-GlifName: uni04E_9
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -23765,7 +22974,6 @@ EndChar
 
 StartChar: uni0496
 Encoding: 1174 1174 792
-GlifName: uni0496
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 704 -192 basechar 0
@@ -23848,7 +23056,6 @@ EndChar
 
 StartChar: uni0497
 Encoding: 1175 1175 793
-GlifName: uni0497
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 704 -192 basechar 0
@@ -23932,7 +23139,6 @@ EndChar
 
 StartChar: uni04A2
 Encoding: 1186 1186 794
-GlifName: uni04A_2
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -23963,7 +23169,6 @@ EndChar
 
 StartChar: uni04A3
 Encoding: 1187 1187 795
-GlifName: uni04A_3
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -23994,7 +23199,6 @@ EndChar
 
 StartChar: uni0274
 Encoding: 628 628 796
-GlifName: uni0274
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -24034,7 +23238,6 @@ EndChar
 
 StartChar: uni0358
 Encoding: 856 856 797
-GlifName: uni0358
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -24051,7 +23254,6 @@ EndChar
 
 StartChar: uni207F
 Encoding: 8319 8319 798
-GlifName: uni207F_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -24083,7 +23285,6 @@ EndChar
 
 StartChar: uni2080
 Encoding: 8320 8320 799
-GlifName: uni2080
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -64 basechar 0
@@ -24128,7 +23329,6 @@ EndChar
 
 StartChar: uni1D3A
 Encoding: 7482 7482 800
-GlifName: uni1D_3A_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -24168,7 +23368,6 @@ EndChar
 
 StartChar: uni0E81
 Encoding: 3713 3713 801
-GlifName: uni0E_81
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -24198,7 +23397,6 @@ EndChar
 
 StartChar: uni0E82
 Encoding: 3714 3714 802
-GlifName: uni0E_82
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -24247,7 +23445,6 @@ EndChar
 
 StartChar: uni0E83
 Encoding: 3715 3715 803
-GlifName: uni0E_83
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -24307,7 +23504,6 @@ EndChar
 
 StartChar: uni0E84
 Encoding: 3716 3716 804
-GlifName: uni0E_84
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -24348,7 +23544,6 @@ EndChar
 
 StartChar: uni0E85
 Encoding: 3717 3717 805
-GlifName: uni0E_85
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -24394,7 +23589,6 @@ EndChar
 
 StartChar: uni0E86
 Encoding: 3718 3718 806
-GlifName: uni0E_86
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 704 0 basechar 0
@@ -24442,7 +23636,6 @@ EndChar
 
 StartChar: uni0E87
 Encoding: 3719 3719 807
-GlifName: uni0E_87
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -24483,7 +23676,6 @@ EndChar
 
 StartChar: uni0E88
 Encoding: 3720 3720 808
-GlifName: uni0E_88
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -24496,7 +23688,6 @@ EndChar
 
 StartChar: uni0E89
 Encoding: 3721 3721 809
-GlifName: uni0E_89
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -24541,7 +23732,6 @@ EndChar
 
 StartChar: uni0E8A
 Encoding: 3722 3722 810
-GlifName: uni0E_8A_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -24593,7 +23783,6 @@ EndChar
 
 StartChar: uni0E8C
 Encoding: 3724 3724 811
-GlifName: uni0E_8C_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -24652,7 +23841,6 @@ EndChar
 
 StartChar: uni0E8D
 Encoding: 3725 3725 812
-GlifName: uni0E_8D_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -24685,7 +23873,6 @@ EndChar
 
 StartChar: uni0E8E
 Encoding: 3726 3726 813
-GlifName: uni0E_8E_
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 704 512 basechar 0
@@ -24721,7 +23908,6 @@ EndChar
 
 StartChar: uni0E8F
 Encoding: 3727 3727 814
-GlifName: uni0E_8F_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -24766,7 +23952,6 @@ EndChar
 
 StartChar: uni0E90
 Encoding: 3728 3728 815
-GlifName: uni0E_90
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -24801,7 +23986,6 @@ EndChar
 
 StartChar: uni0E91
 Encoding: 3729 3729 816
-GlifName: uni0E_91
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 704 0 basechar 0
@@ -24848,7 +24032,6 @@ EndChar
 
 StartChar: uni0E92
 Encoding: 3730 3730 817
-GlifName: uni0E_92
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 704 0 basechar 0
@@ -24898,7 +24081,6 @@ EndChar
 
 StartChar: uni0E93
 Encoding: 3731 3731 818
-GlifName: uni0E_93
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 704 512 basechar 0
@@ -24937,7 +24119,6 @@ EndChar
 
 StartChar: uni0E94
 Encoding: 3732 3732 819
-GlifName: uni0E_94
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -24967,7 +24148,6 @@ EndChar
 
 StartChar: uni0E95
 Encoding: 3733 3733 820
-GlifName: uni0E_95
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25004,7 +24184,6 @@ EndChar
 
 StartChar: uni0E96
 Encoding: 3734 3734 821
-GlifName: uni0E_96
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25034,7 +24213,6 @@ EndChar
 
 StartChar: uni0E97
 Encoding: 3735 3735 822
-GlifName: uni0E_97
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 704 0 basechar 0
@@ -25074,7 +24252,6 @@ EndChar
 
 StartChar: uni0E98
 Encoding: 3736 3736 823
-GlifName: uni0E_98
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25119,7 +24296,6 @@ EndChar
 
 StartChar: uni0E99
 Encoding: 3737 3737 824
-GlifName: uni0E_99
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25156,7 +24332,6 @@ EndChar
 
 StartChar: uni0E9A
 Encoding: 3738 3738 825
-GlifName: uni0E_9A_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25169,7 +24344,6 @@ EndChar
 
 StartChar: uni0E9B
 Encoding: 3739 3739 826
-GlifName: uni0E_9B_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 384 512 basechar 0
@@ -25182,7 +24356,6 @@ EndChar
 
 StartChar: uni0E9C
 Encoding: 3740 3740 827
-GlifName: uni0E_9C_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25226,7 +24399,6 @@ EndChar
 
 StartChar: uni0E9D
 Encoding: 3741 3741 828
-GlifName: uni0E_9D_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 384 512 basechar 0
@@ -25264,7 +24436,6 @@ EndChar
 
 StartChar: uni0E9E
 Encoding: 3742 3742 829
-GlifName: uni0E_9E_
 Width: 704
 Flags: HMW
 AnchorPoint: "abvm" 704 512 basechar 0
@@ -25306,7 +24477,6 @@ EndChar
 
 StartChar: uni0E9F
 Encoding: 3743 3743 830
-GlifName: uni0E_9F_
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 704 0 basechar 0
@@ -25348,7 +24518,6 @@ EndChar
 
 StartChar: uni0EA0
 Encoding: 3744 3744 831
-GlifName: uni0E_A_0
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25389,7 +24558,6 @@ EndChar
 
 StartChar: uni0EA1
 Encoding: 3745 3745 832
-GlifName: uni0E_A_1
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25421,7 +24589,6 @@ EndChar
 
 StartChar: uni0EA2
 Encoding: 3746 3746 833
-GlifName: uni0E_A_2
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 384 512 basechar 0
@@ -25454,7 +24621,6 @@ EndChar
 
 StartChar: uni0EA3
 Encoding: 3747 3747 834
-GlifName: uni0E_A_3
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25503,7 +24669,6 @@ EndChar
 
 StartChar: uni0EA5
 Encoding: 3749 3749 835
-GlifName: uni0E_A_5
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25547,7 +24712,6 @@ EndChar
 
 StartChar: uni0EA7
 Encoding: 3751 3751 836
-GlifName: uni0E_A_7
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25581,7 +24745,6 @@ EndChar
 
 StartChar: uni0EA8
 Encoding: 3752 3752 837
-GlifName: uni0E_A_8
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25631,7 +24794,6 @@ EndChar
 
 StartChar: uni0EA9
 Encoding: 3753 3753 838
-GlifName: uni0E_A_9
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25644,7 +24806,6 @@ EndChar
 
 StartChar: uni0EAA
 Encoding: 3754 3754 839
-GlifName: uni0E_A_A_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25696,7 +24857,6 @@ EndChar
 
 StartChar: uni0EAB
 Encoding: 3755 3755 840
-GlifName: uni0E_A_B_
 Width: 704
 Flags: HMW
 AnchorPoint: "blwm" 704 0 basechar 0
@@ -25742,7 +24902,6 @@ EndChar
 
 StartChar: uni0EAC
 Encoding: 3756 3756 841
-GlifName: uni0E_A_C_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25789,7 +24948,6 @@ EndChar
 
 StartChar: uni0EAD
 Encoding: 3757 3757 842
-GlifName: uni0E_A_D_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25831,7 +24989,6 @@ EndChar
 
 StartChar: uni0EAE
 Encoding: 3758 3758 843
-GlifName: uni0E_A_E_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25882,7 +25039,6 @@ EndChar
 
 StartChar: uni0EAF
 Encoding: 3759 3759 844
-GlifName: uni0E_A_F_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -25893,7 +25049,6 @@ EndChar
 
 StartChar: uni0EB0
 Encoding: 3760 3760 845
-GlifName: uni0E_B_0
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25929,7 +25084,6 @@ EndChar
 
 StartChar: uni0EB1
 Encoding: 3761 3761 846
-GlifName: uni0E_B_1
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm.mkmk" 0 704 basemark 0
@@ -25956,7 +25110,6 @@ EndChar
 
 StartChar: uni0EB2
 Encoding: 3762 3762 847
-GlifName: uni0E_B_2
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -25983,7 +25136,6 @@ EndChar
 
 StartChar: uni0EB3
 Encoding: 3763 3763 848
-GlifName: uni0E_B_3
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -26022,7 +25174,6 @@ EndChar
 
 StartChar: uni0EC0
 Encoding: 3776 3776 849
-GlifName: uni0E_C_0
 Width: 320
 Flags: HMW
 AnchorPoint: "abvm" 320 512 basechar 0
@@ -26035,7 +25186,6 @@ EndChar
 
 StartChar: uni0ECA
 Encoding: 3786 3786 850
-GlifName: uni0E_C_A_
 Width: 0
 Flags: MW
 AnchorPoint: "abvm.mkmk" 0 960 basemark 0
@@ -26049,7 +25199,6 @@ EndChar
 
 StartChar: uni0ECB
 Encoding: 3787 3787 851
-GlifName: uni0E_C_B_
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm.mkmk" 0 960 basemark 0
@@ -26063,7 +25212,6 @@ EndChar
 
 StartChar: uni0EBD
 Encoding: 3773 3773 852
-GlifName: uni0E_B_D_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -26122,7 +25270,6 @@ EndChar
 
 StartChar: uni0EB4
 Encoding: 3764 3764 853
-GlifName: uni0E_B_4
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 512 mark 0
@@ -26162,7 +25309,6 @@ EndChar
 
 StartChar: uni0ED0
 Encoding: 3792 3792 854
-GlifName: uni0E_D_0
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -26175,7 +25321,6 @@ EndChar
 
 StartChar: uni0ECD
 Encoding: 3789 3789 855
-GlifName: uni0E_C_D_
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm.mkmk" 0 704 basemark 0
@@ -26189,7 +25334,6 @@ EndChar
 
 StartChar: uni0EB5
 Encoding: 3765 3765 856
-GlifName: uni0E_B_5
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 512 mark 0
@@ -26226,7 +25370,6 @@ EndChar
 
 StartChar: uni0EB6
 Encoding: 3766 3766 857
-GlifName: uni0E_B_6
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 512 mark 0
@@ -26269,7 +25412,6 @@ EndChar
 
 StartChar: uni0EB7
 Encoding: 3767 3767 858
-GlifName: uni0E_B_7
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm" 0 512 mark 0
@@ -26310,7 +25452,6 @@ EndChar
 
 StartChar: uni0EB8
 Encoding: 3768 3768 859
-GlifName: uni0E_B_8
 Width: 0
 Flags: HMW
 AnchorPoint: "blwm" 0 0 mark 0
@@ -26332,7 +25473,6 @@ EndChar
 
 StartChar: uni0EB9
 Encoding: 3769 3769 860
-GlifName: uni0E_B_9
 Width: 0
 Flags: HMW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -26358,7 +25498,6 @@ EndChar
 
 StartChar: uni0EBA
 Encoding: 3770 3770 861
-GlifName: uni0E_B_A_
 Width: 0
 Flags: HMW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -26378,7 +25517,6 @@ EndChar
 
 StartChar: uni0EBB
 Encoding: 3771 3771 862
-GlifName: uni0E_B_B_
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm.mkmk" 0 704 basemark 0
@@ -26405,7 +25543,6 @@ EndChar
 
 StartChar: uni0EC9
 Encoding: 3785 3785 863
-GlifName: uni0E_C_9
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm.mkmk" 0 960 basemark 0
@@ -26419,7 +25556,6 @@ EndChar
 
 StartChar: uni0EC6
 Encoding: 3782 3782 864
-GlifName: uni0E_C_6
 Width: 576
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -26432,7 +25568,6 @@ EndChar
 
 StartChar: uni0EBC
 Encoding: 3772 3772 865
-GlifName: uni0E_B_C_
 Width: 0
 Flags: HMW
 AnchorPoint: "blwm.mkmk" 0 0 mark 0
@@ -26462,7 +25597,6 @@ EndChar
 
 StartChar: uni0EC8
 Encoding: 3784 3784 866
-GlifName: uni0E_C_8
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm.mkmk" 0 960 basemark 0
@@ -26476,7 +25610,6 @@ EndChar
 
 StartChar: uni0EC1
 Encoding: 3777 3777 867
-GlifName: uni0E_C_1
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -26489,7 +25622,6 @@ EndChar
 
 StartChar: uni0EC2
 Encoding: 3778 3778 868
-GlifName: uni0E_C_2
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -26502,7 +25634,6 @@ EndChar
 
 StartChar: uni0EC3
 Encoding: 3779 3779 869
-GlifName: uni0E_C_3
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -26515,7 +25646,6 @@ EndChar
 
 StartChar: uni0EC4
 Encoding: 3780 3780 870
-GlifName: uni0E_C_4
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -26528,7 +25658,6 @@ EndChar
 
 StartChar: uni0ECC
 Encoding: 3788 3788 871
-GlifName: uni0E_C_C_
 Width: 0
 Flags: MW
 AnchorPoint: "abvm.mkmk" 0 960 basemark 0
@@ -26542,7 +25671,6 @@ EndChar
 
 StartChar: uni0ECE
 Encoding: 3790 3790 872
-GlifName: uni0E_C_E_
 Width: 0
 Flags: HMW
 AnchorPoint: "abvm.mkmk" 0 704 basemark 0
@@ -26555,7 +25683,6 @@ EndChar
 
 StartChar: uni0ED1
 Encoding: 3793 3793 873
-GlifName: uni0E_D_1
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -26568,7 +25695,6 @@ EndChar
 
 StartChar: uni0ED2
 Encoding: 3794 3794 874
-GlifName: uni0E_D_2
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 704 basechar 0
@@ -26607,7 +25733,6 @@ EndChar
 
 StartChar: uni0ED3
 Encoding: 3795 3795 875
-GlifName: uni0E_D_3
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 704 basechar 0
@@ -26656,7 +25781,6 @@ EndChar
 
 StartChar: uni0ED4
 Encoding: 3796 3796 876
-GlifName: uni0E_D_4
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 704 basechar 0
@@ -26669,7 +25793,6 @@ EndChar
 
 StartChar: uni0ED5
 Encoding: 3797 3797 877
-GlifName: uni0E_D_5
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 704 basechar 0
@@ -26682,7 +25805,6 @@ EndChar
 
 StartChar: uni0ED6
 Encoding: 3798 3798 878
-GlifName: uni0E_D_6
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 704 basechar 0
@@ -26731,7 +25853,6 @@ EndChar
 
 StartChar: uni0ED7
 Encoding: 3799 3799 879
-GlifName: uni0E_D_7
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -26761,7 +25882,6 @@ EndChar
 
 StartChar: uni0ED8
 Encoding: 3800 3800 880
-GlifName: uni0E_D_8
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -26830,7 +25950,6 @@ EndChar
 
 StartChar: uni0ED9
 Encoding: 3801 3801 881
-GlifName: uni0E_D_9
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -26869,7 +25988,6 @@ EndChar
 
 StartChar: uni0EDC
 Encoding: 3804 3804 882
-GlifName: uni0E_D_C_
 Width: 960
 Flags: HMW
 AnchorPoint: "abvm" 960 512 basechar 0
@@ -26931,7 +26049,6 @@ EndChar
 
 StartChar: uni0EDD
 Encoding: 3805 3805 883
-GlifName: uni0E_D_D_
 Width: 960
 Flags: HMW
 AnchorPoint: "blwm" 960 0 basechar 0
@@ -26999,7 +26116,6 @@ EndChar
 
 StartChar: uni0EDE
 Encoding: 3806 3806 884
-GlifName: uni0E_D_E_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -27039,7 +26155,6 @@ EndChar
 
 StartChar: uni0EDF
 Encoding: 3807 3807 885
-GlifName: uni0E_D_F_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -27081,7 +26196,6 @@ EndChar
 
 StartChar: uni04AE
 Encoding: 1198 1198 886
-GlifName: uni04A_E_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -27119,7 +26233,6 @@ EndChar
 
 StartChar: uni04AF
 Encoding: 1199 1199 887
-GlifName: uni04A_F_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -27156,7 +26269,6 @@ EndChar
 
 StartChar: uni04B0
 Encoding: 1200 1200 888
-GlifName: uni04B_0
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -27202,7 +26314,6 @@ EndChar
 
 StartChar: uni04B1
 Encoding: 1201 1201 889
-GlifName: uni04B_1
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -27247,7 +26358,6 @@ EndChar
 
 StartChar: uni0492
 Encoding: 1170 1170 890
-GlifName: uni0492
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -27276,7 +26386,6 @@ EndChar
 
 StartChar: uni0493
 Encoding: 1171 1171 891
-GlifName: uni0493
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -27305,7 +26414,6 @@ EndChar
 
 StartChar: uni049A
 Encoding: 1178 1178 892
-GlifName: uni049A_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -27366,7 +26474,6 @@ EndChar
 
 StartChar: uni049B
 Encoding: 1179 1179 893
-GlifName: uni049B_
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -27424,7 +26531,6 @@ EndChar
 
 StartChar: uni04BA
 Encoding: 1210 1210 894
-GlifName: uni04B_A_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -27451,7 +26557,6 @@ EndChar
 
 StartChar: uni04BB
 Encoding: 1211 1211 895
-GlifName: uni04B_B_
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -27487,7 +26592,6 @@ EndChar
 
 StartChar: uni04EA
 Encoding: 1258 1258 896
-GlifName: uni04E_A_
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -27501,7 +26605,6 @@ EndChar
 
 StartChar: uni04EB
 Encoding: 1259 1259 897
-GlifName: uni04E_B_
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -27515,7 +26618,6 @@ EndChar
 
 StartChar: uni02BA
 Encoding: 698 698 898
-GlifName: uni02B_A_
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -27526,7 +26628,6 @@ EndChar
 
 StartChar: uni02B9
 Encoding: 697 697 899
-GlifName: uni02B_9
 Width: 256
 Flags: MW
 LayerCount: 2
@@ -27545,7 +26646,6 @@ EndChar
 
 StartChar: uni0243
 Encoding: 579 579 900
-GlifName: uni0243
 Width: 512
 Flags: MW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -27596,7 +26696,6 @@ EndChar
 
 StartChar: uni0180
 Encoding: 384 384 901
-GlifName: uni0180
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -27655,7 +26754,6 @@ EndChar
 
 StartChar: uni0248
 Encoding: 584 584 902
-GlifName: uni0248
 Width: 512
 Flags: MW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -27693,7 +26791,6 @@ EndChar
 
 StartChar: uni0249
 Encoding: 585 585 903
-GlifName: uni0249
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -27737,7 +26834,6 @@ EndChar
 
 StartChar: uni0197
 Encoding: 407 407 904
-GlifName: uni0197
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -27772,7 +26868,6 @@ EndChar
 
 StartChar: uni0268
 Encoding: 616 616 905
-GlifName: uni0268
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -27810,7 +26905,6 @@ EndChar
 
 StartChar: uni026A
 Encoding: 618 618 906
-GlifName: uni026A_
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -27837,7 +26931,6 @@ EndChar
 
 StartChar: uni025F
 Encoding: 607 607 907
-GlifName: uni025F_
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 577 basechar 0
@@ -27875,7 +26968,6 @@ EndChar
 
 StartChar: uni1E22
 Encoding: 7714 7714 908
-GlifName: uni1E_22
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -27889,7 +26981,6 @@ EndChar
 
 StartChar: uni1E40
 Encoding: 7744 7744 909
-GlifName: uni1E_40
 Width: 576
 Flags: MW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -27903,7 +26994,6 @@ EndChar
 
 StartChar: uni1E44
 Encoding: 7748 7748 910
-GlifName: uni1E_44
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -27917,7 +27007,6 @@ EndChar
 
 StartChar: uni1E23
 Encoding: 7715 7715 911
-GlifName: uni1E_23
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -27931,7 +27020,6 @@ EndChar
 
 StartChar: uni1E41
 Encoding: 7745 7745 912
-GlifName: uni1E_41
 Width: 576
 Flags: MW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -27945,7 +27033,6 @@ EndChar
 
 StartChar: uni1E45
 Encoding: 7749 7749 913
-GlifName: uni1E_45
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -27959,7 +27046,6 @@ EndChar
 
 StartChar: uni028A
 Encoding: 650 650 914
-GlifName: uni028A_
 Width: 512
 Flags: MW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -28010,7 +27096,6 @@ EndChar
 
 StartChar: uni01F8
 Encoding: 504 504 915
-GlifName: uni01F_8
 Width: 512
 Flags: MW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -28024,7 +27109,6 @@ EndChar
 
 StartChar: uni01F9
 Encoding: 505 505 916
-GlifName: uni01F_9
 Width: 512
 Flags: MW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -28038,7 +27122,6 @@ EndChar
 
 StartChar: uni1E10
 Encoding: 7696 7696 917
-GlifName: uni1E_10
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -28052,7 +27135,6 @@ EndChar
 
 StartChar: uni1E11
 Encoding: 7697 7697 918
-GlifName: uni1E_11
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -28066,7 +27148,6 @@ EndChar
 
 StartChar: alphatonos
 Encoding: 940 940 919
-GlifName: alphatonos
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -28080,7 +27161,6 @@ EndChar
 
 StartChar: epsilontonos
 Encoding: 941 941 920
-GlifName: epsilontonos
 Width: 512
 Flags: MW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -28094,7 +27174,6 @@ EndChar
 
 StartChar: etatonos
 Encoding: 942 942 921
-GlifName: etatonos
 Width: 512
 Flags: MW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -28108,7 +27187,6 @@ EndChar
 
 StartChar: iotatonos
 Encoding: 943 943 922
-GlifName: iotatonos
 Width: 512
 Flags: MW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -28122,7 +27200,6 @@ EndChar
 
 StartChar: upsilondieresistonos
 Encoding: 944 944 923
-GlifName: upsilondieresistonos
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -28137,7 +27214,6 @@ EndChar
 
 StartChar: iotadieresis
 Encoding: 970 970 924
-GlifName: iotadieresis
 Width: 512
 Flags: MW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -28151,7 +27227,6 @@ EndChar
 
 StartChar: upsilondieresis
 Encoding: 971 971 925
-GlifName: upsilondieresis
 Width: 512
 Flags: HMW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -28165,7 +27240,6 @@ EndChar
 
 StartChar: upsilontonos
 Encoding: 973 973 926
-GlifName: upsilontonos
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -28179,7 +27253,6 @@ EndChar
 
 StartChar: omegatonos
 Encoding: 974 974 927
-GlifName: omegatonos
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -28193,7 +27266,6 @@ EndChar
 
 StartChar: iotadieresistonos
 Encoding: 912 912 928
-GlifName: iotadieresistonos
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -28208,7 +27280,6 @@ EndChar
 
 StartChar: Alphatonos
 Encoding: 902 902 929
-GlifName: A_lphatonos
 Width: 512
 Flags: MW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -28222,7 +27293,6 @@ EndChar
 
 StartChar: Epsilontonos
 Encoding: 904 904 930
-GlifName: E_psilontonos
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -28236,7 +27306,6 @@ EndChar
 
 StartChar: Etatonos
 Encoding: 905 905 931
-GlifName: E_tatonos
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -28250,7 +27319,6 @@ EndChar
 
 StartChar: Iotatonos
 Encoding: 906 906 932
-GlifName: I_otatonos
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -28264,7 +27332,6 @@ EndChar
 
 StartChar: Omicrontonos
 Encoding: 908 908 933
-GlifName: O_microntonos
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -28278,7 +27345,6 @@ EndChar
 
 StartChar: Upsilontonos
 Encoding: 910 910 934
-GlifName: U_psilontonos
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 832 basechar 0
@@ -28292,7 +27358,6 @@ EndChar
 
 StartChar: Omegatonos
 Encoding: 911 911 935
-GlifName: O_megatonos
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -28306,7 +27371,6 @@ EndChar
 
 StartChar: uni0EA4
 Encoding: 3748 3748 936
-GlifName: uni0E_A_4
 Width: 576
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -28369,7 +27433,6 @@ EndChar
 
 StartChar: uni0EA6
 Encoding: 3750 3750 937
-GlifName: uni0E_A_6
 Width: 512
 Flags: HMW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -28423,7 +27486,6 @@ EndChar
 
 StartChar: uniFB01
 Encoding: 64257 64257 938
-GlifName: uniF_B_01
 Width: 1024
 Flags: HMW
 AnchorPoint: "blwm" 1024 0 basechar 0
@@ -28437,7 +27499,6 @@ EndChar
 
 StartChar: uniFB02
 Encoding: 64258 64258 939
-GlifName: uniF_B_02
 Width: 1024
 Flags: HMW
 AnchorPoint: "blwm" 1024 0 basechar 0
@@ -28451,7 +27512,6 @@ EndChar
 
 StartChar: uniFB00
 Encoding: 64256 64256 940
-GlifName: uniF_B_00
 Width: 1024
 Flags: HMW
 AnchorPoint: "blwm" 1024 0 basechar 0
@@ -28465,7 +27525,6 @@ EndChar
 
 StartChar: uniFB03
 Encoding: 64259 64259 941
-GlifName: uniF_B_03
 Width: 1536
 Flags: HMW
 AnchorPoint: "blwm" 1536 0 basechar 0
@@ -28480,7 +27539,6 @@ EndChar
 
 StartChar: uniFB04
 Encoding: 64260 64260 942
-GlifName: uniF_B_04
 Width: 1536
 Flags: HMW
 AnchorPoint: "blwm" 1536 0 basechar 0
@@ -28495,7 +27553,6 @@ EndChar
 
 StartChar: fraction
 Encoding: 8260 8260 943
-GlifName: fraction
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -28540,7 +27597,6 @@ EndChar
 
 StartChar: uni25CC
 Encoding: 9676 9676 944
-GlifName: uni25C_C_
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -28593,7 +27649,6 @@ EndChar
 
 StartChar: SF100000
 Encoding: 9472 9472 945
-GlifName: S_F_100000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28609,7 +27664,6 @@ EndChar
 
 StartChar: uni2501
 Encoding: 9473 9473 946
-GlifName: uni2501
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28625,7 +27679,6 @@ EndChar
 
 StartChar: SF110000
 Encoding: 9474 9474 947
-GlifName: S_F_110000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28641,7 +27694,6 @@ EndChar
 
 StartChar: uni2503
 Encoding: 9475 9475 948
-GlifName: uni2503
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28657,7 +27709,6 @@ EndChar
 
 StartChar: uni2504
 Encoding: 9476 9476 949
-GlifName: uni2504
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28683,7 +27734,6 @@ EndChar
 
 StartChar: uni2505
 Encoding: 9477 9477 950
-GlifName: uni2505
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28709,7 +27759,6 @@ EndChar
 
 StartChar: uni2506
 Encoding: 9478 9478 951
-GlifName: uni2506
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28740,7 +27789,6 @@ EndChar
 
 StartChar: uni2507
 Encoding: 9479 9479 952
-GlifName: uni2507
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28771,7 +27819,6 @@ EndChar
 
 StartChar: uni2508
 Encoding: 9480 9480 953
-GlifName: uni2508
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28802,7 +27849,6 @@ EndChar
 
 StartChar: uni2509
 Encoding: 9481 9481 954
-GlifName: uni2509
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28833,7 +27879,6 @@ EndChar
 
 StartChar: uni250A
 Encoding: 9482 9482 955
-GlifName: uni250A_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28864,7 +27909,6 @@ EndChar
 
 StartChar: uni250B
 Encoding: 9483 9483 956
-GlifName: uni250B_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28895,7 +27939,6 @@ EndChar
 
 StartChar: SF010000
 Encoding: 9484 9484 957
-GlifName: S_F_010000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28913,7 +27956,6 @@ EndChar
 
 StartChar: uni250D
 Encoding: 9485 9485 958
-GlifName: uni250D_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28931,7 +27973,6 @@ EndChar
 
 StartChar: uni250E
 Encoding: 9486 9486 959
-GlifName: uni250E_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28949,7 +27990,6 @@ EndChar
 
 StartChar: uni250F
 Encoding: 9487 9487 960
-GlifName: uni250F_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28967,7 +28007,6 @@ EndChar
 
 StartChar: SF030000
 Encoding: 9488 9488 961
-GlifName: S_F_030000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -28985,7 +28024,6 @@ EndChar
 
 StartChar: uni2511
 Encoding: 9489 9489 962
-GlifName: uni2511
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29003,7 +28041,6 @@ EndChar
 
 StartChar: uni2512
 Encoding: 9490 9490 963
-GlifName: uni2512
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29021,7 +28058,6 @@ EndChar
 
 StartChar: uni2513
 Encoding: 9491 9491 964
-GlifName: uni2513
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29039,7 +28075,6 @@ EndChar
 
 StartChar: SF020000
 Encoding: 9492 9492 965
-GlifName: S_F_020000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29057,7 +28092,6 @@ EndChar
 
 StartChar: uni2515
 Encoding: 9493 9493 966
-GlifName: uni2515
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29075,7 +28109,6 @@ EndChar
 
 StartChar: uni2516
 Encoding: 9494 9494 967
-GlifName: uni2516
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29093,7 +28126,6 @@ EndChar
 
 StartChar: uni2517
 Encoding: 9495 9495 968
-GlifName: uni2517
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29111,7 +28143,6 @@ EndChar
 
 StartChar: SF040000
 Encoding: 9496 9496 969
-GlifName: S_F_040000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29129,7 +28160,6 @@ EndChar
 
 StartChar: uni2519
 Encoding: 9497 9497 970
-GlifName: uni2519
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29147,7 +28177,6 @@ EndChar
 
 StartChar: uni251A
 Encoding: 9498 9498 971
-GlifName: uni251A_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29165,7 +28194,6 @@ EndChar
 
 StartChar: uni251B
 Encoding: 9499 9499 972
-GlifName: uni251B_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29183,7 +28211,6 @@ EndChar
 
 StartChar: SF080000
 Encoding: 9500 9500 973
-GlifName: S_F_080000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29203,7 +28230,6 @@ EndChar
 
 StartChar: uni251D
 Encoding: 9501 9501 974
-GlifName: uni251D_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29223,7 +28249,6 @@ EndChar
 
 StartChar: uni251E
 Encoding: 9502 9502 975
-GlifName: uni251E_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29245,7 +28270,6 @@ EndChar
 
 StartChar: uni251F
 Encoding: 9503 9503 976
-GlifName: uni251F_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29267,7 +28291,6 @@ EndChar
 
 StartChar: uni2520
 Encoding: 9504 9504 977
-GlifName: uni2520
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29287,7 +28310,6 @@ EndChar
 
 StartChar: uni2521
 Encoding: 9505 9505 978
-GlifName: uni2521
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29309,7 +28331,6 @@ EndChar
 
 StartChar: uni2522
 Encoding: 9506 9506 979
-GlifName: uni2522
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29331,7 +28352,6 @@ EndChar
 
 StartChar: uni2523
 Encoding: 9507 9507 980
-GlifName: uni2523
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29351,7 +28371,6 @@ EndChar
 
 StartChar: SF090000
 Encoding: 9508 9508 981
-GlifName: S_F_090000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29371,7 +28390,6 @@ EndChar
 
 StartChar: uni2525
 Encoding: 9509 9509 982
-GlifName: uni2525
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29391,7 +28409,6 @@ EndChar
 
 StartChar: uni2526
 Encoding: 9510 9510 983
-GlifName: uni2526
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29411,7 +28428,6 @@ EndChar
 
 StartChar: uni2527
 Encoding: 9511 9511 984
-GlifName: uni2527
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29431,7 +28447,6 @@ EndChar
 
 StartChar: uni2528
 Encoding: 9512 9512 985
-GlifName: uni2528
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29451,7 +28466,6 @@ EndChar
 
 StartChar: uni2529
 Encoding: 9513 9513 986
-GlifName: uni2529
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29471,7 +28485,6 @@ EndChar
 
 StartChar: uni252A
 Encoding: 9514 9514 987
-GlifName: uni252A_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29491,7 +28504,6 @@ EndChar
 
 StartChar: uni252B
 Encoding: 9515 9515 988
-GlifName: uni252B_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29511,7 +28523,6 @@ EndChar
 
 StartChar: SF060000
 Encoding: 9516 9516 989
-GlifName: S_F_060000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29531,7 +28542,6 @@ EndChar
 
 StartChar: uni252D
 Encoding: 9517 9517 990
-GlifName: uni252D_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29551,7 +28561,6 @@ EndChar
 
 StartChar: uni252E
 Encoding: 9518 9518 991
-GlifName: uni252E_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29571,7 +28580,6 @@ EndChar
 
 StartChar: uni252F
 Encoding: 9519 9519 992
-GlifName: uni252F_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29591,7 +28599,6 @@ EndChar
 
 StartChar: uni2530
 Encoding: 9520 9520 993
-GlifName: uni2530
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29611,7 +28618,6 @@ EndChar
 
 StartChar: uni2531
 Encoding: 9521 9521 994
-GlifName: uni2531
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29631,7 +28637,6 @@ EndChar
 
 StartChar: uni2532
 Encoding: 9522 9522 995
-GlifName: uni2532
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29651,7 +28656,6 @@ EndChar
 
 StartChar: uni2533
 Encoding: 9523 9523 996
-GlifName: uni2533
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29671,7 +28675,6 @@ EndChar
 
 StartChar: SF070000
 Encoding: 9524 9524 997
-GlifName: S_F_070000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29691,7 +28694,6 @@ EndChar
 
 StartChar: uni2535
 Encoding: 9525 9525 998
-GlifName: uni2535
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29713,7 +28715,6 @@ EndChar
 
 StartChar: uni2536
 Encoding: 9526 9526 999
-GlifName: uni2536
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29735,7 +28736,6 @@ EndChar
 
 StartChar: uni2537
 Encoding: 9527 9527 1000
-GlifName: uni2537
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29755,7 +28755,6 @@ EndChar
 
 StartChar: uni2538
 Encoding: 9528 9528 1001
-GlifName: uni2538
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29775,7 +28774,6 @@ EndChar
 
 StartChar: uni2539
 Encoding: 9529 9529 1002
-GlifName: uni2539
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29797,7 +28795,6 @@ EndChar
 
 StartChar: uni253A
 Encoding: 9530 9530 1003
-GlifName: uni253A_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29819,7 +28816,6 @@ EndChar
 
 StartChar: uni253B
 Encoding: 9531 9531 1004
-GlifName: uni253B_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29839,7 +28835,6 @@ EndChar
 
 StartChar: SF050000
 Encoding: 9532 9532 1005
-GlifName: S_F_050000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29863,7 +28858,6 @@ EndChar
 
 StartChar: uni253D
 Encoding: 9533 9533 1006
-GlifName: uni253D_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29887,7 +28881,6 @@ EndChar
 
 StartChar: uni253E
 Encoding: 9534 9534 1007
-GlifName: uni253E_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29911,7 +28904,6 @@ EndChar
 
 StartChar: uni253F
 Encoding: 9535 9535 1008
-GlifName: uni253F_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29935,7 +28927,6 @@ EndChar
 
 StartChar: uni2540
 Encoding: 9536 9536 1009
-GlifName: uni2540
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29959,7 +28950,6 @@ EndChar
 
 StartChar: uni2541
 Encoding: 9537 9537 1010
-GlifName: uni2541
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -29983,7 +28973,6 @@ EndChar
 
 StartChar: uni2542
 Encoding: 9538 9538 1011
-GlifName: uni2542
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30007,7 +28996,6 @@ EndChar
 
 StartChar: uni2543
 Encoding: 9539 9539 1012
-GlifName: uni2543
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30031,7 +29019,6 @@ EndChar
 
 StartChar: uni2544
 Encoding: 9540 9540 1013
-GlifName: uni2544
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30057,7 +29044,6 @@ EndChar
 
 StartChar: uni2545
 Encoding: 9541 9541 1014
-GlifName: uni2545
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30081,7 +29067,6 @@ EndChar
 
 StartChar: uni2546
 Encoding: 9542 9542 1015
-GlifName: uni2546
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30105,7 +29090,6 @@ EndChar
 
 StartChar: uni2547
 Encoding: 9543 9543 1016
-GlifName: uni2547
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30129,7 +29113,6 @@ EndChar
 
 StartChar: uni2548
 Encoding: 9544 9544 1017
-GlifName: uni2548
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30153,7 +29136,6 @@ EndChar
 
 StartChar: uni2549
 Encoding: 9545 9545 1018
-GlifName: uni2549
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30177,7 +29159,6 @@ EndChar
 
 StartChar: uni254A
 Encoding: 9546 9546 1019
-GlifName: uni254A_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30201,7 +29182,6 @@ EndChar
 
 StartChar: uni254B
 Encoding: 9547 9547 1020
-GlifName: uni254B_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30225,7 +29205,6 @@ EndChar
 
 StartChar: uni254C
 Encoding: 9548 9548 1021
-GlifName: uni254C_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30246,7 +29225,6 @@ EndChar
 
 StartChar: uni254D
 Encoding: 9549 9549 1022
-GlifName: uni254D_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30267,7 +29245,6 @@ EndChar
 
 StartChar: uni254E
 Encoding: 9550 9550 1023
-GlifName: uni254E_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30288,7 +29265,6 @@ EndChar
 
 StartChar: uni254F
 Encoding: 9551 9551 1024
-GlifName: uni254F_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30309,7 +29285,6 @@ EndChar
 
 StartChar: SF430000
 Encoding: 9552 9552 1025
-GlifName: S_F_430000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30330,7 +29305,6 @@ EndChar
 
 StartChar: SF240000
 Encoding: 9553 9553 1026
-GlifName: S_F_240000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30351,7 +29325,6 @@ EndChar
 
 StartChar: SF510000
 Encoding: 9554 9554 1027
-GlifName: S_F_510000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30373,7 +29346,6 @@ EndChar
 
 StartChar: SF520000
 Encoding: 9555 9555 1028
-GlifName: S_F_520000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30395,7 +29367,6 @@ EndChar
 
 StartChar: SF390000
 Encoding: 9556 9556 1029
-GlifName: S_F_390000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30420,7 +29391,6 @@ EndChar
 
 StartChar: SF220000
 Encoding: 9557 9557 1030
-GlifName: S_F_220000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30442,7 +29412,6 @@ EndChar
 
 StartChar: SF210000
 Encoding: 9558 9558 1031
-GlifName: S_F_210000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30464,7 +29433,6 @@ EndChar
 
 StartChar: SF250000
 Encoding: 9559 9559 1032
-GlifName: S_F_250000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30489,7 +29457,6 @@ EndChar
 
 StartChar: SF500000
 Encoding: 9560 9560 1033
-GlifName: S_F_500000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30511,7 +29478,6 @@ EndChar
 
 StartChar: SF490000
 Encoding: 9561 9561 1034
-GlifName: S_F_490000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30533,7 +29499,6 @@ EndChar
 
 StartChar: SF380000
 Encoding: 9562 9562 1035
-GlifName: S_F_380000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30558,7 +29523,6 @@ EndChar
 
 StartChar: SF280000
 Encoding: 9563 9563 1036
-GlifName: S_F_280000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30580,7 +29544,6 @@ EndChar
 
 StartChar: SF270000
 Encoding: 9564 9564 1037
-GlifName: S_F_270000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30602,7 +29565,6 @@ EndChar
 
 StartChar: SF260000
 Encoding: 9565 9565 1038
-GlifName: S_F_260000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30627,7 +29589,6 @@ EndChar
 
 StartChar: SF360000
 Encoding: 9566 9566 1039
-GlifName: S_F_360000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30651,7 +29612,6 @@ EndChar
 
 StartChar: SF370000
 Encoding: 9567 9567 1040
-GlifName: S_F_370000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30676,7 +29636,6 @@ EndChar
 
 StartChar: SF420000
 Encoding: 9568 9568 1041
-GlifName: S_F_420000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30706,7 +29665,6 @@ EndChar
 
 StartChar: SF190000
 Encoding: 9569 9569 1042
-GlifName: S_F_190000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30730,7 +29688,6 @@ EndChar
 
 StartChar: SF200000
 Encoding: 9570 9570 1043
-GlifName: S_F_200000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30755,7 +29712,6 @@ EndChar
 
 StartChar: SF230000
 Encoding: 9571 9571 1044
-GlifName: S_F_230000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30785,7 +29741,6 @@ EndChar
 
 StartChar: SF470000
 Encoding: 9572 9572 1045
-GlifName: S_F_470000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30810,7 +29765,6 @@ EndChar
 
 StartChar: SF480000
 Encoding: 9573 9573 1046
-GlifName: S_F_480000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30834,7 +29788,6 @@ EndChar
 
 StartChar: SF410000
 Encoding: 9574 9574 1047
-GlifName: S_F_410000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30864,7 +29817,6 @@ EndChar
 
 StartChar: SF450000
 Encoding: 9575 9575 1048
-GlifName: S_F_450000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30889,7 +29841,6 @@ EndChar
 
 StartChar: SF460000
 Encoding: 9576 9576 1049
-GlifName: S_F_460000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30913,7 +29864,6 @@ EndChar
 
 StartChar: SF400000
 Encoding: 9577 9577 1050
-GlifName: S_F_400000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30943,7 +29893,6 @@ EndChar
 
 StartChar: SF540000
 Encoding: 9578 9578 1051
-GlifName: S_F_540000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -30975,7 +29924,6 @@ EndChar
 
 StartChar: SF530000
 Encoding: 9579 9579 1052
-GlifName: S_F_530000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31007,7 +29955,6 @@ EndChar
 
 StartChar: SF440000
 Encoding: 9580 9580 1053
-GlifName: S_F_440000
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31046,7 +29993,6 @@ EndChar
 
 StartChar: uni256D
 Encoding: 9581 9581 1054
-GlifName: uni256D_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31074,7 +30020,6 @@ EndChar
 
 StartChar: uni256E
 Encoding: 9582 9582 1055
-GlifName: uni256E_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31104,7 +30049,6 @@ EndChar
 
 StartChar: uni256F
 Encoding: 9583 9583 1056
-GlifName: uni256F_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31135,7 +30079,6 @@ EndChar
 
 StartChar: uni2570
 Encoding: 9584 9584 1057
-GlifName: uni2570
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31166,7 +30109,6 @@ EndChar
 
 StartChar: uni2571
 Encoding: 9585 9585 1058
-GlifName: uni2571
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31210,7 +30152,6 @@ EndChar
 
 StartChar: uni2572
 Encoding: 9586 9586 1059
-GlifName: uni2572
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31256,7 +30197,6 @@ EndChar
 
 StartChar: uni2573
 Encoding: 9587 9587 1060
-GlifName: uni2573
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31323,7 +30263,6 @@ EndChar
 
 StartChar: uni2574
 Encoding: 9588 9588 1061
-GlifName: uni2574
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31339,7 +30278,6 @@ EndChar
 
 StartChar: uni2575
 Encoding: 9589 9589 1062
-GlifName: uni2575
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31355,7 +30293,6 @@ EndChar
 
 StartChar: uni2576
 Encoding: 9590 9590 1063
-GlifName: uni2576
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31371,7 +30308,6 @@ EndChar
 
 StartChar: uni2577
 Encoding: 9591 9591 1064
-GlifName: uni2577
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31387,7 +30323,6 @@ EndChar
 
 StartChar: uni2578
 Encoding: 9592 9592 1065
-GlifName: uni2578
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31403,7 +30338,6 @@ EndChar
 
 StartChar: uni2579
 Encoding: 9593 9593 1066
-GlifName: uni2579
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31419,7 +30353,6 @@ EndChar
 
 StartChar: uni257A
 Encoding: 9594 9594 1067
-GlifName: uni257A_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31435,7 +30368,6 @@ EndChar
 
 StartChar: uni257B
 Encoding: 9595 9595 1068
-GlifName: uni257B_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31451,7 +30383,6 @@ EndChar
 
 StartChar: uni257C
 Encoding: 9596 9596 1069
-GlifName: uni257C_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31469,7 +30400,6 @@ EndChar
 
 StartChar: uni257D
 Encoding: 9597 9597 1070
-GlifName: uni257D_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31487,7 +30417,6 @@ EndChar
 
 StartChar: uni257E
 Encoding: 9598 9598 1071
-GlifName: uni257E_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31505,7 +30434,6 @@ EndChar
 
 StartChar: uni257F
 Encoding: 9599 9599 1072
-GlifName: uni257F_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31523,7 +30451,6 @@ EndChar
 
 StartChar: upblock
 Encoding: 9600 9600 1073
-GlifName: upblock
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31539,7 +30466,6 @@ EndChar
 
 StartChar: uni2581
 Encoding: 9601 9601 1074
-GlifName: uni2581
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31555,7 +30481,6 @@ EndChar
 
 StartChar: uni2582
 Encoding: 9602 9602 1075
-GlifName: uni2582
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31571,7 +30496,6 @@ EndChar
 
 StartChar: uni2583
 Encoding: 9603 9603 1076
-GlifName: uni2583
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31587,7 +30511,6 @@ EndChar
 
 StartChar: dnblock
 Encoding: 9604 9604 1077
-GlifName: dnblock
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31603,7 +30526,6 @@ EndChar
 
 StartChar: uni2585
 Encoding: 9605 9605 1078
-GlifName: uni2585
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31619,7 +30541,6 @@ EndChar
 
 StartChar: uni2586
 Encoding: 9606 9606 1079
-GlifName: uni2586
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31635,7 +30556,6 @@ EndChar
 
 StartChar: uni2587
 Encoding: 9607 9607 1080
-GlifName: uni2587
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31651,7 +30571,6 @@ EndChar
 
 StartChar: block
 Encoding: 9608 9608 1081
-GlifName: block
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31667,7 +30586,6 @@ EndChar
 
 StartChar: uni2589
 Encoding: 9609 9609 1082
-GlifName: uni2589
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31683,7 +30601,6 @@ EndChar
 
 StartChar: uni258A
 Encoding: 9610 9610 1083
-GlifName: uni258A_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31699,7 +30616,6 @@ EndChar
 
 StartChar: uni258B
 Encoding: 9611 9611 1084
-GlifName: uni258B_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31715,7 +30631,6 @@ EndChar
 
 StartChar: lfblock
 Encoding: 9612 9612 1085
-GlifName: lfblock
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31731,7 +30646,6 @@ EndChar
 
 StartChar: uni258D
 Encoding: 9613 9613 1086
-GlifName: uni258D_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31747,7 +30661,6 @@ EndChar
 
 StartChar: uni258E
 Encoding: 9614 9614 1087
-GlifName: uni258E_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31763,7 +30676,6 @@ EndChar
 
 StartChar: uni258F
 Encoding: 9615 9615 1088
-GlifName: uni258F_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31779,7 +30691,6 @@ EndChar
 
 StartChar: rtblock
 Encoding: 9616 9616 1089
-GlifName: rtblock
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31795,7 +30706,6 @@ EndChar
 
 StartChar: ltshade
 Encoding: 9617 9617 1090
-GlifName: ltshade
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -31866,7 +30776,6 @@ EndChar
 
 StartChar: shade
 Encoding: 9618 9618 1091
-GlifName: shade
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32196,7 +31105,6 @@ EndChar
 
 StartChar: dkshade
 Encoding: 9619 9619 1092
-GlifName: dkshade
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32359,7 +31267,6 @@ EndChar
 
 StartChar: uni2594
 Encoding: 9620 9620 1093
-GlifName: uni2594
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32375,7 +31282,6 @@ EndChar
 
 StartChar: uni2595
 Encoding: 9621 9621 1094
-GlifName: uni2595
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32391,7 +31297,6 @@ EndChar
 
 StartChar: uni2596
 Encoding: 9622 9622 1095
-GlifName: uni2596
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32407,7 +31312,6 @@ EndChar
 
 StartChar: uni2597
 Encoding: 9623 9623 1096
-GlifName: uni2597
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32423,7 +31327,6 @@ EndChar
 
 StartChar: uni2598
 Encoding: 9624 9624 1097
-GlifName: uni2598
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32439,7 +31342,6 @@ EndChar
 
 StartChar: uni2599
 Encoding: 9625 9625 1098
-GlifName: uni2599
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32457,7 +31359,6 @@ EndChar
 
 StartChar: uni259A
 Encoding: 9626 9626 1099
-GlifName: uni259A_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32477,7 +31378,6 @@ EndChar
 
 StartChar: uni259B
 Encoding: 9627 9627 1100
-GlifName: uni259B_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32495,7 +31395,6 @@ EndChar
 
 StartChar: uni259C
 Encoding: 9628 9628 1101
-GlifName: uni259C_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32513,7 +31412,6 @@ EndChar
 
 StartChar: uni259D
 Encoding: 9629 9629 1102
-GlifName: uni259D_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32529,7 +31427,6 @@ EndChar
 
 StartChar: uni259E
 Encoding: 9630 9630 1103
-GlifName: uni259E_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32549,7 +31446,6 @@ EndChar
 
 StartChar: uni259F
 Encoding: 9631 9631 1104
-GlifName: uni259F_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32567,7 +31463,6 @@ EndChar
 
 StartChar: filledbox
 Encoding: 9632 9632 1105
-GlifName: filledbox
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32583,7 +31478,6 @@ EndChar
 
 StartChar: H22073
 Encoding: 9633 9633 1106
-GlifName: H_22073
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32604,7 +31498,6 @@ EndChar
 
 StartChar: circle
 Encoding: 9675 9675 1107
-GlifName: circle
 Width: 512
 Flags: MW
 AnchorPoint: "abvm" 512 512 basechar 0
@@ -32656,7 +31549,6 @@ EndChar
 
 StartChar: uniFF08
 Encoding: 65288 65288 1108
-GlifName: uniF_F_08
 Width: 1024
 Flags: HMW
 LayerCount: 2
@@ -32712,7 +31604,6 @@ EndChar
 
 StartChar: uniFF09
 Encoding: 65289 65289 1109
-GlifName: uniF_F_09
 Width: 1024
 Flags: HMW
 LayerCount: 2
@@ -32760,7 +31651,6 @@ EndChar
 
 StartChar: uni2070
 Encoding: 8304 8304 1110
-GlifName: uni2070
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32803,7 +31693,6 @@ EndChar
 
 StartChar: uni2071
 Encoding: 8305 8305 1111
-GlifName: uni2071
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32830,7 +31719,6 @@ EndChar
 
 StartChar: uni2074
 Encoding: 8308 8308 1112
-GlifName: uni2074
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32861,7 +31749,6 @@ EndChar
 
 StartChar: uni2075
 Encoding: 8309 8309 1113
-GlifName: uni2075
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32901,7 +31788,6 @@ EndChar
 
 StartChar: uni2076
 Encoding: 8310 8310 1114
-GlifName: uni2076
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32937,7 +31823,6 @@ EndChar
 
 StartChar: uni2077
 Encoding: 8311 8311 1115
-GlifName: uni2077
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -32970,7 +31855,6 @@ EndChar
 
 StartChar: uni2078
 Encoding: 8312 8312 1116
-GlifName: uni2078
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33016,7 +31900,6 @@ EndChar
 
 StartChar: uni2079
 Encoding: 8313 8313 1117
-GlifName: uni2079
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33056,7 +31939,6 @@ EndChar
 
 StartChar: uni207A
 Encoding: 8314 8314 1118
-GlifName: uni207A_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33080,7 +31962,6 @@ EndChar
 
 StartChar: uni207B
 Encoding: 8315 8315 1119
-GlifName: uni207B_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33096,7 +31977,6 @@ EndChar
 
 StartChar: uni207C
 Encoding: 8316 8316 1120
-GlifName: uni207C_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33117,7 +31997,6 @@ EndChar
 
 StartChar: uni207D
 Encoding: 8317 8317 1121
-GlifName: uni207D_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33153,7 +32032,6 @@ EndChar
 
 StartChar: uni207E
 Encoding: 8318 8318 1122
-GlifName: uni207E_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33187,7 +32065,6 @@ EndChar
 
 StartChar: uni2081
 Encoding: 8321 8321 1123
-GlifName: uni2081
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33197,7 +32074,6 @@ EndChar
 
 StartChar: uni2082
 Encoding: 8322 8322 1124
-GlifName: uni2082
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33207,7 +32083,6 @@ EndChar
 
 StartChar: uni2083
 Encoding: 8323 8323 1125
-GlifName: uni2083
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33217,7 +32092,6 @@ EndChar
 
 StartChar: uni2084
 Encoding: 8324 8324 1126
-GlifName: uni2084
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33227,7 +32101,6 @@ EndChar
 
 StartChar: uni2085
 Encoding: 8325 8325 1127
-GlifName: uni2085
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33237,7 +32110,6 @@ EndChar
 
 StartChar: uni2086
 Encoding: 8326 8326 1128
-GlifName: uni2086
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33247,7 +32119,6 @@ EndChar
 
 StartChar: uni2087
 Encoding: 8327 8327 1129
-GlifName: uni2087
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33257,7 +32128,6 @@ EndChar
 
 StartChar: uni2088
 Encoding: 8328 8328 1130
-GlifName: uni2088
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33267,7 +32137,6 @@ EndChar
 
 StartChar: uni2089
 Encoding: 8329 8329 1131
-GlifName: uni2089
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33277,7 +32146,6 @@ EndChar
 
 StartChar: uni208A
 Encoding: 8330 8330 1132
-GlifName: uni208A_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33287,7 +32155,6 @@ EndChar
 
 StartChar: uni208B
 Encoding: 8331 8331 1133
-GlifName: uni208B_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33297,7 +32164,6 @@ EndChar
 
 StartChar: uni208C
 Encoding: 8332 8332 1134
-GlifName: uni208C_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33307,7 +32173,6 @@ EndChar
 
 StartChar: uni208D
 Encoding: 8333 8333 1135
-GlifName: uni208D_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33317,7 +32182,6 @@ EndChar
 
 StartChar: uni208E
 Encoding: 8334 8334 1136
-GlifName: uni208E_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33327,7 +32191,6 @@ EndChar
 
 StartChar: uni20AD
 Encoding: 8365 8365 1137
-GlifName: uni20A_D_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33378,7 +32241,6 @@ EndChar
 
 StartChar: uniFFFC
 Encoding: 65532 65532 1138
-GlifName: uniF_F_F_C_
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -33522,7 +32384,6 @@ EndChar
 
 StartChar: uniFFFD
 Encoding: 65533 65533 1139
-GlifName: uniF_F_F_D_
 Width: 512
 Flags: HMW
 LayerCount: 2
@@ -33589,7 +32450,6 @@ EndChar
 StartChar: uni01B7
 Encoding: 439 439 1140
 AltUni2: 0004e0.ffffffff.0
-GlifName: uni01B_7
 Width: 512
 Flags: HW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -33649,7 +32509,6 @@ EndChar
 StartChar: uni0292
 Encoding: 658 658 1141
 AltUni2: 0004e1.ffffffff.0
-GlifName: uni0292
 Width: 512
 Flags: HW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -33711,7 +32570,6 @@ EndChar
 
 StartChar: uni0181
 Encoding: 385 385 1142
-GlifName: uni0181
 Width: 512
 Flags: HW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -33762,7 +32620,6 @@ EndChar
 
 StartChar: uni01B5
 Encoding: 437 437 1143
-GlifName: uni01B_5
 Width: 512
 Flags: HW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -33813,7 +32670,6 @@ EndChar
 
 StartChar: uni01B6
 Encoding: 438 438 1144
-GlifName: uni01B_6
 Width: 512
 Flags: HW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -33860,7 +32716,6 @@ EndChar
 
 StartChar: uni01C0
 Encoding: 448 448 1145
-GlifName: uni01C_0
 Width: 256
 Flags: HW
 VStem: 64 64<-64 576>
@@ -33879,7 +32734,6 @@ EndChar
 
 StartChar: uni01C1
 Encoding: 449 449 1146
-GlifName: uni01C_1
 Width: 256
 Flags: HW
 VStem: 64 64<-64 576>
@@ -33903,7 +32757,6 @@ EndChar
 
 StartChar: uni01B2
 Encoding: 434 434 1147
-GlifName: uni01B_2
 Width: 512
 Flags: HW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -33945,7 +32798,6 @@ EndChar
 
 StartChar: uni0194
 Encoding: 404 404 1148
-GlifName: uni0194
 Width: 512
 Flags: HW
 AnchorPoint: "abvm" 512 640 basechar 0
@@ -34008,7 +32860,6 @@ EndChar
 
 StartChar: uni0263
 Encoding: 611 611 1149
-GlifName: uni0263
 Width: 512
 Flags: HW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -34065,7 +32916,6 @@ EndChar
 
 StartChar: uni0283
 Encoding: 643 643 1150
-GlifName: uni0283
 Width: 512
 Flags: HW
 AnchorPoint: "blwm" 512 -192 basechar 0
@@ -34103,7 +32953,6 @@ EndChar
 
 StartChar: uni028B
 Encoding: 651 651 1151
-GlifName: uni028B_
 Width: 512
 Flags: HW
 AnchorPoint: "abvm" 512 576 basechar 0
@@ -34146,7 +32995,6 @@ EndChar
 
 StartChar: uni018A
 Encoding: 394 394 1152
-GlifName: uni018A_
 Width: 512
 Flags: HW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -34187,7 +33035,6 @@ EndChar
 
 StartChar: uni0253
 Encoding: 595 595 1153
-GlifName: uni0253
 Width: 512
 Flags: HW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -34242,7 +33089,6 @@ EndChar
 
 StartChar: uni0256
 Encoding: 598 598 1154
-GlifName: uni0256
 Width: 512
 Flags: HW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -34298,7 +33144,6 @@ EndChar
 
 StartChar: uni0257
 Encoding: 599 599 1155
-GlifName: uni0257
 Width: 512
 Flags: HW
 AnchorPoint: "abvm" 512 768 basechar 0
@@ -34351,7 +33196,6 @@ EndChar
 
 StartChar: arrowleft
 Encoding: 8592 8592 1156
-GlifName: arrowleft
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -34395,7 +33239,6 @@ EndChar
 
 StartChar: arrowup
 Encoding: 8593 8593 1157
-GlifName: arrowup
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -34439,7 +33282,6 @@ EndChar
 
 StartChar: arrowright
 Encoding: 8594 8594 1158
-GlifName: arrowright
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -34479,7 +33321,6 @@ EndChar
 
 StartChar: arrowdown
 Encoding: 8595 8595 1159
-GlifName: arrowdown
 Width: 1024
 Flags: HW
 LayerCount: 2
@@ -34519,7 +33360,6 @@ EndChar
 
 StartChar: uni04E2
 Encoding: 1250 1250 1160
-GlifName: uni04E_2
 Width: 512
 Flags: HW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -34532,7 +33372,6 @@ EndChar
 
 StartChar: uni04E3
 Encoding: 1251 1251 1161
-GlifName: uni04E_3
 Width: 512
 Flags: HW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -34545,7 +33384,6 @@ EndChar
 
 StartChar: uni04E6
 Encoding: 1254 1254 1162
-GlifName: uni04E_6
 Width: 512
 Flags: HW
 AnchorPoint: "blwm" 512 0 basechar 0
@@ -34558,7 +33396,6 @@ EndChar
 
 StartChar: uni04E7
 Encoding: 1255 1255 1163
-GlifName: uni04E_7
 Width: 512
 Flags: HW
 AnchorPoint: "blwm" 512 0 basechar 0
