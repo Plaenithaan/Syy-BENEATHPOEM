@@ -2,6 +2,19 @@
 
 ## ChangeLog  
 
+### Version 1.700
+- Added
+    - Syy Flowey
+    - kana
+    - big eszett (ẞ)
+    - latins
+- Fixed
+    - wrong [ฤๅ ฦๅ][tone marks] position
+    - wrong uni0E4C.low_left (ป์) position
+    - Syy UDT
+      - yammakan (อ๎) glyph
+      - missing (ӡ)
+
 ### Version 1.669
 - Fixed
     - something go wrong in 1.668

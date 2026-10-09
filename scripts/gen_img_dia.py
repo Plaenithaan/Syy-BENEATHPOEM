@@ -2,6 +2,7 @@ import sys
 import shutil
 import subprocess
 import os
+import math
 import uharfbuzz as hb
 import cairocffi as cairo
 from fontTools.ttLib import TTFont
@@ -31,23 +32,26 @@ paragraph_sets = [
         "* ดาวน์โหลดฟอนต์ไปใช้ไหม?",
         "       ♥ โหลด      ไม่โหลด"
     ],
+    [
+        "เห็นหัวใจนั่นไหม?",
+        "นั่นคือ“ดวงวิญญาณ”ของเธอ เป็นสิ่งที่",
+        "ก่อขึ้นจากตัวตนของเธอเองยังไงล่ะ!"
+    ],
 ]
 
 
 font_path = sys.argv[1]
 
 if len(sys.argv) >= 3:
-    try:
-        set_index = int(sys.argv[2])
-    except ValueError:
-        print(f"Invalid text set: {sys.argv[2]}")
+    arg = sys.argv[2]
+
+    if not arg.startswith("-") or not arg[1:].isdigit():
+        print(f"Invalid text set: {arg}")
         sys.exit(1)
+
+    set_index = int(arg[1:])
 else:
     set_index = 0
-
-
-if set_index < 0:
-    set_index = len(paragraph_sets) + set_index
 
 
 if set_index < 0 or set_index >= len(paragraph_sets):
@@ -57,6 +61,20 @@ if set_index < 0 or set_index >= len(paragraph_sets):
 
 
 paragraphs = paragraph_sets[set_index]
+
+
+# Default settings
+TEXT_GRAY = 1
+LINE_SPACING = 26
+ROUNDED = False
+
+
+# -2: black background + rounded white panel + black text
+if set_index == 2:
+    TEXT_GRAY = 0
+    LINE_SPACING = 30
+    ROUNDED = True
+
 
 font_name = os.path.splitext(os.path.basename(font_path))[0]
 output_path = f"documentation/images/{font_name}_dialog.png"
@@ -104,18 +122,73 @@ surface = cairo.ImageSurface(
 )
 
 ctx = cairo.Context(surface)
+ctx.set_antialias(cairo.ANTIALIAS_NONE)
 
-
-# Black background
 ctx.set_source_rgb(0, 0, 0)
 ctx.paint()
 
 
-# White 6px border
-ctx.set_source_rgb(1, 1, 1)
-ctx.set_line_width(6)
-ctx.rectangle(3, 3, WIDTH - 6, HEIGHT - 6)
-ctx.stroke()
+if ROUNDED:
+    x = 3
+    y = 3
+    width = WIDTH - 6
+    height = HEIGHT - 6
+    radius = 30
+
+    ctx.new_path()
+
+    ctx.move_to(x + radius, y)
+
+    ctx.line_to(x + width - radius, y)
+
+    ctx.arc(
+        x + width - radius,
+        y + radius,
+        radius,
+        -math.pi / 2,
+        0
+    )
+
+    ctx.line_to(x + width, y + height - radius)
+
+    ctx.arc(
+        x + width - radius,
+        y + height - radius,
+        radius,
+        0,
+        math.pi / 2
+    )
+
+    ctx.line_to(x + radius, y + height)
+
+    ctx.arc(
+        x + radius,
+        y + height - radius,
+        radius,
+        math.pi / 2,
+        math.pi
+    )
+
+    ctx.line_to(x, y + radius)
+
+    ctx.arc(
+        x + radius,
+        y + radius,
+        radius,
+        math.pi,
+        math.pi * 1.5
+    )
+
+    ctx.close_path()
+
+    ctx.set_source_rgb(1, 1, 1)
+    ctx.fill()
+
+else:
+    ctx.set_source_rgb(1, 1, 1)
+    ctx.set_line_width(6)
+    ctx.rectangle(3, 3, WIDTH - 6, HEIGHT - 6)
+    ctx.stroke()
 
 
 def draw_shaped_text(
@@ -183,7 +256,7 @@ def draw_shaped_text(
     return y + line_spacing * len(text_lines)
 
 
-body_start_y = 16 + LINE_SPACING
+body_start_y = 68 - LINE_SPACING
 
 
 for para in paragraphs:
@@ -197,7 +270,7 @@ for para in paragraphs:
         font_path,
         BODY_SIZE,
         LINE_SPACING,
-        1
+        TEXT_GRAY
     )
 
     body_start_y += LINE_SPACING + LINE_SPACING // 2

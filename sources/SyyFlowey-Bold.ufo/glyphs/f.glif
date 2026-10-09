@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f" format="2">
+  <advance width="576"/>
+  <unicode hex="0066"/>
+  <anchor x="512" y="-128" name="blwm"/>
+  <anchor x="512" y="576" name="abvm"/>
+  <outline>
+    <contour>
+      <point x="448" y="576" type="line"/>
+      <point x="256" y="576" type="line"/>
+      <point x="256" y="384" type="line"/>
+      <point x="448" y="384" type="line"/>
+      <point x="448" y="320" type="line"/>
+      <point x="256" y="320" type="line"/>
+      <point x="256" y="-128" type="line"/>
+      <point x="128" y="-128" type="line"/>
+      <point x="128" y="320" type="line"/>
+      <point x="0" y="320" type="line"/>
+      <point x="0" y="384" type="line"/>
+      <point x="128" y="384" type="line"/>
+      <point x="128" y="576" type="line"/>
+      <point x="192" y="576" type="line"/>
+      <point x="192" y="640" type="line"/>
+      <point x="448" y="640" type="line"/>
+    </contour>
+  </outline>
+</glyph>

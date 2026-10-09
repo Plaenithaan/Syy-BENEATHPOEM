@@ -6,6 +6,6 @@
   <anchor x="0" y="512" name="_abvm.mkmk"/>
   <anchor x="0" y="512" name="_abvm"/>
   <outline>
-    <component base="uni0E4C.low" xOffset="-192"/>
+    <component base="uni0E4C.low" xOffset="-128"/>
   </outline>
 </glyph>

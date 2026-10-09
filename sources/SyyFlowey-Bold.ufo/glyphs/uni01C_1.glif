@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni01C1" format="2">
+  <advance width="384"/>
+  <unicode hex="01C1"/>
+  <anchor x="256" y="-318" name="blwm"/>
+  <anchor x="256" y="706" name="abvm"/>
+  <outline>
+    <contour>
+      <point x="320" y="-256" type="line"/>
+      <point x="192" y="-256" type="line"/>
+      <point x="192" y="704" type="line"/>
+      <point x="320" y="704" type="line"/>
+    </contour>
+    <contour>
+      <point x="128" y="-256" type="line"/>
+      <point x="0" y="-256" type="line"/>
+      <point x="0" y="704" type="line"/>
+      <point x="128" y="704" type="line"/>
+    </contour>
+  </outline>
+</glyph>

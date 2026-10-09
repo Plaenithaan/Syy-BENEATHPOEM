@@ -26,6 +26,10 @@ RANGES = [
     (0x2DE0, 0x2DFF),
     (0xA640, 0xA69F),
     (0x1C80, 0x1C8F),
+
+    # Latin 
+    (0x1E00, 0x1E9F),
+
 ]
 
 CELL_WIDTH = 512
@@ -33,9 +37,13 @@ CELL_WIDTH = 512
 ACCENT_DOWN = 128
 
 ACCENT_UP = 0 # Syy UDT
-# ACCENT_UP = 64 # Syy UDS
+#ACCENT_UP = 64 # Syy UDS, Syy Flowey
 
 BLWM_DOWN = 192
+#BLWM_DOWN = 320 # Syy FLowey
+
+BLWM = 0
+#BLWM = 128 # Syy FLowey
 
 
 # ============================================================
@@ -58,6 +66,7 @@ NO_ACCENT_LOWER = {
     0x006B,  # k
     0x006C,  # l
     0x0074,  # t
+    0x017f,
 }
 
 
@@ -306,7 +315,7 @@ def add_gpos_anchors(glyph, base_cp, marks):
     ):
         blwm_y = -BLWM_DOWN
     else:
-        blwm_y = 0
+        blwm_y = -BLWM
 
     glyph.addAnchorPoint(
         "abvm",

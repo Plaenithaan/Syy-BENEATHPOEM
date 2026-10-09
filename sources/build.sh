@@ -2,8 +2,8 @@
 # set -e
 
 # Configuration
-font_families=("SyyUDT" "SyyUDS")
-weights=("Regular")
+font_families=("SyyUDT" "SyyUDS" "SyyFlowey")
+weights=("Regular" "Bold")
 output_base="fonts"
 sources_base="sources"
 
@@ -208,7 +208,7 @@ generate_images() {
     return 1
   fi
 
-  echo -e "║\n╟─ Generating Images for $(basename "$ttf_path")"
+  echo -e "║\n╟─ Generating Images for $(basename "$ttf_path") $dia_index"
 
   python ./scripts/gen_glyph_grid.py "$ttf_path" || true
   python ./scripts/gen_img_text.py "$ttf_path" || true
@@ -231,7 +231,7 @@ process_font() {
 
   run_fix_ufo "$ufo_file"
 
-  copy_features_if_needed "$weight" "$font_name"
+  # copy_features_if_needed "$weight" "$font_name"
 
   # ============================================================
   # UNHINTED
@@ -295,7 +295,8 @@ process_all() {
         process_font "$font_name" "$weight" "$i"
       else
         echo -e "❌ \e[31mSource not found: $ufo_path\e[0m"
-        exit 1
+        echo -e "║  SKIP"
+        # exit 1
       fi
     done
   done

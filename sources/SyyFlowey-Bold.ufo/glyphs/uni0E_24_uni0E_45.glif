@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0E24_uni0E45" format="2">
+  <advance width="960"/>
+  <unicode hex="F881"/>
+  <anchor x="960" y="-256" name="blwm"/>
+  <anchor x="960" y="384" name="abvm"/>
+  <outline>
+    <component base="uni0E45" xOffset="512"/>
+    <component base="uni0E24"/>
+  </outline>
+</glyph>
