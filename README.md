@@ -26,7 +26,9 @@ This fonts are pixel-fit at 16px, 16pt at 72 DPI, and 12pt at 96 DPI.
 
 
 # Download
-see the [fonts folder](fonts)
+👉 [SEE RELEASE SECTION](https://github.com/Plaenithaan/Syy-BENEATHPOEM/releases)
+
+or see the [fonts folder](fonts)
 ```
 ├── fonts
 │   ├── ttf      <- Recommended for general-purpose use
