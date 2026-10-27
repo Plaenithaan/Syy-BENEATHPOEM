@@ -138,8 +138,8 @@ black_headline_y = grey_headline_y + GREY_HEADLINE_SIZE + 40
 draw_shaped_text([headline], MARGIN, black_headline_y, TEXTBOX_WIDTH, font_path, HEADLINE_SIZE, LINE_SPACING, 0)
 
 # ========== SOM DCENX ==========
-dcenx_y = black_headline_y + 10 
-draw_shaped_text([dcenx], MARGIN + 220, dcenx_y, TEXTBOX_WIDTH, font_path, DCENX_SIZE, LINE_SPACING, 0)
+dcenx_y = black_headline_y
+draw_shaped_text([dcenx], MARGIN + 200, dcenx_y, TEXTBOX_WIDTH, font_path, DCENX_SIZE, LINE_SPACING, 0)
 
 # ========== BODY TEXT ==========
 body_start_y = dcenx_y + 10 + LINE_SPACING

@@ -69,7 +69,7 @@ It is recommended to export to a **new file** rather than overwriting the existi
 Then compare both files to identify any missing data before deleting the old file.
 
 ### Known Issues and Fixes (Source Files)
-(*For 1, 2, 3, and 4 : We made some autofix tools — check them out in the [scripts](scripts) folder yourself.*)
+(*For 1, 2, 3, 4, and 5 : We made some autofix tools — check them out in the [scripts](scripts) folder yourself.*)
 
 Fix common issues:
 ```
@@ -116,7 +116,11 @@ Manually add the following to [sources/SyyUDT-Regular.ufo/fontinfo.plist](source
       <integer>90</integer>
     </array>
 ```
-5. FontForge export wrong `features.fea`  
+5. Incorrect Unicode mapping order in .glif files  
+  Unicode mappings in .glif files may not be sorted in ascending hexadecimal code-point order.  
+  Solution: Automatically fixed by `fix_ufo.py`. No additional steps are required.
+
+6. FontForge export wrong `features.fea`  
 Manually edit to this in both ufo
 ```
 lookup ccmpThaiLowlineAbove {

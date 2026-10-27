@@ -2,8 +2,8 @@
 <glyph name="K" format="2">
   <advance width="576"/>
   <unicode hex="004B"/>
-  <unicode hex="041A"/>
   <unicode hex="039A"/>
+  <unicode hex="041A"/>
   <anchor x="512" y="-128" name="blwm"/>
   <anchor x="512" y="640" name="abvm"/>
   <outline>

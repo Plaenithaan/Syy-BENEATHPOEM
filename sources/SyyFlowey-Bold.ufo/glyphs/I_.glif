@@ -2,8 +2,8 @@
 <glyph name="I" format="2">
   <advance width="576"/>
   <unicode hex="0049"/>
-  <unicode hex="0406"/>
   <unicode hex="0399"/>
+  <unicode hex="0406"/>
   <anchor x="512" y="-128" name="blwm"/>
   <anchor x="512" y="640" name="abvm"/>
   <outline>

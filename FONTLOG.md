@@ -1,6 +1,9 @@
 # Syy BENEATHPOEM FONTLOG
 
 ## ChangeLog  
+### Version 1.710
+- Added
+    - Redawn JIS X 0213 Plane 1, Ku 1–3
 
 ### Version 1.700
 - Added

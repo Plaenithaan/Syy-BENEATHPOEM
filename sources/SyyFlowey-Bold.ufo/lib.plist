@@ -327,6 +327,7 @@
 		<string>longs</string>
 		<string>uni0180</string>
 		<string>uni0181</string>
+		<string>uni0411</string>
 		<string>uni0186</string>
 		<string>uni018A</string>
 		<string>uni018E</string>
@@ -336,8 +337,10 @@
 		<string>florin</string>
 		<string>uni0194</string>
 		<string>uni0197</string>
+		<string>uni04E8</string>
 		<string>Ohorn</string>
 		<string>ohorn</string>
+		<string>Sigma</string>
 		<string>Uhorn</string>
 		<string>uhorn</string>
 		<string>uni01B2</string>
@@ -362,6 +365,7 @@
 		<string>uni01DA</string>
 		<string>uni01DB</string>
 		<string>uni01DC</string>
+		<string>uni0259</string>
 		<string>uni01E2</string>
 		<string>uni01E3</string>
 		<string>Gcaron</string>
@@ -429,7 +433,6 @@
 		<string>uni0256</string>
 		<string>uni0257</string>
 		<string>uni0258</string>
-		<string>uni0259</string>
 		<string>uni025B</string>
 		<string>uni025C</string>
 		<string>uni025F</string>
@@ -437,19 +440,26 @@
 		<string>uni0268</string>
 		<string>uni026A</string>
 		<string>uni0274</string>
+		<string>uni04E9</string>
 		<string>uni0283</string>
 		<string>uni0289</string>
 		<string>uni028A</string>
 		<string>uni028B</string>
 		<string>uni0292</string>
+		<string>uni0432</string>
 		<string>uni02B9</string>
 		<string>uni02BA</string>
+		<string>quoteleft</string>
+		<string>quoteright</string>
+		<string>quotereversed</string>
 		<string>circumflex</string>
 		<string>caron</string>
 		<string>uni02C8</string>
 		<string>uni02C9</string>
 		<string>uni02CA</string>
 		<string>uni02CB</string>
+		<string>uni02D6</string>
+		<string>uni02D7</string>
 		<string>breve</string>
 		<string>dotaccent</string>
 		<string>ring</string>
@@ -517,7 +527,6 @@
 		<string>Lambda</string>
 		<string>Xi</string>
 		<string>Pi</string>
-		<string>Sigma</string>
 		<string>Phi</string>
 		<string>Psi</string>
 		<string>uni03A9</string>
@@ -565,7 +574,6 @@
 		<string>uni040D</string>
 		<string>uni040E</string>
 		<string>uni040F</string>
-		<string>uni0411</string>
 		<string>uni0414</string>
 		<string>uni0416</string>
 		<string>uni0417</string>
@@ -585,7 +593,6 @@
 		<string>uni042E</string>
 		<string>uni042F</string>
 		<string>uni0431</string>
-		<string>uni0432</string>
 		<string>uni0433</string>
 		<string>uni0434</string>
 		<string>uni0436</string>
@@ -655,8 +662,6 @@
 		<string>uni04E5</string>
 		<string>uni04E6</string>
 		<string>uni04E7</string>
-		<string>uni04E8</string>
-		<string>uni04E9</string>
 		<string>uni04EA</string>
 		<string>uni04EB</string>
 		<string>uni04EC</string>
@@ -1077,10 +1082,8 @@
 		<string>endash</string>
 		<string>emdash</string>
 		<string>uni2015</string>
-		<string>quoteleft</string>
-		<string>quoteright</string>
+		<string>uni2016</string>
 		<string>quotesinglbase</string>
-		<string>quotereversed</string>
 		<string>quotedblleft</string>
 		<string>quotedblright</string>
 		<string>quotedblbase</string>
@@ -1088,10 +1091,16 @@
 		<string>dagger</string>
 		<string>daggerdbl</string>
 		<string>bullet</string>
+		<string>twodotenleader</string>
 		<string>ellipsis</string>
 		<string>perthousand</string>
+		<string>minute</string>
+		<string>second</string>
+		<string>uni2034</string>
 		<string>guilsinglleft</string>
 		<string>guilsinglright</string>
+		<string>uni203B</string>
+		<string>uni203E</string>
 		<string>fraction</string>
 		<string>uni2070</string>
 		<string>uni2071</string>
@@ -1124,8 +1133,14 @@
 		<string>uni208E</string>
 		<string>Euro</string>
 		<string>uni20AD</string>
+		<string>uni2103</string>
+		<string>uni210F</string>
+		<string>uni2113</string>
 		<string>trademark</string>
 		<string>Omega</string>
+		<string>uni2127</string>
+		<string>uni212B</string>
+		<string>aleph</string>
 		<string>arrowleft</string>
 		<string>arrowup</string>
 		<string>arrowright</string>
@@ -1139,6 +1154,7 @@
 		<string>uni21A9</string>
 		<string>uni21AA</string>
 		<string>carriagereturn</string>
+		<string>uni21C4</string>
 		<string>arrowdblleft</string>
 		<string>arrowdblup</string>
 		<string>arrowdblright</string>
@@ -1166,19 +1182,64 @@
 		<string>uni21F3</string>
 		<string>universal</string>
 		<string>partialdiff</string>
+		<string>existential</string>
+		<string>emptyset</string>
 		<string>Delta</string>
+		<string>gradient</string>
+		<string>element</string>
+		<string>notelement</string>
+		<string>suchthat</string>
 		<string>product</string>
 		<string>summation</string>
 		<string>minus</string>
+		<string>uni2213</string>
 		<string>uni2215</string>
 		<string>uni2219</string>
 		<string>radical</string>
+		<string>proportional</string>
 		<string>infinity</string>
+		<string>angle</string>
+		<string>uni2225</string>
+		<string>uni2226</string>
+		<string>logicaland</string>
+		<string>logicalor</string>
+		<string>intersection</string>
+		<string>union</string>
 		<string>integral</string>
+		<string>uni222C</string>
+		<string>therefore</string>
+		<string>uni2235</string>
+		<string>uni223D</string>
+		<string>uni2243</string>
+		<string>congruent</string>
 		<string>approxequal</string>
+		<string>uni2252</string>
 		<string>notequal</string>
+		<string>equivalence</string>
+		<string>uni2262</string>
 		<string>lessequal</string>
 		<string>greaterequal</string>
+		<string>uni2266</string>
+		<string>uni2267</string>
+		<string>uni226A</string>
+		<string>uni226B</string>
+		<string>uni2276</string>
+		<string>uni2277</string>
+		<string>propersubset</string>
+		<string>propersuperset</string>
+		<string>notsubset</string>
+		<string>uni2285</string>
+		<string>reflexsubset</string>
+		<string>reflexsuperset</string>
+		<string>uni228A</string>
+		<string>uni228B</string>
+		<string>circleplus</string>
+		<string>uni2296</string>
+		<string>circlemultiply</string>
+		<string>perpendicular</string>
+		<string>uni2305</string>
+		<string>uni2306</string>
+		<string>uni2312</string>
 		<string>uni2318</string>
 		<string>uni2325</string>
 		<string>uni232B</string>
@@ -1348,17 +1409,27 @@
 		<string>H22073</string>
 		<string>triagup</string>
 		<string>uni25B3</string>
+		<string>uni25B6</string>
+		<string>uni25B7</string>
 		<string>triagdn</string>
 		<string>uni25BD</string>
+		<string>uni25C0</string>
+		<string>uni25C1</string>
+		<string>uni25C6</string>
+		<string>uni25C7</string>
+		<string>uni25C9</string>
 		<string>lozenge</string>
 		<string>circle</string>
 		<string>uni25CC</string>
 		<string>uni25CE</string>
 		<string>H18533</string>
 		<string>uni25E1</string>
+		<string>openbullet</string>
 		<string>uni25EF</string>
 		<string>uni2605</string>
 		<string>uni2606</string>
+		<string>female</string>
+		<string>male</string>
 		<string>uni2661</string>
 		<string>heart</string>
 		<string>uni2669</string>
@@ -1374,6 +1445,11 @@
 		<string>uni2764</string>
 		<string>uni2765</string>
 		<string>uni2919</string>
+		<string>uni2934</string>
+		<string>uni2935</string>
+		<string>uni29BF</string>
+		<string>uni29FA</string>
+		<string>uni29FB</string>
 		<string>uni3000</string>
 		<string>uni3001</string>
 		<string>uni3002</string>
@@ -1381,16 +1457,34 @@
 		<string>uni3005</string>
 		<string>uni3006</string>
 		<string>uni3007</string>
+		<string>uni3008</string>
+		<string>uni3009</string>
+		<string>uni300A</string>
+		<string>uni300B</string>
 		<string>uni300C</string>
 		<string>uni300D</string>
 		<string>uni300E</string>
 		<string>uni300F</string>
 		<string>uni3010</string>
 		<string>uni3011</string>
+		<string>uni3012</string>
+		<string>uni3013</string>
+		<string>uni3014</string>
+		<string>uni3015</string>
+		<string>uni3016</string>
+		<string>uni3017</string>
+		<string>uni3018</string>
+		<string>uni3019</string>
 		<string>uni301C</string>
 		<string>uni301D</string>
 		<string>uni301E</string>
 		<string>uni301F</string>
+		<string>uni3033</string>
+		<string>uni3034</string>
+		<string>uni3035</string>
+		<string>uni303B</string>
+		<string>uni303C</string>
+		<string>uni303D</string>
 		<string>uni3041</string>
 		<string>uni3042</string>
 		<string>uni3043</string>
@@ -1596,6 +1690,8 @@
 		<string>uni31FD</string>
 		<string>uni31FE</string>
 		<string>uni31FF</string>
+		<string>uni33CB</string>
+		<string>uni4EDD</string>
 		<string>uniE133</string>
 		<string>uniE134</string>
 		<string>uniE139</string>
@@ -1641,12 +1737,104 @@
 		<string>uniFB02</string>
 		<string>uniFB03</string>
 		<string>uniFB04</string>
+		<string>uniFE45</string>
+		<string>uniFE46</string>
 		<string>uniFF01</string>
+		<string>uniFF02</string>
+		<string>uniFF03</string>
+		<string>uniFF04</string>
+		<string>uniFF05</string>
+		<string>uniFF06</string>
+		<string>uniFF07</string>
 		<string>uniFF08</string>
 		<string>uniFF09</string>
+		<string>uniFF0A</string>
+		<string>uniFF0B</string>
+		<string>uniFF0C</string>
+		<string>uniFF0D</string>
+		<string>uniFF0E</string>
 		<string>uniFF0F</string>
+		<string>uniFF10</string>
+		<string>uniFF11</string>
+		<string>uniFF12</string>
+		<string>uniFF13</string>
+		<string>uniFF14</string>
+		<string>uniFF15</string>
+		<string>uniFF16</string>
+		<string>uniFF17</string>
+		<string>uniFF18</string>
+		<string>uniFF19</string>
+		<string>uniFF1A</string>
+		<string>uniFF1B</string>
+		<string>uniFF1C</string>
+		<string>uniFF1D</string>
+		<string>uniFF1E</string>
+		<string>uniFF1F</string>
+		<string>uniFF20</string>
+		<string>uniFF21</string>
+		<string>uniFF22</string>
+		<string>uniFF23</string>
+		<string>uniFF24</string>
+		<string>uniFF25</string>
+		<string>uniFF26</string>
+		<string>uniFF27</string>
+		<string>uniFF28</string>
+		<string>uniFF29</string>
+		<string>uniFF2A</string>
+		<string>uniFF2B</string>
+		<string>uniFF2C</string>
+		<string>uniFF2D</string>
+		<string>uniFF2E</string>
+		<string>uniFF2F</string>
+		<string>uniFF30</string>
+		<string>uniFF31</string>
+		<string>uniFF32</string>
+		<string>uniFF33</string>
+		<string>uniFF34</string>
+		<string>uniFF35</string>
+		<string>uniFF36</string>
+		<string>uniFF37</string>
+		<string>uniFF38</string>
+		<string>uniFF39</string>
+		<string>uniFF3A</string>
+		<string>uniFF3B</string>
 		<string>uniFF3C</string>
+		<string>uniFF3D</string>
+		<string>uniFF3E</string>
+		<string>uniFF3F</string>
+		<string>uniFF40</string>
+		<string>uniFF41</string>
+		<string>uniFF42</string>
+		<string>uniFF43</string>
 		<string>uniFF44</string>
+		<string>uniFF45</string>
+		<string>uniFF46</string>
+		<string>uniFF47</string>
+		<string>uniFF48</string>
+		<string>uniFF49</string>
+		<string>uniFF4A</string>
+		<string>uniFF4B</string>
+		<string>uniFF4C</string>
+		<string>uniFF4D</string>
+		<string>uniFF4E</string>
+		<string>uniFF4F</string>
+		<string>uniFF50</string>
+		<string>uniFF51</string>
+		<string>uniFF52</string>
+		<string>uniFF53</string>
+		<string>uniFF54</string>
+		<string>uniFF55</string>
+		<string>uniFF56</string>
+		<string>uniFF57</string>
+		<string>uniFF58</string>
+		<string>uniFF59</string>
+		<string>uniFF5A</string>
+		<string>uniFF5B</string>
+		<string>uniFF5C</string>
+		<string>uniFF5D</string>
+		<string>uniFF5E</string>
+		<string>uniFF5F</string>
+		<string>uniFF60</string>
 		<string>uniFF61</string>
 		<string>uniFF62</string>
 		<string>uniFF63</string>
@@ -1710,6 +1898,20 @@
 		<string>uniFF9D</string>
 		<string>uniFF9E</string>
 		<string>uniFF9F</string>
+		<string>uniFFE0</string>
+		<string>uniFFE1</string>
+		<string>uniFFE2</string>
+		<string>uniFFE3</string>
+		<string>uniFFE4</string>
+		<string>uniFFE5</string>
+		<string>uniFFE6</string>
+		<string>uniFFE8</string>
+		<string>uniFFE9</string>
+		<string>uniFFEA</string>
+		<string>uniFFEB</string>
+		<string>uniFFEC</string>
+		<string>uniFFED</string>
+		<string>uniFFEE</string>
 		<string>uniFFFC</string>
 		<string>uniFFFD</string>
 		<string>u1F494</string>

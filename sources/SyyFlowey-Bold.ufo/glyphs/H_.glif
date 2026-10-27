@@ -2,8 +2,8 @@
 <glyph name="H" format="2">
   <advance width="576"/>
   <unicode hex="0048"/>
-  <unicode hex="041D"/>
   <unicode hex="0397"/>
+  <unicode hex="041D"/>
   <anchor x="512" y="-128" name="blwm"/>
   <anchor x="512" y="640" name="abvm"/>
   <outline>

@@ -12,7 +12,7 @@ fontbakery version: 1.1.0
 
 
 
-<details><summary>[1] Family checks</summary>
+<details><summary>[2] Family checks</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Verify that family names in the name table are consistent across all fonts in the family. Checks Typographic Family name (nameID 16) if present, otherwise uses Font Family name (nameID 1) <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-family-consistent-family-name">opentype/family/consistent_family_name</a></summary>
@@ -51,10 +51,71 @@ fontbakery version: 1.1.0
 
 </div>
 </details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Each font in a family must have the same set of vertical metrics values. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-vertical-metrics">family/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>sTypoAscender is not the same across the family:
+Syy UDT: 960
+Syy UDS: 960
+Syy Flowey Bold: 896</p>
+ [code: sTypoAscender-mismatch]
+
+
+
+* 🔥 **FAIL** <p>sTypoDescender is not the same across the family:
+Syy UDT: -256
+Syy UDS: -256
+Syy Flowey Bold: -384</p>
+ [code: sTypoDescender-mismatch]
+
+
+
+* 🔥 **FAIL** <p>usWinAscent is not the same across the family:
+Syy UDT: 960
+Syy UDS: 960
+Syy Flowey Bold: 896</p>
+ [code: usWinAscent-mismatch]
+
+
+
+* 🔥 **FAIL** <p>usWinDescent is not the same across the family:
+Syy UDT: 256
+Syy UDS: 256
+Syy Flowey Bold: 384</p>
+ [code: usWinDescent-mismatch]
+
+
+
+* 🔥 **FAIL** <p>ascent is not the same across the family:
+Syy UDT: 960
+Syy UDS: 960
+Syy Flowey Bold: 896</p>
+ [code: ascent-mismatch]
+
+
+
+* 🔥 **FAIL** <p>descent is not the same across the family:
+Syy UDT: -256
+Syy UDS: -256
+Syy Flowey Bold: -384</p>
+ [code: descent-mismatch]
+
+
+
+</div>
+</details>
 </div>
 </details>
 
-<details><summary>[20] SyyUDT-Regular.ttf</summary>
+<details><summary>[21] SyyUDT-Regular.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-monospace">opentype/monospace</a></summary>
@@ -71,13 +132,13 @@ fontbakery version: 1.1.0
 
 
 
-* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1710 instead.
+* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1912 instead.
 Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
  [code: bad-numberOfHMetrics]
 
 
 
-* ⚠️ **WARN** <p>Font is monospaced but 426 glyphs (24.88%) have a different width. You should check the widths of: ['exclam', 'quotedbl', 'quotesingle', 'parenleft', 'parenright', 'comma', 'period', 'colon', 'semicolon', 'M', 'W', 'underscore', 'grave', 'm', 'w', 'braceleft', 'bar', 'braceright', 'exclamdown', 'acute', 'periodcentered', 'cedilla', 'AE', 'ae', 'OE', 'oe', 'Wcircumflex', 'wcircumflex', 'uni01C0', 'uni01C1', 'uni01E2', 'uni01E3', 'AEacute', 'aeacute', 'uni02B9', 'uni0402', 'uni0409', 'uni040A', 'uni040B', 'uni0416', 'uni0424', 'uni0428', 'uni0429', 'uni042B', 'uni042E', 'uni0436', 'uni043C', 'uni0444', 'uni0448', 'uni0449', 'uni044B', 'uni044E', 'uni0452', 'uni0459', 'uni045A', 'uni045B', 'uni0496', 'uni0497', 'uni04C1', 'uni04C2', 'uni04DC', 'uni04DD', 'uni04F8', 'uni04F9', 'uni0E0C', 'uni0E0D', 'uni0E12', 'uni0E13', 'uni0E40', 'uni0E46', 'uni0E86', 'uni0E8E', 'uni0E91', 'uni0E92', 'uni0E93', 'uni0E97', 'uni0E9E', 'uni0E9F', 'uni0EA4', 'uni0EAB', 'uni0EC0', 'uni0EC6', 'uni0EDC', 'uni0EDD', 'uni1E3E', 'uni1E3F', 'uni1E40', 'uni1E41', 'uni1E42', 'uni1E43', 'Wgrave', 'wgrave', 'Wacute', 'wacute', 'Wdieresis', 'wdieresis', 'uni1E86', 'uni1E87', 'uni1E88', 'uni1E89', 'uni1E98', 'uni2001', 'uni2003', 'uni2004', 'uni2005', 'uni2006', 'uni2008', 'uni2009', 'uni200A', 'emdash', 'uni2015', 'quoteleft', 'quoteright', 'quotesinglbase', 'quotereversed', 'quotedblleft', 'quotedblright', 'quotedblbase', 'uni201F', 'arrowleft', 'arrowup', 'arrowright', 'arrowdown', 'arrowboth', 'arrowupdn', 'uni2196', 'uni2197', 'uni2198', 'uni2199', 'uni21A9', 'uni21AA', 'carriagereturn', 'arrowdblleft', 'arrowdblup', 'arrowdblright', 'arrowdbldown', 'arrowdblboth', 'uni21D5', 'uni21D6', 'uni21D7', 'uni21D8', 'uni21D9', 'uni21E5', 'uni21E6', 'uni21E7', 'uni21E8', 'uni21E9', 'uni21EA', 'uni21EB', 'uni21EC', 'uni21ED', 'uni21EE', 'uni21EF', 'uni21F0', 'uni21F1', 'uni21F2', 'uni21F3', 'uni2318', 'uni2325', 'uni232B', 'uni2387', 'uni23CE', 'triagup', 'uni25B3', 'triagdn', 'uni25BD', 'uni25CE', 'H18533', 'uni25EF', 'uni2605', 'uni2606', 'uni2661', 'heart', 'uni2669', 'musicalnote', 'musicalnotedbl', 'uni266C', 'uni266D', 'uni266E', 'uni266F', 'uni26A0', 'uni2726', 'uni2727', 'uni2764', 'uni2765', 'uni3000', 'uni3001', 'uni3002', 'uni3003', 'uni3005', 'uni3006', 'uni3007', 'uni300C', 'uni300D', 'uni300E', 'uni300F', 'uni3010', 'uni3011', 'uni301C', 'uni301D', 'uni301E', 'uni301F', 'uni3041', 'uni3042', 'uni3043', 'uni3044', 'uni3045', 'uni3046', 'uni3047', 'uni3048', 'uni3049', 'uni304A', 'uni304B', 'uni304C', 'uni304D', 'uni304E', 'uni304F', 'uni3050', 'uni3051', 'uni3052', 'uni3053', 'uni3054', 'uni3055', 'uni3056', 'uni3057', 'uni3058', 'uni3059', 'uni305A', 'uni305B', 'uni305C', 'uni305D', 'uni305E', 'uni305F', 'uni3060', 'uni3061', 'uni3062', 'uni3063', 'uni3064', 'uni3065', 'uni3066', 'uni3067', 'uni3068', 'uni3069', 'uni306A', 'uni306B', 'uni306C', 'uni306D', 'uni306E', 'uni306F', 'uni3070', 'uni3071', 'uni3072', 'uni3073', 'uni3074', 'uni3075', 'uni3076', 'uni3077', 'uni3078', 'uni3079', 'uni307A', 'uni307B', 'uni307C', 'uni307D', 'uni307E', 'uni307F', 'uni3080', 'uni3081', 'uni3082', 'uni3083', 'uni3084', 'uni3085', 'uni3086', 'uni3087', 'uni3088', 'uni3089', 'uni308A', 'uni308B', 'uni308C', 'uni308D', 'uni308E', 'uni308F', 'uni3090', 'uni3091', 'uni3092', 'uni3093', 'uni3094', 'uni3095', 'uni3096', 'uni309B', 'uni309C', 'uni309D', 'uni309E', 'uni309F', 'uni30A0', 'uni30A1', 'uni30A2', 'uni30A3', 'uni30A4', 'uni30A5', 'uni30A6', 'uni30A7', 'uni30A8', 'uni30A9', 'uni30AA', 'uni30AB', 'uni30AC', 'uni30AD', 'uni30AE', 'uni30AF', 'uni30B0', 'uni30B1', 'uni30B2', 'uni30B3', 'uni30B4', 'uni30B5', 'uni30B6', 'uni30B7', 'uni30B8', 'uni30B9', 'uni30BA', 'uni30BB', 'uni30BC', 'uni30BD', 'uni30BE', 'uni30BF', 'uni30C0', 'uni30C1', 'uni30C2', 'uni30C3', 'uni30C4', 'uni30C5', 'uni30C6', 'uni30C7', 'uni30C8', 'uni30C9', 'uni30CA', 'uni30CB', 'uni30CC', 'uni30CD', 'uni30CE', 'uni30CF', 'uni30D0', 'uni30D1', 'uni30D2', 'uni30D3', 'uni30D4', 'uni30D5', 'uni30D6', 'uni30D7', 'uni30D8', 'uni30D9', 'uni30DA', 'uni30DB', 'uni30DC', 'uni30DD', 'uni30DE', 'uni30DF', 'uni30E0', 'uni30E1', 'uni30E2', 'uni30E3', 'uni30E4', 'uni30E5', 'uni30E6', 'uni30E7', 'uni30E8', 'uni30E9', 'uni30EA', 'uni30EB', 'uni30EC', 'uni30ED', 'uni30EE', 'uni30EF', 'uni30F0', 'uni30F1', 'uni30F2', 'uni30F3', 'uni30F4', 'uni30F5', 'uni30F6', 'uni30F7', 'uni30F8', 'uni30F9', 'uni30FA', 'uni30FB', 'uni30FC', 'uni30FD', 'uni30FE', 'uni30FF', 'uni31F0', 'uni31F1', 'uni31F2', 'uni31F3', 'uni31F4', 'uni31F5', 'uni31F6', 'uni31F7', 'uni31F8', 'uni31F9', 'uni31FA', 'uni31FB', 'uni31FC', 'uni31FD', 'uni31FE', 'uni31FF', 'uniE133', 'uniE134', 'uniE139', 'uni0E0D.descless', 'uni0E24_uni0E45', 'uni0E26_uni0E45', 'uniFB00', 'uniFB01', 'uniFB02', 'uniFB03', 'uniFB04', 'uniFF01', 'uniFF08', 'uniFF09', 'uniFF0F', 'uniFF3C', 'uniFF44', 'u1F494', 'u1FBB0', 'u1FBB2', 'u1FBB3']</p>
+* ⚠️ **WARN** <p>Font is monospaced but 626 glyphs (32.71%) have a different width. You should check the widths of: ['exclam', 'quotedbl', 'quotesingle', 'parenleft', 'parenright', 'comma', 'period', 'colon', 'semicolon', 'M', 'W', 'underscore', 'grave', 'm', 'w', 'braceleft', 'bar', 'braceright', 'exclamdown', 'acute', 'periodcentered', 'cedilla', 'AE', 'ae', 'OE', 'oe', 'Wcircumflex', 'wcircumflex', 'uni01C0', 'uni01C1', 'uni01E2', 'uni01E3', 'AEacute', 'aeacute', 'uni02B9', 'quoteleft', 'quoteright', 'quotereversed', 'uni0402', 'uni0409', 'uni040A', 'uni040B', 'uni0416', 'uni0424', 'uni0428', 'uni0429', 'uni042B', 'uni042E', 'uni0436', 'uni043C', 'uni0444', 'uni0448', 'uni0449', 'uni044B', 'uni044E', 'uni0452', 'uni0459', 'uni045A', 'uni045B', 'uni0496', 'uni0497', 'uni04C1', 'uni04C2', 'uni04DC', 'uni04DD', 'uni04F8', 'uni04F9', 'uni0E0C', 'uni0E0D', 'uni0E12', 'uni0E13', 'uni0E40', 'uni0E46', 'uni0E86', 'uni0E8E', 'uni0E91', 'uni0E92', 'uni0E93', 'uni0E97', 'uni0E9E', 'uni0E9F', 'uni0EA4', 'uni0EAB', 'uni0EC0', 'uni0EC6', 'uni0EDC', 'uni0EDD', 'uni1E3E', 'uni1E3F', 'uni1E40', 'uni1E41', 'uni1E42', 'uni1E43', 'Wgrave', 'wgrave', 'Wacute', 'wacute', 'Wdieresis', 'wdieresis', 'uni1E86', 'uni1E87', 'uni1E88', 'uni1E89', 'uni1E98', 'uni2001', 'uni2003', 'uni2004', 'uni2005', 'uni2006', 'uni2008', 'uni2009', 'uni200A', 'emdash', 'uni2015', 'uni2016', 'quotesinglbase', 'quotedblleft', 'quotedblright', 'quotedblbase', 'uni201F', 'twodotenleader', 'minute', 'uni2034', 'uni203B', 'uni203E', 'uni2103', 'uni210F', 'uni2113', 'uni212B', 'aleph', 'arrowleft', 'arrowup', 'arrowright', 'arrowdown', 'arrowboth', 'arrowupdn', 'uni2196', 'uni2197', 'uni2198', 'uni2199', 'uni21A9', 'uni21AA', 'carriagereturn', 'uni21C4', 'arrowdblleft', 'arrowdblup', 'arrowdblright', 'arrowdbldown', 'arrowdblboth', 'uni21D5', 'uni21D6', 'uni21D7', 'uni21D8', 'uni21D9', 'uni21E5', 'uni21E6', 'uni21E7', 'uni21E8', 'uni21E9', 'uni21EA', 'uni21EB', 'uni21EC', 'uni21ED', 'uni21EE', 'uni21EF', 'uni21F0', 'uni21F1', 'uni21F2', 'uni21F3', 'universal', 'existential', 'emptyset', 'gradient', 'element', 'notelement', 'suchthat', 'uni2213', 'proportional', 'infinity', 'angle', 'uni2225', 'uni2226', 'logicaland', 'logicalor', 'intersection', 'union', 'uni222C', 'therefore', 'uni2235', 'uni223D', 'uni2243', 'congruent', 'approxequal', 'uni2252', 'equivalence', 'uni2262', 'uni2266', 'uni2267', 'uni226A', 'uni226B', 'uni2276', 'uni2277', 'propersubset', 'propersuperset', 'notsubset', 'uni2285', 'reflexsubset', 'reflexsuperset', 'uni228A', 'uni228B', 'circleplus', 'uni2296', 'circlemultiply', 'perpendicular', 'uni2305', 'uni2306', 'uni2312', 'uni2318', 'uni2325', 'uni232B', 'uni2387', 'uni23CE', 'filledbox', 'H22073', 'triagup', 'uni25B3', 'uni25B6', 'uni25B7', 'triagdn', 'uni25BD', 'uni25C0', 'uni25C1', 'uni25C6', 'uni25C7', 'uni25C9', 'circle', 'uni25CE', 'H18533', 'uni25EF', 'uni2605', 'uni2606', 'female', 'male', 'uni2661', 'heart', 'uni2669', 'musicalnote', 'musicalnotedbl', 'uni266C', 'uni266D', 'uni266E', 'uni266F', 'uni26A0', 'uni2726', 'uni2727', 'uni2764', 'uni2765', 'uni2934', 'uni2935', 'uni29BF', 'uni29FA', 'uni29FB', 'uni3000', 'uni3001', 'uni3002', 'uni3003', 'uni3005', 'uni3006', 'uni3007', 'uni3008', 'uni3009', 'uni300A', 'uni300B', 'uni300C', 'uni300D', 'uni300E', 'uni300F', 'uni3010', 'uni3011', 'uni3012', 'uni3013', 'uni3014', 'uni3015', 'uni3016', 'uni3017', 'uni3018', 'uni3019', 'uni301C', 'uni301D', 'uni301E', 'uni301F', 'uni3033', 'uni3034', 'uni3035', 'uni303B', 'uni303C', 'uni303D', 'uni3041', 'uni3042', 'uni3043', 'uni3044', 'uni3045', 'uni3046', 'uni3047', 'uni3048', 'uni3049', 'uni304A', 'uni304B', 'uni304C', 'uni304D', 'uni304E', 'uni304F', 'uni3050', 'uni3051', 'uni3052', 'uni3053', 'uni3054', 'uni3055', 'uni3056', 'uni3057', 'uni3058', 'uni3059', 'uni305A', 'uni305B', 'uni305C', 'uni305D', 'uni305E', 'uni305F', 'uni3060', 'uni3061', 'uni3062', 'uni3063', 'uni3064', 'uni3065', 'uni3066', 'uni3067', 'uni3068', 'uni3069', 'uni306A', 'uni306B', 'uni306C', 'uni306D', 'uni306E', 'uni306F', 'uni3070', 'uni3071', 'uni3072', 'uni3073', 'uni3074', 'uni3075', 'uni3076', 'uni3077', 'uni3078', 'uni3079', 'uni307A', 'uni307B', 'uni307C', 'uni307D', 'uni307E', 'uni307F', 'uni3080', 'uni3081', 'uni3082', 'uni3083', 'uni3084', 'uni3085', 'uni3086', 'uni3087', 'uni3088', 'uni3089', 'uni308A', 'uni308B', 'uni308C', 'uni308D', 'uni308E', 'uni308F', 'uni3090', 'uni3091', 'uni3092', 'uni3093', 'uni3094', 'uni3095', 'uni3096', 'uni309B', 'uni309C', 'uni309D', 'uni309E', 'uni309F', 'uni30A0', 'uni30A1', 'uni30A2', 'uni30A3', 'uni30A4', 'uni30A5', 'uni30A6', 'uni30A7', 'uni30A8', 'uni30A9', 'uni30AA', 'uni30AB', 'uni30AC', 'uni30AD', 'uni30AE', 'uni30AF', 'uni30B0', 'uni30B1', 'uni30B2', 'uni30B3', 'uni30B4', 'uni30B5', 'uni30B6', 'uni30B7', 'uni30B8', 'uni30B9', 'uni30BA', 'uni30BB', 'uni30BC', 'uni30BD', 'uni30BE', 'uni30BF', 'uni30C0', 'uni30C1', 'uni30C2', 'uni30C3', 'uni30C4', 'uni30C5', 'uni30C6', 'uni30C7', 'uni30C8', 'uni30C9', 'uni30CA', 'uni30CB', 'uni30CC', 'uni30CD', 'uni30CE', 'uni30CF', 'uni30D0', 'uni30D1', 'uni30D2', 'uni30D3', 'uni30D4', 'uni30D5', 'uni30D6', 'uni30D7', 'uni30D8', 'uni30D9', 'uni30DA', 'uni30DB', 'uni30DC', 'uni30DD', 'uni30DE', 'uni30DF', 'uni30E0', 'uni30E1', 'uni30E2', 'uni30E3', 'uni30E4', 'uni30E5', 'uni30E6', 'uni30E7', 'uni30E8', 'uni30E9', 'uni30EA', 'uni30EB', 'uni30EC', 'uni30ED', 'uni30EE', 'uni30EF', 'uni30F0', 'uni30F1', 'uni30F2', 'uni30F3', 'uni30F4', 'uni30F5', 'uni30F6', 'uni30F7', 'uni30F8', 'uni30F9', 'uni30FA', 'uni30FB', 'uni30FC', 'uni30FD', 'uni30FE', 'uni30FF', 'uni31F0', 'uni31F1', 'uni31F2', 'uni31F3', 'uni31F4', 'uni31F5', 'uni31F6', 'uni31F7', 'uni31F8', 'uni31F9', 'uni31FA', 'uni31FB', 'uni31FC', 'uni31FD', 'uni31FE', 'uni31FF', 'uni33CB', 'uni4EDD', 'uniE133', 'uniE134', 'uniE139', 'uni0E0D.descless', 'uni0E24_uni0E45', 'uni0E26_uni0E45', 'uniFB00', 'uniFB01', 'uniFB02', 'uniFB03', 'uniFB04', 'uniFE45', 'uniFE46', 'uniFF01', 'uniFF02', 'uniFF03', 'uniFF04', 'uniFF05', 'uniFF06', 'uniFF07', 'uniFF08', 'uniFF09', 'uniFF0A', 'uniFF0B', 'uniFF0C', 'uniFF0D', 'uniFF0E', 'uniFF0F', 'uniFF10', 'uniFF11', 'uniFF12', 'uniFF13', 'uniFF14', 'uniFF15', 'uniFF16', 'uniFF17', 'uniFF18', 'uniFF19', 'uniFF1A', 'uniFF1B', 'uniFF1C', 'uniFF1D', 'uniFF1E', 'uniFF1F', 'uniFF20', 'uniFF21', 'uniFF22', 'uniFF23', 'uniFF24', 'uniFF25', 'uniFF26', 'uniFF27', 'uniFF28', 'uniFF29', 'uniFF2A', 'uniFF2B', 'uniFF2C', 'uniFF2D', 'uniFF2E', 'uniFF2F', 'uniFF30', 'uniFF31', 'uniFF32', 'uniFF33', 'uniFF34', 'uniFF35', 'uniFF36', 'uniFF37', 'uniFF38', 'uniFF39', 'uniFF3A', 'uniFF3B', 'uniFF3C', 'uniFF3D', 'uniFF3E', 'uniFF3F', 'uniFF40', 'uniFF41', 'uniFF42', 'uniFF43', 'uniFF44', 'uniFF45', 'uniFF46', 'uniFF47', 'uniFF48', 'uniFF49', 'uniFF4A', 'uniFF4B', 'uniFF4C', 'uniFF4D', 'uniFF4E', 'uniFF4F', 'uniFF50', 'uniFF51', 'uniFF52', 'uniFF53', 'uniFF54', 'uniFF55', 'uniFF56', 'uniFF57', 'uniFF58', 'uniFF59', 'uniFF5A', 'uniFF5B', 'uniFF5C', 'uniFF5D', 'uniFF5E', 'uniFF5F', 'uniFF60', 'uniFFE0', 'uniFFE1', 'uniFFE2', 'uniFFE3', 'uniFFE4', 'uniFFE5', 'uniFFE6', 'uniFFE9', 'uniFFEA', 'uniFFEB', 'uniFFEC', 'u1F494', 'u1FBB0', 'u1FBB2', 'u1FBB3']</p>
  [code: mono-outliers]
 
 
@@ -149,10 +210,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left">U+028A: LATIN SMALL LETTER UPSILON</td>
 <td align="left">U+01B1: LATIN CAPITAL LETTER UPSILON</td>
 </tr>
-<tr>
-<td align="left">U+FF44: FULLWIDTH LATIN SMALL LETTER D</td>
-<td align="left">U+FF24: FULLWIDTH LATIN CAPITAL LETTER D</td>
-</tr>
 </tbody>
 </table>
  [code: missing-case-counterparts]
@@ -215,22 +272,14 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </tr>
 <tr>
 <td align="left">The following base characters are missing from the font: Ɲ, ɲ</td>
-<td align="left">bm_Latn (Bambara)</td>
+<td align="left">bm_Latn (Bambara) and dyu_Latn (Dyula)</td>
 </tr>
 <tr>
 <td align="left">Mandatory orthography codepoints:</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ɲ, Ɲ</td>
-<td align="left">dyu_Latn (Dyula)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ƴ, ƴ</td>
+<td align="left">The following base characters are missing from the font: ƴ, Ƴ</td>
 <td align="left">ff_Latn (Fulah)</td>
 </tr>
 <tr>
@@ -238,7 +287,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ƴ, Ƙ, ƙ, Ƴ</td>
+<td align="left">The following base characters are missing from the font: ƙ, Ƴ, ƴ, Ƙ</td>
 <td align="left">ha_Latn (Hausa)</td>
 </tr>
 <tr>
@@ -282,7 +331,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ҫ, ҫ, Ҙ, Ҡ, ҙ, ҡ</td>
+<td align="left">The following base characters are missing from the font: Ҙ, ҙ, Ҫ, ҡ, ҫ, Ҡ</td>
 <td align="left">ba_Cyrl (Bashkir)</td>
 </tr>
 <tr>
@@ -290,7 +339,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ҫ, ҫ</td>
+<td align="left">The following base characters are missing from the font: ҫ, Ҫ</td>
 <td align="left">cv_Cyrl (Chuvash)</td>
 </tr>
 <tr>
@@ -298,7 +347,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ҹ, ҝ</td>
+<td align="left">The following base characters are missing from the font: ҝ, ҹ</td>
 <td align="left">az_Cyrl (Azerbaijani (Cyrillic))</td>
 </tr>
 <tr>
@@ -306,15 +355,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ӏ, Ӏ</td>
-<td align="left">kbd_Cyrl (Kabardian), av_Cyrl (Avaric), ady_Cyrl (Adyghe), lez_Cyrl (Lezghian) and inh_Cyrl (Ingush)</td>
+<td align="left">The following base characters are missing from the font: Ӏ, ӏ</td>
+<td align="left">kbd_Cyrl (Kabardian), av_Cyrl (Avaric) and inh_Cyrl (Ingush)</td>
 </tr>
 <tr>
 <td align="left">Mandatory orthography codepoints:</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: гӏ, цӏ, тӏ, пӏ, рхӏ, кӏ, чӏ, хӏ</td>
+<td align="left">The following base characters are missing from the font: гӏ, чӏ, пӏ, кӏ, рхӏ, тӏ, хӏ, цӏ</td>
 <td align="left">ce_Cyrl (Chechen)</td>
 </tr>
 <tr>
@@ -338,7 +387,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ҥ, ҕ</td>
+<td align="left">The following base characters are missing from the font: ҕ, ҥ</td>
 <td align="left">sah_Cyrl (Sakha)</td>
 </tr>
 <tr>
@@ -346,8 +395,8 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ӏ, ӏ</td>
-<td align="left">dar_Cyrl (Dargwa)</td>
+<td align="left">The following base characters are missing from the font: ӏ, Ӏ</td>
+<td align="left">ady_Cyrl (Adyghe), dar_Cyrl (Dargwa) and lez_Cyrl (Lezghian)</td>
 </tr>
 </tbody>
 </table>
@@ -1119,18 +1168,13 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>OS/2.sTypoAscender is &quot;768&quot; it should be 901</p>
+* 🔥 **FAIL** <p>OS/2.sTypoAscender is &quot;960&quot; it should be 901</p>
  [code: bad-OS/2.sTypoAscender]
 
 
 
 * 🔥 **FAIL** <p>OS/2.sTypoDescender is &quot;-256&quot; it should be -123</p>
  [code: bad-OS/2.sTypoDescender]
-
-
-
-* ⚠️ **WARN** <p>We recommend the absolute sum of the hhea metrics should be between 1.1-1.4x of the font's upm. This font has 1.0x</p>
- [code: bad-hhea-range]
 
 
 
@@ -1417,19 +1461,87 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: uni2199	Contours detected: 13	Expected: 1
 
-- Glyph name: carriagereturn	Contours detected: 3	Expected: 1
-
 - Glyph name: arrowdblright	Contours detected: 7	Expected: 1
 
 - Glyph name: arrowdblboth	Contours detected: 12	Expected: 2
 
 - Glyph name: uni21E5	Contours detected: 6	Expected: 2
 
-- Glyph name: infinity	Contours detected: 1	Expected: 3
+- Glyph name: universal	Contours detected: 7	Expected: 2
 
-- Glyph name: lessequal	Contours detected: 1	Expected: 2
+- Glyph name: partialdiff	Contours detected: 6	Expected: 2
 
-- Glyph name: greaterequal	Contours detected: 1	Expected: 2
+- Glyph name: emptyset	Contours detected: 8	Expected: 3
+
+- Glyph name: Delta	Contours detected: 4	Expected: 2
+
+- Glyph name: gradient	Contours detected: 3	Expected: 2
+
+- Glyph name: element	Contours detected: 7	Expected: 1
+
+- Glyph name: notelement	Contours detected: 5	Expected: 3
+
+- Glyph name: suchthat	Contours detected: 7	Expected: 1
+
+- Glyph name: summation	Contours detected: 8	Expected: 1
+
+- Glyph name: uni2215	Contours detected: 5	Expected: 1
+
+- Glyph name: radical	Contours detected: 6	Expected: 1
+
+- Glyph name: proportional	Contours detected: 10	Expected: 2
+
+- Glyph name: infinity	Contours detected: 7	Expected: 3
+
+- Glyph name: angle	Contours detected: 9	Expected: 1
+
+- Glyph name: uni2226	Contours detected: 4	Expected: 1
+
+- Glyph name: logicaland	Contours detected: 7	Expected: 1
+
+- Glyph name: logicalor	Contours detected: 9	Expected: 1
+
+- Glyph name: intersection	Contours detected: 5	Expected: 1
+
+- Glyph name: union	Contours detected: 7	Expected: 1
+
+- Glyph name: integral	Contours detected: 8	Expected: 1
+
+- Glyph name: uni222C	Contours detected: 16	Expected: 2
+
+- Glyph name: uni223D	Contours detected: 10	Expected: 1
+
+- Glyph name: uni2243	Contours detected: 9	Expected: 2
+
+- Glyph name: congruent	Contours detected: 10	Expected: 3
+
+- Glyph name: approxequal	Contours detected: 16	Expected: 2
+
+- Glyph name: notequal	Contours detected: 3	Expected: 1
+
+- Glyph name: uni2262	Contours detected: 3	Expected: 1
+
+- Glyph name: lessequal	Contours detected: 9	Expected: 2
+
+- Glyph name: greaterequal	Contours detected: 9	Expected: 2
+
+- Glyph name: uni226A	Contours detected: 22	Expected: 2
+
+- Glyph name: uni226B	Contours detected: 22	Expected: 2
+
+- Glyph name: propersubset	Contours detected: 7	Expected: 1
+
+- Glyph name: propersuperset	Contours detected: 7	Expected: 1
+
+- Glyph name: notsubset	Contours detected: 9	Expected: 2
+
+- Glyph name: uni2285	Contours detected: 7	Expected: 2
+
+- Glyph name: reflexsubset	Contours detected: 6	Expected: 2
+
+- Glyph name: reflexsuperset	Contours detected: 6	Expected: 2
+
+- Glyph name: circleplus	Contours detected: 11	Expected: 3
 
 - Glyph name: uni2506	Contours detected: 4	Expected: 3
 
@@ -1451,9 +1563,17 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: uni25B3	Contours detected: 10	Expected: 2
 
+- Glyph name: uni25B7	Contours detected: 12	Expected: 2
+
 - Glyph name: uni25BD	Contours detected: 6	Expected: 2
 
-- Glyph name: circle	Contours detected: 8	Expected: 2
+- Glyph name: uni25C1	Contours detected: 12	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 15	Expected: 2
+
+- Glyph name: uni25C9	Contours detected: 9	Expected: 3
+
+- Glyph name: circle	Contours detected: 3	Expected: 2
 
 - Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
 
@@ -1491,7 +1611,11 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: aeacute	Contours detected: 2	Expected: 4
 
+- Glyph name: angle	Contours detected: 9	Expected: 1
+
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: approxequal	Contours detected: 16	Expected: 2
 
 - Glyph name: arrowboth	Contours detected: 9	Expected: 1
 
@@ -1509,13 +1633,21 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: chi	Contours detected: 3	Expected: 1
 
-- Glyph name: circle	Contours detected: 8	Expected: 2
+- Glyph name: circle	Contours detected: 3	Expected: 2
+
+- Glyph name: circleplus	Contours detected: 11	Expected: 3
 
 - Glyph name: comma	Contours detected: 2	Expected: 1
+
+- Glyph name: congruent	Contours detected: 10	Expected: 3
 
 - Glyph name: copyright	Contours detected: 12	Expected: 3
 
 - Glyph name: delta	Contours detected: 1	Expected: 2
+
+- Glyph name: element	Contours detected: 7	Expected: 1
+
+- Glyph name: emptyset	Contours detected: 8	Expected: 3
 
 - Glyph name: eogonek	Contours detected: 3	Expected: 2
 
@@ -1523,9 +1655,15 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: fraction	Contours detected: 8	Expected: 1
 
-- Glyph name: greaterequal	Contours detected: 1	Expected: 2
+- Glyph name: gradient	Contours detected: 3	Expected: 2
 
-- Glyph name: infinity	Contours detected: 1	Expected: 3
+- Glyph name: greaterequal	Contours detected: 9	Expected: 2
+
+- Glyph name: infinity	Contours detected: 7	Expected: 3
+
+- Glyph name: integral	Contours detected: 8	Expected: 1
+
+- Glyph name: intersection	Contours detected: 5	Expected: 1
 
 - Glyph name: k	Contours detected: 3	Expected: 1 or 2
 
@@ -1535,11 +1673,21 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: lcaron	Contours detected: 3	Expected: 2
 
-- Glyph name: lessequal	Contours detected: 1	Expected: 2
+- Glyph name: lessequal	Contours detected: 9	Expected: 2
+
+- Glyph name: logicaland	Contours detected: 7	Expected: 1
+
+- Glyph name: logicalor	Contours detected: 9	Expected: 1
 
 - Glyph name: lslash	Contours detected: 3	Expected: 1
 
 - Glyph name: musicalnote	Contours detected: 3	Expected: 1
+
+- Glyph name: notelement	Contours detected: 5	Expected: 3
+
+- Glyph name: notequal	Contours detected: 3	Expected: 1
+
+- Glyph name: notsubset	Contours detected: 9	Expected: 2
 
 - Glyph name: omega	Contours detected: 3	Expected: 1
 
@@ -1549,11 +1697,19 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: onequarter	Contours detected: 8	Expected: 3 or 4
 
+- Glyph name: partialdiff	Contours detected: 6	Expected: 2
+
 - Glyph name: percent	Contours detected: 14	Expected: 4 or 5
 
 - Glyph name: perthousand	Contours detected: 18	Expected: 6 or 7
 
 - Glyph name: phi	Contours detected: 1	Expected: 2 or 3
+
+- Glyph name: propersubset	Contours detected: 7	Expected: 1
+
+- Glyph name: propersuperset	Contours detected: 7	Expected: 1
+
+- Glyph name: proportional	Contours detected: 10	Expected: 2
 
 - Glyph name: quotedblbase	Contours detected: 4	Expected: 2
 
@@ -1567,9 +1723,19 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: quotesinglbase	Contours detected: 2	Expected: 1
 
+- Glyph name: radical	Contours detected: 6	Expected: 1
+
+- Glyph name: reflexsubset	Contours detected: 6	Expected: 2
+
+- Glyph name: reflexsuperset	Contours detected: 6	Expected: 2
+
 - Glyph name: registered	Contours detected: 9	Expected: 3 or 4
 
 - Glyph name: semicolon	Contours detected: 3	Expected: 2
+
+- Glyph name: suchthat	Contours detected: 7	Expected: 1
+
+- Glyph name: summation	Contours detected: 8	Expected: 1
 
 - Glyph name: threequarters	Contours detected: 13	Expected: 3 or 4
 
@@ -1675,6 +1841,24 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: uni21E5	Contours detected: 6	Expected: 2
 
+- Glyph name: uni2215	Contours detected: 5	Expected: 1
+
+- Glyph name: uni2226	Contours detected: 4	Expected: 1
+
+- Glyph name: uni222C	Contours detected: 16	Expected: 2
+
+- Glyph name: uni223D	Contours detected: 10	Expected: 1
+
+- Glyph name: uni2243	Contours detected: 9	Expected: 2
+
+- Glyph name: uni2262	Contours detected: 3	Expected: 1
+
+- Glyph name: uni226A	Contours detected: 22	Expected: 2
+
+- Glyph name: uni226B	Contours detected: 22	Expected: 2
+
+- Glyph name: uni2285	Contours detected: 7	Expected: 2
+
 - Glyph name: uni2506	Contours detected: 4	Expected: 3
 
 - Glyph name: uni2507	Contours detected: 4	Expected: 3
@@ -1695,11 +1879,23 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: uni25B3	Contours detected: 10	Expected: 2
 
+- Glyph name: uni25B7	Contours detected: 12	Expected: 2
+
 - Glyph name: uni25BD	Contours detected: 6	Expected: 2
+
+- Glyph name: uni25C1	Contours detected: 12	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 15	Expected: 2
+
+- Glyph name: uni25C9	Contours detected: 9	Expected: 3
 
 - Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
 
 - Glyph name: uniFFFC	Contours detected: 25	Expected: 22
+
+- Glyph name: union	Contours detected: 7	Expected: 1
+
+- Glyph name: universal	Contours detected: 7	Expected: 2
 
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
 
@@ -1732,6 +1928,27 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 * ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
  [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#math-signs-width">math_signs_width</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The most common width is 1024 among a set of 29 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 512:
+logicalnot, notequal, less, greaterequal, divide, plus, greater, multiply, lessequal, equal, minus, plusminus</p>
+ [code: width-outliers]
 
 
 
@@ -1817,24 +2034,24 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, glagolitic, gothic, math, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, todhri, tai-le, malayalam, duployan, math, hebrew, old-permic, coptic, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, glagolitic, coptic, gothic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, canadian-aboriginal, tifinagh, coptic, malayalam, tai-le, todhri, math, duployan, syriac</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: try adding ethiopic</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031A COMBINING LEFT ANGLE ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, duployan, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -1842,10 +2059,10 @@ definitions.</p>
 <li>U+032A COMBINING BRIDGE BELOW: not included in any glyphset definition</li>
 <li>U+032B COMBINING INVERTED DOUBLE ARCH BELOW: not included in any glyphset definition</li>
 <li>U+032C COMBINING CARON BELOW: try adding math</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -1858,14 +2075,19 @@ definitions.</p>
 <li>U+0EA4 : not included in any glyphset definition</li>
 <li>U+0EA6 : not included in any glyphset definition</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+2010 HYPHEN: try adding one of: kharoshthi, armenian, kaithi, sora-sompeng, lisu, cham, sundanese, hebrew, kayah-li, arabic, syloti-nagri, coptic, yi</li>
+<li>U+2010 HYPHEN: try adding one of: hebrew, kayah-li, syloti-nagri, sundanese, coptic, kaithi, sora-sompeng, kharoshthi, lisu, arabic, armenian, cham, yi</li>
 <li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
+<li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam</li>
 <li>U+201F DOUBLE HIGH-REVERSED-9 QUOTATION MARK: not included in any glyphset definition</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+2025 TWO DOT LEADER: try adding phags-pa</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+2034 TRIPLE PRIME: try adding math</li>
+<li>U+203B REFERENCE MARK: not included in any glyphset definition</li>
+<li>U+203E OVERLINE: not included in any glyphset definition</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2071 SUPERSCRIPT LATIN SMALL LETTER I: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -1895,7 +2117,12 @@ definitions.</p>
 <li>U+208C SUBSCRIPT EQUALS SIGN: try adding math</li>
 <li>U+208D SUBSCRIPT LEFT PARENTHESIS: try adding math</li>
 <li>U+208E SUBSCRIPT RIGHT PARENTHESIS: try adding math</li>
+<li>U+2103 DEGREE CELSIUS: try adding math</li>
+<li>U+210F PLANCK CONSTANT OVER TWO PI: try adding math</li>
 <li>U+2126 OHM SIGN: try adding math</li>
+<li>U+2127 INVERTED OHM SIGN: try adding math</li>
+<li>U+212B ANGSTROM SIGN: try adding math</li>
+<li>U+2135 ALEF SYMBOL: try adding math</li>
 <li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
 <li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
 <li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
@@ -1907,6 +2134,7 @@ definitions.</p>
 <li>U+21A9 LEFTWARDS ARROW WITH HOOK: try adding math</li>
 <li>U+21AA RIGHTWARDS ARROW WITH HOOK: try adding math</li>
 <li>U+21B5 DOWNWARDS ARROW WITH CORNER LEFTWARDS: try adding math</li>
+<li>U+21C4 RIGHTWARDS ARROW OVER LEFTWARDS ARROW: try adding math</li>
 <li>U+21D0 LEFTWARDS DOUBLE ARROW: try adding math</li>
 <li>U+21D1 UPWARDS DOUBLE ARROW: try adding math</li>
 <li>U+21D2 RIGHTWARDS DOUBLE ARROW: try adding math</li>
@@ -1934,17 +2162,62 @@ definitions.</p>
 <li>U+21F3 UP DOWN WHITE ARROW: try adding symbols</li>
 <li>U+2200 FOR ALL: try adding math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
+<li>U+2203 THERE EXISTS: try adding math</li>
+<li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
+<li>U+2207 NABLA: try adding math</li>
+<li>U+2208 ELEMENT OF: try adding math</li>
+<li>U+2209 NOT AN ELEMENT OF: try adding math</li>
+<li>U+220B CONTAINS AS MEMBER: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, symbols, yi, math</li>
+<li>U+2213 MINUS-OR-PLUS SIGN: try adding math</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, yi, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
+<li>U+221D PROPORTIONAL TO: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
+<li>U+2220 ANGLE: try adding math</li>
+<li>U+2225 PARALLEL TO: try adding math</li>
+<li>U+2226 NOT PARALLEL TO: try adding math</li>
+<li>U+2227 LOGICAL AND: try adding math</li>
+<li>U+2228 LOGICAL OR: try adding math</li>
+<li>U+2229 INTERSECTION: try adding math</li>
+<li>U+222A UNION: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
+<li>U+222C DOUBLE INTEGRAL: try adding math</li>
+<li>U+2234 THEREFORE: try adding math</li>
+<li>U+2235 BECAUSE: try adding math</li>
+<li>U+223D REVERSED TILDE: try adding math</li>
+<li>U+2243 ASYMPTOTICALLY EQUAL TO: try adding math</li>
+<li>U+2245 APPROXIMATELY EQUAL TO: try adding math</li>
 <li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2252 APPROXIMATELY EQUAL TO OR THE IMAGE OF: try adding math</li>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2261 IDENTICAL TO: try adding math</li>
+<li>U+2262 NOT IDENTICAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+2266 LESS-THAN OVER EQUAL TO: try adding math</li>
+<li>U+2267 GREATER-THAN OVER EQUAL TO: try adding math</li>
+<li>U+226A MUCH LESS-THAN: try adding math</li>
+<li>U+226B MUCH GREATER-THAN: try adding math</li>
+<li>U+2276 LESS-THAN OR GREATER-THAN: try adding math</li>
+<li>U+2277 GREATER-THAN OR LESS-THAN: try adding math</li>
+<li>U+2282 SUBSET OF: try adding math</li>
+<li>U+2283 SUPERSET OF: try adding math</li>
+<li>U+2284 NOT A SUBSET OF: try adding math</li>
+<li>U+2285 NOT A SUPERSET OF: try adding math</li>
+<li>U+2286 SUBSET OF OR EQUAL TO: try adding math</li>
+<li>U+2287 SUPERSET OF OR EQUAL TO: try adding math</li>
+<li>U+228A SUBSET OF WITH NOT EQUAL TO: try adding math</li>
+<li>U+228B SUPERSET OF WITH NOT EQUAL TO: try adding math</li>
+<li>U+2295 CIRCLED PLUS: try adding math</li>
+<li>U+2296 CIRCLED MINUS: try adding math</li>
+<li>U+2297 CIRCLED TIMES: try adding math</li>
+<li>U+22A5 UP TACK: try adding math</li>
+<li>U+2305 PROJECTIVE: try adding symbols</li>
+<li>U+2306 PERSPECTIVE: try adding symbols</li>
+<li>U+2312 ARC: try adding symbols</li>
 <li>U+2318 PLACE OF INTEREST SIGN: try adding symbols</li>
 <li>U+2325 OPTION KEY: try adding symbols</li>
 <li>U+232B ERASE TO THE LEFT: try adding symbols</li>
@@ -1954,237 +2227,270 @@ definitions.</p>
 <li>U+25A1 WHITE SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
 <li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
 <li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C6 BLACK DIAMOND: try adding symbols</li>
+<li>U+25C7 WHITE DIAMOND: try adding symbols</li>
+<li>U+25C9 FISHEYE: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
 <li>U+25CE BULLSEYE: try adding symbols</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E1 LOWER HALF CIRCLE: try adding symbols</li>
+<li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+25EF LARGE CIRCLE: try adding symbols</li>
 <li>U+2605 BLACK STAR: try adding symbols</li>
 <li>U+2606 WHITE STAR: try adding symbols</li>
+<li>U+2640 FEMALE SIGN: try adding symbols</li>
+<li>U+2642 MALE SIGN: try adding symbols</li>
 <li>U+2661 WHITE HEART SUIT: try adding symbols</li>
 <li>U+2665 BLACK HEART SUIT: try adding symbols</li>
-<li>U+2669 QUARTER NOTE: try adding one of: symbols, music</li>
-<li>U+266A EIGHTH NOTE: try adding one of: symbols, music</li>
-<li>U+266B BEAMED EIGHTH NOTES: try adding one of: symbols, music</li>
-<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: symbols, music</li>
-<li>U+266D MUSIC FLAT SIGN: try adding one of: symbols, music, math</li>
-<li>U+266E MUSIC NATURAL SIGN: try adding one of: symbols, music, math</li>
-<li>U+266F MUSIC SHARP SIGN: try adding one of: symbols, music, math</li>
+<li>U+2669 QUARTER NOTE: try adding one of: music, symbols</li>
+<li>U+266A EIGHTH NOTE: try adding one of: music, symbols</li>
+<li>U+266B BEAMED EIGHTH NOTES: try adding one of: music, symbols</li>
+<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: music, symbols</li>
+<li>U+266D MUSIC FLAT SIGN: try adding one of: music, symbols, math</li>
+<li>U+266E MUSIC NATURAL SIGN: try adding one of: music, symbols, math</li>
+<li>U+266F MUSIC SHARP SIGN: try adding one of: music, symbols, math</li>
 <li>U+26A0 WARNING SIGN: try adding symbols</li>
 <li>U+2726 BLACK FOUR POINTED STAR: try adding symbols</li>
 <li>U+2727 WHITE FOUR POINTED STAR: try adding symbols</li>
 <li>U+2764 HEAVY BLACK HEART: try adding symbols</li>
 <li>U+2765 ROTATED HEAVY BLACK HEART BULLET: try adding symbols</li>
 <li>U+2919 LEFTWARDS ARROW-TAIL: try adding math</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-traditional, nushu, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
-<li>U+3001 IDEOGRAPHIC COMMA: try adding one of: chinese-traditional, phags-pa, tai-le, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+3002 IDEOGRAPHIC FULL STOP: try adding one of: chinese-traditional, nushu, phags-pa, tai-le, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+3003 DITTO MARK: try adding one of: chinese-traditional, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
-<li>U+3005 IDEOGRAPHIC ITERATION MARK: try adding one of: chinese-traditional, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
-<li>U+3006 IDEOGRAPHIC CLOSING MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+3007 IDEOGRAPHIC NUMBER ZERO: try adding one of: japanese, chinese-simplified, phags-pa</li>
-<li>U+300C LEFT CORNER BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+300D RIGHT CORNER BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+300E LEFT WHITE CORNER BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+300F RIGHT WHITE CORNER BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+3010 LEFT BLACK LENTICULAR BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
-<li>U+3011 RIGHT BLACK LENTICULAR BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
+<li>U+2934 ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS: try adding math</li>
+<li>U+2935 ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS: try adding math</li>
+<li>U+29BF CIRCLED BULLET: try adding one of: symbols, math</li>
+<li>U+29FA DOUBLE PLUS: try adding math</li>
+<li>U+29FB TRIPLE PLUS: try adding math</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, nushu, yi</li>
+<li>U+3001 IDEOGRAPHIC COMMA: try adding one of: japanese, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3002 IDEOGRAPHIC FULL STOP: try adding one of: japanese, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, phags-pa, nushu, yi</li>
+<li>U+3003 DITTO MARK: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3005 IDEOGRAPHIC ITERATION MARK: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3006 IDEOGRAPHIC CLOSING MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+3007 IDEOGRAPHIC NUMBER ZERO: try adding one of: phags-pa, chinese-simplified, japanese</li>
+<li>U+3008 LEFT ANGLE BRACKET: try adding one of: japanese, tibetan, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3009 RIGHT ANGLE BRACKET: try adding one of: japanese, tibetan, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+300A LEFT DOUBLE ANGLE BRACKET: try adding one of: japanese, tibetan, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, lisu, phags-pa, yi</li>
+<li>U+300B RIGHT DOUBLE ANGLE BRACKET: try adding one of: japanese, tibetan, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, lisu, phags-pa, yi</li>
+<li>U+300C LEFT CORNER BRACKET: try adding one of: japanese, mongolian, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+300D RIGHT CORNER BRACKET: try adding one of: japanese, mongolian, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+300E LEFT WHITE CORNER BRACKET: try adding one of: japanese, mongolian, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+300F RIGHT WHITE CORNER BRACKET: try adding one of: japanese, mongolian, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3010 LEFT BLACK LENTICULAR BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3011 RIGHT BLACK LENTICULAR BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3012 POSTAL MARK: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3013 GETA MARK: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3014 LEFT TORTOISE SHELL BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3015 RIGHT TORTOISE SHELL BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3016 LEFT WHITE LENTICULAR BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3017 RIGHT WHITE LENTICULAR BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3018 LEFT WHITE TORTOISE SHELL BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3019 RIGHT WHITE TORTOISE SHELL BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
 <li>U+301C WAVE DASH: try adding japanese</li>
-<li>U+301D REVERSED DOUBLE PRIME QUOTATION MARK: try adding one of: chinese-traditional, chinese-hongkong, chinese-simplified</li>
-<li>U+301E DOUBLE PRIME QUOTATION MARK: try adding one of: chinese-traditional, chinese-hongkong, chinese-simplified</li>
+<li>U+301D REVERSED DOUBLE PRIME QUOTATION MARK: try adding one of: chinese-traditional, chinese-simplified, chinese-hongkong</li>
+<li>U+301E DOUBLE PRIME QUOTATION MARK: try adding one of: chinese-traditional, chinese-simplified, chinese-hongkong</li>
 <li>U+301F LOW DOUBLE PRIME QUOTATION MARK: not included in any glyphset definition</li>
-<li>U+3041 HIRAGANA LETTER SMALL A: try adding one of: japanese, chinese-simplified</li>
-<li>U+3042 HIRAGANA LETTER A: try adding one of: japanese, chinese-simplified</li>
-<li>U+3043 HIRAGANA LETTER SMALL I: try adding one of: japanese, chinese-simplified</li>
-<li>U+3044 HIRAGANA LETTER I: try adding one of: japanese, chinese-simplified</li>
-<li>U+3045 HIRAGANA LETTER SMALL U: try adding one of: japanese, chinese-simplified</li>
-<li>U+3046 HIRAGANA LETTER U: try adding one of: japanese, chinese-simplified</li>
-<li>U+3047 HIRAGANA LETTER SMALL E: try adding one of: japanese, chinese-simplified</li>
-<li>U+3048 HIRAGANA LETTER E: try adding one of: japanese, chinese-simplified</li>
-<li>U+3049 HIRAGANA LETTER SMALL O: try adding one of: japanese, chinese-simplified</li>
-<li>U+304A HIRAGANA LETTER O: try adding one of: japanese, chinese-simplified</li>
-<li>U+304B HIRAGANA LETTER KA: try adding one of: japanese, chinese-simplified</li>
-<li>U+304C HIRAGANA LETTER GA: try adding one of: japanese, chinese-simplified</li>
-<li>U+304D HIRAGANA LETTER KI: try adding one of: japanese, chinese-simplified</li>
-<li>U+304E HIRAGANA LETTER GI: try adding one of: japanese, chinese-simplified</li>
-<li>U+304F HIRAGANA LETTER KU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3050 HIRAGANA LETTER GU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3051 HIRAGANA LETTER KE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3052 HIRAGANA LETTER GE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3053 HIRAGANA LETTER KO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3054 HIRAGANA LETTER GO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3055 HIRAGANA LETTER SA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3056 HIRAGANA LETTER ZA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3057 HIRAGANA LETTER SI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3058 HIRAGANA LETTER ZI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3059 HIRAGANA LETTER SU: try adding one of: japanese, chinese-simplified</li>
-<li>U+305A HIRAGANA LETTER ZU: try adding one of: japanese, chinese-simplified</li>
-<li>U+305B HIRAGANA LETTER SE: try adding one of: japanese, chinese-simplified</li>
-<li>U+305C HIRAGANA LETTER ZE: try adding one of: japanese, chinese-simplified</li>
-<li>U+305D HIRAGANA LETTER SO: try adding one of: japanese, chinese-simplified</li>
-<li>U+305E HIRAGANA LETTER ZO: try adding one of: japanese, chinese-simplified</li>
-<li>U+305F HIRAGANA LETTER TA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3060 HIRAGANA LETTER DA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3061 HIRAGANA LETTER TI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3062 HIRAGANA LETTER DI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3063 HIRAGANA LETTER SMALL TU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3064 HIRAGANA LETTER TU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3065 HIRAGANA LETTER DU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3066 HIRAGANA LETTER TE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3067 HIRAGANA LETTER DE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3068 HIRAGANA LETTER TO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3069 HIRAGANA LETTER DO: try adding one of: japanese, chinese-simplified</li>
-<li>U+306A HIRAGANA LETTER NA: try adding one of: japanese, chinese-simplified</li>
-<li>U+306B HIRAGANA LETTER NI: try adding one of: japanese, chinese-simplified</li>
-<li>U+306C HIRAGANA LETTER NU: try adding one of: japanese, chinese-simplified</li>
-<li>U+306D HIRAGANA LETTER NE: try adding one of: japanese, chinese-simplified</li>
-<li>U+306E HIRAGANA LETTER NO: try adding one of: japanese, chinese-simplified</li>
-<li>U+306F HIRAGANA LETTER HA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3070 HIRAGANA LETTER BA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3071 HIRAGANA LETTER PA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3072 HIRAGANA LETTER HI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3073 HIRAGANA LETTER BI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3074 HIRAGANA LETTER PI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3075 HIRAGANA LETTER HU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3076 HIRAGANA LETTER BU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3077 HIRAGANA LETTER PU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3078 HIRAGANA LETTER HE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3079 HIRAGANA LETTER BE: try adding one of: japanese, chinese-simplified</li>
-<li>U+307A HIRAGANA LETTER PE: try adding one of: japanese, chinese-simplified</li>
-<li>U+307B HIRAGANA LETTER HO: try adding one of: japanese, chinese-simplified</li>
-<li>U+307C HIRAGANA LETTER BO: try adding one of: japanese, chinese-simplified</li>
-<li>U+307D HIRAGANA LETTER PO: try adding one of: japanese, chinese-simplified</li>
-<li>U+307E HIRAGANA LETTER MA: try adding one of: japanese, chinese-simplified</li>
-<li>U+307F HIRAGANA LETTER MI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3080 HIRAGANA LETTER MU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3081 HIRAGANA LETTER ME: try adding one of: japanese, chinese-simplified</li>
-<li>U+3082 HIRAGANA LETTER MO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3083 HIRAGANA LETTER SMALL YA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3084 HIRAGANA LETTER YA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3085 HIRAGANA LETTER SMALL YU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3086 HIRAGANA LETTER YU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3087 HIRAGANA LETTER SMALL YO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3088 HIRAGANA LETTER YO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3089 HIRAGANA LETTER RA: try adding one of: japanese, chinese-simplified</li>
-<li>U+308A HIRAGANA LETTER RI: try adding one of: japanese, chinese-simplified</li>
-<li>U+308B HIRAGANA LETTER RU: try adding one of: japanese, chinese-simplified</li>
-<li>U+308C HIRAGANA LETTER RE: try adding one of: japanese, chinese-simplified</li>
-<li>U+308D HIRAGANA LETTER RO: try adding one of: japanese, chinese-simplified</li>
-<li>U+308E HIRAGANA LETTER SMALL WA: try adding one of: japanese, chinese-simplified</li>
-<li>U+308F HIRAGANA LETTER WA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3090 HIRAGANA LETTER WI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3091 HIRAGANA LETTER WE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3092 HIRAGANA LETTER WO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3093 HIRAGANA LETTER N: try adding one of: japanese, chinese-simplified</li>
-<li>U+3094 HIRAGANA LETTER VU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3095 HIRAGANA LETTER SMALL KA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3096 HIRAGANA LETTER SMALL KE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3099 COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK: try adding one of: japanese, chinese-simplified, kana-extended</li>
-<li>U+309A COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK: try adding one of: japanese, chinese-simplified, kana-extended</li>
-<li>U+309B KATAKANA-HIRAGANA VOICED SOUND MARK: try adding one of: japanese, chinese-simplified, kana-extended</li>
-<li>U+309C KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK: try adding one of: japanese, chinese-simplified, kana-extended</li>
-<li>U+309D HIRAGANA ITERATION MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+309E HIRAGANA VOICED ITERATION MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+309F HIRAGANA DIGRAPH YORI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A0 KATAKANA-HIRAGANA DOUBLE HYPHEN: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A1 KATAKANA LETTER SMALL A: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A2 KATAKANA LETTER A: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A3 KATAKANA LETTER SMALL I: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A4 KATAKANA LETTER I: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A5 KATAKANA LETTER SMALL U: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A6 KATAKANA LETTER U: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A7 KATAKANA LETTER SMALL E: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A8 KATAKANA LETTER E: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A9 KATAKANA LETTER SMALL O: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AA KATAKANA LETTER O: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AB KATAKANA LETTER KA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AC KATAKANA LETTER GA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AD KATAKANA LETTER KI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AE KATAKANA LETTER GI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AF KATAKANA LETTER KU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B0 KATAKANA LETTER GU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B1 KATAKANA LETTER KE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B2 KATAKANA LETTER GE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B3 KATAKANA LETTER KO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B4 KATAKANA LETTER GO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B5 KATAKANA LETTER SA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B6 KATAKANA LETTER ZA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B7 KATAKANA LETTER SI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B8 KATAKANA LETTER ZI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B9 KATAKANA LETTER SU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BA KATAKANA LETTER ZU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BB KATAKANA LETTER SE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BC KATAKANA LETTER ZE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BD KATAKANA LETTER SO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BE KATAKANA LETTER ZO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BF KATAKANA LETTER TA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C0 KATAKANA LETTER DA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C1 KATAKANA LETTER TI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C2 KATAKANA LETTER DI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C3 KATAKANA LETTER SMALL TU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C4 KATAKANA LETTER TU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C5 KATAKANA LETTER DU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C6 KATAKANA LETTER TE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C7 KATAKANA LETTER DE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C8 KATAKANA LETTER TO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C9 KATAKANA LETTER DO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CA KATAKANA LETTER NA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CB KATAKANA LETTER NI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CC KATAKANA LETTER NU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CD KATAKANA LETTER NE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CE KATAKANA LETTER NO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CF KATAKANA LETTER HA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D0 KATAKANA LETTER BA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D1 KATAKANA LETTER PA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D2 KATAKANA LETTER HI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D3 KATAKANA LETTER BI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D4 KATAKANA LETTER PI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D5 KATAKANA LETTER HU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D6 KATAKANA LETTER BU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D7 KATAKANA LETTER PU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D8 KATAKANA LETTER HE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D9 KATAKANA LETTER BE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DA KATAKANA LETTER PE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DB KATAKANA LETTER HO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DC KATAKANA LETTER BO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DD KATAKANA LETTER PO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DE KATAKANA LETTER MA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DF KATAKANA LETTER MI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E0 KATAKANA LETTER MU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E1 KATAKANA LETTER ME: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E2 KATAKANA LETTER MO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E3 KATAKANA LETTER SMALL YA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E4 KATAKANA LETTER YA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E5 KATAKANA LETTER SMALL YU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E6 KATAKANA LETTER YU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E7 KATAKANA LETTER SMALL YO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E8 KATAKANA LETTER YO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E9 KATAKANA LETTER RA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EA KATAKANA LETTER RI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EB KATAKANA LETTER RU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EC KATAKANA LETTER RE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30ED KATAKANA LETTER RO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EE KATAKANA LETTER SMALL WA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EF KATAKANA LETTER WA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F0 KATAKANA LETTER WI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F1 KATAKANA LETTER WE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F2 KATAKANA LETTER WO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F3 KATAKANA LETTER N: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F4 KATAKANA LETTER VU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F5 KATAKANA LETTER SMALL KA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F6 KATAKANA LETTER SMALL KE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F7 KATAKANA LETTER VA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F8 KATAKANA LETTER VI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F9 KATAKANA LETTER VE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FA KATAKANA LETTER VO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FB KATAKANA MIDDLE DOT: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+30FC KATAKANA-HIRAGANA PROLONGED SOUND MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FD KATAKANA ITERATION MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FE KATAKANA VOICED ITERATION MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FF KATAKANA DIGRAPH KOTO: try adding one of: japanese, chinese-simplified</li>
+<li>U+3033 VERTICAL KANA REPEAT MARK UPPER HALF: not included in any glyphset definition</li>
+<li>U+3034 VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF: not included in any glyphset definition</li>
+<li>U+3035 VERTICAL KANA REPEAT MARK LOWER HALF: not included in any glyphset definition</li>
+<li>U+303B VERTICAL IDEOGRAPHIC ITERATION MARK: not included in any glyphset definition</li>
+<li>U+303C MASU MARK: not included in any glyphset definition</li>
+<li>U+303D PART ALTERNATION MARK: not included in any glyphset definition</li>
+<li>U+3041 HIRAGANA LETTER SMALL A: try adding one of: chinese-simplified, japanese</li>
+<li>U+3042 HIRAGANA LETTER A: try adding one of: chinese-simplified, japanese</li>
+<li>U+3043 HIRAGANA LETTER SMALL I: try adding one of: chinese-simplified, japanese</li>
+<li>U+3044 HIRAGANA LETTER I: try adding one of: chinese-simplified, japanese</li>
+<li>U+3045 HIRAGANA LETTER SMALL U: try adding one of: chinese-simplified, japanese</li>
+<li>U+3046 HIRAGANA LETTER U: try adding one of: chinese-simplified, japanese</li>
+<li>U+3047 HIRAGANA LETTER SMALL E: try adding one of: chinese-simplified, japanese</li>
+<li>U+3048 HIRAGANA LETTER E: try adding one of: chinese-simplified, japanese</li>
+<li>U+3049 HIRAGANA LETTER SMALL O: try adding one of: chinese-simplified, japanese</li>
+<li>U+304A HIRAGANA LETTER O: try adding one of: chinese-simplified, japanese</li>
+<li>U+304B HIRAGANA LETTER KA: try adding one of: chinese-simplified, japanese</li>
+<li>U+304C HIRAGANA LETTER GA: try adding one of: chinese-simplified, japanese</li>
+<li>U+304D HIRAGANA LETTER KI: try adding one of: chinese-simplified, japanese</li>
+<li>U+304E HIRAGANA LETTER GI: try adding one of: chinese-simplified, japanese</li>
+<li>U+304F HIRAGANA LETTER KU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3050 HIRAGANA LETTER GU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3051 HIRAGANA LETTER KE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3052 HIRAGANA LETTER GE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3053 HIRAGANA LETTER KO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3054 HIRAGANA LETTER GO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3055 HIRAGANA LETTER SA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3056 HIRAGANA LETTER ZA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3057 HIRAGANA LETTER SI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3058 HIRAGANA LETTER ZI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3059 HIRAGANA LETTER SU: try adding one of: chinese-simplified, japanese</li>
+<li>U+305A HIRAGANA LETTER ZU: try adding one of: chinese-simplified, japanese</li>
+<li>U+305B HIRAGANA LETTER SE: try adding one of: chinese-simplified, japanese</li>
+<li>U+305C HIRAGANA LETTER ZE: try adding one of: chinese-simplified, japanese</li>
+<li>U+305D HIRAGANA LETTER SO: try adding one of: chinese-simplified, japanese</li>
+<li>U+305E HIRAGANA LETTER ZO: try adding one of: chinese-simplified, japanese</li>
+<li>U+305F HIRAGANA LETTER TA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3060 HIRAGANA LETTER DA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3061 HIRAGANA LETTER TI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3062 HIRAGANA LETTER DI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3063 HIRAGANA LETTER SMALL TU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3064 HIRAGANA LETTER TU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3065 HIRAGANA LETTER DU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3066 HIRAGANA LETTER TE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3067 HIRAGANA LETTER DE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3068 HIRAGANA LETTER TO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3069 HIRAGANA LETTER DO: try adding one of: chinese-simplified, japanese</li>
+<li>U+306A HIRAGANA LETTER NA: try adding one of: chinese-simplified, japanese</li>
+<li>U+306B HIRAGANA LETTER NI: try adding one of: chinese-simplified, japanese</li>
+<li>U+306C HIRAGANA LETTER NU: try adding one of: chinese-simplified, japanese</li>
+<li>U+306D HIRAGANA LETTER NE: try adding one of: chinese-simplified, japanese</li>
+<li>U+306E HIRAGANA LETTER NO: try adding one of: chinese-simplified, japanese</li>
+<li>U+306F HIRAGANA LETTER HA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3070 HIRAGANA LETTER BA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3071 HIRAGANA LETTER PA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3072 HIRAGANA LETTER HI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3073 HIRAGANA LETTER BI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3074 HIRAGANA LETTER PI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3075 HIRAGANA LETTER HU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3076 HIRAGANA LETTER BU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3077 HIRAGANA LETTER PU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3078 HIRAGANA LETTER HE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3079 HIRAGANA LETTER BE: try adding one of: chinese-simplified, japanese</li>
+<li>U+307A HIRAGANA LETTER PE: try adding one of: chinese-simplified, japanese</li>
+<li>U+307B HIRAGANA LETTER HO: try adding one of: chinese-simplified, japanese</li>
+<li>U+307C HIRAGANA LETTER BO: try adding one of: chinese-simplified, japanese</li>
+<li>U+307D HIRAGANA LETTER PO: try adding one of: chinese-simplified, japanese</li>
+<li>U+307E HIRAGANA LETTER MA: try adding one of: chinese-simplified, japanese</li>
+<li>U+307F HIRAGANA LETTER MI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3080 HIRAGANA LETTER MU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3081 HIRAGANA LETTER ME: try adding one of: chinese-simplified, japanese</li>
+<li>U+3082 HIRAGANA LETTER MO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3083 HIRAGANA LETTER SMALL YA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3084 HIRAGANA LETTER YA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3085 HIRAGANA LETTER SMALL YU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3086 HIRAGANA LETTER YU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3087 HIRAGANA LETTER SMALL YO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3088 HIRAGANA LETTER YO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3089 HIRAGANA LETTER RA: try adding one of: chinese-simplified, japanese</li>
+<li>U+308A HIRAGANA LETTER RI: try adding one of: chinese-simplified, japanese</li>
+<li>U+308B HIRAGANA LETTER RU: try adding one of: chinese-simplified, japanese</li>
+<li>U+308C HIRAGANA LETTER RE: try adding one of: chinese-simplified, japanese</li>
+<li>U+308D HIRAGANA LETTER RO: try adding one of: chinese-simplified, japanese</li>
+<li>U+308E HIRAGANA LETTER SMALL WA: try adding one of: chinese-simplified, japanese</li>
+<li>U+308F HIRAGANA LETTER WA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3090 HIRAGANA LETTER WI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3091 HIRAGANA LETTER WE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3092 HIRAGANA LETTER WO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3093 HIRAGANA LETTER N: try adding one of: chinese-simplified, japanese</li>
+<li>U+3094 HIRAGANA LETTER VU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3095 HIRAGANA LETTER SMALL KA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3096 HIRAGANA LETTER SMALL KE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3099 COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK: try adding one of: kana-extended, chinese-simplified, japanese</li>
+<li>U+309A COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK: try adding one of: kana-extended, chinese-simplified, japanese</li>
+<li>U+309B KATAKANA-HIRAGANA VOICED SOUND MARK: try adding one of: kana-extended, chinese-simplified, japanese</li>
+<li>U+309C KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK: try adding one of: kana-extended, chinese-simplified, japanese</li>
+<li>U+309D HIRAGANA ITERATION MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+309E HIRAGANA VOICED ITERATION MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+309F HIRAGANA DIGRAPH YORI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A0 KATAKANA-HIRAGANA DOUBLE HYPHEN: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A1 KATAKANA LETTER SMALL A: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A2 KATAKANA LETTER A: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A3 KATAKANA LETTER SMALL I: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A4 KATAKANA LETTER I: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A5 KATAKANA LETTER SMALL U: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A6 KATAKANA LETTER U: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A7 KATAKANA LETTER SMALL E: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A8 KATAKANA LETTER E: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A9 KATAKANA LETTER SMALL O: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AA KATAKANA LETTER O: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AB KATAKANA LETTER KA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AC KATAKANA LETTER GA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AD KATAKANA LETTER KI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AE KATAKANA LETTER GI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AF KATAKANA LETTER KU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B0 KATAKANA LETTER GU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B1 KATAKANA LETTER KE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B2 KATAKANA LETTER GE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B3 KATAKANA LETTER KO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B4 KATAKANA LETTER GO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B5 KATAKANA LETTER SA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B6 KATAKANA LETTER ZA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B7 KATAKANA LETTER SI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B8 KATAKANA LETTER ZI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B9 KATAKANA LETTER SU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BA KATAKANA LETTER ZU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BB KATAKANA LETTER SE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BC KATAKANA LETTER ZE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BD KATAKANA LETTER SO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BE KATAKANA LETTER ZO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BF KATAKANA LETTER TA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C0 KATAKANA LETTER DA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C1 KATAKANA LETTER TI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C2 KATAKANA LETTER DI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C3 KATAKANA LETTER SMALL TU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C4 KATAKANA LETTER TU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C5 KATAKANA LETTER DU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C6 KATAKANA LETTER TE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C7 KATAKANA LETTER DE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C8 KATAKANA LETTER TO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C9 KATAKANA LETTER DO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CA KATAKANA LETTER NA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CB KATAKANA LETTER NI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CC KATAKANA LETTER NU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CD KATAKANA LETTER NE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CE KATAKANA LETTER NO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CF KATAKANA LETTER HA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D0 KATAKANA LETTER BA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D1 KATAKANA LETTER PA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D2 KATAKANA LETTER HI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D3 KATAKANA LETTER BI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D4 KATAKANA LETTER PI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D5 KATAKANA LETTER HU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D6 KATAKANA LETTER BU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D7 KATAKANA LETTER PU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D8 KATAKANA LETTER HE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D9 KATAKANA LETTER BE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DA KATAKANA LETTER PE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DB KATAKANA LETTER HO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DC KATAKANA LETTER BO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DD KATAKANA LETTER PO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DE KATAKANA LETTER MA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DF KATAKANA LETTER MI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E0 KATAKANA LETTER MU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E1 KATAKANA LETTER ME: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E2 KATAKANA LETTER MO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E3 KATAKANA LETTER SMALL YA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E4 KATAKANA LETTER YA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E5 KATAKANA LETTER SMALL YU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E6 KATAKANA LETTER YU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E7 KATAKANA LETTER SMALL YO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E8 KATAKANA LETTER YO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E9 KATAKANA LETTER RA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EA KATAKANA LETTER RI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EB KATAKANA LETTER RU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EC KATAKANA LETTER RE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30ED KATAKANA LETTER RO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EE KATAKANA LETTER SMALL WA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EF KATAKANA LETTER WA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F0 KATAKANA LETTER WI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F1 KATAKANA LETTER WE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F2 KATAKANA LETTER WO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F3 KATAKANA LETTER N: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F4 KATAKANA LETTER VU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F5 KATAKANA LETTER SMALL KA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F6 KATAKANA LETTER SMALL KE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F7 KATAKANA LETTER VA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F8 KATAKANA LETTER VI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F9 KATAKANA LETTER VE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FA KATAKANA LETTER VO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FB KATAKANA MIDDLE DOT: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+30FC KATAKANA-HIRAGANA PROLONGED SOUND MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FD KATAKANA ITERATION MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FE KATAKANA VOICED ITERATION MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FF KATAKANA DIGRAPH KOTO: try adding one of: chinese-simplified, japanese</li>
 <li>U+31F0 KATAKANA LETTER SMALL KU: not included in any glyphset definition</li>
 <li>U+31F1 KATAKANA LETTER SMALL SI: not included in any glyphset definition</li>
 <li>U+31F2 KATAKANA LETTER SMALL SU: not included in any glyphset definition</li>
@@ -2201,6 +2507,8 @@ definitions.</p>
 <li>U+31FD KATAKANA LETTER SMALL RU: not included in any glyphset definition</li>
 <li>U+31FE KATAKANA LETTER SMALL RE: not included in any glyphset definition</li>
 <li>U+31FF KATAKANA LETTER SMALL RO: not included in any glyphset definition</li>
+<li>U+33CB SQUARE HP: not included in any glyphset definition</li>
+<li>U+4EDD CJK UNIFIED IDEOGRAPH-4EDD: try adding one of: chinese-traditional, japanese, chinese-simplified, chinese-hongkong</li>
 <li>U+E133 : not included in any glyphset definition</li>
 <li>U+E134 : not included in any glyphset definition</li>
 <li>U+E139 : not included in any glyphset definition</li>
@@ -2246,12 +2554,104 @@ definitions.</p>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 <li>U+FB03 LATIN SMALL LIGATURE FFI: not included in any glyphset definition</li>
 <li>U+FB04 LATIN SMALL LIGATURE FFL: not included in any glyphset definition</li>
-<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: japanese, chinese-simplified</li>
-<li>U+FF44 FULLWIDTH LATIN SMALL LETTER D: try adding one of: japanese, chinese-simplified</li>
+<li>U+FE45 SESAME DOT: not included in any glyphset definition</li>
+<li>U+FE46 WHITE SESAME DOT: not included in any glyphset definition</li>
+<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF02 FULLWIDTH QUOTATION MARK: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF03 FULLWIDTH NUMBER SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF04 FULLWIDTH DOLLAR SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF05 FULLWIDTH PERCENT SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF06 FULLWIDTH AMPERSAND: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF07 FULLWIDTH APOSTROPHE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF0A FULLWIDTH ASTERISK: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF0B FULLWIDTH PLUS SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF0C FULLWIDTH COMMA: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF0D FULLWIDTH HYPHEN-MINUS: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF0E FULLWIDTH FULL STOP: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF10 FULLWIDTH DIGIT ZERO: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF11 FULLWIDTH DIGIT ONE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF12 FULLWIDTH DIGIT TWO: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF13 FULLWIDTH DIGIT THREE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF14 FULLWIDTH DIGIT FOUR: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF15 FULLWIDTH DIGIT FIVE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF16 FULLWIDTH DIGIT SIX: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF17 FULLWIDTH DIGIT SEVEN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF18 FULLWIDTH DIGIT EIGHT: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF19 FULLWIDTH DIGIT NINE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF1A FULLWIDTH COLON: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF1C FULLWIDTH LESS-THAN SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF1D FULLWIDTH EQUALS SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF1E FULLWIDTH GREATER-THAN SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF20 FULLWIDTH COMMERCIAL AT: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF21 FULLWIDTH LATIN CAPITAL LETTER A: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF22 FULLWIDTH LATIN CAPITAL LETTER B: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF23 FULLWIDTH LATIN CAPITAL LETTER C: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF24 FULLWIDTH LATIN CAPITAL LETTER D: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF25 FULLWIDTH LATIN CAPITAL LETTER E: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF26 FULLWIDTH LATIN CAPITAL LETTER F: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF27 FULLWIDTH LATIN CAPITAL LETTER G: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF28 FULLWIDTH LATIN CAPITAL LETTER H: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF29 FULLWIDTH LATIN CAPITAL LETTER I: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2A FULLWIDTH LATIN CAPITAL LETTER J: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2B FULLWIDTH LATIN CAPITAL LETTER K: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2C FULLWIDTH LATIN CAPITAL LETTER L: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2D FULLWIDTH LATIN CAPITAL LETTER M: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2E FULLWIDTH LATIN CAPITAL LETTER N: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2F FULLWIDTH LATIN CAPITAL LETTER O: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF30 FULLWIDTH LATIN CAPITAL LETTER P: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF31 FULLWIDTH LATIN CAPITAL LETTER Q: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF32 FULLWIDTH LATIN CAPITAL LETTER R: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF33 FULLWIDTH LATIN CAPITAL LETTER S: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF34 FULLWIDTH LATIN CAPITAL LETTER T: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF35 FULLWIDTH LATIN CAPITAL LETTER U: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF36 FULLWIDTH LATIN CAPITAL LETTER V: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF37 FULLWIDTH LATIN CAPITAL LETTER W: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF38 FULLWIDTH LATIN CAPITAL LETTER X: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF39 FULLWIDTH LATIN CAPITAL LETTER Y: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF3A FULLWIDTH LATIN CAPITAL LETTER Z: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF3E FULLWIDTH CIRCUMFLEX ACCENT: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF3F FULLWIDTH LOW LINE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF40 FULLWIDTH GRAVE ACCENT: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF41 FULLWIDTH LATIN SMALL LETTER A: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF42 FULLWIDTH LATIN SMALL LETTER B: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF43 FULLWIDTH LATIN SMALL LETTER C: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF44 FULLWIDTH LATIN SMALL LETTER D: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF45 FULLWIDTH LATIN SMALL LETTER E: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF46 FULLWIDTH LATIN SMALL LETTER F: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF47 FULLWIDTH LATIN SMALL LETTER G: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF48 FULLWIDTH LATIN SMALL LETTER H: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF49 FULLWIDTH LATIN SMALL LETTER I: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4A FULLWIDTH LATIN SMALL LETTER J: try adding japanese</li>
+<li>U+FF4B FULLWIDTH LATIN SMALL LETTER K: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4C FULLWIDTH LATIN SMALL LETTER L: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4D FULLWIDTH LATIN SMALL LETTER M: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4E FULLWIDTH LATIN SMALL LETTER N: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4F FULLWIDTH LATIN SMALL LETTER O: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF50 FULLWIDTH LATIN SMALL LETTER P: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF51 FULLWIDTH LATIN SMALL LETTER Q: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF52 FULLWIDTH LATIN SMALL LETTER R: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF53 FULLWIDTH LATIN SMALL LETTER S: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF54 FULLWIDTH LATIN SMALL LETTER T: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF55 FULLWIDTH LATIN SMALL LETTER U: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF56 FULLWIDTH LATIN SMALL LETTER V: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF57 FULLWIDTH LATIN SMALL LETTER W: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF58 FULLWIDTH LATIN SMALL LETTER X: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF59 FULLWIDTH LATIN SMALL LETTER Y: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF5A FULLWIDTH LATIN SMALL LETTER Z: try adding japanese</li>
+<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: math, chinese-simplified, yi, japanese</li>
+<li>U+FF5C FULLWIDTH VERTICAL LINE: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: math, chinese-simplified, yi, japanese</li>
+<li>U+FF5E FULLWIDTH TILDE: try adding one of: chinese-simplified, yi</li>
+<li>U+FF5F FULLWIDTH LEFT WHITE PARENTHESIS: not included in any glyphset definition</li>
+<li>U+FF60 FULLWIDTH RIGHT WHITE PARENTHESIS: not included in any glyphset definition</li>
 <li>U+FF61 HALFWIDTH IDEOGRAPHIC FULL STOP: try adding yi</li>
 <li>U+FF62 HALFWIDTH LEFT CORNER BRACKET: try adding yi</li>
 <li>U+FF63 HALFWIDTH RIGHT CORNER BRACKET: try adding yi</li>
@@ -2315,6 +2715,20 @@ definitions.</p>
 <li>U+FF9D HALFWIDTH KATAKANA LETTER N: not included in any glyphset definition</li>
 <li>U+FF9E HALFWIDTH KATAKANA VOICED SOUND MARK: not included in any glyphset definition</li>
 <li>U+FF9F HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK: not included in any glyphset definition</li>
+<li>U+FFE0 FULLWIDTH CENT SIGN: try adding chinese-simplified</li>
+<li>U+FFE1 FULLWIDTH POUND SIGN: try adding chinese-simplified</li>
+<li>U+FFE2 FULLWIDTH NOT SIGN: not included in any glyphset definition</li>
+<li>U+FFE3 FULLWIDTH MACRON: try adding one of: chinese-simplified, japanese</li>
+<li>U+FFE4 FULLWIDTH BROKEN BAR: not included in any glyphset definition</li>
+<li>U+FFE5 FULLWIDTH YEN SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FFE6 FULLWIDTH WON SIGN: not included in any glyphset definition</li>
+<li>U+FFE8 HALFWIDTH FORMS LIGHT VERTICAL: not included in any glyphset definition</li>
+<li>U+FFE9 HALFWIDTH LEFTWARDS ARROW: not included in any glyphset definition</li>
+<li>U+FFEA HALFWIDTH UPWARDS ARROW: not included in any glyphset definition</li>
+<li>U+FFEB HALFWIDTH RIGHTWARDS ARROW: not included in any glyphset definition</li>
+<li>U+FFEC HALFWIDTH DOWNWARDS ARROW: not included in any glyphset definition</li>
+<li>U+FFED HALFWIDTH BLACK SQUARE: not included in any glyphset definition</li>
+<li>U+FFEE HALFWIDTH WHITE CIRCLE: not included in any glyphset definition</li>
 <li>U+FFFC OBJECT REPLACEMENT CHARACTER: not included in any glyphset definition</li>
 <li>U+1F494 BROKEN HEART: not included in any glyphset definition</li>
 <li>U+1FBB0 ARROWHEAD-SHAPED POINTER: try adding symbols</li>
@@ -2512,13 +2926,13 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1710 instead.
+* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1912 instead.
 Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
  [code: bad-numberOfHMetrics]
 
 
 
-* ⚠️ **WARN** <p>Font is monospaced but 426 glyphs (24.88%) have a different width. You should check the widths of: ['exclam', 'quotedbl', 'quotesingle', 'parenleft', 'parenright', 'comma', 'period', 'colon', 'semicolon', 'M', 'W', 'underscore', 'grave', 'm', 'w', 'braceleft', 'bar', 'braceright', 'exclamdown', 'acute', 'periodcentered', 'cedilla', 'AE', 'ae', 'OE', 'oe', 'Wcircumflex', 'wcircumflex', 'uni01C0', 'uni01C1', 'uni01E2', 'uni01E3', 'AEacute', 'aeacute', 'uni02B9', 'uni0402', 'uni0409', 'uni040A', 'uni040B', 'uni0416', 'uni0424', 'uni0428', 'uni0429', 'uni042B', 'uni042E', 'uni0436', 'uni043C', 'uni0444', 'uni0448', 'uni0449', 'uni044B', 'uni044E', 'uni0452', 'uni0459', 'uni045A', 'uni045B', 'uni0496', 'uni0497', 'uni04C1', 'uni04C2', 'uni04DC', 'uni04DD', 'uni04F8', 'uni04F9', 'uni0E0C', 'uni0E0D', 'uni0E12', 'uni0E13', 'uni0E40', 'uni0E46', 'uni0E86', 'uni0E8E', 'uni0E91', 'uni0E92', 'uni0E93', 'uni0E97', 'uni0E9E', 'uni0E9F', 'uni0EA4', 'uni0EAB', 'uni0EC0', 'uni0EC6', 'uni0EDC', 'uni0EDD', 'uni1E3E', 'uni1E3F', 'uni1E40', 'uni1E41', 'uni1E42', 'uni1E43', 'Wgrave', 'wgrave', 'Wacute', 'wacute', 'Wdieresis', 'wdieresis', 'uni1E86', 'uni1E87', 'uni1E88', 'uni1E89', 'uni1E98', 'uni2001', 'uni2003', 'uni2004', 'uni2005', 'uni2006', 'uni2008', 'uni2009', 'uni200A', 'emdash', 'uni2015', 'quoteleft', 'quoteright', 'quotesinglbase', 'quotereversed', 'quotedblleft', 'quotedblright', 'quotedblbase', 'uni201F', 'arrowleft', 'arrowup', 'arrowright', 'arrowdown', 'arrowboth', 'arrowupdn', 'uni2196', 'uni2197', 'uni2198', 'uni2199', 'uni21A9', 'uni21AA', 'carriagereturn', 'arrowdblleft', 'arrowdblup', 'arrowdblright', 'arrowdbldown', 'arrowdblboth', 'uni21D5', 'uni21D6', 'uni21D7', 'uni21D8', 'uni21D9', 'uni21E5', 'uni21E6', 'uni21E7', 'uni21E8', 'uni21E9', 'uni21EA', 'uni21EB', 'uni21EC', 'uni21ED', 'uni21EE', 'uni21EF', 'uni21F0', 'uni21F1', 'uni21F2', 'uni21F3', 'uni2318', 'uni2325', 'uni232B', 'uni2387', 'uni23CE', 'triagup', 'uni25B3', 'triagdn', 'uni25BD', 'uni25CE', 'H18533', 'uni25EF', 'uni2605', 'uni2606', 'uni2661', 'heart', 'uni2669', 'musicalnote', 'musicalnotedbl', 'uni266C', 'uni266D', 'uni266E', 'uni266F', 'uni26A0', 'uni2726', 'uni2727', 'uni2764', 'uni2765', 'uni3000', 'uni3001', 'uni3002', 'uni3003', 'uni3005', 'uni3006', 'uni3007', 'uni300C', 'uni300D', 'uni300E', 'uni300F', 'uni3010', 'uni3011', 'uni301C', 'uni301D', 'uni301E', 'uni301F', 'uni3041', 'uni3042', 'uni3043', 'uni3044', 'uni3045', 'uni3046', 'uni3047', 'uni3048', 'uni3049', 'uni304A', 'uni304B', 'uni304C', 'uni304D', 'uni304E', 'uni304F', 'uni3050', 'uni3051', 'uni3052', 'uni3053', 'uni3054', 'uni3055', 'uni3056', 'uni3057', 'uni3058', 'uni3059', 'uni305A', 'uni305B', 'uni305C', 'uni305D', 'uni305E', 'uni305F', 'uni3060', 'uni3061', 'uni3062', 'uni3063', 'uni3064', 'uni3065', 'uni3066', 'uni3067', 'uni3068', 'uni3069', 'uni306A', 'uni306B', 'uni306C', 'uni306D', 'uni306E', 'uni306F', 'uni3070', 'uni3071', 'uni3072', 'uni3073', 'uni3074', 'uni3075', 'uni3076', 'uni3077', 'uni3078', 'uni3079', 'uni307A', 'uni307B', 'uni307C', 'uni307D', 'uni307E', 'uni307F', 'uni3080', 'uni3081', 'uni3082', 'uni3083', 'uni3084', 'uni3085', 'uni3086', 'uni3087', 'uni3088', 'uni3089', 'uni308A', 'uni308B', 'uni308C', 'uni308D', 'uni308E', 'uni308F', 'uni3090', 'uni3091', 'uni3092', 'uni3093', 'uni3094', 'uni3095', 'uni3096', 'uni309B', 'uni309C', 'uni309D', 'uni309E', 'uni309F', 'uni30A0', 'uni30A1', 'uni30A2', 'uni30A3', 'uni30A4', 'uni30A5', 'uni30A6', 'uni30A7', 'uni30A8', 'uni30A9', 'uni30AA', 'uni30AB', 'uni30AC', 'uni30AD', 'uni30AE', 'uni30AF', 'uni30B0', 'uni30B1', 'uni30B2', 'uni30B3', 'uni30B4', 'uni30B5', 'uni30B6', 'uni30B7', 'uni30B8', 'uni30B9', 'uni30BA', 'uni30BB', 'uni30BC', 'uni30BD', 'uni30BE', 'uni30BF', 'uni30C0', 'uni30C1', 'uni30C2', 'uni30C3', 'uni30C4', 'uni30C5', 'uni30C6', 'uni30C7', 'uni30C8', 'uni30C9', 'uni30CA', 'uni30CB', 'uni30CC', 'uni30CD', 'uni30CE', 'uni30CF', 'uni30D0', 'uni30D1', 'uni30D2', 'uni30D3', 'uni30D4', 'uni30D5', 'uni30D6', 'uni30D7', 'uni30D8', 'uni30D9', 'uni30DA', 'uni30DB', 'uni30DC', 'uni30DD', 'uni30DE', 'uni30DF', 'uni30E0', 'uni30E1', 'uni30E2', 'uni30E3', 'uni30E4', 'uni30E5', 'uni30E6', 'uni30E7', 'uni30E8', 'uni30E9', 'uni30EA', 'uni30EB', 'uni30EC', 'uni30ED', 'uni30EE', 'uni30EF', 'uni30F0', 'uni30F1', 'uni30F2', 'uni30F3', 'uni30F4', 'uni30F5', 'uni30F6', 'uni30F7', 'uni30F8', 'uni30F9', 'uni30FA', 'uni30FB', 'uni30FC', 'uni30FD', 'uni30FE', 'uni30FF', 'uni31F0', 'uni31F1', 'uni31F2', 'uni31F3', 'uni31F4', 'uni31F5', 'uni31F6', 'uni31F7', 'uni31F8', 'uni31F9', 'uni31FA', 'uni31FB', 'uni31FC', 'uni31FD', 'uni31FE', 'uni31FF', 'uniE133', 'uniE134', 'uniE139', 'uni0E0D.descless', 'uni0E24_uni0E45', 'uni0E26_uni0E45', 'uniFB00', 'uniFB01', 'uniFB02', 'uniFB03', 'uniFB04', 'uniFF01', 'uniFF08', 'uniFF09', 'uniFF0F', 'uniFF3C', 'uniFF44', 'u1F494', 'u1FBB0', 'u1FBB2', 'u1FBB3']</p>
+* ⚠️ **WARN** <p>Font is monospaced but 626 glyphs (32.71%) have a different width. You should check the widths of: ['exclam', 'quotedbl', 'quotesingle', 'parenleft', 'parenright', 'comma', 'period', 'colon', 'semicolon', 'M', 'W', 'underscore', 'grave', 'm', 'w', 'braceleft', 'bar', 'braceright', 'exclamdown', 'acute', 'periodcentered', 'cedilla', 'AE', 'ae', 'OE', 'oe', 'Wcircumflex', 'wcircumflex', 'uni01C0', 'uni01C1', 'uni01E2', 'uni01E3', 'AEacute', 'aeacute', 'uni02B9', 'quoteleft', 'quoteright', 'quotereversed', 'uni0402', 'uni0409', 'uni040A', 'uni040B', 'uni0416', 'uni0424', 'uni0428', 'uni0429', 'uni042B', 'uni042E', 'uni0436', 'uni043C', 'uni0444', 'uni0448', 'uni0449', 'uni044B', 'uni044E', 'uni0452', 'uni0459', 'uni045A', 'uni045B', 'uni0496', 'uni0497', 'uni04C1', 'uni04C2', 'uni04DC', 'uni04DD', 'uni04F8', 'uni04F9', 'uni0E0C', 'uni0E0D', 'uni0E12', 'uni0E13', 'uni0E40', 'uni0E46', 'uni0E86', 'uni0E8E', 'uni0E91', 'uni0E92', 'uni0E93', 'uni0E97', 'uni0E9E', 'uni0E9F', 'uni0EA4', 'uni0EAB', 'uni0EC0', 'uni0EC6', 'uni0EDC', 'uni0EDD', 'uni1E3E', 'uni1E3F', 'uni1E40', 'uni1E41', 'uni1E42', 'uni1E43', 'Wgrave', 'wgrave', 'Wacute', 'wacute', 'Wdieresis', 'wdieresis', 'uni1E86', 'uni1E87', 'uni1E88', 'uni1E89', 'uni1E98', 'uni2001', 'uni2003', 'uni2004', 'uni2005', 'uni2006', 'uni2008', 'uni2009', 'uni200A', 'emdash', 'uni2015', 'uni2016', 'quotesinglbase', 'quotedblleft', 'quotedblright', 'quotedblbase', 'uni201F', 'twodotenleader', 'minute', 'uni2034', 'uni203B', 'uni203E', 'uni2103', 'uni210F', 'uni2113', 'uni212B', 'aleph', 'arrowleft', 'arrowup', 'arrowright', 'arrowdown', 'arrowboth', 'arrowupdn', 'uni2196', 'uni2197', 'uni2198', 'uni2199', 'uni21A9', 'uni21AA', 'carriagereturn', 'uni21C4', 'arrowdblleft', 'arrowdblup', 'arrowdblright', 'arrowdbldown', 'arrowdblboth', 'uni21D5', 'uni21D6', 'uni21D7', 'uni21D8', 'uni21D9', 'uni21E5', 'uni21E6', 'uni21E7', 'uni21E8', 'uni21E9', 'uni21EA', 'uni21EB', 'uni21EC', 'uni21ED', 'uni21EE', 'uni21EF', 'uni21F0', 'uni21F1', 'uni21F2', 'uni21F3', 'universal', 'existential', 'emptyset', 'gradient', 'element', 'notelement', 'suchthat', 'uni2213', 'proportional', 'infinity', 'angle', 'uni2225', 'uni2226', 'logicaland', 'logicalor', 'intersection', 'union', 'uni222C', 'therefore', 'uni2235', 'uni223D', 'uni2243', 'congruent', 'approxequal', 'uni2252', 'equivalence', 'uni2262', 'uni2266', 'uni2267', 'uni226A', 'uni226B', 'uni2276', 'uni2277', 'propersubset', 'propersuperset', 'notsubset', 'uni2285', 'reflexsubset', 'reflexsuperset', 'uni228A', 'uni228B', 'circleplus', 'uni2296', 'circlemultiply', 'perpendicular', 'uni2305', 'uni2306', 'uni2312', 'uni2318', 'uni2325', 'uni232B', 'uni2387', 'uni23CE', 'filledbox', 'H22073', 'triagup', 'uni25B3', 'uni25B6', 'uni25B7', 'triagdn', 'uni25BD', 'uni25C0', 'uni25C1', 'uni25C6', 'uni25C7', 'uni25C9', 'circle', 'uni25CE', 'H18533', 'uni25EF', 'uni2605', 'uni2606', 'female', 'male', 'uni2661', 'heart', 'uni2669', 'musicalnote', 'musicalnotedbl', 'uni266C', 'uni266D', 'uni266E', 'uni266F', 'uni26A0', 'uni2726', 'uni2727', 'uni2764', 'uni2765', 'uni2934', 'uni2935', 'uni29BF', 'uni29FA', 'uni29FB', 'uni3000', 'uni3001', 'uni3002', 'uni3003', 'uni3005', 'uni3006', 'uni3007', 'uni3008', 'uni3009', 'uni300A', 'uni300B', 'uni300C', 'uni300D', 'uni300E', 'uni300F', 'uni3010', 'uni3011', 'uni3012', 'uni3013', 'uni3014', 'uni3015', 'uni3016', 'uni3017', 'uni3018', 'uni3019', 'uni301C', 'uni301D', 'uni301E', 'uni301F', 'uni3033', 'uni3034', 'uni3035', 'uni303B', 'uni303C', 'uni303D', 'uni3041', 'uni3042', 'uni3043', 'uni3044', 'uni3045', 'uni3046', 'uni3047', 'uni3048', 'uni3049', 'uni304A', 'uni304B', 'uni304C', 'uni304D', 'uni304E', 'uni304F', 'uni3050', 'uni3051', 'uni3052', 'uni3053', 'uni3054', 'uni3055', 'uni3056', 'uni3057', 'uni3058', 'uni3059', 'uni305A', 'uni305B', 'uni305C', 'uni305D', 'uni305E', 'uni305F', 'uni3060', 'uni3061', 'uni3062', 'uni3063', 'uni3064', 'uni3065', 'uni3066', 'uni3067', 'uni3068', 'uni3069', 'uni306A', 'uni306B', 'uni306C', 'uni306D', 'uni306E', 'uni306F', 'uni3070', 'uni3071', 'uni3072', 'uni3073', 'uni3074', 'uni3075', 'uni3076', 'uni3077', 'uni3078', 'uni3079', 'uni307A', 'uni307B', 'uni307C', 'uni307D', 'uni307E', 'uni307F', 'uni3080', 'uni3081', 'uni3082', 'uni3083', 'uni3084', 'uni3085', 'uni3086', 'uni3087', 'uni3088', 'uni3089', 'uni308A', 'uni308B', 'uni308C', 'uni308D', 'uni308E', 'uni308F', 'uni3090', 'uni3091', 'uni3092', 'uni3093', 'uni3094', 'uni3095', 'uni3096', 'uni309B', 'uni309C', 'uni309D', 'uni309E', 'uni309F', 'uni30A0', 'uni30A1', 'uni30A2', 'uni30A3', 'uni30A4', 'uni30A5', 'uni30A6', 'uni30A7', 'uni30A8', 'uni30A9', 'uni30AA', 'uni30AB', 'uni30AC', 'uni30AD', 'uni30AE', 'uni30AF', 'uni30B0', 'uni30B1', 'uni30B2', 'uni30B3', 'uni30B4', 'uni30B5', 'uni30B6', 'uni30B7', 'uni30B8', 'uni30B9', 'uni30BA', 'uni30BB', 'uni30BC', 'uni30BD', 'uni30BE', 'uni30BF', 'uni30C0', 'uni30C1', 'uni30C2', 'uni30C3', 'uni30C4', 'uni30C5', 'uni30C6', 'uni30C7', 'uni30C8', 'uni30C9', 'uni30CA', 'uni30CB', 'uni30CC', 'uni30CD', 'uni30CE', 'uni30CF', 'uni30D0', 'uni30D1', 'uni30D2', 'uni30D3', 'uni30D4', 'uni30D5', 'uni30D6', 'uni30D7', 'uni30D8', 'uni30D9', 'uni30DA', 'uni30DB', 'uni30DC', 'uni30DD', 'uni30DE', 'uni30DF', 'uni30E0', 'uni30E1', 'uni30E2', 'uni30E3', 'uni30E4', 'uni30E5', 'uni30E6', 'uni30E7', 'uni30E8', 'uni30E9', 'uni30EA', 'uni30EB', 'uni30EC', 'uni30ED', 'uni30EE', 'uni30EF', 'uni30F0', 'uni30F1', 'uni30F2', 'uni30F3', 'uni30F4', 'uni30F5', 'uni30F6', 'uni30F7', 'uni30F8', 'uni30F9', 'uni30FA', 'uni30FB', 'uni30FC', 'uni30FD', 'uni30FE', 'uni30FF', 'uni31F0', 'uni31F1', 'uni31F2', 'uni31F3', 'uni31F4', 'uni31F5', 'uni31F6', 'uni31F7', 'uni31F8', 'uni31F9', 'uni31FA', 'uni31FB', 'uni31FC', 'uni31FD', 'uni31FE', 'uni31FF', 'uni33CB', 'uni4EDD', 'uniE133', 'uniE134', 'uniE139', 'uni0E0D.descless', 'uni0E24_uni0E45', 'uni0E26_uni0E45', 'uniFB00', 'uniFB01', 'uniFB02', 'uniFB03', 'uniFB04', 'uniFE45', 'uniFE46', 'uniFF01', 'uniFF02', 'uniFF03', 'uniFF04', 'uniFF05', 'uniFF06', 'uniFF07', 'uniFF08', 'uniFF09', 'uniFF0A', 'uniFF0B', 'uniFF0C', 'uniFF0D', 'uniFF0E', 'uniFF0F', 'uniFF10', 'uniFF11', 'uniFF12', 'uniFF13', 'uniFF14', 'uniFF15', 'uniFF16', 'uniFF17', 'uniFF18', 'uniFF19', 'uniFF1A', 'uniFF1B', 'uniFF1C', 'uniFF1D', 'uniFF1E', 'uniFF1F', 'uniFF20', 'uniFF21', 'uniFF22', 'uniFF23', 'uniFF24', 'uniFF25', 'uniFF26', 'uniFF27', 'uniFF28', 'uniFF29', 'uniFF2A', 'uniFF2B', 'uniFF2C', 'uniFF2D', 'uniFF2E', 'uniFF2F', 'uniFF30', 'uniFF31', 'uniFF32', 'uniFF33', 'uniFF34', 'uniFF35', 'uniFF36', 'uniFF37', 'uniFF38', 'uniFF39', 'uniFF3A', 'uniFF3B', 'uniFF3C', 'uniFF3D', 'uniFF3E', 'uniFF3F', 'uniFF40', 'uniFF41', 'uniFF42', 'uniFF43', 'uniFF44', 'uniFF45', 'uniFF46', 'uniFF47', 'uniFF48', 'uniFF49', 'uniFF4A', 'uniFF4B', 'uniFF4C', 'uniFF4D', 'uniFF4E', 'uniFF4F', 'uniFF50', 'uniFF51', 'uniFF52', 'uniFF53', 'uniFF54', 'uniFF55', 'uniFF56', 'uniFF57', 'uniFF58', 'uniFF59', 'uniFF5A', 'uniFF5B', 'uniFF5C', 'uniFF5D', 'uniFF5E', 'uniFF5F', 'uniFF60', 'uniFFE0', 'uniFFE1', 'uniFFE2', 'uniFFE3', 'uniFFE4', 'uniFFE5', 'uniFFE6', 'uniFFE9', 'uniFFEA', 'uniFFEB', 'uniFFEC', 'u1F494', 'u1FBB0', 'u1FBB2', 'u1FBB3']</p>
  [code: mono-outliers]
 
 
@@ -2590,10 +3004,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left">U+028A: LATIN SMALL LETTER UPSILON</td>
 <td align="left">U+01B1: LATIN CAPITAL LETTER UPSILON</td>
 </tr>
-<tr>
-<td align="left">U+FF44: FULLWIDTH LATIN SMALL LETTER D</td>
-<td align="left">U+FF24: FULLWIDTH LATIN CAPITAL LETTER D</td>
-</tr>
 </tbody>
 </table>
  [code: missing-case-counterparts]
@@ -2659,7 +3069,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ƴ, ƴ</td>
+<td align="left">The following base characters are missing from the font: ƴ, Ƴ</td>
 <td align="left">ff_Latn (Fulah)</td>
 </tr>
 <tr>
@@ -2667,7 +3077,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ƙ, Ƙ, ƴ, Ƴ</td>
+<td align="left">The following base characters are missing from the font: ƴ, ƙ, Ƙ, Ƴ</td>
 <td align="left">ha_Latn (Hausa)</td>
 </tr>
 <tr>
@@ -2695,7 +3105,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ҡ, ҙ, ҡ, ҫ, Ҙ, Ҫ</td>
+<td align="left">The following base characters are missing from the font: Ҙ, Ҫ, ҙ, ҡ, Ҡ, ҫ</td>
 <td align="left">ba_Cyrl (Bashkir)</td>
 </tr>
 <tr>
@@ -2703,7 +3113,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ҫ, Ҫ</td>
+<td align="left">The following base characters are missing from the font: Ҫ, ҫ</td>
 <td align="left">cv_Cyrl (Chuvash)</td>
 </tr>
 <tr>
@@ -2720,14 +3130,14 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </tr>
 <tr>
 <td align="left">The following base characters are missing from the font: ӏ, Ӏ</td>
-<td align="left">kbd_Cyrl (Kabardian), dar_Cyrl (Dargwa) and inh_Cyrl (Ingush)</td>
+<td align="left">kbd_Cyrl (Kabardian), ady_Cyrl (Adyghe), dar_Cyrl (Dargwa) and lez_Cyrl (Lezghian)</td>
 </tr>
 <tr>
 <td align="left">Mandatory orthography codepoints:</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: тӏ, пӏ, чӏ, кӏ, хӏ, рхӏ, гӏ, цӏ</td>
+<td align="left">The following base characters are missing from the font: чӏ, кӏ, тӏ, рхӏ, гӏ, цӏ, пӏ, хӏ</td>
 <td align="left">ce_Cyrl (Chechen)</td>
 </tr>
 <tr>
@@ -2736,7 +3146,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </tr>
 <tr>
 <td align="left">The following base characters are missing from the font: Ӏ, ӏ</td>
-<td align="left">av_Cyrl (Avaric), ady_Cyrl (Adyghe) and lez_Cyrl (Lezghian)</td>
+<td align="left">av_Cyrl (Avaric) and inh_Cyrl (Ingush)</td>
 </tr>
 <tr>
 <td align="left">Mandatory orthography codepoints:</td>
@@ -3416,18 +3826,13 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>OS/2.sTypoAscender is &quot;768&quot; it should be 901</p>
+* 🔥 **FAIL** <p>OS/2.sTypoAscender is &quot;960&quot; it should be 901</p>
  [code: bad-OS/2.sTypoAscender]
 
 
 
 * 🔥 **FAIL** <p>OS/2.sTypoDescender is &quot;-256&quot; it should be -123</p>
  [code: bad-OS/2.sTypoDescender]
-
-
-
-* ⚠️ **WARN** <p>We recommend the absolute sum of the hhea metrics should be between 1.1-1.4x of the font's upm. This font has 1.0x</p>
- [code: bad-hhea-range]
 
 
 
@@ -4145,6 +4550,8 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 - Glyph name: uni0249	Contours detected: 4	Expected: 2
 
 - Glyph name: tilde	Contours detected: 3	Expected: 1
+
+- Glyph name: hungarumlaut	Contours detected: 4	Expected: 2
 
 - Glyph name: gravecomb	Contours detected: 2	Expected: 1
 
@@ -4960,6 +5367,8 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: uni20AD	Contours detected: 7	Expected: 1
 
+- Glyph name: uni2113	Contours detected: 12	Expected: 2
+
 - Glyph name: trademark	Contours detected: 3	Expected: 2
 
 - Glyph name: Omega	Contours detected: 5	Expected: 1
@@ -4986,17 +5395,29 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: carriagereturn	Contours detected: 3	Expected: 1
 
+- Glyph name: uni21C4	Contours detected: 10	Expected: 2
+
 - Glyph name: arrowdblright	Contours detected: 7	Expected: 1
 
 - Glyph name: arrowdblboth	Contours detected: 12	Expected: 2
 
 - Glyph name: uni21E5	Contours detected: 6	Expected: 2
 
-- Glyph name: universal	Contours detected: 3	Expected: 2
+- Glyph name: universal	Contours detected: 7	Expected: 2
 
 - Glyph name: partialdiff	Contours detected: 6	Expected: 2
 
+- Glyph name: emptyset	Contours detected: 8	Expected: 3
+
 - Glyph name: Delta	Contours detected: 4	Expected: 2
+
+- Glyph name: gradient	Contours detected: 3	Expected: 2
+
+- Glyph name: element	Contours detected: 7	Expected: 1
+
+- Glyph name: notelement	Contours detected: 5	Expected: 3
+
+- Glyph name: suchthat	Contours detected: 7	Expected: 1
 
 - Glyph name: summation	Contours detected: 8	Expected: 1
 
@@ -5004,17 +5425,59 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: radical	Contours detected: 6	Expected: 1
 
-- Glyph name: infinity	Contours detected: 8	Expected: 3
+- Glyph name: proportional	Contours detected: 10	Expected: 2
 
-- Glyph name: integral	Contours detected: 5	Expected: 1
+- Glyph name: infinity	Contours detected: 7	Expected: 3
 
-- Glyph name: approxequal	Contours detected: 6	Expected: 2
+- Glyph name: angle	Contours detected: 9	Expected: 1
+
+- Glyph name: uni2226	Contours detected: 4	Expected: 1
+
+- Glyph name: logicaland	Contours detected: 7	Expected: 1
+
+- Glyph name: logicalor	Contours detected: 9	Expected: 1
+
+- Glyph name: intersection	Contours detected: 5	Expected: 1
+
+- Glyph name: union	Contours detected: 7	Expected: 1
+
+- Glyph name: integral	Contours detected: 8	Expected: 1
+
+- Glyph name: uni222C	Contours detected: 16	Expected: 2
+
+- Glyph name: uni223D	Contours detected: 10	Expected: 1
+
+- Glyph name: uni2243	Contours detected: 9	Expected: 2
+
+- Glyph name: congruent	Contours detected: 10	Expected: 3
+
+- Glyph name: approxequal	Contours detected: 16	Expected: 2
 
 - Glyph name: notequal	Contours detected: 3	Expected: 1
+
+- Glyph name: uni2262	Contours detected: 3	Expected: 1
 
 - Glyph name: lessequal	Contours detected: 9	Expected: 2
 
 - Glyph name: greaterequal	Contours detected: 9	Expected: 2
+
+- Glyph name: uni226A	Contours detected: 22	Expected: 2
+
+- Glyph name: uni226B	Contours detected: 22	Expected: 2
+
+- Glyph name: propersubset	Contours detected: 7	Expected: 1
+
+- Glyph name: propersuperset	Contours detected: 7	Expected: 1
+
+- Glyph name: notsubset	Contours detected: 9	Expected: 2
+
+- Glyph name: uni2285	Contours detected: 7	Expected: 2
+
+- Glyph name: reflexsubset	Contours detected: 6	Expected: 2
+
+- Glyph name: reflexsuperset	Contours detected: 6	Expected: 2
+
+- Glyph name: circleplus	Contours detected: 11	Expected: 3
 
 - Glyph name: uni2506	Contours detected: 4	Expected: 3
 
@@ -5036,9 +5499,19 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: uni25B3	Contours detected: 10	Expected: 2
 
+- Glyph name: uni25B7	Contours detected: 12	Expected: 2
+
 - Glyph name: uni25BD	Contours detected: 6	Expected: 2
 
-- Glyph name: circle	Contours detected: 8	Expected: 2
+- Glyph name: uni25C1	Contours detected: 12	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 15	Expected: 2
+
+- Glyph name: uni25C9	Contours detected: 9	Expected: 3
+
+- Glyph name: lozenge	Contours detected: 12	Expected: 2
+
+- Glyph name: circle	Contours detected: 3	Expected: 2
 
 - Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
 
@@ -5308,9 +5781,11 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: ampersand	Contours detected: 6	Expected: 1, 2 or 3
 
+- Glyph name: angle	Contours detected: 9	Expected: 1
+
 - Glyph name: aogonek	Contours detected: 7	Expected: 2
 
-- Glyph name: approxequal	Contours detected: 6	Expected: 2
+- Glyph name: approxequal	Contours detected: 16	Expected: 2
 
 - Glyph name: aring	Contours detected: 6	Expected: 4
 
@@ -5364,9 +5839,13 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: chi	Contours detected: 10	Expected: 1
 
-- Glyph name: circle	Contours detected: 8	Expected: 2
+- Glyph name: circle	Contours detected: 3	Expected: 2
+
+- Glyph name: circleplus	Contours detected: 11	Expected: 3
 
 - Glyph name: comma	Contours detected: 2	Expected: 1
+
+- Glyph name: congruent	Contours detected: 10	Expected: 3
 
 - Glyph name: copyright	Contours detected: 12	Expected: 3
 
@@ -5402,7 +5881,11 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: eight	Contours detected: 4	Expected: 3
 
+- Glyph name: element	Contours detected: 7	Expected: 1
+
 - Glyph name: emacron	Contours detected: 7	Expected: 3
+
+- Glyph name: emptyset	Contours detected: 8	Expected: 3
 
 - Glyph name: eng	Contours detected: 3	Expected: 1
 
@@ -5438,6 +5921,8 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: germandbls	Contours detected: 10	Expected: 1
 
+- Glyph name: gradient	Contours detected: 3	Expected: 2
+
 - Glyph name: grave	Contours detected: 3	Expected: 1
 
 - Glyph name: greater	Contours detected: 9	Expected: 1
@@ -5454,6 +5939,8 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: hcircumflex	Contours detected: 6	Expected: 2
 
+- Glyph name: hungarumlaut	Contours detected: 4	Expected: 2
+
 - Glyph name: iacute	Contours detected: 3	Expected: 2
 
 - Glyph name: ibreve	Contours detected: 4	Expected: 2
@@ -5464,9 +5951,11 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: ij	Contours detected: 5	Expected: 3 or 4
 
-- Glyph name: infinity	Contours detected: 8	Expected: 3
+- Glyph name: infinity	Contours detected: 7	Expected: 3
 
-- Glyph name: integral	Contours detected: 5	Expected: 1
+- Glyph name: integral	Contours detected: 8	Expected: 1
+
+- Glyph name: intersection	Contours detected: 5	Expected: 1
 
 - Glyph name: iogonek	Contours detected: 5	Expected: 2 or 3
 
@@ -5500,7 +5989,13 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: lessequal	Contours detected: 9	Expected: 2
 
+- Glyph name: logicaland	Contours detected: 7	Expected: 1
+
+- Glyph name: logicalor	Contours detected: 9	Expected: 1
+
 - Glyph name: longs	Contours detected: 3	Expected: 1
+
+- Glyph name: lozenge	Contours detected: 12	Expected: 2
 
 - Glyph name: lslash	Contours detected: 3	Expected: 1
 
@@ -5520,7 +6015,11 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: nine	Contours detected: 4	Expected: 1 or 2
 
+- Glyph name: notelement	Contours detected: 5	Expected: 3
+
 - Glyph name: notequal	Contours detected: 3	Expected: 1
+
+- Glyph name: notsubset	Contours detected: 9	Expected: 2
 
 - Glyph name: ntilde	Contours detected: 6	Expected: 2
 
@@ -5580,6 +6079,12 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: pi	Contours detected: 2	Expected: 1
 
+- Glyph name: propersubset	Contours detected: 7	Expected: 1
+
+- Glyph name: propersuperset	Contours detected: 7	Expected: 1
+
+- Glyph name: proportional	Contours detected: 10	Expected: 2
+
 - Glyph name: psi	Contours detected: 6	Expected: 1
 
 - Glyph name: q	Contours detected: 6	Expected: 2
@@ -5608,6 +6113,10 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: rcaron	Contours detected: 6	Expected: 2
 
+- Glyph name: reflexsubset	Contours detected: 6	Expected: 2
+
+- Glyph name: reflexsuperset	Contours detected: 6	Expected: 2
+
 - Glyph name: registered	Contours detected: 9	Expected: 3 or 4
 
 - Glyph name: rho	Contours detected: 4	Expected: 2
@@ -5633,6 +6142,8 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 - Glyph name: slash	Contours detected: 5	Expected: 1
 
 - Glyph name: sterling	Contours detected: 6	Expected: 1 or 2
+
+- Glyph name: suchthat	Contours detected: 7	Expected: 1
 
 - Glyph name: summation	Contours detected: 8	Expected: 1
 
@@ -6392,6 +6903,8 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: uni20AD	Contours detected: 7	Expected: 1
 
+- Glyph name: uni2113	Contours detected: 12	Expected: 2
+
 - Glyph name: uni2196	Contours detected: 13	Expected: 1
 
 - Glyph name: uni2197	Contours detected: 13	Expected: 1
@@ -6400,9 +6913,27 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: uni2199	Contours detected: 13	Expected: 1
 
+- Glyph name: uni21C4	Contours detected: 10	Expected: 2
+
 - Glyph name: uni21E5	Contours detected: 6	Expected: 2
 
 - Glyph name: uni2215	Contours detected: 5	Expected: 1
+
+- Glyph name: uni2226	Contours detected: 4	Expected: 1
+
+- Glyph name: uni222C	Contours detected: 16	Expected: 2
+
+- Glyph name: uni223D	Contours detected: 10	Expected: 1
+
+- Glyph name: uni2243	Contours detected: 9	Expected: 2
+
+- Glyph name: uni2262	Contours detected: 3	Expected: 1
+
+- Glyph name: uni226A	Contours detected: 22	Expected: 2
+
+- Glyph name: uni226B	Contours detected: 22	Expected: 2
+
+- Glyph name: uni2285	Contours detected: 7	Expected: 2
 
 - Glyph name: uni2506	Contours detected: 4	Expected: 3
 
@@ -6424,13 +6955,23 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 - Glyph name: uni25B3	Contours detected: 10	Expected: 2
 
+- Glyph name: uni25B7	Contours detected: 12	Expected: 2
+
 - Glyph name: uni25BD	Contours detected: 6	Expected: 2
+
+- Glyph name: uni25C1	Contours detected: 12	Expected: 2
+
+- Glyph name: uni25C7	Contours detected: 15	Expected: 2
+
+- Glyph name: uni25C9	Contours detected: 9	Expected: 3
 
 - Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12
 
 - Glyph name: uniFFFC	Contours detected: 25	Expected: 22
 
-- Glyph name: universal	Contours detected: 3	Expected: 2
+- Glyph name: union	Contours detected: 7	Expected: 1
+
+- Glyph name: universal	Contours detected: 7	Expected: 2
 
 - Glyph name: uogonek	Contours detected: 6	Expected: 1
 
@@ -6512,6 +7053,27 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#math-signs-width">math_signs_width</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The most common width is 1024 among a set of 29 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 512:
+logicalnot, notequal, less, greaterequal, divide, plus, greater, multiply, lessequal, equal, minus, plusminus</p>
+ [code: width-outliers]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -6539,24 +7101,6 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 * uni1EDE (U+1EDE): L&lt;&lt;192.0,640.0&gt;--&lt;320.0,640.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 832, but got 768 instead</p>
- [code: typoAscender]
 
 
 
@@ -6622,24 +7166,24 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, glagolitic, gothic, math, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, todhri, tai-le, malayalam, duployan, math, hebrew, old-permic, coptic, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, glagolitic, coptic, gothic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, canadian-aboriginal, tifinagh, coptic, malayalam, tai-le, todhri, math, duployan, syriac</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: try adding ethiopic</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031A COMBINING LEFT ANGLE ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, duployan, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -6647,10 +7191,10 @@ definitions.</p>
 <li>U+032A COMBINING BRIDGE BELOW: not included in any glyphset definition</li>
 <li>U+032B COMBINING INVERTED DOUBLE ARCH BELOW: not included in any glyphset definition</li>
 <li>U+032C COMBINING CARON BELOW: try adding math</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -6663,14 +7207,19 @@ definitions.</p>
 <li>U+0EA4 : not included in any glyphset definition</li>
 <li>U+0EA6 : not included in any glyphset definition</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+2010 HYPHEN: try adding one of: kharoshthi, armenian, kaithi, sora-sompeng, lisu, cham, sundanese, hebrew, kayah-li, arabic, syloti-nagri, coptic, yi</li>
+<li>U+2010 HYPHEN: try adding one of: hebrew, kayah-li, syloti-nagri, sundanese, coptic, kaithi, sora-sompeng, kharoshthi, lisu, arabic, armenian, cham, yi</li>
 <li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
+<li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam</li>
 <li>U+201F DOUBLE HIGH-REVERSED-9 QUOTATION MARK: not included in any glyphset definition</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+2025 TWO DOT LEADER: try adding phags-pa</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+2034 TRIPLE PRIME: try adding math</li>
+<li>U+203B REFERENCE MARK: not included in any glyphset definition</li>
+<li>U+203E OVERLINE: not included in any glyphset definition</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2071 SUPERSCRIPT LATIN SMALL LETTER I: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -6700,7 +7249,12 @@ definitions.</p>
 <li>U+208C SUBSCRIPT EQUALS SIGN: try adding math</li>
 <li>U+208D SUBSCRIPT LEFT PARENTHESIS: try adding math</li>
 <li>U+208E SUBSCRIPT RIGHT PARENTHESIS: try adding math</li>
+<li>U+2103 DEGREE CELSIUS: try adding math</li>
+<li>U+210F PLANCK CONSTANT OVER TWO PI: try adding math</li>
 <li>U+2126 OHM SIGN: try adding math</li>
+<li>U+2127 INVERTED OHM SIGN: try adding math</li>
+<li>U+212B ANGSTROM SIGN: try adding math</li>
+<li>U+2135 ALEF SYMBOL: try adding math</li>
 <li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
 <li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
 <li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
@@ -6712,6 +7266,7 @@ definitions.</p>
 <li>U+21A9 LEFTWARDS ARROW WITH HOOK: try adding math</li>
 <li>U+21AA RIGHTWARDS ARROW WITH HOOK: try adding math</li>
 <li>U+21B5 DOWNWARDS ARROW WITH CORNER LEFTWARDS: try adding math</li>
+<li>U+21C4 RIGHTWARDS ARROW OVER LEFTWARDS ARROW: try adding math</li>
 <li>U+21D0 LEFTWARDS DOUBLE ARROW: try adding math</li>
 <li>U+21D1 UPWARDS DOUBLE ARROW: try adding math</li>
 <li>U+21D2 RIGHTWARDS DOUBLE ARROW: try adding math</li>
@@ -6739,17 +7294,62 @@ definitions.</p>
 <li>U+21F3 UP DOWN WHITE ARROW: try adding symbols</li>
 <li>U+2200 FOR ALL: try adding math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
+<li>U+2203 THERE EXISTS: try adding math</li>
+<li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
+<li>U+2207 NABLA: try adding math</li>
+<li>U+2208 ELEMENT OF: try adding math</li>
+<li>U+2209 NOT AN ELEMENT OF: try adding math</li>
+<li>U+220B CONTAINS AS MEMBER: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, symbols, yi, math</li>
+<li>U+2213 MINUS-OR-PLUS SIGN: try adding math</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, yi, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
+<li>U+221D PROPORTIONAL TO: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
+<li>U+2220 ANGLE: try adding math</li>
+<li>U+2225 PARALLEL TO: try adding math</li>
+<li>U+2226 NOT PARALLEL TO: try adding math</li>
+<li>U+2227 LOGICAL AND: try adding math</li>
+<li>U+2228 LOGICAL OR: try adding math</li>
+<li>U+2229 INTERSECTION: try adding math</li>
+<li>U+222A UNION: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
+<li>U+222C DOUBLE INTEGRAL: try adding math</li>
+<li>U+2234 THEREFORE: try adding math</li>
+<li>U+2235 BECAUSE: try adding math</li>
+<li>U+223D REVERSED TILDE: try adding math</li>
+<li>U+2243 ASYMPTOTICALLY EQUAL TO: try adding math</li>
+<li>U+2245 APPROXIMATELY EQUAL TO: try adding math</li>
 <li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2252 APPROXIMATELY EQUAL TO OR THE IMAGE OF: try adding math</li>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2261 IDENTICAL TO: try adding math</li>
+<li>U+2262 NOT IDENTICAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+2266 LESS-THAN OVER EQUAL TO: try adding math</li>
+<li>U+2267 GREATER-THAN OVER EQUAL TO: try adding math</li>
+<li>U+226A MUCH LESS-THAN: try adding math</li>
+<li>U+226B MUCH GREATER-THAN: try adding math</li>
+<li>U+2276 LESS-THAN OR GREATER-THAN: try adding math</li>
+<li>U+2277 GREATER-THAN OR LESS-THAN: try adding math</li>
+<li>U+2282 SUBSET OF: try adding math</li>
+<li>U+2283 SUPERSET OF: try adding math</li>
+<li>U+2284 NOT A SUBSET OF: try adding math</li>
+<li>U+2285 NOT A SUPERSET OF: try adding math</li>
+<li>U+2286 SUBSET OF OR EQUAL TO: try adding math</li>
+<li>U+2287 SUPERSET OF OR EQUAL TO: try adding math</li>
+<li>U+228A SUBSET OF WITH NOT EQUAL TO: try adding math</li>
+<li>U+228B SUPERSET OF WITH NOT EQUAL TO: try adding math</li>
+<li>U+2295 CIRCLED PLUS: try adding math</li>
+<li>U+2296 CIRCLED MINUS: try adding math</li>
+<li>U+2297 CIRCLED TIMES: try adding math</li>
+<li>U+22A5 UP TACK: try adding math</li>
+<li>U+2305 PROJECTIVE: try adding symbols</li>
+<li>U+2306 PERSPECTIVE: try adding symbols</li>
+<li>U+2312 ARC: try adding symbols</li>
 <li>U+2318 PLACE OF INTEREST SIGN: try adding symbols</li>
 <li>U+2325 OPTION KEY: try adding symbols</li>
 <li>U+232B ERASE TO THE LEFT: try adding symbols</li>
@@ -6759,237 +7359,270 @@ definitions.</p>
 <li>U+25A1 WHITE SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
 <li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
 <li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C6 BLACK DIAMOND: try adding symbols</li>
+<li>U+25C7 WHITE DIAMOND: try adding symbols</li>
+<li>U+25C9 FISHEYE: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
 <li>U+25CE BULLSEYE: try adding symbols</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E1 LOWER HALF CIRCLE: try adding symbols</li>
+<li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+25EF LARGE CIRCLE: try adding symbols</li>
 <li>U+2605 BLACK STAR: try adding symbols</li>
 <li>U+2606 WHITE STAR: try adding symbols</li>
+<li>U+2640 FEMALE SIGN: try adding symbols</li>
+<li>U+2642 MALE SIGN: try adding symbols</li>
 <li>U+2661 WHITE HEART SUIT: try adding symbols</li>
 <li>U+2665 BLACK HEART SUIT: try adding symbols</li>
-<li>U+2669 QUARTER NOTE: try adding one of: symbols, music</li>
-<li>U+266A EIGHTH NOTE: try adding one of: symbols, music</li>
-<li>U+266B BEAMED EIGHTH NOTES: try adding one of: symbols, music</li>
-<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: symbols, music</li>
-<li>U+266D MUSIC FLAT SIGN: try adding one of: symbols, music, math</li>
-<li>U+266E MUSIC NATURAL SIGN: try adding one of: symbols, music, math</li>
-<li>U+266F MUSIC SHARP SIGN: try adding one of: symbols, music, math</li>
+<li>U+2669 QUARTER NOTE: try adding one of: music, symbols</li>
+<li>U+266A EIGHTH NOTE: try adding one of: music, symbols</li>
+<li>U+266B BEAMED EIGHTH NOTES: try adding one of: music, symbols</li>
+<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: music, symbols</li>
+<li>U+266D MUSIC FLAT SIGN: try adding one of: music, symbols, math</li>
+<li>U+266E MUSIC NATURAL SIGN: try adding one of: music, symbols, math</li>
+<li>U+266F MUSIC SHARP SIGN: try adding one of: music, symbols, math</li>
 <li>U+26A0 WARNING SIGN: try adding symbols</li>
 <li>U+2726 BLACK FOUR POINTED STAR: try adding symbols</li>
 <li>U+2727 WHITE FOUR POINTED STAR: try adding symbols</li>
 <li>U+2764 HEAVY BLACK HEART: try adding symbols</li>
 <li>U+2765 ROTATED HEAVY BLACK HEART BULLET: try adding symbols</li>
 <li>U+2919 LEFTWARDS ARROW-TAIL: try adding math</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-traditional, nushu, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
-<li>U+3001 IDEOGRAPHIC COMMA: try adding one of: chinese-traditional, phags-pa, tai-le, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+3002 IDEOGRAPHIC FULL STOP: try adding one of: chinese-traditional, nushu, phags-pa, tai-le, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+3003 DITTO MARK: try adding one of: chinese-traditional, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
-<li>U+3005 IDEOGRAPHIC ITERATION MARK: try adding one of: chinese-traditional, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
-<li>U+3006 IDEOGRAPHIC CLOSING MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+3007 IDEOGRAPHIC NUMBER ZERO: try adding one of: japanese, chinese-simplified, phags-pa</li>
-<li>U+300C LEFT CORNER BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+300D RIGHT CORNER BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+300E LEFT WHITE CORNER BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+300F RIGHT WHITE CORNER BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+3010 LEFT BLACK LENTICULAR BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
-<li>U+3011 RIGHT BLACK LENTICULAR BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
+<li>U+2934 ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS: try adding math</li>
+<li>U+2935 ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS: try adding math</li>
+<li>U+29BF CIRCLED BULLET: try adding one of: symbols, math</li>
+<li>U+29FA DOUBLE PLUS: try adding math</li>
+<li>U+29FB TRIPLE PLUS: try adding math</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, nushu, yi</li>
+<li>U+3001 IDEOGRAPHIC COMMA: try adding one of: japanese, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3002 IDEOGRAPHIC FULL STOP: try adding one of: japanese, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, phags-pa, nushu, yi</li>
+<li>U+3003 DITTO MARK: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3005 IDEOGRAPHIC ITERATION MARK: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3006 IDEOGRAPHIC CLOSING MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+3007 IDEOGRAPHIC NUMBER ZERO: try adding one of: phags-pa, chinese-simplified, japanese</li>
+<li>U+3008 LEFT ANGLE BRACKET: try adding one of: japanese, tibetan, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3009 RIGHT ANGLE BRACKET: try adding one of: japanese, tibetan, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+300A LEFT DOUBLE ANGLE BRACKET: try adding one of: japanese, tibetan, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, lisu, phags-pa, yi</li>
+<li>U+300B RIGHT DOUBLE ANGLE BRACKET: try adding one of: japanese, tibetan, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, lisu, phags-pa, yi</li>
+<li>U+300C LEFT CORNER BRACKET: try adding one of: japanese, mongolian, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+300D RIGHT CORNER BRACKET: try adding one of: japanese, mongolian, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+300E LEFT WHITE CORNER BRACKET: try adding one of: japanese, mongolian, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+300F RIGHT WHITE CORNER BRACKET: try adding one of: japanese, mongolian, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3010 LEFT BLACK LENTICULAR BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3011 RIGHT BLACK LENTICULAR BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3012 POSTAL MARK: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3013 GETA MARK: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3014 LEFT TORTOISE SHELL BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3015 RIGHT TORTOISE SHELL BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3016 LEFT WHITE LENTICULAR BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3017 RIGHT WHITE LENTICULAR BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3018 LEFT WHITE TORTOISE SHELL BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3019 RIGHT WHITE TORTOISE SHELL BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
 <li>U+301C WAVE DASH: try adding japanese</li>
-<li>U+301D REVERSED DOUBLE PRIME QUOTATION MARK: try adding one of: chinese-traditional, chinese-hongkong, chinese-simplified</li>
-<li>U+301E DOUBLE PRIME QUOTATION MARK: try adding one of: chinese-traditional, chinese-hongkong, chinese-simplified</li>
+<li>U+301D REVERSED DOUBLE PRIME QUOTATION MARK: try adding one of: chinese-traditional, chinese-simplified, chinese-hongkong</li>
+<li>U+301E DOUBLE PRIME QUOTATION MARK: try adding one of: chinese-traditional, chinese-simplified, chinese-hongkong</li>
 <li>U+301F LOW DOUBLE PRIME QUOTATION MARK: not included in any glyphset definition</li>
-<li>U+3041 HIRAGANA LETTER SMALL A: try adding one of: japanese, chinese-simplified</li>
-<li>U+3042 HIRAGANA LETTER A: try adding one of: japanese, chinese-simplified</li>
-<li>U+3043 HIRAGANA LETTER SMALL I: try adding one of: japanese, chinese-simplified</li>
-<li>U+3044 HIRAGANA LETTER I: try adding one of: japanese, chinese-simplified</li>
-<li>U+3045 HIRAGANA LETTER SMALL U: try adding one of: japanese, chinese-simplified</li>
-<li>U+3046 HIRAGANA LETTER U: try adding one of: japanese, chinese-simplified</li>
-<li>U+3047 HIRAGANA LETTER SMALL E: try adding one of: japanese, chinese-simplified</li>
-<li>U+3048 HIRAGANA LETTER E: try adding one of: japanese, chinese-simplified</li>
-<li>U+3049 HIRAGANA LETTER SMALL O: try adding one of: japanese, chinese-simplified</li>
-<li>U+304A HIRAGANA LETTER O: try adding one of: japanese, chinese-simplified</li>
-<li>U+304B HIRAGANA LETTER KA: try adding one of: japanese, chinese-simplified</li>
-<li>U+304C HIRAGANA LETTER GA: try adding one of: japanese, chinese-simplified</li>
-<li>U+304D HIRAGANA LETTER KI: try adding one of: japanese, chinese-simplified</li>
-<li>U+304E HIRAGANA LETTER GI: try adding one of: japanese, chinese-simplified</li>
-<li>U+304F HIRAGANA LETTER KU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3050 HIRAGANA LETTER GU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3051 HIRAGANA LETTER KE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3052 HIRAGANA LETTER GE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3053 HIRAGANA LETTER KO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3054 HIRAGANA LETTER GO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3055 HIRAGANA LETTER SA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3056 HIRAGANA LETTER ZA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3057 HIRAGANA LETTER SI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3058 HIRAGANA LETTER ZI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3059 HIRAGANA LETTER SU: try adding one of: japanese, chinese-simplified</li>
-<li>U+305A HIRAGANA LETTER ZU: try adding one of: japanese, chinese-simplified</li>
-<li>U+305B HIRAGANA LETTER SE: try adding one of: japanese, chinese-simplified</li>
-<li>U+305C HIRAGANA LETTER ZE: try adding one of: japanese, chinese-simplified</li>
-<li>U+305D HIRAGANA LETTER SO: try adding one of: japanese, chinese-simplified</li>
-<li>U+305E HIRAGANA LETTER ZO: try adding one of: japanese, chinese-simplified</li>
-<li>U+305F HIRAGANA LETTER TA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3060 HIRAGANA LETTER DA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3061 HIRAGANA LETTER TI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3062 HIRAGANA LETTER DI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3063 HIRAGANA LETTER SMALL TU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3064 HIRAGANA LETTER TU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3065 HIRAGANA LETTER DU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3066 HIRAGANA LETTER TE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3067 HIRAGANA LETTER DE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3068 HIRAGANA LETTER TO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3069 HIRAGANA LETTER DO: try adding one of: japanese, chinese-simplified</li>
-<li>U+306A HIRAGANA LETTER NA: try adding one of: japanese, chinese-simplified</li>
-<li>U+306B HIRAGANA LETTER NI: try adding one of: japanese, chinese-simplified</li>
-<li>U+306C HIRAGANA LETTER NU: try adding one of: japanese, chinese-simplified</li>
-<li>U+306D HIRAGANA LETTER NE: try adding one of: japanese, chinese-simplified</li>
-<li>U+306E HIRAGANA LETTER NO: try adding one of: japanese, chinese-simplified</li>
-<li>U+306F HIRAGANA LETTER HA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3070 HIRAGANA LETTER BA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3071 HIRAGANA LETTER PA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3072 HIRAGANA LETTER HI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3073 HIRAGANA LETTER BI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3074 HIRAGANA LETTER PI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3075 HIRAGANA LETTER HU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3076 HIRAGANA LETTER BU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3077 HIRAGANA LETTER PU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3078 HIRAGANA LETTER HE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3079 HIRAGANA LETTER BE: try adding one of: japanese, chinese-simplified</li>
-<li>U+307A HIRAGANA LETTER PE: try adding one of: japanese, chinese-simplified</li>
-<li>U+307B HIRAGANA LETTER HO: try adding one of: japanese, chinese-simplified</li>
-<li>U+307C HIRAGANA LETTER BO: try adding one of: japanese, chinese-simplified</li>
-<li>U+307D HIRAGANA LETTER PO: try adding one of: japanese, chinese-simplified</li>
-<li>U+307E HIRAGANA LETTER MA: try adding one of: japanese, chinese-simplified</li>
-<li>U+307F HIRAGANA LETTER MI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3080 HIRAGANA LETTER MU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3081 HIRAGANA LETTER ME: try adding one of: japanese, chinese-simplified</li>
-<li>U+3082 HIRAGANA LETTER MO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3083 HIRAGANA LETTER SMALL YA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3084 HIRAGANA LETTER YA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3085 HIRAGANA LETTER SMALL YU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3086 HIRAGANA LETTER YU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3087 HIRAGANA LETTER SMALL YO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3088 HIRAGANA LETTER YO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3089 HIRAGANA LETTER RA: try adding one of: japanese, chinese-simplified</li>
-<li>U+308A HIRAGANA LETTER RI: try adding one of: japanese, chinese-simplified</li>
-<li>U+308B HIRAGANA LETTER RU: try adding one of: japanese, chinese-simplified</li>
-<li>U+308C HIRAGANA LETTER RE: try adding one of: japanese, chinese-simplified</li>
-<li>U+308D HIRAGANA LETTER RO: try adding one of: japanese, chinese-simplified</li>
-<li>U+308E HIRAGANA LETTER SMALL WA: try adding one of: japanese, chinese-simplified</li>
-<li>U+308F HIRAGANA LETTER WA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3090 HIRAGANA LETTER WI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3091 HIRAGANA LETTER WE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3092 HIRAGANA LETTER WO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3093 HIRAGANA LETTER N: try adding one of: japanese, chinese-simplified</li>
-<li>U+3094 HIRAGANA LETTER VU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3095 HIRAGANA LETTER SMALL KA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3096 HIRAGANA LETTER SMALL KE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3099 COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK: try adding one of: japanese, chinese-simplified, kana-extended</li>
-<li>U+309A COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK: try adding one of: japanese, chinese-simplified, kana-extended</li>
-<li>U+309B KATAKANA-HIRAGANA VOICED SOUND MARK: try adding one of: japanese, chinese-simplified, kana-extended</li>
-<li>U+309C KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK: try adding one of: japanese, chinese-simplified, kana-extended</li>
-<li>U+309D HIRAGANA ITERATION MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+309E HIRAGANA VOICED ITERATION MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+309F HIRAGANA DIGRAPH YORI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A0 KATAKANA-HIRAGANA DOUBLE HYPHEN: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A1 KATAKANA LETTER SMALL A: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A2 KATAKANA LETTER A: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A3 KATAKANA LETTER SMALL I: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A4 KATAKANA LETTER I: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A5 KATAKANA LETTER SMALL U: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A6 KATAKANA LETTER U: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A7 KATAKANA LETTER SMALL E: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A8 KATAKANA LETTER E: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A9 KATAKANA LETTER SMALL O: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AA KATAKANA LETTER O: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AB KATAKANA LETTER KA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AC KATAKANA LETTER GA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AD KATAKANA LETTER KI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AE KATAKANA LETTER GI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AF KATAKANA LETTER KU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B0 KATAKANA LETTER GU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B1 KATAKANA LETTER KE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B2 KATAKANA LETTER GE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B3 KATAKANA LETTER KO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B4 KATAKANA LETTER GO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B5 KATAKANA LETTER SA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B6 KATAKANA LETTER ZA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B7 KATAKANA LETTER SI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B8 KATAKANA LETTER ZI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B9 KATAKANA LETTER SU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BA KATAKANA LETTER ZU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BB KATAKANA LETTER SE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BC KATAKANA LETTER ZE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BD KATAKANA LETTER SO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BE KATAKANA LETTER ZO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BF KATAKANA LETTER TA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C0 KATAKANA LETTER DA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C1 KATAKANA LETTER TI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C2 KATAKANA LETTER DI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C3 KATAKANA LETTER SMALL TU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C4 KATAKANA LETTER TU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C5 KATAKANA LETTER DU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C6 KATAKANA LETTER TE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C7 KATAKANA LETTER DE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C8 KATAKANA LETTER TO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C9 KATAKANA LETTER DO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CA KATAKANA LETTER NA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CB KATAKANA LETTER NI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CC KATAKANA LETTER NU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CD KATAKANA LETTER NE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CE KATAKANA LETTER NO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CF KATAKANA LETTER HA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D0 KATAKANA LETTER BA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D1 KATAKANA LETTER PA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D2 KATAKANA LETTER HI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D3 KATAKANA LETTER BI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D4 KATAKANA LETTER PI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D5 KATAKANA LETTER HU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D6 KATAKANA LETTER BU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D7 KATAKANA LETTER PU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D8 KATAKANA LETTER HE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D9 KATAKANA LETTER BE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DA KATAKANA LETTER PE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DB KATAKANA LETTER HO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DC KATAKANA LETTER BO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DD KATAKANA LETTER PO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DE KATAKANA LETTER MA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DF KATAKANA LETTER MI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E0 KATAKANA LETTER MU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E1 KATAKANA LETTER ME: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E2 KATAKANA LETTER MO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E3 KATAKANA LETTER SMALL YA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E4 KATAKANA LETTER YA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E5 KATAKANA LETTER SMALL YU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E6 KATAKANA LETTER YU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E7 KATAKANA LETTER SMALL YO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E8 KATAKANA LETTER YO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E9 KATAKANA LETTER RA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EA KATAKANA LETTER RI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EB KATAKANA LETTER RU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EC KATAKANA LETTER RE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30ED KATAKANA LETTER RO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EE KATAKANA LETTER SMALL WA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EF KATAKANA LETTER WA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F0 KATAKANA LETTER WI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F1 KATAKANA LETTER WE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F2 KATAKANA LETTER WO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F3 KATAKANA LETTER N: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F4 KATAKANA LETTER VU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F5 KATAKANA LETTER SMALL KA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F6 KATAKANA LETTER SMALL KE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F7 KATAKANA LETTER VA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F8 KATAKANA LETTER VI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F9 KATAKANA LETTER VE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FA KATAKANA LETTER VO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FB KATAKANA MIDDLE DOT: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+30FC KATAKANA-HIRAGANA PROLONGED SOUND MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FD KATAKANA ITERATION MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FE KATAKANA VOICED ITERATION MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FF KATAKANA DIGRAPH KOTO: try adding one of: japanese, chinese-simplified</li>
+<li>U+3033 VERTICAL KANA REPEAT MARK UPPER HALF: not included in any glyphset definition</li>
+<li>U+3034 VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF: not included in any glyphset definition</li>
+<li>U+3035 VERTICAL KANA REPEAT MARK LOWER HALF: not included in any glyphset definition</li>
+<li>U+303B VERTICAL IDEOGRAPHIC ITERATION MARK: not included in any glyphset definition</li>
+<li>U+303C MASU MARK: not included in any glyphset definition</li>
+<li>U+303D PART ALTERNATION MARK: not included in any glyphset definition</li>
+<li>U+3041 HIRAGANA LETTER SMALL A: try adding one of: chinese-simplified, japanese</li>
+<li>U+3042 HIRAGANA LETTER A: try adding one of: chinese-simplified, japanese</li>
+<li>U+3043 HIRAGANA LETTER SMALL I: try adding one of: chinese-simplified, japanese</li>
+<li>U+3044 HIRAGANA LETTER I: try adding one of: chinese-simplified, japanese</li>
+<li>U+3045 HIRAGANA LETTER SMALL U: try adding one of: chinese-simplified, japanese</li>
+<li>U+3046 HIRAGANA LETTER U: try adding one of: chinese-simplified, japanese</li>
+<li>U+3047 HIRAGANA LETTER SMALL E: try adding one of: chinese-simplified, japanese</li>
+<li>U+3048 HIRAGANA LETTER E: try adding one of: chinese-simplified, japanese</li>
+<li>U+3049 HIRAGANA LETTER SMALL O: try adding one of: chinese-simplified, japanese</li>
+<li>U+304A HIRAGANA LETTER O: try adding one of: chinese-simplified, japanese</li>
+<li>U+304B HIRAGANA LETTER KA: try adding one of: chinese-simplified, japanese</li>
+<li>U+304C HIRAGANA LETTER GA: try adding one of: chinese-simplified, japanese</li>
+<li>U+304D HIRAGANA LETTER KI: try adding one of: chinese-simplified, japanese</li>
+<li>U+304E HIRAGANA LETTER GI: try adding one of: chinese-simplified, japanese</li>
+<li>U+304F HIRAGANA LETTER KU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3050 HIRAGANA LETTER GU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3051 HIRAGANA LETTER KE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3052 HIRAGANA LETTER GE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3053 HIRAGANA LETTER KO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3054 HIRAGANA LETTER GO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3055 HIRAGANA LETTER SA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3056 HIRAGANA LETTER ZA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3057 HIRAGANA LETTER SI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3058 HIRAGANA LETTER ZI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3059 HIRAGANA LETTER SU: try adding one of: chinese-simplified, japanese</li>
+<li>U+305A HIRAGANA LETTER ZU: try adding one of: chinese-simplified, japanese</li>
+<li>U+305B HIRAGANA LETTER SE: try adding one of: chinese-simplified, japanese</li>
+<li>U+305C HIRAGANA LETTER ZE: try adding one of: chinese-simplified, japanese</li>
+<li>U+305D HIRAGANA LETTER SO: try adding one of: chinese-simplified, japanese</li>
+<li>U+305E HIRAGANA LETTER ZO: try adding one of: chinese-simplified, japanese</li>
+<li>U+305F HIRAGANA LETTER TA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3060 HIRAGANA LETTER DA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3061 HIRAGANA LETTER TI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3062 HIRAGANA LETTER DI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3063 HIRAGANA LETTER SMALL TU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3064 HIRAGANA LETTER TU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3065 HIRAGANA LETTER DU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3066 HIRAGANA LETTER TE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3067 HIRAGANA LETTER DE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3068 HIRAGANA LETTER TO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3069 HIRAGANA LETTER DO: try adding one of: chinese-simplified, japanese</li>
+<li>U+306A HIRAGANA LETTER NA: try adding one of: chinese-simplified, japanese</li>
+<li>U+306B HIRAGANA LETTER NI: try adding one of: chinese-simplified, japanese</li>
+<li>U+306C HIRAGANA LETTER NU: try adding one of: chinese-simplified, japanese</li>
+<li>U+306D HIRAGANA LETTER NE: try adding one of: chinese-simplified, japanese</li>
+<li>U+306E HIRAGANA LETTER NO: try adding one of: chinese-simplified, japanese</li>
+<li>U+306F HIRAGANA LETTER HA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3070 HIRAGANA LETTER BA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3071 HIRAGANA LETTER PA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3072 HIRAGANA LETTER HI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3073 HIRAGANA LETTER BI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3074 HIRAGANA LETTER PI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3075 HIRAGANA LETTER HU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3076 HIRAGANA LETTER BU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3077 HIRAGANA LETTER PU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3078 HIRAGANA LETTER HE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3079 HIRAGANA LETTER BE: try adding one of: chinese-simplified, japanese</li>
+<li>U+307A HIRAGANA LETTER PE: try adding one of: chinese-simplified, japanese</li>
+<li>U+307B HIRAGANA LETTER HO: try adding one of: chinese-simplified, japanese</li>
+<li>U+307C HIRAGANA LETTER BO: try adding one of: chinese-simplified, japanese</li>
+<li>U+307D HIRAGANA LETTER PO: try adding one of: chinese-simplified, japanese</li>
+<li>U+307E HIRAGANA LETTER MA: try adding one of: chinese-simplified, japanese</li>
+<li>U+307F HIRAGANA LETTER MI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3080 HIRAGANA LETTER MU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3081 HIRAGANA LETTER ME: try adding one of: chinese-simplified, japanese</li>
+<li>U+3082 HIRAGANA LETTER MO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3083 HIRAGANA LETTER SMALL YA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3084 HIRAGANA LETTER YA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3085 HIRAGANA LETTER SMALL YU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3086 HIRAGANA LETTER YU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3087 HIRAGANA LETTER SMALL YO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3088 HIRAGANA LETTER YO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3089 HIRAGANA LETTER RA: try adding one of: chinese-simplified, japanese</li>
+<li>U+308A HIRAGANA LETTER RI: try adding one of: chinese-simplified, japanese</li>
+<li>U+308B HIRAGANA LETTER RU: try adding one of: chinese-simplified, japanese</li>
+<li>U+308C HIRAGANA LETTER RE: try adding one of: chinese-simplified, japanese</li>
+<li>U+308D HIRAGANA LETTER RO: try adding one of: chinese-simplified, japanese</li>
+<li>U+308E HIRAGANA LETTER SMALL WA: try adding one of: chinese-simplified, japanese</li>
+<li>U+308F HIRAGANA LETTER WA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3090 HIRAGANA LETTER WI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3091 HIRAGANA LETTER WE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3092 HIRAGANA LETTER WO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3093 HIRAGANA LETTER N: try adding one of: chinese-simplified, japanese</li>
+<li>U+3094 HIRAGANA LETTER VU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3095 HIRAGANA LETTER SMALL KA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3096 HIRAGANA LETTER SMALL KE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3099 COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK: try adding one of: kana-extended, chinese-simplified, japanese</li>
+<li>U+309A COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK: try adding one of: kana-extended, chinese-simplified, japanese</li>
+<li>U+309B KATAKANA-HIRAGANA VOICED SOUND MARK: try adding one of: kana-extended, chinese-simplified, japanese</li>
+<li>U+309C KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK: try adding one of: kana-extended, chinese-simplified, japanese</li>
+<li>U+309D HIRAGANA ITERATION MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+309E HIRAGANA VOICED ITERATION MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+309F HIRAGANA DIGRAPH YORI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A0 KATAKANA-HIRAGANA DOUBLE HYPHEN: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A1 KATAKANA LETTER SMALL A: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A2 KATAKANA LETTER A: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A3 KATAKANA LETTER SMALL I: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A4 KATAKANA LETTER I: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A5 KATAKANA LETTER SMALL U: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A6 KATAKANA LETTER U: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A7 KATAKANA LETTER SMALL E: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A8 KATAKANA LETTER E: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A9 KATAKANA LETTER SMALL O: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AA KATAKANA LETTER O: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AB KATAKANA LETTER KA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AC KATAKANA LETTER GA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AD KATAKANA LETTER KI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AE KATAKANA LETTER GI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AF KATAKANA LETTER KU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B0 KATAKANA LETTER GU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B1 KATAKANA LETTER KE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B2 KATAKANA LETTER GE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B3 KATAKANA LETTER KO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B4 KATAKANA LETTER GO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B5 KATAKANA LETTER SA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B6 KATAKANA LETTER ZA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B7 KATAKANA LETTER SI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B8 KATAKANA LETTER ZI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B9 KATAKANA LETTER SU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BA KATAKANA LETTER ZU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BB KATAKANA LETTER SE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BC KATAKANA LETTER ZE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BD KATAKANA LETTER SO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BE KATAKANA LETTER ZO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BF KATAKANA LETTER TA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C0 KATAKANA LETTER DA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C1 KATAKANA LETTER TI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C2 KATAKANA LETTER DI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C3 KATAKANA LETTER SMALL TU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C4 KATAKANA LETTER TU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C5 KATAKANA LETTER DU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C6 KATAKANA LETTER TE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C7 KATAKANA LETTER DE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C8 KATAKANA LETTER TO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C9 KATAKANA LETTER DO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CA KATAKANA LETTER NA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CB KATAKANA LETTER NI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CC KATAKANA LETTER NU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CD KATAKANA LETTER NE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CE KATAKANA LETTER NO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CF KATAKANA LETTER HA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D0 KATAKANA LETTER BA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D1 KATAKANA LETTER PA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D2 KATAKANA LETTER HI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D3 KATAKANA LETTER BI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D4 KATAKANA LETTER PI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D5 KATAKANA LETTER HU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D6 KATAKANA LETTER BU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D7 KATAKANA LETTER PU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D8 KATAKANA LETTER HE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D9 KATAKANA LETTER BE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DA KATAKANA LETTER PE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DB KATAKANA LETTER HO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DC KATAKANA LETTER BO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DD KATAKANA LETTER PO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DE KATAKANA LETTER MA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DF KATAKANA LETTER MI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E0 KATAKANA LETTER MU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E1 KATAKANA LETTER ME: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E2 KATAKANA LETTER MO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E3 KATAKANA LETTER SMALL YA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E4 KATAKANA LETTER YA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E5 KATAKANA LETTER SMALL YU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E6 KATAKANA LETTER YU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E7 KATAKANA LETTER SMALL YO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E8 KATAKANA LETTER YO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E9 KATAKANA LETTER RA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EA KATAKANA LETTER RI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EB KATAKANA LETTER RU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EC KATAKANA LETTER RE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30ED KATAKANA LETTER RO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EE KATAKANA LETTER SMALL WA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EF KATAKANA LETTER WA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F0 KATAKANA LETTER WI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F1 KATAKANA LETTER WE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F2 KATAKANA LETTER WO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F3 KATAKANA LETTER N: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F4 KATAKANA LETTER VU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F5 KATAKANA LETTER SMALL KA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F6 KATAKANA LETTER SMALL KE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F7 KATAKANA LETTER VA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F8 KATAKANA LETTER VI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F9 KATAKANA LETTER VE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FA KATAKANA LETTER VO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FB KATAKANA MIDDLE DOT: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+30FC KATAKANA-HIRAGANA PROLONGED SOUND MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FD KATAKANA ITERATION MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FE KATAKANA VOICED ITERATION MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FF KATAKANA DIGRAPH KOTO: try adding one of: chinese-simplified, japanese</li>
 <li>U+31F0 KATAKANA LETTER SMALL KU: not included in any glyphset definition</li>
 <li>U+31F1 KATAKANA LETTER SMALL SI: not included in any glyphset definition</li>
 <li>U+31F2 KATAKANA LETTER SMALL SU: not included in any glyphset definition</li>
@@ -7006,6 +7639,8 @@ definitions.</p>
 <li>U+31FD KATAKANA LETTER SMALL RU: not included in any glyphset definition</li>
 <li>U+31FE KATAKANA LETTER SMALL RE: not included in any glyphset definition</li>
 <li>U+31FF KATAKANA LETTER SMALL RO: not included in any glyphset definition</li>
+<li>U+33CB SQUARE HP: not included in any glyphset definition</li>
+<li>U+4EDD CJK UNIFIED IDEOGRAPH-4EDD: try adding one of: chinese-traditional, japanese, chinese-simplified, chinese-hongkong</li>
 <li>U+E133 : not included in any glyphset definition</li>
 <li>U+E134 : not included in any glyphset definition</li>
 <li>U+E139 : not included in any glyphset definition</li>
@@ -7051,12 +7686,104 @@ definitions.</p>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 <li>U+FB03 LATIN SMALL LIGATURE FFI: not included in any glyphset definition</li>
 <li>U+FB04 LATIN SMALL LIGATURE FFL: not included in any glyphset definition</li>
-<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: japanese, chinese-simplified</li>
-<li>U+FF44 FULLWIDTH LATIN SMALL LETTER D: try adding one of: japanese, chinese-simplified</li>
+<li>U+FE45 SESAME DOT: not included in any glyphset definition</li>
+<li>U+FE46 WHITE SESAME DOT: not included in any glyphset definition</li>
+<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF02 FULLWIDTH QUOTATION MARK: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF03 FULLWIDTH NUMBER SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF04 FULLWIDTH DOLLAR SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF05 FULLWIDTH PERCENT SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF06 FULLWIDTH AMPERSAND: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF07 FULLWIDTH APOSTROPHE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF0A FULLWIDTH ASTERISK: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF0B FULLWIDTH PLUS SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF0C FULLWIDTH COMMA: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF0D FULLWIDTH HYPHEN-MINUS: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF0E FULLWIDTH FULL STOP: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF10 FULLWIDTH DIGIT ZERO: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF11 FULLWIDTH DIGIT ONE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF12 FULLWIDTH DIGIT TWO: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF13 FULLWIDTH DIGIT THREE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF14 FULLWIDTH DIGIT FOUR: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF15 FULLWIDTH DIGIT FIVE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF16 FULLWIDTH DIGIT SIX: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF17 FULLWIDTH DIGIT SEVEN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF18 FULLWIDTH DIGIT EIGHT: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF19 FULLWIDTH DIGIT NINE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF1A FULLWIDTH COLON: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF1C FULLWIDTH LESS-THAN SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF1D FULLWIDTH EQUALS SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF1E FULLWIDTH GREATER-THAN SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF20 FULLWIDTH COMMERCIAL AT: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF21 FULLWIDTH LATIN CAPITAL LETTER A: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF22 FULLWIDTH LATIN CAPITAL LETTER B: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF23 FULLWIDTH LATIN CAPITAL LETTER C: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF24 FULLWIDTH LATIN CAPITAL LETTER D: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF25 FULLWIDTH LATIN CAPITAL LETTER E: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF26 FULLWIDTH LATIN CAPITAL LETTER F: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF27 FULLWIDTH LATIN CAPITAL LETTER G: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF28 FULLWIDTH LATIN CAPITAL LETTER H: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF29 FULLWIDTH LATIN CAPITAL LETTER I: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2A FULLWIDTH LATIN CAPITAL LETTER J: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2B FULLWIDTH LATIN CAPITAL LETTER K: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2C FULLWIDTH LATIN CAPITAL LETTER L: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2D FULLWIDTH LATIN CAPITAL LETTER M: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2E FULLWIDTH LATIN CAPITAL LETTER N: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2F FULLWIDTH LATIN CAPITAL LETTER O: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF30 FULLWIDTH LATIN CAPITAL LETTER P: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF31 FULLWIDTH LATIN CAPITAL LETTER Q: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF32 FULLWIDTH LATIN CAPITAL LETTER R: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF33 FULLWIDTH LATIN CAPITAL LETTER S: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF34 FULLWIDTH LATIN CAPITAL LETTER T: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF35 FULLWIDTH LATIN CAPITAL LETTER U: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF36 FULLWIDTH LATIN CAPITAL LETTER V: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF37 FULLWIDTH LATIN CAPITAL LETTER W: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF38 FULLWIDTH LATIN CAPITAL LETTER X: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF39 FULLWIDTH LATIN CAPITAL LETTER Y: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF3A FULLWIDTH LATIN CAPITAL LETTER Z: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF3E FULLWIDTH CIRCUMFLEX ACCENT: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF3F FULLWIDTH LOW LINE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF40 FULLWIDTH GRAVE ACCENT: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF41 FULLWIDTH LATIN SMALL LETTER A: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF42 FULLWIDTH LATIN SMALL LETTER B: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF43 FULLWIDTH LATIN SMALL LETTER C: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF44 FULLWIDTH LATIN SMALL LETTER D: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF45 FULLWIDTH LATIN SMALL LETTER E: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF46 FULLWIDTH LATIN SMALL LETTER F: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF47 FULLWIDTH LATIN SMALL LETTER G: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF48 FULLWIDTH LATIN SMALL LETTER H: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF49 FULLWIDTH LATIN SMALL LETTER I: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4A FULLWIDTH LATIN SMALL LETTER J: try adding japanese</li>
+<li>U+FF4B FULLWIDTH LATIN SMALL LETTER K: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4C FULLWIDTH LATIN SMALL LETTER L: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4D FULLWIDTH LATIN SMALL LETTER M: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4E FULLWIDTH LATIN SMALL LETTER N: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4F FULLWIDTH LATIN SMALL LETTER O: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF50 FULLWIDTH LATIN SMALL LETTER P: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF51 FULLWIDTH LATIN SMALL LETTER Q: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF52 FULLWIDTH LATIN SMALL LETTER R: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF53 FULLWIDTH LATIN SMALL LETTER S: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF54 FULLWIDTH LATIN SMALL LETTER T: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF55 FULLWIDTH LATIN SMALL LETTER U: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF56 FULLWIDTH LATIN SMALL LETTER V: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF57 FULLWIDTH LATIN SMALL LETTER W: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF58 FULLWIDTH LATIN SMALL LETTER X: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF59 FULLWIDTH LATIN SMALL LETTER Y: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF5A FULLWIDTH LATIN SMALL LETTER Z: try adding japanese</li>
+<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: math, chinese-simplified, yi, japanese</li>
+<li>U+FF5C FULLWIDTH VERTICAL LINE: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: math, chinese-simplified, yi, japanese</li>
+<li>U+FF5E FULLWIDTH TILDE: try adding one of: chinese-simplified, yi</li>
+<li>U+FF5F FULLWIDTH LEFT WHITE PARENTHESIS: not included in any glyphset definition</li>
+<li>U+FF60 FULLWIDTH RIGHT WHITE PARENTHESIS: not included in any glyphset definition</li>
 <li>U+FF61 HALFWIDTH IDEOGRAPHIC FULL STOP: try adding yi</li>
 <li>U+FF62 HALFWIDTH LEFT CORNER BRACKET: try adding yi</li>
 <li>U+FF63 HALFWIDTH RIGHT CORNER BRACKET: try adding yi</li>
@@ -7120,6 +7847,20 @@ definitions.</p>
 <li>U+FF9D HALFWIDTH KATAKANA LETTER N: not included in any glyphset definition</li>
 <li>U+FF9E HALFWIDTH KATAKANA VOICED SOUND MARK: not included in any glyphset definition</li>
 <li>U+FF9F HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK: not included in any glyphset definition</li>
+<li>U+FFE0 FULLWIDTH CENT SIGN: try adding chinese-simplified</li>
+<li>U+FFE1 FULLWIDTH POUND SIGN: try adding chinese-simplified</li>
+<li>U+FFE2 FULLWIDTH NOT SIGN: not included in any glyphset definition</li>
+<li>U+FFE3 FULLWIDTH MACRON: try adding one of: chinese-simplified, japanese</li>
+<li>U+FFE4 FULLWIDTH BROKEN BAR: not included in any glyphset definition</li>
+<li>U+FFE5 FULLWIDTH YEN SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FFE6 FULLWIDTH WON SIGN: not included in any glyphset definition</li>
+<li>U+FFE8 HALFWIDTH FORMS LIGHT VERTICAL: not included in any glyphset definition</li>
+<li>U+FFE9 HALFWIDTH LEFTWARDS ARROW: not included in any glyphset definition</li>
+<li>U+FFEA HALFWIDTH UPWARDS ARROW: not included in any glyphset definition</li>
+<li>U+FFEB HALFWIDTH RIGHTWARDS ARROW: not included in any glyphset definition</li>
+<li>U+FFEC HALFWIDTH DOWNWARDS ARROW: not included in any glyphset definition</li>
+<li>U+FFED HALFWIDTH BLACK SQUARE: not included in any glyphset definition</li>
+<li>U+FFEE HALFWIDTH WHITE CIRCLE: not included in any glyphset definition</li>
 <li>U+FFFC OBJECT REPLACEMENT CHARACTER: not included in any glyphset definition</li>
 <li>U+1F494 BROKEN HEART: not included in any glyphset definition</li>
 <li>U+1FBB0 ARROWHEAD-SHAPED POINTER: try adding symbols</li>
@@ -7226,7 +7967,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[21] SyyFlowey-Bold.ttf</summary>
+<details><summary>[20] SyyFlowey-Bold.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-monospace">opentype/monospace</a></summary>
@@ -7243,13 +7984,13 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1710 instead.
+* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1912 instead.
 Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
  [code: bad-numberOfHMetrics]
 
 
 
-* ⚠️ **WARN** <p>Font is monospaced but 494 glyphs (28.86%) have a different width. You should check the widths of: ['nonmarkingreturn', 'sterling', 'currency', 'dieresis', 'copyright', 'registered', 'plusminus', 'onequarter', 'onehalf', 'threequarters', 'multiply', 'divide', 'uni01C0', 'uni01C1', 'uni02B9', 'uni02BA', 'circumflex', 'caron', 'uni02C8', 'uni02C9', 'uni02CA', 'uni02CB', 'breve', 'dotaccent', 'ring', 'ogonek', 'tilde', 'hungarumlaut', 'uni02F6', 'dieresistonos', 'uni0409', 'uni040A', 'uni0416', 'uni0424', 'uni0428', 'uni0429', 'uni042E', 'uni0436', 'uni0444', 'uni0448', 'uni0449', 'uni044E', 'uni0459', 'uni045A', 'uni0496', 'uni0497', 'uni04A2', 'uni04A3', 'uni04C1', 'uni04C2', 'uni04DC', 'uni04DD', 'uni0E01', 'uni0E03', 'uni0E04', 'uni0E05', 'uni0E06', 'uni0E09', 'uni0E0A', 'uni0E0B', 'uni0E0C', 'uni0E0D', 'uni0E11', 'uni0E12', 'uni0E13', 'uni0E14', 'uni0E15', 'uni0E16', 'uni0E17', 'uni0E1A', 'uni0E1B', 'uni0E1E', 'uni0E1F', 'uni0E23', 'uni0E24', 'uni0E27', 'uni0E28', 'uni0E29', 'uni0E2B', 'uni0E2C', 'uni0E30', 'uni0E32', 'uni0E33', 'uni0E40', 'uni0E41', 'uni0E45', 'uni0E4F', 'uni0E50', 'uni0E51', 'uni0E52', 'uni0E53', 'uni0E54', 'uni0E55', 'uni0E56', 'uni0E57', 'uni0E58', 'uni0E59', 'uni0E5A', 'uni0E5B', 'uni0E84', 'uni0E85', 'uni0E86', 'uni0E87', 'uni0E8E', 'uni0E91', 'uni0E92', 'uni0E93', 'uni0E94', 'uni0E95', 'uni0E97', 'uni0E9A', 'uni0E9B', 'uni0E9E', 'uni0E9F', 'uni0EA4', 'uni0EA5', 'uni0EA6', 'uni0EA8', 'uni0EA9', 'uni0EAA', 'uni0EAB', 'uni0EAC', 'uni0EB0', 'uni0EB2', 'uni0EB3', 'uni0EC0', 'uni0EC1', 'uni0ED0', 'uni0ED1', 'uni0ED2', 'uni0ED3', 'uni0ED4', 'uni0ED5', 'uni0ED6', 'uni0ED7', 'uni0ED8', 'uni0ED9', 'uni0EDC', 'uni0EDD', 'uni2000', 'uni2001', 'uni2002', 'uni2003', 'uni2004', 'uni2005', 'uni2006', 'uni2007', 'uni2008', 'uni2009', 'uni200A', 'uni2010', 'uni2011', 'figuredash', 'endash', 'emdash', 'uni2015', 'quoteleft', 'quoteright', 'quotesinglbase', 'quotereversed', 'perthousand', 'uni2081', 'uni2082', 'uni2083', 'uni2084', 'uni2085', 'uni2086', 'uni2087', 'uni2088', 'uni2089', 'uni208A', 'uni208B', 'uni208C', 'uni208D', 'uni208E', 'Euro', 'trademark', 'Omega', 'arrowleft', 'arrowup', 'arrowright', 'arrowdown', 'arrowboth', 'arrowupdn', 'uni2196', 'uni2197', 'uni2198', 'uni2199', 'uni21A9', 'uni21AA', 'carriagereturn', 'arrowdblleft', 'arrowdblup', 'arrowdblright', 'arrowdbldown', 'arrowdblboth', 'uni21D5', 'uni21D6', 'uni21D7', 'uni21D8', 'uni21D9', 'uni21E5', 'uni21E6', 'uni21E7', 'uni21E8', 'uni21E9', 'uni21EA', 'uni21EB', 'uni21EC', 'uni21ED', 'uni21EE', 'uni21EF', 'uni21F0', 'uni21F1', 'uni21F2', 'uni21F3', 'universal', 'partialdiff', 'Delta', 'summation', 'minus', 'radical', 'infinity', 'uni2318', 'uni2325', 'uni232B', 'uni2387', 'uni23CE', 'triagup', 'uni25B3', 'triagdn', 'uni25BD', 'uni25CE', 'H18533', 'uni25EF', 'uni2605', 'uni2606', 'uni2661', 'heart', 'uni2669', 'musicalnote', 'musicalnotedbl', 'uni266C', 'uni266D', 'uni266E', 'uni266F', 'uni26A0', 'uni2726', 'uni2727', 'uni2764', 'uni2765', 'uni3000', 'uni3001', 'uni3002', 'uni3003', 'uni3005', 'uni3006', 'uni3007', 'uni300C', 'uni300D', 'uni300E', 'uni300F', 'uni3010', 'uni3011', 'uni301C', 'uni301D', 'uni301E', 'uni301F', 'uni3041', 'uni3042', 'uni3043', 'uni3044', 'uni3045', 'uni3046', 'uni3047', 'uni3048', 'uni3049', 'uni304A', 'uni304B', 'uni304C', 'uni304D', 'uni304E', 'uni304F', 'uni3050', 'uni3051', 'uni3052', 'uni3053', 'uni3054', 'uni3055', 'uni3056', 'uni3057', 'uni3058', 'uni3059', 'uni305A', 'uni305B', 'uni305C', 'uni305D', 'uni305E', 'uni305F', 'uni3060', 'uni3061', 'uni3062', 'uni3063', 'uni3064', 'uni3065', 'uni3066', 'uni3067', 'uni3068', 'uni3069', 'uni306A', 'uni306B', 'uni306C', 'uni306D', 'uni306E', 'uni306F', 'uni3070', 'uni3071', 'uni3072', 'uni3073', 'uni3074', 'uni3075', 'uni3076', 'uni3077', 'uni3078', 'uni3079', 'uni307A', 'uni307B', 'uni307C', 'uni307D', 'uni307E', 'uni307F', 'uni3080', 'uni3081', 'uni3082', 'uni3083', 'uni3084', 'uni3085', 'uni3086', 'uni3087', 'uni3088', 'uni3089', 'uni308A', 'uni308B', 'uni308C', 'uni308D', 'uni308E', 'uni308F', 'uni3090', 'uni3091', 'uni3092', 'uni3093', 'uni3094', 'uni3095', 'uni3096', 'uni309B', 'uni309C', 'uni309D', 'uni309E', 'uni309F', 'uni30A0', 'uni30A1', 'uni30A2', 'uni30A3', 'uni30A4', 'uni30A5', 'uni30A6', 'uni30A7', 'uni30A8', 'uni30A9', 'uni30AA', 'uni30AB', 'uni30AC', 'uni30AD', 'uni30AE', 'uni30AF', 'uni30B0', 'uni30B1', 'uni30B2', 'uni30B3', 'uni30B4', 'uni30B5', 'uni30B6', 'uni30B7', 'uni30B8', 'uni30B9', 'uni30BA', 'uni30BB', 'uni30BC', 'uni30BD', 'uni30BE', 'uni30BF', 'uni30C0', 'uni30C1', 'uni30C2', 'uni30C3', 'uni30C4', 'uni30C5', 'uni30C6', 'uni30C7', 'uni30C8', 'uni30C9', 'uni30CA', 'uni30CB', 'uni30CC', 'uni30CD', 'uni30CE', 'uni30CF', 'uni30D0', 'uni30D1', 'uni30D2', 'uni30D3', 'uni30D4', 'uni30D5', 'uni30D6', 'uni30D7', 'uni30D8', 'uni30D9', 'uni30DA', 'uni30DB', 'uni30DC', 'uni30DD', 'uni30DE', 'uni30DF', 'uni30E0', 'uni30E1', 'uni30E2', 'uni30E3', 'uni30E4', 'uni30E5', 'uni30E6', 'uni30E7', 'uni30E8', 'uni30E9', 'uni30EA', 'uni30EB', 'uni30EC', 'uni30ED', 'uni30EE', 'uni30EF', 'uni30F0', 'uni30F1', 'uni30F2', 'uni30F3', 'uni30F4', 'uni30F5', 'uni30F6', 'uni30F7', 'uni30F8', 'uni30F9', 'uni30FA', 'uni30FB', 'uni30FC', 'uni30FD', 'uni30FE', 'uni30FF', 'uni31F0', 'uni31F1', 'uni31F2', 'uni31F3', 'uni31F4', 'uni31F5', 'uni31F6', 'uni31F7', 'uni31F8', 'uni31F9', 'uni31FA', 'uni31FB', 'uni31FC', 'uni31FD', 'uni31FE', 'uni31FF', 'uniE133', 'uniE134', 'uniE139', 'uni0E0D.descless', 'uniF880', 'uni0E24_uni0E45', 'uni0E26_uni0E45', 'uniFB00', 'uniFB01', 'uniFB02', 'uniFB03', 'uniFB04', 'uniFF01', 'uniFF08', 'uniFF09', 'uniFF0F', 'uniFF3C', 'uniFF44', 'uniFFFC', 'u1F494', 'u1FBB0', 'u1FBB2', 'u1FBB3']</p>
+* ⚠️ **WARN** <p>Font is monospaced but 695 glyphs (36.31%) have a different width. You should check the widths of: ['nonmarkingreturn', 'sterling', 'currency', 'dieresis', 'copyright', 'registered', 'plusminus', 'onequarter', 'onehalf', 'threequarters', 'multiply', 'divide', 'uni01C0', 'uni01C1', 'uni02B9', 'uni02BA', 'quoteleft', 'quoteright', 'quotereversed', 'circumflex', 'caron', 'uni02C8', 'uni02C9', 'uni02CA', 'uni02CB', 'breve', 'dotaccent', 'ring', 'ogonek', 'tilde', 'hungarumlaut', 'uni02F6', 'dieresistonos', 'uni0409', 'uni040A', 'uni0416', 'uni0424', 'uni0428', 'uni0429', 'uni042E', 'uni0436', 'uni0444', 'uni0448', 'uni0449', 'uni044E', 'uni0459', 'uni045A', 'uni0496', 'uni0497', 'uni04A2', 'uni04A3', 'uni04C1', 'uni04C2', 'uni04DC', 'uni04DD', 'uni0E01', 'uni0E03', 'uni0E04', 'uni0E05', 'uni0E06', 'uni0E09', 'uni0E0A', 'uni0E0B', 'uni0E0C', 'uni0E0D', 'uni0E11', 'uni0E12', 'uni0E13', 'uni0E14', 'uni0E15', 'uni0E16', 'uni0E17', 'uni0E1A', 'uni0E1B', 'uni0E1E', 'uni0E1F', 'uni0E23', 'uni0E24', 'uni0E27', 'uni0E28', 'uni0E29', 'uni0E2B', 'uni0E2C', 'uni0E30', 'uni0E32', 'uni0E33', 'uni0E40', 'uni0E41', 'uni0E45', 'uni0E4F', 'uni0E50', 'uni0E51', 'uni0E52', 'uni0E53', 'uni0E54', 'uni0E55', 'uni0E56', 'uni0E57', 'uni0E58', 'uni0E59', 'uni0E5A', 'uni0E5B', 'uni0E84', 'uni0E85', 'uni0E86', 'uni0E87', 'uni0E8E', 'uni0E91', 'uni0E92', 'uni0E93', 'uni0E94', 'uni0E95', 'uni0E97', 'uni0E9A', 'uni0E9B', 'uni0E9E', 'uni0E9F', 'uni0EA4', 'uni0EA5', 'uni0EA6', 'uni0EA8', 'uni0EA9', 'uni0EAA', 'uni0EAB', 'uni0EAC', 'uni0EB0', 'uni0EB2', 'uni0EB3', 'uni0EC0', 'uni0EC1', 'uni0ED0', 'uni0ED1', 'uni0ED2', 'uni0ED3', 'uni0ED4', 'uni0ED5', 'uni0ED6', 'uni0ED7', 'uni0ED8', 'uni0ED9', 'uni0EDC', 'uni0EDD', 'uni2000', 'uni2001', 'uni2002', 'uni2003', 'uni2004', 'uni2005', 'uni2006', 'uni2007', 'uni2008', 'uni2009', 'uni200A', 'uni2010', 'uni2011', 'figuredash', 'endash', 'emdash', 'uni2015', 'uni2016', 'quotesinglbase', 'twodotenleader', 'perthousand', 'minute', 'second', 'uni2034', 'uni203B', 'uni203E', 'uni2081', 'uni2082', 'uni2083', 'uni2084', 'uni2085', 'uni2086', 'uni2087', 'uni2088', 'uni2089', 'uni208A', 'uni208B', 'uni208C', 'uni208D', 'uni208E', 'Euro', 'uni2103', 'uni210F', 'uni2113', 'trademark', 'Omega', 'uni2127', 'uni212B', 'aleph', 'arrowleft', 'arrowup', 'arrowright', 'arrowdown', 'arrowboth', 'arrowupdn', 'uni2196', 'uni2197', 'uni2198', 'uni2199', 'uni21A9', 'uni21AA', 'carriagereturn', 'uni21C4', 'arrowdblleft', 'arrowdblup', 'arrowdblright', 'arrowdbldown', 'arrowdblboth', 'uni21D5', 'uni21D6', 'uni21D7', 'uni21D8', 'uni21D9', 'uni21E5', 'uni21E6', 'uni21E7', 'uni21E8', 'uni21E9', 'uni21EA', 'uni21EB', 'uni21EC', 'uni21ED', 'uni21EE', 'uni21EF', 'uni21F0', 'uni21F1', 'uni21F2', 'uni21F3', 'universal', 'partialdiff', 'existential', 'emptyset', 'Delta', 'gradient', 'element', 'notelement', 'suchthat', 'summation', 'minus', 'uni2213', 'radical', 'proportional', 'infinity', 'angle', 'uni2225', 'uni2226', 'logicaland', 'logicalor', 'intersection', 'union', 'uni222C', 'therefore', 'uni2235', 'uni223D', 'uni2243', 'congruent', 'approxequal', 'uni2252', 'equivalence', 'uni2262', 'uni2266', 'uni2267', 'uni226A', 'uni226B', 'uni2276', 'uni2277', 'propersubset', 'propersuperset', 'notsubset', 'uni2285', 'reflexsubset', 'reflexsuperset', 'uni228A', 'uni228B', 'circleplus', 'uni2296', 'circlemultiply', 'perpendicular', 'uni2305', 'uni2306', 'uni2312', 'uni2318', 'uni2325', 'uni232B', 'uni2387', 'uni23CE', 'filledbox', 'H22073', 'triagup', 'uni25B3', 'uni25B6', 'uni25B7', 'triagdn', 'uni25BD', 'uni25C0', 'uni25C1', 'uni25C6', 'uni25C7', 'uni25C9', 'circle', 'uni25CE', 'H18533', 'uni25EF', 'uni2605', 'uni2606', 'female', 'male', 'uni2661', 'heart', 'uni2669', 'musicalnote', 'musicalnotedbl', 'uni266C', 'uni266D', 'uni266E', 'uni266F', 'uni26A0', 'uni2726', 'uni2727', 'uni2764', 'uni2765', 'uni2934', 'uni2935', 'uni29BF', 'uni29FA', 'uni29FB', 'uni3000', 'uni3001', 'uni3002', 'uni3003', 'uni3005', 'uni3006', 'uni3007', 'uni3008', 'uni3009', 'uni300A', 'uni300B', 'uni300C', 'uni300D', 'uni300E', 'uni300F', 'uni3010', 'uni3011', 'uni3012', 'uni3013', 'uni3014', 'uni3015', 'uni3016', 'uni3017', 'uni3018', 'uni3019', 'uni301C', 'uni301D', 'uni301E', 'uni301F', 'uni3033', 'uni3034', 'uni3035', 'uni303B', 'uni303C', 'uni303D', 'uni3041', 'uni3042', 'uni3043', 'uni3044', 'uni3045', 'uni3046', 'uni3047', 'uni3048', 'uni3049', 'uni304A', 'uni304B', 'uni304C', 'uni304D', 'uni304E', 'uni304F', 'uni3050', 'uni3051', 'uni3052', 'uni3053', 'uni3054', 'uni3055', 'uni3056', 'uni3057', 'uni3058', 'uni3059', 'uni305A', 'uni305B', 'uni305C', 'uni305D', 'uni305E', 'uni305F', 'uni3060', 'uni3061', 'uni3062', 'uni3063', 'uni3064', 'uni3065', 'uni3066', 'uni3067', 'uni3068', 'uni3069', 'uni306A', 'uni306B', 'uni306C', 'uni306D', 'uni306E', 'uni306F', 'uni3070', 'uni3071', 'uni3072', 'uni3073', 'uni3074', 'uni3075', 'uni3076', 'uni3077', 'uni3078', 'uni3079', 'uni307A', 'uni307B', 'uni307C', 'uni307D', 'uni307E', 'uni307F', 'uni3080', 'uni3081', 'uni3082', 'uni3083', 'uni3084', 'uni3085', 'uni3086', 'uni3087', 'uni3088', 'uni3089', 'uni308A', 'uni308B', 'uni308C', 'uni308D', 'uni308E', 'uni308F', 'uni3090', 'uni3091', 'uni3092', 'uni3093', 'uni3094', 'uni3095', 'uni3096', 'uni309B', 'uni309C', 'uni309D', 'uni309E', 'uni309F', 'uni30A0', 'uni30A1', 'uni30A2', 'uni30A3', 'uni30A4', 'uni30A5', 'uni30A6', 'uni30A7', 'uni30A8', 'uni30A9', 'uni30AA', 'uni30AB', 'uni30AC', 'uni30AD', 'uni30AE', 'uni30AF', 'uni30B0', 'uni30B1', 'uni30B2', 'uni30B3', 'uni30B4', 'uni30B5', 'uni30B6', 'uni30B7', 'uni30B8', 'uni30B9', 'uni30BA', 'uni30BB', 'uni30BC', 'uni30BD', 'uni30BE', 'uni30BF', 'uni30C0', 'uni30C1', 'uni30C2', 'uni30C3', 'uni30C4', 'uni30C5', 'uni30C6', 'uni30C7', 'uni30C8', 'uni30C9', 'uni30CA', 'uni30CB', 'uni30CC', 'uni30CD', 'uni30CE', 'uni30CF', 'uni30D0', 'uni30D1', 'uni30D2', 'uni30D3', 'uni30D4', 'uni30D5', 'uni30D6', 'uni30D7', 'uni30D8', 'uni30D9', 'uni30DA', 'uni30DB', 'uni30DC', 'uni30DD', 'uni30DE', 'uni30DF', 'uni30E0', 'uni30E1', 'uni30E2', 'uni30E3', 'uni30E4', 'uni30E5', 'uni30E6', 'uni30E7', 'uni30E8', 'uni30E9', 'uni30EA', 'uni30EB', 'uni30EC', 'uni30ED', 'uni30EE', 'uni30EF', 'uni30F0', 'uni30F1', 'uni30F2', 'uni30F3', 'uni30F4', 'uni30F5', 'uni30F6', 'uni30F7', 'uni30F8', 'uni30F9', 'uni30FA', 'uni30FB', 'uni30FC', 'uni30FD', 'uni30FE', 'uni30FF', 'uni31F0', 'uni31F1', 'uni31F2', 'uni31F3', 'uni31F4', 'uni31F5', 'uni31F6', 'uni31F7', 'uni31F8', 'uni31F9', 'uni31FA', 'uni31FB', 'uni31FC', 'uni31FD', 'uni31FE', 'uni31FF', 'uni33CB', 'uni4EDD', 'uniE133', 'uniE134', 'uniE139', 'uni0E0D.descless', 'uniF880', 'uni0E24_uni0E45', 'uni0E26_uni0E45', 'uniFB00', 'uniFB01', 'uniFB02', 'uniFB03', 'uniFB04', 'uniFE45', 'uniFE46', 'uniFF01', 'uniFF02', 'uniFF03', 'uniFF04', 'uniFF05', 'uniFF06', 'uniFF07', 'uniFF08', 'uniFF09', 'uniFF0A', 'uniFF0B', 'uniFF0C', 'uniFF0D', 'uniFF0E', 'uniFF0F', 'uniFF10', 'uniFF11', 'uniFF12', 'uniFF13', 'uniFF14', 'uniFF15', 'uniFF16', 'uniFF17', 'uniFF18', 'uniFF19', 'uniFF1A', 'uniFF1B', 'uniFF1C', 'uniFF1D', 'uniFF1E', 'uniFF1F', 'uniFF20', 'uniFF21', 'uniFF22', 'uniFF23', 'uniFF24', 'uniFF25', 'uniFF26', 'uniFF27', 'uniFF28', 'uniFF29', 'uniFF2A', 'uniFF2B', 'uniFF2C', 'uniFF2D', 'uniFF2E', 'uniFF2F', 'uniFF30', 'uniFF31', 'uniFF32', 'uniFF33', 'uniFF34', 'uniFF35', 'uniFF36', 'uniFF37', 'uniFF38', 'uniFF39', 'uniFF3A', 'uniFF3B', 'uniFF3C', 'uniFF3D', 'uniFF3E', 'uniFF3F', 'uniFF40', 'uniFF41', 'uniFF42', 'uniFF43', 'uniFF44', 'uniFF45', 'uniFF46', 'uniFF47', 'uniFF48', 'uniFF49', 'uniFF4A', 'uniFF4B', 'uniFF4C', 'uniFF4D', 'uniFF4E', 'uniFF4F', 'uniFF50', 'uniFF51', 'uniFF52', 'uniFF53', 'uniFF54', 'uniFF55', 'uniFF56', 'uniFF57', 'uniFF58', 'uniFF59', 'uniFF5A', 'uniFF5B', 'uniFF5C', 'uniFF5D', 'uniFF5E', 'uniFF5F', 'uniFF60', 'uniFFE0', 'uniFFE1', 'uniFFE2', 'uniFFE3', 'uniFFE4', 'uniFFE5', 'uniFFE6', 'uniFFE8', 'uniFFE9', 'uniFFEA', 'uniFFEB', 'uniFFEC', 'uniFFFC', 'u1F494', 'u1FBB0', 'u1FBB2', 'u1FBB3']</p>
  [code: mono-outliers]
 
 
@@ -7321,10 +8062,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left">U+028A: LATIN SMALL LETTER UPSILON</td>
 <td align="left">U+01B1: LATIN CAPITAL LETTER UPSILON</td>
 </tr>
-<tr>
-<td align="left">U+FF44: FULLWIDTH LATIN SMALL LETTER D</td>
-<td align="left">U+FF24: FULLWIDTH LATIN CAPITAL LETTER D</td>
-</tr>
 </tbody>
 </table>
  [code: missing-case-counterparts]
@@ -7358,7 +8095,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ҳ, ҷ</td>
+<td align="left">The following base characters are missing from the font: ҷ, ҳ</td>
 <td align="left">tg_Cyrl (Tajik) and tg_Cyrl (Tajik)</td>
 </tr>
 <tr>
@@ -7374,7 +8111,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ɲ, Ɲ</td>
+<td align="left">The following base characters are missing from the font: Ɲ, ɲ</td>
 <td align="left">bm_Latn (Bambara) and dyu_Latn (Dyula)</td>
 </tr>
 <tr>
@@ -7390,7 +8127,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ƙ, Ƙ, Ƴ, ƴ</td>
+<td align="left">The following base characters are missing from the font: ƙ, ƴ, Ƴ, Ƙ</td>
 <td align="left">ha_Latn (Hausa)</td>
 </tr>
 <tr>
@@ -7398,7 +8135,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ҙ, Ҫ, Ҙ, Ҡ, ҫ, ҡ</td>
+<td align="left">The following base characters are missing from the font: Ҫ, ҙ, Ҡ, ҡ, ҫ, Ҙ</td>
 <td align="left">ba_Cyrl (Bashkir)</td>
 </tr>
 <tr>
@@ -7414,7 +8151,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ҹ, ҝ</td>
+<td align="left">The following base characters are missing from the font: ҝ, ҹ</td>
 <td align="left">az_Cyrl (Azerbaijani (Cyrillic))</td>
 </tr>
 <tr>
@@ -7423,23 +8160,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </tr>
 <tr>
 <td align="left">The following base characters are missing from the font: Ӏ, ӏ</td>
-<td align="left">kbd_Cyrl (Kabardian), ady_Cyrl (Adyghe), lez_Cyrl (Lezghian) and inh_Cyrl (Ingush)</td>
+<td align="left">kbd_Cyrl (Kabardian), av_Cyrl (Avaric) and lez_Cyrl (Lezghian)</td>
 </tr>
 <tr>
 <td align="left">Mandatory orthography codepoints:</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: кӏ, рхӏ, гӏ, чӏ, пӏ, тӏ, цӏ, хӏ</td>
+<td align="left">The following base characters are missing from the font: кӏ, хӏ, цӏ, гӏ, чӏ, рхӏ, пӏ, тӏ</td>
 <td align="left">ce_Cyrl (Chechen)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ӏ, Ӏ</td>
-<td align="left">av_Cyrl (Avaric) and dar_Cyrl (Dargwa)</td>
 </tr>
 <tr>
 <td align="left">Mandatory orthography codepoints:</td>
@@ -7454,7 +8183,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ҳ, ҳ</td>
+<td align="left">The following base characters are missing from the font: ҳ, Ҳ</td>
 <td align="left">kaa_Cyrl (Kara-Kalpak)</td>
 </tr>
 <tr>
@@ -7462,8 +8191,16 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ҥ, ҕ</td>
+<td align="left">The following base characters are missing from the font: ҕ, ҥ</td>
 <td align="left">sah_Cyrl (Sakha)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: ӏ, Ӏ</td>
+<td align="left">ady_Cyrl (Adyghe), dar_Cyrl (Dargwa) and inh_Cyrl (Ingush)</td>
 </tr>
 </tbody>
 </table>
@@ -7831,18 +8568,13 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>OS/2.sTypoAscender is &quot;768&quot; it should be 901</p>
+* 🔥 **FAIL** <p>OS/2.sTypoAscender is &quot;896&quot; it should be 901</p>
  [code: bad-OS/2.sTypoAscender]
 
 
 
-* 🔥 **FAIL** <p>OS/2.sTypoDescender is &quot;-256&quot; it should be -123</p>
+* 🔥 **FAIL** <p>OS/2.sTypoDescender is &quot;-384&quot; it should be -123</p>
  [code: bad-OS/2.sTypoDescender]
-
-
-
-* ⚠️ **WARN** <p>We recommend the absolute sum of the hhea metrics should be between 1.1-1.4x of the font's upm. This font has 1.0x</p>
- [code: bad-hhea-range]
 
 
 
@@ -8098,10 +8830,10 @@ uni0334 (U+0334), uni0335 (U+0335), uni0336 (U+0336), uni0337 (U+0337), uni0338 
 
 
 
-* ⚠️ **WARN** <p>The most common width is 576 among a set of 9 math glyphs.
+* ⚠️ **WARN** <p>The most common width is 1088 among a set of 33 math glyphs.
 The following math glyphs have a different width, though:</p>
-<p>Width = 1088:
-divide, minus, multiply, plusminus</p>
+<p>Width = 576:
+logicalnot, notequal, less, greaterequal, plus, greater, lessequal, equal</p>
  [code: width-outliers]
 
 
@@ -8145,24 +8877,6 @@ divide, minus, multiply, plusminus</p>
 * uni1EEA (U+1EEA): L&lt;&lt;256.0,640.0&gt;--&lt;384.0,640.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 832, but got 768 instead</p>
- [code: typoAscender]
 
 
 
@@ -8228,24 +8942,24 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, glagolitic, gothic, math, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, todhri, tai-le, malayalam, duployan, math, hebrew, old-permic, coptic, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, glagolitic, coptic, gothic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, canadian-aboriginal, tifinagh, coptic, malayalam, tai-le, todhri, math, duployan, syriac</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: try adding ethiopic</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+031A COMBINING LEFT ANGLE ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, duployan, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -8253,10 +8967,10 @@ definitions.</p>
 <li>U+032A COMBINING BRIDGE BELOW: not included in any glyphset definition</li>
 <li>U+032B COMBINING INVERTED DOUBLE ARCH BELOW: not included in any glyphset definition</li>
 <li>U+032C COMBINING CARON BELOW: try adding math</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
@@ -8269,14 +8983,19 @@ definitions.</p>
 <li>U+0EA4 : not included in any glyphset definition</li>
 <li>U+0EA6 : not included in any glyphset definition</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+2010 HYPHEN: try adding one of: kharoshthi, armenian, kaithi, sora-sompeng, lisu, cham, sundanese, hebrew, kayah-li, arabic, syloti-nagri, coptic, yi</li>
+<li>U+2010 HYPHEN: try adding one of: hebrew, kayah-li, syloti-nagri, sundanese, coptic, kaithi, sora-sompeng, kharoshthi, lisu, arabic, armenian, cham, yi</li>
 <li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
+<li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam</li>
 <li>U+201F DOUBLE HIGH-REVERSED-9 QUOTATION MARK: not included in any glyphset definition</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+2025 TWO DOT LEADER: try adding phags-pa</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+2034 TRIPLE PRIME: try adding math</li>
+<li>U+203B REFERENCE MARK: not included in any glyphset definition</li>
+<li>U+203E OVERLINE: not included in any glyphset definition</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2071 SUPERSCRIPT LATIN SMALL LETTER I: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -8306,7 +9025,12 @@ definitions.</p>
 <li>U+208C SUBSCRIPT EQUALS SIGN: try adding math</li>
 <li>U+208D SUBSCRIPT LEFT PARENTHESIS: try adding math</li>
 <li>U+208E SUBSCRIPT RIGHT PARENTHESIS: try adding math</li>
+<li>U+2103 DEGREE CELSIUS: try adding math</li>
+<li>U+210F PLANCK CONSTANT OVER TWO PI: try adding math</li>
 <li>U+2126 OHM SIGN: try adding math</li>
+<li>U+2127 INVERTED OHM SIGN: try adding math</li>
+<li>U+212B ANGSTROM SIGN: try adding math</li>
+<li>U+2135 ALEF SYMBOL: try adding math</li>
 <li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
 <li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
 <li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
@@ -8318,6 +9042,7 @@ definitions.</p>
 <li>U+21A9 LEFTWARDS ARROW WITH HOOK: try adding math</li>
 <li>U+21AA RIGHTWARDS ARROW WITH HOOK: try adding math</li>
 <li>U+21B5 DOWNWARDS ARROW WITH CORNER LEFTWARDS: try adding math</li>
+<li>U+21C4 RIGHTWARDS ARROW OVER LEFTWARDS ARROW: try adding math</li>
 <li>U+21D0 LEFTWARDS DOUBLE ARROW: try adding math</li>
 <li>U+21D1 UPWARDS DOUBLE ARROW: try adding math</li>
 <li>U+21D2 RIGHTWARDS DOUBLE ARROW: try adding math</li>
@@ -8345,17 +9070,62 @@ definitions.</p>
 <li>U+21F3 UP DOWN WHITE ARROW: try adding symbols</li>
 <li>U+2200 FOR ALL: try adding math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
+<li>U+2203 THERE EXISTS: try adding math</li>
+<li>U+2205 EMPTY SET: try adding math</li>
 <li>U+2206 INCREMENT: try adding math</li>
+<li>U+2207 NABLA: try adding math</li>
+<li>U+2208 ELEMENT OF: try adding math</li>
+<li>U+2209 NOT AN ELEMENT OF: try adding math</li>
+<li>U+220B CONTAINS AS MEMBER: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, symbols, yi, math</li>
+<li>U+2213 MINUS-OR-PLUS SIGN: try adding math</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, yi, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
+<li>U+221D PROPORTIONAL TO: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
+<li>U+2220 ANGLE: try adding math</li>
+<li>U+2225 PARALLEL TO: try adding math</li>
+<li>U+2226 NOT PARALLEL TO: try adding math</li>
+<li>U+2227 LOGICAL AND: try adding math</li>
+<li>U+2228 LOGICAL OR: try adding math</li>
+<li>U+2229 INTERSECTION: try adding math</li>
+<li>U+222A UNION: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
+<li>U+222C DOUBLE INTEGRAL: try adding math</li>
+<li>U+2234 THEREFORE: try adding math</li>
+<li>U+2235 BECAUSE: try adding math</li>
+<li>U+223D REVERSED TILDE: try adding math</li>
+<li>U+2243 ASYMPTOTICALLY EQUAL TO: try adding math</li>
+<li>U+2245 APPROXIMATELY EQUAL TO: try adding math</li>
 <li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2252 APPROXIMATELY EQUAL TO OR THE IMAGE OF: try adding math</li>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2261 IDENTICAL TO: try adding math</li>
+<li>U+2262 NOT IDENTICAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+2266 LESS-THAN OVER EQUAL TO: try adding math</li>
+<li>U+2267 GREATER-THAN OVER EQUAL TO: try adding math</li>
+<li>U+226A MUCH LESS-THAN: try adding math</li>
+<li>U+226B MUCH GREATER-THAN: try adding math</li>
+<li>U+2276 LESS-THAN OR GREATER-THAN: try adding math</li>
+<li>U+2277 GREATER-THAN OR LESS-THAN: try adding math</li>
+<li>U+2282 SUBSET OF: try adding math</li>
+<li>U+2283 SUPERSET OF: try adding math</li>
+<li>U+2284 NOT A SUBSET OF: try adding math</li>
+<li>U+2285 NOT A SUPERSET OF: try adding math</li>
+<li>U+2286 SUBSET OF OR EQUAL TO: try adding math</li>
+<li>U+2287 SUPERSET OF OR EQUAL TO: try adding math</li>
+<li>U+228A SUBSET OF WITH NOT EQUAL TO: try adding math</li>
+<li>U+228B SUPERSET OF WITH NOT EQUAL TO: try adding math</li>
+<li>U+2295 CIRCLED PLUS: try adding math</li>
+<li>U+2296 CIRCLED MINUS: try adding math</li>
+<li>U+2297 CIRCLED TIMES: try adding math</li>
+<li>U+22A5 UP TACK: try adding math</li>
+<li>U+2305 PROJECTIVE: try adding symbols</li>
+<li>U+2306 PERSPECTIVE: try adding symbols</li>
+<li>U+2312 ARC: try adding symbols</li>
 <li>U+2318 PLACE OF INTEREST SIGN: try adding symbols</li>
 <li>U+2325 OPTION KEY: try adding symbols</li>
 <li>U+232B ERASE TO THE LEFT: try adding symbols</li>
@@ -8365,237 +9135,270 @@ definitions.</p>
 <li>U+25A1 WHITE SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
 <li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
 <li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C6 BLACK DIAMOND: try adding symbols</li>
+<li>U+25C7 WHITE DIAMOND: try adding symbols</li>
+<li>U+25C9 FISHEYE: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
 <li>U+25CE BULLSEYE: try adding symbols</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+25E1 LOWER HALF CIRCLE: try adding symbols</li>
+<li>U+25E6 WHITE BULLET: try adding symbols</li>
 <li>U+25EF LARGE CIRCLE: try adding symbols</li>
 <li>U+2605 BLACK STAR: try adding symbols</li>
 <li>U+2606 WHITE STAR: try adding symbols</li>
+<li>U+2640 FEMALE SIGN: try adding symbols</li>
+<li>U+2642 MALE SIGN: try adding symbols</li>
 <li>U+2661 WHITE HEART SUIT: try adding symbols</li>
 <li>U+2665 BLACK HEART SUIT: try adding symbols</li>
-<li>U+2669 QUARTER NOTE: try adding one of: symbols, music</li>
-<li>U+266A EIGHTH NOTE: try adding one of: symbols, music</li>
-<li>U+266B BEAMED EIGHTH NOTES: try adding one of: symbols, music</li>
-<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: symbols, music</li>
-<li>U+266D MUSIC FLAT SIGN: try adding one of: symbols, music, math</li>
-<li>U+266E MUSIC NATURAL SIGN: try adding one of: symbols, music, math</li>
-<li>U+266F MUSIC SHARP SIGN: try adding one of: symbols, music, math</li>
+<li>U+2669 QUARTER NOTE: try adding one of: music, symbols</li>
+<li>U+266A EIGHTH NOTE: try adding one of: music, symbols</li>
+<li>U+266B BEAMED EIGHTH NOTES: try adding one of: music, symbols</li>
+<li>U+266C BEAMED SIXTEENTH NOTES: try adding one of: music, symbols</li>
+<li>U+266D MUSIC FLAT SIGN: try adding one of: music, symbols, math</li>
+<li>U+266E MUSIC NATURAL SIGN: try adding one of: music, symbols, math</li>
+<li>U+266F MUSIC SHARP SIGN: try adding one of: music, symbols, math</li>
 <li>U+26A0 WARNING SIGN: try adding symbols</li>
 <li>U+2726 BLACK FOUR POINTED STAR: try adding symbols</li>
 <li>U+2727 WHITE FOUR POINTED STAR: try adding symbols</li>
 <li>U+2764 HEAVY BLACK HEART: try adding symbols</li>
 <li>U+2765 ROTATED HEAVY BLACK HEART BULLET: try adding symbols</li>
 <li>U+2919 LEFTWARDS ARROW-TAIL: try adding math</li>
-<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: chinese-traditional, nushu, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
-<li>U+3001 IDEOGRAPHIC COMMA: try adding one of: chinese-traditional, phags-pa, tai-le, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+3002 IDEOGRAPHIC FULL STOP: try adding one of: chinese-traditional, nushu, phags-pa, tai-le, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+3003 DITTO MARK: try adding one of: chinese-traditional, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
-<li>U+3005 IDEOGRAPHIC ITERATION MARK: try adding one of: chinese-traditional, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
-<li>U+3006 IDEOGRAPHIC CLOSING MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+3007 IDEOGRAPHIC NUMBER ZERO: try adding one of: japanese, chinese-simplified, phags-pa</li>
-<li>U+300C LEFT CORNER BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+300D RIGHT CORNER BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+300E LEFT WHITE CORNER BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+300F RIGHT WHITE CORNER BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, mongolian, japanese, chinese-hongkong, yi</li>
-<li>U+3010 LEFT BLACK LENTICULAR BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
-<li>U+3011 RIGHT BLACK LENTICULAR BRACKET: try adding one of: chinese-traditional, phags-pa, chinese-simplified, japanese, chinese-hongkong, yi</li>
+<li>U+2934 ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS: try adding math</li>
+<li>U+2935 ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS: try adding math</li>
+<li>U+29BF CIRCLED BULLET: try adding one of: symbols, math</li>
+<li>U+29FA DOUBLE PLUS: try adding math</li>
+<li>U+29FB TRIPLE PLUS: try adding math</li>
+<li>U+3000 IDEOGRAPHIC SPACE: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, nushu, yi</li>
+<li>U+3001 IDEOGRAPHIC COMMA: try adding one of: japanese, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3002 IDEOGRAPHIC FULL STOP: try adding one of: japanese, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, phags-pa, nushu, yi</li>
+<li>U+3003 DITTO MARK: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3005 IDEOGRAPHIC ITERATION MARK: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3006 IDEOGRAPHIC CLOSING MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+3007 IDEOGRAPHIC NUMBER ZERO: try adding one of: phags-pa, chinese-simplified, japanese</li>
+<li>U+3008 LEFT ANGLE BRACKET: try adding one of: japanese, tibetan, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3009 RIGHT ANGLE BRACKET: try adding one of: japanese, tibetan, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+300A LEFT DOUBLE ANGLE BRACKET: try adding one of: japanese, tibetan, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, lisu, phags-pa, yi</li>
+<li>U+300B RIGHT DOUBLE ANGLE BRACKET: try adding one of: japanese, tibetan, mongolian, chinese-traditional, tai-le, chinese-simplified, chinese-hongkong, lisu, phags-pa, yi</li>
+<li>U+300C LEFT CORNER BRACKET: try adding one of: japanese, mongolian, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+300D RIGHT CORNER BRACKET: try adding one of: japanese, mongolian, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+300E LEFT WHITE CORNER BRACKET: try adding one of: japanese, mongolian, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+300F RIGHT WHITE CORNER BRACKET: try adding one of: japanese, mongolian, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3010 LEFT BLACK LENTICULAR BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3011 RIGHT BLACK LENTICULAR BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3012 POSTAL MARK: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3013 GETA MARK: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3014 LEFT TORTOISE SHELL BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3015 RIGHT TORTOISE SHELL BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3016 LEFT WHITE LENTICULAR BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3017 RIGHT WHITE LENTICULAR BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3018 LEFT WHITE TORTOISE SHELL BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
+<li>U+3019 RIGHT WHITE TORTOISE SHELL BRACKET: try adding one of: japanese, chinese-traditional, chinese-simplified, chinese-hongkong, phags-pa, yi</li>
 <li>U+301C WAVE DASH: try adding japanese</li>
-<li>U+301D REVERSED DOUBLE PRIME QUOTATION MARK: try adding one of: chinese-traditional, chinese-hongkong, chinese-simplified</li>
-<li>U+301E DOUBLE PRIME QUOTATION MARK: try adding one of: chinese-traditional, chinese-hongkong, chinese-simplified</li>
+<li>U+301D REVERSED DOUBLE PRIME QUOTATION MARK: try adding one of: chinese-traditional, chinese-simplified, chinese-hongkong</li>
+<li>U+301E DOUBLE PRIME QUOTATION MARK: try adding one of: chinese-traditional, chinese-simplified, chinese-hongkong</li>
 <li>U+301F LOW DOUBLE PRIME QUOTATION MARK: not included in any glyphset definition</li>
-<li>U+3041 HIRAGANA LETTER SMALL A: try adding one of: japanese, chinese-simplified</li>
-<li>U+3042 HIRAGANA LETTER A: try adding one of: japanese, chinese-simplified</li>
-<li>U+3043 HIRAGANA LETTER SMALL I: try adding one of: japanese, chinese-simplified</li>
-<li>U+3044 HIRAGANA LETTER I: try adding one of: japanese, chinese-simplified</li>
-<li>U+3045 HIRAGANA LETTER SMALL U: try adding one of: japanese, chinese-simplified</li>
-<li>U+3046 HIRAGANA LETTER U: try adding one of: japanese, chinese-simplified</li>
-<li>U+3047 HIRAGANA LETTER SMALL E: try adding one of: japanese, chinese-simplified</li>
-<li>U+3048 HIRAGANA LETTER E: try adding one of: japanese, chinese-simplified</li>
-<li>U+3049 HIRAGANA LETTER SMALL O: try adding one of: japanese, chinese-simplified</li>
-<li>U+304A HIRAGANA LETTER O: try adding one of: japanese, chinese-simplified</li>
-<li>U+304B HIRAGANA LETTER KA: try adding one of: japanese, chinese-simplified</li>
-<li>U+304C HIRAGANA LETTER GA: try adding one of: japanese, chinese-simplified</li>
-<li>U+304D HIRAGANA LETTER KI: try adding one of: japanese, chinese-simplified</li>
-<li>U+304E HIRAGANA LETTER GI: try adding one of: japanese, chinese-simplified</li>
-<li>U+304F HIRAGANA LETTER KU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3050 HIRAGANA LETTER GU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3051 HIRAGANA LETTER KE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3052 HIRAGANA LETTER GE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3053 HIRAGANA LETTER KO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3054 HIRAGANA LETTER GO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3055 HIRAGANA LETTER SA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3056 HIRAGANA LETTER ZA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3057 HIRAGANA LETTER SI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3058 HIRAGANA LETTER ZI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3059 HIRAGANA LETTER SU: try adding one of: japanese, chinese-simplified</li>
-<li>U+305A HIRAGANA LETTER ZU: try adding one of: japanese, chinese-simplified</li>
-<li>U+305B HIRAGANA LETTER SE: try adding one of: japanese, chinese-simplified</li>
-<li>U+305C HIRAGANA LETTER ZE: try adding one of: japanese, chinese-simplified</li>
-<li>U+305D HIRAGANA LETTER SO: try adding one of: japanese, chinese-simplified</li>
-<li>U+305E HIRAGANA LETTER ZO: try adding one of: japanese, chinese-simplified</li>
-<li>U+305F HIRAGANA LETTER TA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3060 HIRAGANA LETTER DA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3061 HIRAGANA LETTER TI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3062 HIRAGANA LETTER DI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3063 HIRAGANA LETTER SMALL TU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3064 HIRAGANA LETTER TU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3065 HIRAGANA LETTER DU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3066 HIRAGANA LETTER TE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3067 HIRAGANA LETTER DE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3068 HIRAGANA LETTER TO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3069 HIRAGANA LETTER DO: try adding one of: japanese, chinese-simplified</li>
-<li>U+306A HIRAGANA LETTER NA: try adding one of: japanese, chinese-simplified</li>
-<li>U+306B HIRAGANA LETTER NI: try adding one of: japanese, chinese-simplified</li>
-<li>U+306C HIRAGANA LETTER NU: try adding one of: japanese, chinese-simplified</li>
-<li>U+306D HIRAGANA LETTER NE: try adding one of: japanese, chinese-simplified</li>
-<li>U+306E HIRAGANA LETTER NO: try adding one of: japanese, chinese-simplified</li>
-<li>U+306F HIRAGANA LETTER HA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3070 HIRAGANA LETTER BA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3071 HIRAGANA LETTER PA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3072 HIRAGANA LETTER HI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3073 HIRAGANA LETTER BI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3074 HIRAGANA LETTER PI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3075 HIRAGANA LETTER HU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3076 HIRAGANA LETTER BU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3077 HIRAGANA LETTER PU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3078 HIRAGANA LETTER HE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3079 HIRAGANA LETTER BE: try adding one of: japanese, chinese-simplified</li>
-<li>U+307A HIRAGANA LETTER PE: try adding one of: japanese, chinese-simplified</li>
-<li>U+307B HIRAGANA LETTER HO: try adding one of: japanese, chinese-simplified</li>
-<li>U+307C HIRAGANA LETTER BO: try adding one of: japanese, chinese-simplified</li>
-<li>U+307D HIRAGANA LETTER PO: try adding one of: japanese, chinese-simplified</li>
-<li>U+307E HIRAGANA LETTER MA: try adding one of: japanese, chinese-simplified</li>
-<li>U+307F HIRAGANA LETTER MI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3080 HIRAGANA LETTER MU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3081 HIRAGANA LETTER ME: try adding one of: japanese, chinese-simplified</li>
-<li>U+3082 HIRAGANA LETTER MO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3083 HIRAGANA LETTER SMALL YA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3084 HIRAGANA LETTER YA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3085 HIRAGANA LETTER SMALL YU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3086 HIRAGANA LETTER YU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3087 HIRAGANA LETTER SMALL YO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3088 HIRAGANA LETTER YO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3089 HIRAGANA LETTER RA: try adding one of: japanese, chinese-simplified</li>
-<li>U+308A HIRAGANA LETTER RI: try adding one of: japanese, chinese-simplified</li>
-<li>U+308B HIRAGANA LETTER RU: try adding one of: japanese, chinese-simplified</li>
-<li>U+308C HIRAGANA LETTER RE: try adding one of: japanese, chinese-simplified</li>
-<li>U+308D HIRAGANA LETTER RO: try adding one of: japanese, chinese-simplified</li>
-<li>U+308E HIRAGANA LETTER SMALL WA: try adding one of: japanese, chinese-simplified</li>
-<li>U+308F HIRAGANA LETTER WA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3090 HIRAGANA LETTER WI: try adding one of: japanese, chinese-simplified</li>
-<li>U+3091 HIRAGANA LETTER WE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3092 HIRAGANA LETTER WO: try adding one of: japanese, chinese-simplified</li>
-<li>U+3093 HIRAGANA LETTER N: try adding one of: japanese, chinese-simplified</li>
-<li>U+3094 HIRAGANA LETTER VU: try adding one of: japanese, chinese-simplified</li>
-<li>U+3095 HIRAGANA LETTER SMALL KA: try adding one of: japanese, chinese-simplified</li>
-<li>U+3096 HIRAGANA LETTER SMALL KE: try adding one of: japanese, chinese-simplified</li>
-<li>U+3099 COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK: try adding one of: japanese, chinese-simplified, kana-extended</li>
-<li>U+309A COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK: try adding one of: japanese, chinese-simplified, kana-extended</li>
-<li>U+309B KATAKANA-HIRAGANA VOICED SOUND MARK: try adding one of: japanese, chinese-simplified, kana-extended</li>
-<li>U+309C KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK: try adding one of: japanese, chinese-simplified, kana-extended</li>
-<li>U+309D HIRAGANA ITERATION MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+309E HIRAGANA VOICED ITERATION MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+309F HIRAGANA DIGRAPH YORI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A0 KATAKANA-HIRAGANA DOUBLE HYPHEN: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A1 KATAKANA LETTER SMALL A: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A2 KATAKANA LETTER A: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A3 KATAKANA LETTER SMALL I: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A4 KATAKANA LETTER I: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A5 KATAKANA LETTER SMALL U: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A6 KATAKANA LETTER U: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A7 KATAKANA LETTER SMALL E: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A8 KATAKANA LETTER E: try adding one of: japanese, chinese-simplified</li>
-<li>U+30A9 KATAKANA LETTER SMALL O: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AA KATAKANA LETTER O: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AB KATAKANA LETTER KA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AC KATAKANA LETTER GA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AD KATAKANA LETTER KI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AE KATAKANA LETTER GI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30AF KATAKANA LETTER KU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B0 KATAKANA LETTER GU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B1 KATAKANA LETTER KE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B2 KATAKANA LETTER GE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B3 KATAKANA LETTER KO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B4 KATAKANA LETTER GO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B5 KATAKANA LETTER SA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B6 KATAKANA LETTER ZA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B7 KATAKANA LETTER SI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B8 KATAKANA LETTER ZI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30B9 KATAKANA LETTER SU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BA KATAKANA LETTER ZU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BB KATAKANA LETTER SE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BC KATAKANA LETTER ZE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BD KATAKANA LETTER SO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BE KATAKANA LETTER ZO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30BF KATAKANA LETTER TA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C0 KATAKANA LETTER DA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C1 KATAKANA LETTER TI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C2 KATAKANA LETTER DI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C3 KATAKANA LETTER SMALL TU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C4 KATAKANA LETTER TU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C5 KATAKANA LETTER DU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C6 KATAKANA LETTER TE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C7 KATAKANA LETTER DE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C8 KATAKANA LETTER TO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30C9 KATAKANA LETTER DO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CA KATAKANA LETTER NA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CB KATAKANA LETTER NI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CC KATAKANA LETTER NU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CD KATAKANA LETTER NE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CE KATAKANA LETTER NO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30CF KATAKANA LETTER HA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D0 KATAKANA LETTER BA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D1 KATAKANA LETTER PA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D2 KATAKANA LETTER HI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D3 KATAKANA LETTER BI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D4 KATAKANA LETTER PI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D5 KATAKANA LETTER HU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D6 KATAKANA LETTER BU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D7 KATAKANA LETTER PU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D8 KATAKANA LETTER HE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30D9 KATAKANA LETTER BE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DA KATAKANA LETTER PE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DB KATAKANA LETTER HO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DC KATAKANA LETTER BO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DD KATAKANA LETTER PO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DE KATAKANA LETTER MA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30DF KATAKANA LETTER MI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E0 KATAKANA LETTER MU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E1 KATAKANA LETTER ME: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E2 KATAKANA LETTER MO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E3 KATAKANA LETTER SMALL YA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E4 KATAKANA LETTER YA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E5 KATAKANA LETTER SMALL YU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E6 KATAKANA LETTER YU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E7 KATAKANA LETTER SMALL YO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E8 KATAKANA LETTER YO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30E9 KATAKANA LETTER RA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EA KATAKANA LETTER RI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EB KATAKANA LETTER RU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EC KATAKANA LETTER RE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30ED KATAKANA LETTER RO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EE KATAKANA LETTER SMALL WA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30EF KATAKANA LETTER WA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F0 KATAKANA LETTER WI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F1 KATAKANA LETTER WE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F2 KATAKANA LETTER WO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F3 KATAKANA LETTER N: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F4 KATAKANA LETTER VU: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F5 KATAKANA LETTER SMALL KA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F6 KATAKANA LETTER SMALL KE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F7 KATAKANA LETTER VA: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F8 KATAKANA LETTER VI: try adding one of: japanese, chinese-simplified</li>
-<li>U+30F9 KATAKANA LETTER VE: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FA KATAKANA LETTER VO: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FB KATAKANA MIDDLE DOT: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+30FC KATAKANA-HIRAGANA PROLONGED SOUND MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FD KATAKANA ITERATION MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FE KATAKANA VOICED ITERATION MARK: try adding one of: japanese, chinese-simplified</li>
-<li>U+30FF KATAKANA DIGRAPH KOTO: try adding one of: japanese, chinese-simplified</li>
+<li>U+3033 VERTICAL KANA REPEAT MARK UPPER HALF: not included in any glyphset definition</li>
+<li>U+3034 VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF: not included in any glyphset definition</li>
+<li>U+3035 VERTICAL KANA REPEAT MARK LOWER HALF: not included in any glyphset definition</li>
+<li>U+303B VERTICAL IDEOGRAPHIC ITERATION MARK: not included in any glyphset definition</li>
+<li>U+303C MASU MARK: not included in any glyphset definition</li>
+<li>U+303D PART ALTERNATION MARK: not included in any glyphset definition</li>
+<li>U+3041 HIRAGANA LETTER SMALL A: try adding one of: chinese-simplified, japanese</li>
+<li>U+3042 HIRAGANA LETTER A: try adding one of: chinese-simplified, japanese</li>
+<li>U+3043 HIRAGANA LETTER SMALL I: try adding one of: chinese-simplified, japanese</li>
+<li>U+3044 HIRAGANA LETTER I: try adding one of: chinese-simplified, japanese</li>
+<li>U+3045 HIRAGANA LETTER SMALL U: try adding one of: chinese-simplified, japanese</li>
+<li>U+3046 HIRAGANA LETTER U: try adding one of: chinese-simplified, japanese</li>
+<li>U+3047 HIRAGANA LETTER SMALL E: try adding one of: chinese-simplified, japanese</li>
+<li>U+3048 HIRAGANA LETTER E: try adding one of: chinese-simplified, japanese</li>
+<li>U+3049 HIRAGANA LETTER SMALL O: try adding one of: chinese-simplified, japanese</li>
+<li>U+304A HIRAGANA LETTER O: try adding one of: chinese-simplified, japanese</li>
+<li>U+304B HIRAGANA LETTER KA: try adding one of: chinese-simplified, japanese</li>
+<li>U+304C HIRAGANA LETTER GA: try adding one of: chinese-simplified, japanese</li>
+<li>U+304D HIRAGANA LETTER KI: try adding one of: chinese-simplified, japanese</li>
+<li>U+304E HIRAGANA LETTER GI: try adding one of: chinese-simplified, japanese</li>
+<li>U+304F HIRAGANA LETTER KU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3050 HIRAGANA LETTER GU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3051 HIRAGANA LETTER KE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3052 HIRAGANA LETTER GE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3053 HIRAGANA LETTER KO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3054 HIRAGANA LETTER GO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3055 HIRAGANA LETTER SA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3056 HIRAGANA LETTER ZA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3057 HIRAGANA LETTER SI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3058 HIRAGANA LETTER ZI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3059 HIRAGANA LETTER SU: try adding one of: chinese-simplified, japanese</li>
+<li>U+305A HIRAGANA LETTER ZU: try adding one of: chinese-simplified, japanese</li>
+<li>U+305B HIRAGANA LETTER SE: try adding one of: chinese-simplified, japanese</li>
+<li>U+305C HIRAGANA LETTER ZE: try adding one of: chinese-simplified, japanese</li>
+<li>U+305D HIRAGANA LETTER SO: try adding one of: chinese-simplified, japanese</li>
+<li>U+305E HIRAGANA LETTER ZO: try adding one of: chinese-simplified, japanese</li>
+<li>U+305F HIRAGANA LETTER TA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3060 HIRAGANA LETTER DA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3061 HIRAGANA LETTER TI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3062 HIRAGANA LETTER DI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3063 HIRAGANA LETTER SMALL TU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3064 HIRAGANA LETTER TU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3065 HIRAGANA LETTER DU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3066 HIRAGANA LETTER TE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3067 HIRAGANA LETTER DE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3068 HIRAGANA LETTER TO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3069 HIRAGANA LETTER DO: try adding one of: chinese-simplified, japanese</li>
+<li>U+306A HIRAGANA LETTER NA: try adding one of: chinese-simplified, japanese</li>
+<li>U+306B HIRAGANA LETTER NI: try adding one of: chinese-simplified, japanese</li>
+<li>U+306C HIRAGANA LETTER NU: try adding one of: chinese-simplified, japanese</li>
+<li>U+306D HIRAGANA LETTER NE: try adding one of: chinese-simplified, japanese</li>
+<li>U+306E HIRAGANA LETTER NO: try adding one of: chinese-simplified, japanese</li>
+<li>U+306F HIRAGANA LETTER HA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3070 HIRAGANA LETTER BA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3071 HIRAGANA LETTER PA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3072 HIRAGANA LETTER HI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3073 HIRAGANA LETTER BI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3074 HIRAGANA LETTER PI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3075 HIRAGANA LETTER HU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3076 HIRAGANA LETTER BU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3077 HIRAGANA LETTER PU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3078 HIRAGANA LETTER HE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3079 HIRAGANA LETTER BE: try adding one of: chinese-simplified, japanese</li>
+<li>U+307A HIRAGANA LETTER PE: try adding one of: chinese-simplified, japanese</li>
+<li>U+307B HIRAGANA LETTER HO: try adding one of: chinese-simplified, japanese</li>
+<li>U+307C HIRAGANA LETTER BO: try adding one of: chinese-simplified, japanese</li>
+<li>U+307D HIRAGANA LETTER PO: try adding one of: chinese-simplified, japanese</li>
+<li>U+307E HIRAGANA LETTER MA: try adding one of: chinese-simplified, japanese</li>
+<li>U+307F HIRAGANA LETTER MI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3080 HIRAGANA LETTER MU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3081 HIRAGANA LETTER ME: try adding one of: chinese-simplified, japanese</li>
+<li>U+3082 HIRAGANA LETTER MO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3083 HIRAGANA LETTER SMALL YA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3084 HIRAGANA LETTER YA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3085 HIRAGANA LETTER SMALL YU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3086 HIRAGANA LETTER YU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3087 HIRAGANA LETTER SMALL YO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3088 HIRAGANA LETTER YO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3089 HIRAGANA LETTER RA: try adding one of: chinese-simplified, japanese</li>
+<li>U+308A HIRAGANA LETTER RI: try adding one of: chinese-simplified, japanese</li>
+<li>U+308B HIRAGANA LETTER RU: try adding one of: chinese-simplified, japanese</li>
+<li>U+308C HIRAGANA LETTER RE: try adding one of: chinese-simplified, japanese</li>
+<li>U+308D HIRAGANA LETTER RO: try adding one of: chinese-simplified, japanese</li>
+<li>U+308E HIRAGANA LETTER SMALL WA: try adding one of: chinese-simplified, japanese</li>
+<li>U+308F HIRAGANA LETTER WA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3090 HIRAGANA LETTER WI: try adding one of: chinese-simplified, japanese</li>
+<li>U+3091 HIRAGANA LETTER WE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3092 HIRAGANA LETTER WO: try adding one of: chinese-simplified, japanese</li>
+<li>U+3093 HIRAGANA LETTER N: try adding one of: chinese-simplified, japanese</li>
+<li>U+3094 HIRAGANA LETTER VU: try adding one of: chinese-simplified, japanese</li>
+<li>U+3095 HIRAGANA LETTER SMALL KA: try adding one of: chinese-simplified, japanese</li>
+<li>U+3096 HIRAGANA LETTER SMALL KE: try adding one of: chinese-simplified, japanese</li>
+<li>U+3099 COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK: try adding one of: kana-extended, chinese-simplified, japanese</li>
+<li>U+309A COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK: try adding one of: kana-extended, chinese-simplified, japanese</li>
+<li>U+309B KATAKANA-HIRAGANA VOICED SOUND MARK: try adding one of: kana-extended, chinese-simplified, japanese</li>
+<li>U+309C KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK: try adding one of: kana-extended, chinese-simplified, japanese</li>
+<li>U+309D HIRAGANA ITERATION MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+309E HIRAGANA VOICED ITERATION MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+309F HIRAGANA DIGRAPH YORI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A0 KATAKANA-HIRAGANA DOUBLE HYPHEN: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A1 KATAKANA LETTER SMALL A: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A2 KATAKANA LETTER A: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A3 KATAKANA LETTER SMALL I: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A4 KATAKANA LETTER I: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A5 KATAKANA LETTER SMALL U: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A6 KATAKANA LETTER U: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A7 KATAKANA LETTER SMALL E: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A8 KATAKANA LETTER E: try adding one of: chinese-simplified, japanese</li>
+<li>U+30A9 KATAKANA LETTER SMALL O: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AA KATAKANA LETTER O: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AB KATAKANA LETTER KA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AC KATAKANA LETTER GA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AD KATAKANA LETTER KI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AE KATAKANA LETTER GI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30AF KATAKANA LETTER KU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B0 KATAKANA LETTER GU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B1 KATAKANA LETTER KE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B2 KATAKANA LETTER GE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B3 KATAKANA LETTER KO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B4 KATAKANA LETTER GO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B5 KATAKANA LETTER SA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B6 KATAKANA LETTER ZA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B7 KATAKANA LETTER SI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B8 KATAKANA LETTER ZI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30B9 KATAKANA LETTER SU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BA KATAKANA LETTER ZU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BB KATAKANA LETTER SE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BC KATAKANA LETTER ZE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BD KATAKANA LETTER SO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BE KATAKANA LETTER ZO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30BF KATAKANA LETTER TA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C0 KATAKANA LETTER DA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C1 KATAKANA LETTER TI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C2 KATAKANA LETTER DI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C3 KATAKANA LETTER SMALL TU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C4 KATAKANA LETTER TU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C5 KATAKANA LETTER DU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C6 KATAKANA LETTER TE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C7 KATAKANA LETTER DE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C8 KATAKANA LETTER TO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30C9 KATAKANA LETTER DO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CA KATAKANA LETTER NA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CB KATAKANA LETTER NI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CC KATAKANA LETTER NU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CD KATAKANA LETTER NE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CE KATAKANA LETTER NO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30CF KATAKANA LETTER HA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D0 KATAKANA LETTER BA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D1 KATAKANA LETTER PA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D2 KATAKANA LETTER HI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D3 KATAKANA LETTER BI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D4 KATAKANA LETTER PI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D5 KATAKANA LETTER HU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D6 KATAKANA LETTER BU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D7 KATAKANA LETTER PU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D8 KATAKANA LETTER HE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30D9 KATAKANA LETTER BE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DA KATAKANA LETTER PE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DB KATAKANA LETTER HO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DC KATAKANA LETTER BO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DD KATAKANA LETTER PO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DE KATAKANA LETTER MA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30DF KATAKANA LETTER MI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E0 KATAKANA LETTER MU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E1 KATAKANA LETTER ME: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E2 KATAKANA LETTER MO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E3 KATAKANA LETTER SMALL YA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E4 KATAKANA LETTER YA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E5 KATAKANA LETTER SMALL YU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E6 KATAKANA LETTER YU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E7 KATAKANA LETTER SMALL YO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E8 KATAKANA LETTER YO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30E9 KATAKANA LETTER RA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EA KATAKANA LETTER RI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EB KATAKANA LETTER RU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EC KATAKANA LETTER RE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30ED KATAKANA LETTER RO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EE KATAKANA LETTER SMALL WA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30EF KATAKANA LETTER WA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F0 KATAKANA LETTER WI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F1 KATAKANA LETTER WE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F2 KATAKANA LETTER WO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F3 KATAKANA LETTER N: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F4 KATAKANA LETTER VU: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F5 KATAKANA LETTER SMALL KA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F6 KATAKANA LETTER SMALL KE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F7 KATAKANA LETTER VA: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F8 KATAKANA LETTER VI: try adding one of: chinese-simplified, japanese</li>
+<li>U+30F9 KATAKANA LETTER VE: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FA KATAKANA LETTER VO: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FB KATAKANA MIDDLE DOT: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+30FC KATAKANA-HIRAGANA PROLONGED SOUND MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FD KATAKANA ITERATION MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FE KATAKANA VOICED ITERATION MARK: try adding one of: chinese-simplified, japanese</li>
+<li>U+30FF KATAKANA DIGRAPH KOTO: try adding one of: chinese-simplified, japanese</li>
 <li>U+31F0 KATAKANA LETTER SMALL KU: not included in any glyphset definition</li>
 <li>U+31F1 KATAKANA LETTER SMALL SI: not included in any glyphset definition</li>
 <li>U+31F2 KATAKANA LETTER SMALL SU: not included in any glyphset definition</li>
@@ -8612,6 +9415,8 @@ definitions.</p>
 <li>U+31FD KATAKANA LETTER SMALL RU: not included in any glyphset definition</li>
 <li>U+31FE KATAKANA LETTER SMALL RE: not included in any glyphset definition</li>
 <li>U+31FF KATAKANA LETTER SMALL RO: not included in any glyphset definition</li>
+<li>U+33CB SQUARE HP: not included in any glyphset definition</li>
+<li>U+4EDD CJK UNIFIED IDEOGRAPH-4EDD: try adding one of: chinese-traditional, japanese, chinese-simplified, chinese-hongkong</li>
 <li>U+E133 : not included in any glyphset definition</li>
 <li>U+E134 : not included in any glyphset definition</li>
 <li>U+E139 : not included in any glyphset definition</li>
@@ -8657,12 +9462,104 @@ definitions.</p>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 <li>U+FB03 LATIN SMALL LIGATURE FFI: not included in any glyphset definition</li>
 <li>U+FB04 LATIN SMALL LIGATURE FFL: not included in any glyphset definition</li>
-<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: japanese, yi, chinese-simplified</li>
-<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: japanese, chinese-simplified</li>
-<li>U+FF44 FULLWIDTH LATIN SMALL LETTER D: try adding one of: japanese, chinese-simplified</li>
+<li>U+FE45 SESAME DOT: not included in any glyphset definition</li>
+<li>U+FE46 WHITE SESAME DOT: not included in any glyphset definition</li>
+<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF02 FULLWIDTH QUOTATION MARK: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF03 FULLWIDTH NUMBER SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF04 FULLWIDTH DOLLAR SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF05 FULLWIDTH PERCENT SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF06 FULLWIDTH AMPERSAND: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF07 FULLWIDTH APOSTROPHE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF0A FULLWIDTH ASTERISK: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF0B FULLWIDTH PLUS SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF0C FULLWIDTH COMMA: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF0D FULLWIDTH HYPHEN-MINUS: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF0E FULLWIDTH FULL STOP: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF0F FULLWIDTH SOLIDUS: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF10 FULLWIDTH DIGIT ZERO: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF11 FULLWIDTH DIGIT ONE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF12 FULLWIDTH DIGIT TWO: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF13 FULLWIDTH DIGIT THREE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF14 FULLWIDTH DIGIT FOUR: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF15 FULLWIDTH DIGIT FIVE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF16 FULLWIDTH DIGIT SIX: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF17 FULLWIDTH DIGIT SEVEN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF18 FULLWIDTH DIGIT EIGHT: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF19 FULLWIDTH DIGIT NINE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF1A FULLWIDTH COLON: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF1C FULLWIDTH LESS-THAN SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF1D FULLWIDTH EQUALS SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF1E FULLWIDTH GREATER-THAN SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF20 FULLWIDTH COMMERCIAL AT: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF21 FULLWIDTH LATIN CAPITAL LETTER A: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF22 FULLWIDTH LATIN CAPITAL LETTER B: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF23 FULLWIDTH LATIN CAPITAL LETTER C: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF24 FULLWIDTH LATIN CAPITAL LETTER D: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF25 FULLWIDTH LATIN CAPITAL LETTER E: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF26 FULLWIDTH LATIN CAPITAL LETTER F: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF27 FULLWIDTH LATIN CAPITAL LETTER G: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF28 FULLWIDTH LATIN CAPITAL LETTER H: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF29 FULLWIDTH LATIN CAPITAL LETTER I: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2A FULLWIDTH LATIN CAPITAL LETTER J: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2B FULLWIDTH LATIN CAPITAL LETTER K: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2C FULLWIDTH LATIN CAPITAL LETTER L: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2D FULLWIDTH LATIN CAPITAL LETTER M: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2E FULLWIDTH LATIN CAPITAL LETTER N: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF2F FULLWIDTH LATIN CAPITAL LETTER O: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF30 FULLWIDTH LATIN CAPITAL LETTER P: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF31 FULLWIDTH LATIN CAPITAL LETTER Q: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF32 FULLWIDTH LATIN CAPITAL LETTER R: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF33 FULLWIDTH LATIN CAPITAL LETTER S: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF34 FULLWIDTH LATIN CAPITAL LETTER T: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF35 FULLWIDTH LATIN CAPITAL LETTER U: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF36 FULLWIDTH LATIN CAPITAL LETTER V: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF37 FULLWIDTH LATIN CAPITAL LETTER W: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF38 FULLWIDTH LATIN CAPITAL LETTER X: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF39 FULLWIDTH LATIN CAPITAL LETTER Y: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF3A FULLWIDTH LATIN CAPITAL LETTER Z: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF3C FULLWIDTH REVERSE SOLIDUS: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF3E FULLWIDTH CIRCUMFLEX ACCENT: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF3F FULLWIDTH LOW LINE: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF40 FULLWIDTH GRAVE ACCENT: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF41 FULLWIDTH LATIN SMALL LETTER A: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF42 FULLWIDTH LATIN SMALL LETTER B: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF43 FULLWIDTH LATIN SMALL LETTER C: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF44 FULLWIDTH LATIN SMALL LETTER D: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF45 FULLWIDTH LATIN SMALL LETTER E: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF46 FULLWIDTH LATIN SMALL LETTER F: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF47 FULLWIDTH LATIN SMALL LETTER G: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF48 FULLWIDTH LATIN SMALL LETTER H: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF49 FULLWIDTH LATIN SMALL LETTER I: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4A FULLWIDTH LATIN SMALL LETTER J: try adding japanese</li>
+<li>U+FF4B FULLWIDTH LATIN SMALL LETTER K: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4C FULLWIDTH LATIN SMALL LETTER L: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4D FULLWIDTH LATIN SMALL LETTER M: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4E FULLWIDTH LATIN SMALL LETTER N: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF4F FULLWIDTH LATIN SMALL LETTER O: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF50 FULLWIDTH LATIN SMALL LETTER P: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF51 FULLWIDTH LATIN SMALL LETTER Q: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF52 FULLWIDTH LATIN SMALL LETTER R: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF53 FULLWIDTH LATIN SMALL LETTER S: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF54 FULLWIDTH LATIN SMALL LETTER T: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF55 FULLWIDTH LATIN SMALL LETTER U: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF56 FULLWIDTH LATIN SMALL LETTER V: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF57 FULLWIDTH LATIN SMALL LETTER W: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF58 FULLWIDTH LATIN SMALL LETTER X: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF59 FULLWIDTH LATIN SMALL LETTER Y: try adding one of: chinese-simplified, japanese</li>
+<li>U+FF5A FULLWIDTH LATIN SMALL LETTER Z: try adding japanese</li>
+<li>U+FF5B FULLWIDTH LEFT CURLY BRACKET: try adding one of: math, chinese-simplified, yi, japanese</li>
+<li>U+FF5C FULLWIDTH VERTICAL LINE: try adding one of: chinese-simplified, yi, japanese</li>
+<li>U+FF5D FULLWIDTH RIGHT CURLY BRACKET: try adding one of: math, chinese-simplified, yi, japanese</li>
+<li>U+FF5E FULLWIDTH TILDE: try adding one of: chinese-simplified, yi</li>
+<li>U+FF5F FULLWIDTH LEFT WHITE PARENTHESIS: not included in any glyphset definition</li>
+<li>U+FF60 FULLWIDTH RIGHT WHITE PARENTHESIS: not included in any glyphset definition</li>
 <li>U+FF61 HALFWIDTH IDEOGRAPHIC FULL STOP: try adding yi</li>
 <li>U+FF62 HALFWIDTH LEFT CORNER BRACKET: try adding yi</li>
 <li>U+FF63 HALFWIDTH RIGHT CORNER BRACKET: try adding yi</li>
@@ -8726,6 +9623,20 @@ definitions.</p>
 <li>U+FF9D HALFWIDTH KATAKANA LETTER N: not included in any glyphset definition</li>
 <li>U+FF9E HALFWIDTH KATAKANA VOICED SOUND MARK: not included in any glyphset definition</li>
 <li>U+FF9F HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK: not included in any glyphset definition</li>
+<li>U+FFE0 FULLWIDTH CENT SIGN: try adding chinese-simplified</li>
+<li>U+FFE1 FULLWIDTH POUND SIGN: try adding chinese-simplified</li>
+<li>U+FFE2 FULLWIDTH NOT SIGN: not included in any glyphset definition</li>
+<li>U+FFE3 FULLWIDTH MACRON: try adding one of: chinese-simplified, japanese</li>
+<li>U+FFE4 FULLWIDTH BROKEN BAR: not included in any glyphset definition</li>
+<li>U+FFE5 FULLWIDTH YEN SIGN: try adding one of: chinese-simplified, japanese</li>
+<li>U+FFE6 FULLWIDTH WON SIGN: not included in any glyphset definition</li>
+<li>U+FFE8 HALFWIDTH FORMS LIGHT VERTICAL: not included in any glyphset definition</li>
+<li>U+FFE9 HALFWIDTH LEFTWARDS ARROW: not included in any glyphset definition</li>
+<li>U+FFEA HALFWIDTH UPWARDS ARROW: not included in any glyphset definition</li>
+<li>U+FFEB HALFWIDTH RIGHTWARDS ARROW: not included in any glyphset definition</li>
+<li>U+FFEC HALFWIDTH DOWNWARDS ARROW: not included in any glyphset definition</li>
+<li>U+FFED HALFWIDTH BLACK SQUARE: not included in any glyphset definition</li>
+<li>U+FFEE HALFWIDTH WHITE CIRCLE: not included in any glyphset definition</li>
 <li>U+FFFC OBJECT REPLACEMENT CHARACTER: not included in any glyphset definition</li>
 <li>U+1F494 BROKEN HEART: not included in any glyphset definition</li>
 <li>U+1FBB0 ARROWHEAD-SHAPED POINTER: try adding symbols</li>
@@ -8839,7 +9750,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 22 | 40 | 310 | 16 | 286 | 0 | 
+| 0 | 0 | 23 | 40 | 310 | 16 | 285 | 0 | 
 | 0% | 0% | 3% | 6% | 46% | 2% | 42% | 0% | 
 
 

@@ -1,4 +1,7 @@
 .venv/
 .bak/
+.ninja_log
+diffenator2/
 
 *.bak
+*.ninja

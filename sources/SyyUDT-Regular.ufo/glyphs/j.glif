@@ -2,8 +2,8 @@
 <glyph name="j" format="2">
   <advance width="512"/>
   <unicode hex="006A"/>
-  <unicode hex="0458"/>
   <unicode hex="03F3"/>
+  <unicode hex="0458"/>
   <anchor x="512" y="-192" name="blwm"/>
   <anchor x="512" y="576" name="abvm"/>
   <outline>

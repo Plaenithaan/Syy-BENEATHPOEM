@@ -89,6 +89,43 @@ def get_glyph_names(glyphs_dir):
     return [name for _, name in glyphs]
 
 
+def sort_glif_unicode(glyphs_dir):
+    pattern = re.compile(
+        r'<unicode\b[^>]*\bhex="([0-9A-Fa-f]+)"[^>]*/>'
+    )
+    changed = 0
+
+    for fname in sorted(os.listdir(glyphs_dir)):
+        if not fname.endswith(".glif"):
+            continue
+
+        path = os.path.join(glyphs_dir, fname)
+
+        with open(path, "r", encoding="utf-8") as f:
+            text = f.read()
+
+        matches = list(pattern.finditer(text))
+        if len(matches) < 2:
+            continue
+
+        elements = [match.group(0) for match in matches]
+        sorted_elements = sorted(
+            elements,
+            key=lambda element: int(pattern.search(element).group(1), 16)
+        )
+
+        if elements == sorted_elements:
+            continue
+
+        iterator = iter(sorted_elements)
+        updated = pattern.sub(lambda _: next(iterator), text)
+
+        with open(path, "w", encoding="utf-8", newline="") as f:
+            f.write(updated)
+
+        changed += 1
+
+    print(f"║  Sorted Unicode mappings in {changed} GLIF files")
 
 def write_plists(ufo_path, glyph_order, variation_sequences=None):
     glyphs_dir = os.path.join(ufo_path, "glyphs")
@@ -233,6 +270,9 @@ def main(ufo_path):
 
     with open(fontinfo_path, "wb") as f:
         plistlib.dump(fontinfo, f)
+
+    # === Sort Unicode mappings in GLIF files ===
+    sort_glif_unicode(glyphs_dir)
 
     # === Write lib.plist ===
     glyph_order = get_glyph_names(glyphs_dir)

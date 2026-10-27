@@ -2,7 +2,7 @@
 <glyph name="Omega" format="2">
   <advance width="1088"/>
   <unicode hex="2126"/>
-  <anchor x="1024" y="640" name="abvm"/>
+  <anchor x="1024" y="704" name="abvm"/>
   <anchor x="1024" y="-128" name="blwm"/>
   <outline>
     <contour>

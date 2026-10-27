@@ -2,6 +2,8 @@
 <glyph name="hyphen" format="2">
   <advance width="576"/>
   <unicode hex="002D"/>
+  <anchor x="512" y="576" name="abvm"/>
+  <anchor x="512" y="-128" name="blwm"/>
   <outline>
     <contour>
       <point x="512" y="256" type="line"/>

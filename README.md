@@ -15,15 +15,15 @@ Supported scripts
 - Thai
 - Lao
 - Box Drawing
-- Kana: Basic
+- JIS X 0213 Plane 1, Ku 1~3
+- JIS X 0208 Plane 1, Ku 4~8
+- etc
 
 > **NOTE: THIS FONTs ARE NOT MONOSPACE!**  
 > They still work well(?) in terminals, except that wide characters may overlap the next character.  
 > aaaand if u use them in-game, have fun handling variable-width characters like we do in our mod :skull:
 
 This fonts are pixel-fit at 16px, 16pt at 72 DPI, and 12pt at 96 DPI.
-
-
 
 # Download
 👉 [SEE RELEASE SECTION](https://github.com/Plaenithaan/Syy-BENEATHPOEM/releases)

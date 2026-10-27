@@ -2,8 +2,8 @@
 <glyph name="P" format="2">
   <advance width="576"/>
   <unicode hex="0050"/>
-  <unicode hex="0420"/>
   <unicode hex="03A1"/>
+  <unicode hex="0420"/>
   <anchor x="512" y="-128" name="blwm"/>
   <anchor x="512" y="640" name="abvm"/>
   <outline>
